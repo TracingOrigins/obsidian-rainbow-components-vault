@@ -135,7 +135,8 @@
             "conditions": []
           }
         ]
-      }
+      },
+      "loadLimitPerPage": 10
     }
   ],
   "rootComponentId": "01021208-f957-437e-9297-96d06b07a050"
