@@ -5,6 +5,14 @@
       "path": "Home/Home-multiple-components.md"
     },
     {
+      "basename": "常用工具",
+      "path": "Home/sidebar-components/常用工具.components"
+    },
+    {
+      "basename": "彩色时钟",
+      "path": "Home/sidebar-components/彩色时钟.md"
+    },
+    {
       "basename": "Home",
       "path": "Home/Home.md"
     },
@@ -23,10 +31,6 @@
     {
       "basename": "每日打卡",
       "path": "Home/home-components/每日打卡.components"
-    },
-    {
-      "basename": "常用工具",
-      "path": "Home/sidebar-components/常用工具.components"
     },
     {
       "basename": "常用统计",
@@ -103,10 +107,6 @@
     {
       "basename": "未命名",
       "path": "Test/未命名.md"
-    },
-    {
-      "basename": "彩色时钟",
-      "path": "Home/sidebar-components/彩色时钟.md"
     },
     {
       "basename": "灵光一闪",

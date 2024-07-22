@@ -167,7 +167,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "84a6051bbf517a35",
@@ -297,8 +298,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 392.5,
-    "collapsed": true
+    "width": 392.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -314,21 +314,21 @@
   },
   "active": "9eaea119723cc94d",
   "lastOpenFiles": [
-    "Home/Home.md",
+    "Home/sidebar-components/常用工具.components",
+    "Home/sidebar-components/彩色时钟.md",
     "Home/Home-multiple-components.md",
+    "Home/Home.md",
     "Home/home-components/最近文件1.components",
     "Home/home-components/最近文件.components",
     "Home/home-components/文件检索1.components",
     "Home/home-components/最近文件2.components",
     "Home/home-components/每日打卡.components",
-    "Home/sidebar-components/常用工具.components",
     "Home/sidebar-components/常用统计.components",
     "Home/sidebar-components/常用统计1.components",
     "Home/sidebar-components/随机音乐.components",
     "20240721144057 new.md",
     "20240721143330 new.md",
     "Test/未命名.md",
-    "Home/sidebar-components/彩色时钟.md",
     "Home/sidebar-components/灵光一闪.md",
     "Home/sidebar-components/待办事项.md",
     "Home/Home-single-component.md",
