@@ -1,0 +1,30 @@
+{
+  "enabledCssSnippets": [
+    "@sidebar",
+    "@homepage",
+    "@homepage-multiple",
+    "@homepage-weather",
+    "@sidedock",
+    "@sidedock-components",
+    "@sidebar-components",
+    "@home-single-component",
+    "@home-multiple-components",
+    "@home-weather",
+    "@clock-colorful",
+    "@workspace",
+    "@home",
+    "@sidebar-left",
+    "@sidebar-right",
+    "@header-hover",
+    "@header-color"
+  ],
+  "theme": "moonstone",
+  "textFontFamily": "霞鹜文楷 Regular,霞鹜文楷 Light",
+  "interfaceFontFamily": "LXGW WenKai Screen R",
+  "cssTheme": "",
+  "accentColor": "#4b83d2",
+  "baseFontSizeAction": false,
+  "baseFontSize": 16,
+  "monospaceFontFamily": "JetBrains Mono",
+  "showViewHeader": true
+}

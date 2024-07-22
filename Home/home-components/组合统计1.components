@@ -1,0 +1,254 @@
+{
+  "components": [
+    {
+      "id": "36f16e59-1fc8-4394-a7e2-1cd26de67a65",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-13T07:04:49.956Z",
+      "updateAt": "2024-05-13T07:04:49.958Z",
+      "components": [
+        {
+          "componentId": "3cc5f044-4b6f-4564-a5f7-3e6798f95bcd"
+        },
+        {
+          "componentId": "f43b4aaf-8662-439d-8f41-9968f55eb2ce"
+        },
+        {
+          "componentId": "f5387675-5920-4a05-8d5c-2a2391117427"
+        },
+        {
+          "componentId": "70e6ca55-88a1-491d-bdce-0278210af9e6"
+        },
+        {
+          "componentId": "24f3108c-8633-43bf-81d6-7b1c8109ef88"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "f5387675-5920-4a05-8d5c-2a2391117427",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "资源",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-13T07:05:02.166Z",
+      "updateAt": "2024-05-13T07:05:02.166Z",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "query": {
+        "valueType": "query",
+        "value": 100,
+        "filter": {
+          "id": "31feadb5-42e6-46c0-a58e-6362527cff4f",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "90c09bdf-bdcf-4d07-912c-1a03d450f67a",
+              "type": "filter",
+              "operator": "contains",
+              "property": "tags",
+              "value": "resource",
+              "conditions": []
+            }
+          ]
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "7d5f15af-6159-4a7d-92de-cef84b97c27a",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      },
+      "title": "资源"
+    },
+    {
+      "id": "f43b4aaf-8662-439d-8f41-9968f55eb2ce",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "领域",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-13T07:05:04.421Z",
+      "updateAt": "2024-05-13T07:05:04.421Z",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "query": {
+        "valueType": "query",
+        "value": 100,
+        "filter": {
+          "id": "31feadb5-42e6-46c0-a58e-6362527cff4f",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "e38138b3-373e-4eda-b1b7-c33319514940",
+              "type": "filter",
+              "operator": "contains",
+              "property": "tags",
+              "value": "area",
+              "conditions": []
+            }
+          ]
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "7d5f15af-6159-4a7d-92de-cef84b97c27a",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      },
+      "title": "领域"
+    },
+    {
+      "id": "3cc5f044-4b6f-4564-a5f7-3e6798f95bcd",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "项目",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-13T07:05:06.405Z",
+      "updateAt": "2024-05-13T07:05:06.405Z",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "query": {
+        "valueType": "query",
+        "value": 100,
+        "filter": {
+          "id": "31feadb5-42e6-46c0-a58e-6362527cff4f",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "8473800e-b976-4b86-9c7e-286639d7449c",
+              "type": "filter",
+              "operator": "contains",
+              "property": "tags",
+              "value": "project",
+              "conditions": []
+            }
+          ]
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "7d5f15af-6159-4a7d-92de-cef84b97c27a",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      },
+      "title": "项目"
+    },
+    {
+      "id": "24f3108c-8633-43bf-81d6-7b1c8109ef88",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "日记",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-13T07:05:10.363Z",
+      "updateAt": "2024-05-13T07:05:10.363Z",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "query": {
+        "valueType": "query",
+        "value": 100,
+        "filter": {
+          "id": "31feadb5-42e6-46c0-a58e-6362527cff4f",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "5317668a-cb58-4b24-b425-82625f259190",
+              "type": "filter",
+              "operator": "contains",
+              "property": "tags",
+              "value": "diary",
+              "conditions": []
+            }
+          ]
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "7d5f15af-6159-4a7d-92de-cef84b97c27a",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      },
+      "title": "日记"
+    },
+    {
+      "id": "70e6ca55-88a1-491d-bdce-0278210af9e6",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "归档",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-13T07:05:06.405Z",
+      "updateAt": "2024-05-13T07:05:06.405Z",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "query": {
+        "valueType": "query",
+        "value": 100,
+        "filter": {
+          "id": "31feadb5-42e6-46c0-a58e-6362527cff4f",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "8473800e-b976-4b86-9c7e-286639d7449c",
+              "type": "filter",
+              "operator": "contains",
+              "property": "tags",
+              "value": "archive",
+              "conditions": []
+            }
+          ]
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "7d5f15af-6159-4a7d-92de-cef84b97c27a",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      },
+      "title": "归档"
+    }
+  ],
+  "rootComponentId": "36f16e59-1fc8-4394-a7e2-1cd26de67a65"
+}

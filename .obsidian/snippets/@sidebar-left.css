@@ -1,0 +1,537 @@
+/*==============================特别鸣谢==============================
+
+Partial style(s) is(are) sourced or adapted from AnuPpuccin (https://github.com/AnubisNekhet/AnuPpuccin), and I would like to express my appreciation to Anubis (https://github.com/AnubisNekhet).
+Support AnuPpuccin: https://www.buymeacoffee.com/anubisnekhet.
+
+==================================================================*/
+
+/* @settings
+name: 设置左侧边栏
+id: sidebar-left
+settings:
+- id: vault-name
+  title: 设置库名称
+  description: 自定义库名称，并在文件列表中高亮显示
+  type: heading
+  level: 1
+  collapsed: true
+- id: custom-vault-name2
+  title: 自定义库名称
+  description: 注意：库名称两侧要用英文单引号或双引号包裹
+  type: variable-text
+  default: '"Hello World"'
+- id: set-vault-name2
+  title: 显示库名称
+  description:
+  type: class-toggle
+  default: false
+- id: rainbow-simple
+  title: 设置彩虹色
+  description: 给文件夹和文件加上彩虹色
+  type: heading
+  level: 1
+  collapsed: true
+- id: folder-rainbow
+  title: 彩虹文件夹
+  description: 给文件列表和书签中的文件夹加上彩虹色
+  type: heading
+  level: 2
+  collapsed: true
+- id: set-explorer-folder-rainbow
+  title: 文件列表
+  description:
+  type: class-toggle
+  default: false
+- id: file-rainbow
+- id: set-bookmarks-folder-rainbow
+  title: 书签
+  description:
+  type: class-toggle
+  default: false
+- id: file-rainbow
+  title: 彩虹文件
+  description: 给文件列表、书签和“Recent Files”插件中的文件加上彩虹色
+  type: heading
+  level: 2
+  collapsed: true
+- id: set-explorer-file-rainbow
+  title: 文件列表
+  description:
+  type: class-toggle
+  default: false
+- id: set-bookmarks-file-rainbow
+  title: 书签
+  description:
+  type: class-toggle
+  default: false
+- id: set-recent-file-rainbow
+  title: Recent Files
+  description:
+  type: class-toggle
+  default: false
+- id: suojinxian-rainbow
+  title: 彩虹缩进线
+  description: 给文件列表和书签中的缩进线添加彩虹色
+  type: heading
+  level: 2
+  collapsed: true
+- id: set-explorer-indent-line-rainbow
+  title: 文件列表
+  description:
+  type: class-toggle
+  default: false
+- id: custom-icon
+- id: set-bookmarks-indent-line-rainbow
+  title: 书签
+  description:
+  type: class-toggle
+  default: false
+- id: custom-icon
+- id: file-rainbow
+  title: 颜色继承
+  description: 给文件列表和书签中的所有子项开启颜色继承
+  type: heading
+  level: 2
+  collapsed: true
+- id: set-color-inherit
+  title: 开启颜色继承
+  description:
+  type: class-toggle
+  default: false
+- id: custom-icon
+  title: 设置图标
+  description: 给文件夹和文件设置图标
+  type: heading
+  level: 1
+  collapsed: true
+- id: folder-icon
+  title: 文件夹图标
+  description: 修改文件列表和书签中的文件夹图标
+  type: heading
+  level: 2
+  collapsed: true
+- id: set-explorer-folder-icon
+  title: 文件列表
+  description:
+  type: class-toggle
+  default: false
+- id: set-bookmarks-folder-icon
+  title: 书签
+  description:
+  type: class-toggle
+  default: false
+- id: custom-icon
+  title: 文件图标
+  description: 给文件列表中的文件添加图标，修改书签中的文件图标，给“Recent Files”插件中的文件添加图标
+  type: heading
+  level: 2
+  collapsed: true
+- id: set-explorer-file-icon
+  title: 文件列表
+  description:
+  type: class-toggle
+  default: false
+- id: set-bookmarks-file-icon
+  title: 书签
+  description:
+  type: class-toggle
+  default: false
+- id: set-recent-file-icon
+  title: Recent Files
+  description:
+  type: class-toggle
+  default: false
+- id: custom-icon
+  title: 设置阴影色
+  description: 给文件列表和书签中的子项，增加鼠标悬浮阴影超出缩进线范围自动隐藏的效果
+  type: heading
+  level: 1
+  collapsed: true
+- id: set-explorer-shadow-hide
+  title: 文件列表
+  description:
+  type: class-toggle
+  default: false
+- id: set-bookmarks-shadow-hide
+  title: 书签
+  description:
+  type: class-toggle
+  default: false
+*/
+
+.theme-light {
+    --custom-color-red: 180, 99, 122;
+    --custom-color-maroon: 180, 99, 122;
+    --custom-color-peach: 214, 129, 125;
+    --custom-color-yellow: 234, 157, 52;
+    --custom-color-green: 86, 148, 159;
+    --custom-color-teal: 86, 148, 159;
+    --custom-color-sky: 40, 105, 131;
+    --custom-color-sapphire: 40, 105, 131;
+    --custom-color-blue: 40, 105, 131;
+    --custom-color-lavender: 144, 122, 169;
+    --custom-color-mauve: 144, 122, 169;
+}
+
+.theme-dark {
+    --custom-color-red: 231, 130, 132;
+    --custom-color-maroon: 234, 153, 156;
+    --custom-color-peach: 239, 159, 118;
+    --custom-color-yellow: 229, 200, 144;
+    --custom-color-green: 166, 209, 137;
+    --custom-color-teal: 129, 200, 190;
+    --custom-color-sky: 153, 209, 219;
+    --custom-color-sapphire: 133, 193, 220;
+    --custom-color-blue: 140, 170, 238;
+    --custom-color-lavender: 186, 187, 241;
+    --custom-color-mauve: 202, 158, 230;
+}
+
+/*---------------------------------------------------------------
+* 文件列表添加库名并高亮显示
+*---------------------------------------------------------------*/
+body {
+    --custom-vault-name2: "Hello World";
+}
+
+body:not(.is-mobile).set-vault-name2 .nav-files-container.node-insert-event.show-unsupported > div > div:first-child {
+    position: relative;
+    height: 40px !important;
+}
+
+body:not(.is-mobile).set-vault-name2 .nav-files-container.node-insert-event.show-unsupported > div > div:first-child:before,
+body:not(.is-mobile).set-vault-name2 .nav-files-container.node-insert-event.show-unsupported > div > div:first-child:after {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+body:not(.is-mobile).set-vault-name2 .nav-files-container.node-insert-event.show-unsupported > div > div:first-child:before {
+    content: "";
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' data-darkreader-inline-stroke='' style='--darkreader-inline-stroke:currentColor;'%3E%3Cpath d='m6 14 1.45-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.55 6a2 2 0 0 1-1.94 1.5H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H18a2 2 0 0 1 2 2v2'%3E%3C/path%3E%3C/svg%3E");
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    background-size: contain;
+    width: 26px;
+    height: 26px;
+    color: rgb(var(--custom-color-yellow));
+    background-color: rgb(var(--custom-color-yellow));
+}
+
+body:not(.is-mobile).set-vault-name2 .nav-files-container.node-insert-event.show-unsupported > div > div:first-child:after {
+    content: var(--custom-vault-name2);
+    font-size: 130%;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+/*细节优化*/
+body:not(.is-mobile).set-vault-name2 .workspace-leaf-content[data-type="file-explorer"] .nav-header {
+    padding-bottom: 0;
+}
+
+/*---------------------------------------------------------------
+* 给文件夹自定义图标
+*---------------------------------------------------------------*/
+/*隐藏文件夹的默认图标*/
+body:not(.is-mobile).set-explorer-folder-icon .workspace-leaf-content[data-type="file-explorer"] .tree-item .collapse-icon svg,
+body:not(.is-mobile).set-bookmarks-folder-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item .tree-item-self.mod-collapsible .tree-item-icon svg {
+    display: none;
+}
+
+/*替换文件夹图标*/
+body:not(.is-mobile).set-explorer-folder-icon .workspace-leaf-content[data-type="file-explorer"] .tree-item-icon.collapse-icon.nav-folder-collapse-indicator,
+body:not(.is-mobile).set-bookmarks-folder-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item-self:has(svg.svg-icon.right-triangle) .tree-item-icon::before {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 27 24' fill='none' stroke='currentColor' stroke-linejoin='round' stroke-linecap='round' stroke-width='2'%3E%3Cpath d='M6 14l1.45-2.9A2 2 0 0 1 9.24 10H22a2 2 0 0 1 1.94 2.5l-1.55 6a2 2 0 0 1-1.94 1.5H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H20a2 2 0 0 1 2 2v2'/%3E%3C/svg%3E%0A");
+    -webkit-mask-repeat: no-repeat;
+    background-color: currentColor;
+    display: flex;
+    flex-basis: 100%;
+    height: 16px;
+    width: 17px;
+}
+
+body:not(.is-mobile).set-explorer-folder-icon .workspace-leaf-content[data-type="file-explorer"] .tree-item-icon.collapse-icon.nav-folder-collapse-indicator.is-collapsed,
+body:not(.is-mobile).set-bookmarks-folder-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item-self:has(svg.svg-icon.right-triangle) .tree-item-icon.is-collapsed::before {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 27 24' fill='none' stroke='currentColor' stroke-linejoin='round' stroke-linecap='round' stroke-width='2'%3E%3Cpath d='M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2z'/%3E%3Cpath d='M2 10h20' /%3E%3C/svg%3E%0A");
+}
+
+/*---------------------------------------------------------------
+* 给文件自定义图标
+*---------------------------------------------------------------*/
+/*隐藏文件的默认图标*/
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible)) .tree-item-self .tree-item-icon svg {
+    display: none;
+}
+
+/*添加文件列表和“Recent Files”插件中的文件图标，替换书签中的文件图标*/
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path] {
+    align-items: center;
+}
+
+body:not(.is-mobile).set-recent-file-icon .workspace-leaf-content[data-type="recent-files"] .nav-file-title .nav-file-title-content::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path]::before {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z'/%3E%3Cpath d='M14 2v6h6'/%3E%3C/svg%3E%0A");
+    -webkit-mask-repeat: no-repeat;
+    background-color: currentColor;
+    content: "";
+    display: flex;
+    flex-shrink: 0;
+    height: var(--size-4-4);
+    margin-left: calc(-1 * var(--size-4-5));
+    opacity: var(--icon-opacity);
+    position: absolute;
+    width: var(--size-4-4);
+}
+
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path] .tree-item-icon::before {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z'/%3E%3Cpath d='M14 2v6h6m-4 5H8m8 4H8m2-8H8'/%3E%3C/svg%3E%0A");
+    -webkit-mask-repeat: no-repeat;
+    background-color: currentColor;
+    display: flex;
+    flex-basis: 100%;
+    height: var(--size-4-4);
+    opacity: var(--icon-opacity);
+    width: var(--size-4-4);
+}
+
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".md"] .tree-item-icon::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".md"]::before {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z'/%3E%3Cpath d='M14 2v6h6m-4 5H8m8 4H8m2-8H8'/%3E%3C/svg%3E%0A");
+    -webkit-mask-repeat: no-repeat;
+}
+
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".canvas"] .tree-item-icon::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".canvas"]::before {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 3h7v9H3zm11 0h7v5h-7zm0 9h7v9h-7zM3 16h7v5H3z'/%3E%3C/svg%3E");
+    -webkit-mask-repeat: no-repeat;
+}
+
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".excalidraw.md"] .tree-item-icon::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".excalidraw.md"]::before {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 13.5V4a2 2 0 0 1 2-2h8.5L20 7.5V20a2 2 0 0 1-2 2h-5.5'/%3E%3Cpath d='M14 2v6h6'/%3E%3Cpath d='M10.4 12.6a2 2 0 0 1 3 3L8 21l-4 1 1-4Z'/%3E%3C/svg%3E");
+    -webkit-mask-repeat: no-repeat;
+}
+
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".svg"] .tree-item-icon::before,
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".bmp"] .tree-item-icon::before,
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".jpg"] .tree-item-icon::before,
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".gif"] .tree-item-icon::before,
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".webp"] .tree-item-icon::before,
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".jpeg"] .tree-item-icon::before,
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".png"] .tree-item-icon::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".svg"]::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".bmp"]::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".jpg"]::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".gif"]::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".webp"]::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".jpeg"]::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".png"]::before {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z'/%3E%3Cpath d='M14 2v6h6'/%3E%3Ccircle cx='10' cy='13' r='2'/%3E%3Cpath d='m20 17-1.09-1.09a2 2 0 0 0-2.82 0L10 22'/%3E%3C/svg%3E%0A");
+    -webkit-mask-repeat: no-repeat;
+}
+
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".mp3"] .tree-item-icon::before,
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".wav"] .tree-item-icon::before,
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".m4a"] .tree-item-icon::before,
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".ogg"] .tree-item-icon::before,
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".flac"] .tree-item-icon::before,
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".3gp"] .tree-item-icon::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".mp3"]::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".wav"]::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".m4a"]::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".ogg"]::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".flac"]::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".3gp"]::before {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 18V5l12-2v13M9 9l12-2'/%3E%3Ccircle cx='6' cy='18' r='3'/%3E%3Ccircle cx='18' cy='16' r='3'/%3E%3C/svg%3E");
+    -webkit-mask-repeat: no-repeat;
+}
+
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".webm"] .tree-item-icon::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".webm"]::before {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='M10 8l6 4-6 4V8z'/%3E%3C/svg%3E");
+    -webkit-mask-repeat: no-repeat;
+}
+
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".mp4"] .tree-item-icon::before,
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".ogv"] .tree-item-icon::before,
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".mov"] .tree-item-icon::before,
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".mkv"] .tree-item-icon::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".mp4"]::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".ogv"]::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".mov"]::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".mkv"]::before {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 11v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8H4Z'/%3E%3Cpath d='m4 11-.88-2.87a2 2 0 0 1 1.33-2.5l11.48-3.5a2 2 0 0 1 2.5 1.32l.87 2.87L4 11.01Z'/%3E%3Cpath d='M6.6 4.99l3.38 4.2m1.88-5.81l3.38 4.2'/%3E%3C/svg%3E");
+    -webkit-mask-repeat: no-repeat;
+}
+
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".loom"] .tree-item-icon::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".loom"]::before {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3v18'/%3E%3Crect width='18' height='18' x='3' y='3' rx='2'/%3E%3Cpath d='M3 9h18M3 15h18'/%3E%3C/svg%3E");
+    -webkit-mask-repeat: no-repeat;
+}
+
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".components"] .tree-item-icon::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".components"]::before {
+    -webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiBjbGFzcz0iYmkgYmktZ3JpZCIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMSAyLjVBMS41IDEuNSAwIDAgMSAyLjUgMWgzQTEuNSAxLjUgMCAwIDEgNyAyLjV2M0ExLjUgMS41IDAgMCAxIDUuNSA3aC0zQTEuNSAxLjUgMCAwIDEgMSA1LjV6TTIuNSAyYS41LjUgMCAwIDAtLjUuNXYzYS41LjUgMCAwIDAgLjUuNWgzYS41LjUgMCAwIDAgLjUtLjV2LTNhLjUuNSAwIDAgMC0uNS0uNXptNi41LjVBMS41IDEuNSAwIDAgMSAxMC41IDFoM0ExLjUgMS41IDAgMCAxIDE1IDIuNXYzQTEuNSAxLjUgMCAwIDEgMTMuNSA3aC0zQTEuNSAxLjUgMCAwIDEgOSA1LjV6bTEuNS0uNWEuNS41IDAgMCAwLS41LjV2M2EuNS41IDAgMCAwIC41LjVoM2EuNS41IDAgMCAwIC41LS41di0zYS41LjUgMCAwIDAtLjUtLjV6TTEgMTAuNUExLjUgMS41IDAgMCAxIDIuNSA5aDNBMS41IDEuNSAwIDAgMSA3IDEwLjV2M0ExLjUgMS41IDAgMCAxIDUuNSAxNWgtM0ExLjUgMS41IDAgMCAxIDEgMTMuNXptMS41LS41YS41LjUgMCAwIDAtLjUuNXYzYS41LjUgMCAwIDAgLjUuNWgzYS41LjUgMCAwIDAgLjUtLjV2LTNhLjUuNSAwIDAgMC0uNS0uNXptNi41LjVBMS41IDEuNSAwIDAgMSAxMC41IDloM2ExLjUgMS41IDAgMCAxIDEuNSAxLjV2M2ExLjUgMS41IDAgMCAxLTEuNSAxLjVoLTNBMS41IDEuNSAwIDAgMSA5IDEzLjV6bTEuNS0uNWEuNS41IDAgMCAwLS41LjV2M2EuNS41IDAgMCAwIC41LjVoM2EuNS41IDAgMCAwIC41LS41di0zYS41LjUgMCAwIDAtLjUtLjV6Ii8+Cjwvc3ZnPg==");
+    -webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNvbXBvbmVudCI+PHBhdGggZD0iTTUuNSA4LjUgOSAxMmwtMy41IDMuNUwyIDEybDMuNS0zLjVaIi8+PHBhdGggZD0ibTEyIDIgMy41IDMuNUwxMiA5IDguNSA1LjUgMTIgMloiLz48cGF0aCBkPSJNMTguNSA4LjUgMjIgMTJsLTMuNSAzLjVMMTUgMTJsMy41LTMuNVoiLz48cGF0aCBkPSJtMTIgMTUgMy41IDMuNUwxMiAyMmwtMy41LTMuNUwxMiAxNVoiLz48L3N2Zz4=");
+    -webkit-mask-repeat: no-repeat;
+}
+
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".xls"] .tree-item-icon::before,
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".xlsx"] .tree-item-icon::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".xls"]::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".xlsx"]::before {
+    /*-webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xhc3M9Imx1Y2lkZSBsdWNpZGUtZmlsZS1zcHJlYWRzaGVldCI+PHBhdGggZD0iTTE1IDJINmEyIDIgMCAwIDAtMiAydjE2YTIgMiAwIDAgMCAyIDJoMTJhMiAyIDAgMCAwIDItMlY3WiIvPjxwYXRoIGQ9Ik0xNCAydjRhMiAyIDAgMCAwIDIgMmg0Ii8+PHBhdGggZD0iTTggMTNoMiIvPjxwYXRoIGQ9Ik0xNCAxM2gyIi8+PHBhdGggZD0iTTggMTdoMiIvPjxwYXRoIGQ9Ik0xNCAxN2gyIi8+PC9zdmc+");*/
+    /*-webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiBjbGFzcz0iYmkgYmktZmlsZS1lYXJtYXJrLXNwcmVhZHNoZWV0IiB2aWV3Qm94PSIwIDAgMTYgMTYiPgogIDxwYXRoIGQ9Ik0xNCAxNFY0LjVMOS41IDBINGEyIDIgMCAwIDAtMiAydjEyYTIgMiAwIDAgMCAyIDJoOGEyIDIgMCAwIDAgMi0yTTkuNSAzQTEuNSAxLjUgMCAwIDAgMTEgNC41aDJWOUgzVjJhMSAxIDAgMCAxIDEtMWg1LjV6TTMgMTJ2LTJoMnYyem0wIDFoMnYySDRhMSAxIDAgMCAxLTEtMXptMyAydi0yaDN2MnptNCAwdi0yaDN2MWExIDEgMCAwIDEtMSAxem0zLTNoLTN2LTJoM3ptLTcgMHYtMmgzdjJ6Ii8+Cjwvc3ZnPg==");*/
+    -webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiBjbGFzcz0iYmkgYmktZmlsZS1lYXJtYXJrLWV4Y2VsIiB2aWV3Qm94PSIwIDAgMTYgMTYiPgogIDxwYXRoIGQ9Ik01Ljg4NCA2LjY4YS41LjUgMCAxIDAtLjc2OC42NEw3LjM0OSAxMGwtMi4yMzMgMi42OGEuNS41IDAgMCAwIC43NjguNjRMOCAxMC43ODFsMi4xMTYgMi41NGEuNS41IDAgMCAwIC43NjgtLjY0MUw4LjY1MSAxMGwyLjIzMy0yLjY4YS41LjUgMCAwIDAtLjc2OC0uNjRMOCA5LjIxOWwtMi4xMTYtMi41NHoiLz4KICA8cGF0aCBkPSJNMTQgMTRWNC41TDkuNSAwSDRhMiAyIDAgMCAwLTIgMnYxMmEyIDIgMCAwIDAgMiAyaDhhMiAyIDAgMCAwIDItMk05LjUgM0ExLjUgMS41IDAgMCAwIDExIDQuNWgyVjE0YTEgMSAwIDAgMS0xIDFINGExIDEgMCAwIDEtMS0xVjJhMSAxIDAgMCAxIDEtMWg1LjV6Ii8+Cjwvc3ZnPg==");
+    -webkit-mask-repeat: no-repeat;
+}
+
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".doc"] .tree-item-icon::before,
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".docx"] .tree-item-icon::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".doc"]::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".docx"]::before {
+    -webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiBjbGFzcz0iYmkgYmktZmlsZS1lYXJtYXJrLXdvcmQiIHZpZXdCb3g9IjAgMCAxNiAxNiI+CiAgPHBhdGggZD0iTTUuNDg1IDYuODc5YS41LjUgMCAxIDAtLjk3LjI0MmwxLjUgNmEuNS41IDAgMCAwIC45NjcuMDFMOCA5LjQwMmwxLjAxOCAzLjczYS41LjUgMCAwIDAgLjk2Ny0uMDFsMS41LTZhLjUuNSAwIDAgMC0uOTctLjI0MmwtMS4wMzYgNC4xNDQtLjk5Ny0zLjY1NWEuNS41IDAgMCAwLS45NjQgMGwtLjk5NyAzLjY1NUw1LjQ4NSA2Ljg4eiIvPgogIDxwYXRoIGQ9Ik0xNCAxNFY0LjVMOS41IDBINGEyIDIgMCAwIDAtMiAydjEyYTIgMiAwIDAgMCAyIDJoOGEyIDIgMCAwIDAgMi0yTTkuNSAzQTEuNSAxLjUgMCAwIDAgMTEgNC41aDJWMTRhMSAxIDAgMCAxLTEgMUg0YTEgMSAwIDAgMS0xLTFWMmExIDEgMCAwIDEgMS0xaDUuNXoiLz4KPC9zdmc+");
+    -webkit-mask-repeat: no-repeat;
+}
+
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".ppt"] .tree-item-icon::before,
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".pptx"] .tree-item-icon::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".ppt"]::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".pptx"]::before {
+    -webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiBjbGFzcz0iYmkgYmktZmlsZS1lYXJtYXJrLXBwdCIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNyA1LjVhMSAxIDAgMCAwLTEgMVYxM2EuNS41IDAgMCAwIDEgMHYtMmgxLjE4OGEyLjc1IDIuNzUgMCAwIDAgMC01LjV6TTguMTg4IDEwSDdWNi41aDEuMTg4YTEuNzUgMS43NSAwIDEgMSAwIDMuNSIvPgogIDxwYXRoIGQ9Ik0xNCA0LjVWMTRhMiAyIDAgMCAxLTIgMkg0YTIgMiAwIDAgMS0yLTJWMmEyIDIgMCAwIDEgMi0yaDUuNXptLTMgMEExLjUgMS41IDAgMCAxIDkuNSAzVjFINGExIDEgMCAwIDAtMSAxdjEyYTEgMSAwIDAgMCAxIDFoOGExIDEgMCAwIDAgMS0xVjQuNXoiLz4KPC9zdmc+");
+    -webkit-mask-repeat: no-repeat;
+}
+
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".ttf"] .tree-item-icon::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".ttf"]::before {
+    -webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiBjbGFzcz0iYmkgYmktZmlsZS1lYXJtYXJrLWZvbnQiIHZpZXdCb3g9IjAgMCAxNiAxNiI+CiAgPHBhdGggZD0iTTEwLjk0MyA2SDUuMDU3TDUgOGguNWMuMTgtMS4wOTYuMzU2LTEuMTkyIDEuNjk0LTEuMjM1bC4yOTMtLjAxdjUuMDljMCAuNDctLjEuNTgyLS44OTguNjU1di41SDkuNDF2LS41Yy0uODAzLS4wNzMtLjkwMy0uMTg0LS45MDMtLjY1NFY2Ljc1NWwuMjk4LjAxYzEuMzM4LjA0MyAxLjUxNC4xNCAxLjY5NCAxLjIzNWguNWwtLjA1Ny0yeiIvPgogIDxwYXRoIGQ9Ik0xNCA0LjVWMTRhMiAyIDAgMCAxLTIgMkg0YTIgMiAwIDAgMS0yLTJWMmEyIDIgMCAwIDEgMi0yaDUuNXptLTMgMEExLjUgMS41IDAgMCAxIDkuNSAzVjFINGExIDEgMCAwIDAtMSAxdjEyYTEgMSAwIDAgMCAxIDFoOGExIDEgMCAwIDAgMS0xVjQuNXoiLz4KPC9zdmc+");
+
+
+    -webkit-mask-repeat: no-repeat;
+}
+body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".pdf"] .tree-item-icon::before,
+body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".pdf"]::before {
+    -webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiBjbGFzcz0iYmkgYmktZmlsZS1lYXJtYXJrLXBkZiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTQgMTRWNC41TDkuNSAwSDRhMiAyIDAgMCAwLTIgMnYxMmEyIDIgMCAwIDAgMiAyaDhhMiAyIDAgMCAwIDItMk05LjUgM0ExLjUgMS41IDAgMCAwIDExIDQuNWgyVjE0YTEgMSAwIDAgMS0xIDFINGExIDEgMCAwIDEtMS0xVjJhMSAxIDAgMCAxIDEtMWg1LjV6Ii8+CiAgPHBhdGggZD0iTTQuNjAzIDE0LjA4N2EuOC44IDAgMCAxLS40MzgtLjQyYy0uMTk1LS4zODgtLjEzLS43NzYuMDgtMS4xMDIuMTk4LS4zMDcuNTI2LS41NjguODk3LS43ODdhNy43IDcuNyAwIDAgMSAxLjQ4Mi0uNjQ1IDIwIDIwIDAgMCAwIDEuMDYyLTIuMjI3IDcuMyA3LjMgMCAwIDEtLjQzLTEuMjk1Yy0uMDg2LS40LS4xMTktLjc5Ni0uMDQ2LTEuMTM2LjA3NS0uMzU0LjI3NC0uNjcyLjY1LS44MjMuMTkyLS4wNzcuNC0uMTIuNjAyLS4wNzdhLjcuNyAwIDAgMSAuNDc3LjM2NWMuMDg4LjE2NC4xMi4zNTYuMTI3LjUzOC4wMDcuMTg4LS4wMTIuMzk2LS4wNDcuNjE0LS4wODQuNTEtLjI3IDEuMTM0LS41MiAxLjc5NGExMSAxMSAwIDAgMCAuOTggMS42ODYgNS44IDUuOCAwIDAgMSAxLjMzNC4wNWMuMzY0LjA2Ni43MzQuMTk1Ljk2LjQ2NS4xMi4xNDQuMTkzLjMyLjIuNTE4LjAwNy4xOTItLjA0Ny4zODItLjEzOC41NjNhMS4wNCAxLjA0IDAgMCAxLS4zNTQuNDE2Ljg2Ljg2IDAgMCAxLS41MS4xMzhjLS4zMzEtLjAxNC0uNjU0LS4xOTYtLjkzMy0uNDE3YTUuNyA1LjcgMCAwIDEtLjkxMS0uOTUgMTEuNyAxMS43IDAgMCAwLTEuOTk3LjQwNiAxMS4zIDExLjMgMCAwIDEtMS4wMiAxLjUxYy0uMjkyLjM1LS42MDkuNjU2LS45MjcuNzg3YS44LjggMCAwIDEtLjU4LjAyOW0xLjM3OS0xLjkwMXEtLjI1LjExNS0uNDU5LjIzOGMtLjMyOC4xOTQtLjU0MS4zODMtLjY0Ny41NDctLjA5NC4xNDUtLjA5Ni4yNS0uMDQuMzYxcS4wMTYuMDMyLjAyNi4wNDRsLjAzNS0uMDEyYy4xMzctLjA1Ni4zNTUtLjIzNS42MzUtLjU3MmE4IDggMCAwIDAgLjQ1LS42MDZtMS42NC0xLjMzYTEzIDEzIDAgMCAxIDEuMDEtLjE5MyAxMiAxMiAwIDAgMS0uNTEtLjg1OCAyMSAyMSAwIDAgMS0uNSAxLjA1em0yLjQ0Ni40NXEuMjI2LjI0NS40MzUuNDFjLjI0LjE5LjQwNy4yNTMuNDk4LjI1NmEuMS4xIDAgMCAwIC4wNy0uMDE1LjMuMyAwIDAgMCAuMDk0LS4xMjUuNDQuNDQgMCAwIDAgLjA1OS0uMi4xLjEgMCAwIDAtLjAyNi0uMDYzYy0uMDUyLS4wNjItLjItLjE1Mi0uNTE4LS4yMDlhNCA0IDAgMCAwLS42MTItLjA1M3pNOC4wNzggNy44YTcgNyAwIDAgMCAuMi0uODI4cS4wNDYtLjI4Mi4wMzgtLjQ2NWEuNi42IDAgMCAwLS4wMzItLjE5OC41LjUgMCAwIDAtLjE0NS4wNGMtLjA4Ny4wMzUtLjE1OC4xMDYtLjE5Ni4yODMtLjA0LjE5Mi0uMDMuNDY5LjA0Ni44MjJxLjAzNi4xNjcuMDkuMzQ2eiIvPgo8L3N2Zz4=");
+    -webkit-mask-repeat: no-repeat;
+}
+
+/*---------------------------------------------------------------
+* 彩虹文件夹变量
+* 彩虹文件夹颜色是一个原始rgb变量，其值按文件夹树中的每个子文件夹循环使用。
+* 将“inherit”应用于除一阶子文件夹之外的每个子文件夹会导致文件夹“继承”其父文件夹的颜色。
+*---------------------------------------------------------------*/
+body:not(.is-mobile) .workspace-leaf-content[data-type="file-explorer"] .nav-files-container.node-insert-event.show-unsupported > div .tree-item:nth-child(11n+2),
+body:not(.is-mobile) .workspace-leaf-content[data-type="bookmarks"] .view-content.node-insert-event > div .tree-item:nth-child(11n+2),
+body:not(.is-mobile) .workspace-leaf-content[data-type="recent-files"] .nav-folder.mod-root > .nav-folder-children > .tree-item:nth-child(11n+1) {
+    --rainbow-folder-color: var(--custom-color-red);
+}
+
+body:not(.is-mobile) .workspace-leaf-content[data-type="file-explorer"] .nav-files-container.node-insert-event.show-unsupported > div .tree-item:nth-child(11n+3),
+body:not(.is-mobile) .workspace-leaf-content[data-type="bookmarks"] .view-content.node-insert-event > div .tree-item:nth-child(11n+3),
+body:not(.is-mobile) .workspace-leaf-content[data-type="recent-files"] .nav-folder.mod-root > .nav-folder-children > .tree-item:nth-child(11n+2) {
+    --rainbow-folder-color: var(--custom-color-maroon);
+}
+
+body:not(.is-mobile) .workspace-leaf-content[data-type="file-explorer"] .nav-files-container.node-insert-event.show-unsupported > div .tree-item:nth-child(11n+4),
+body:not(.is-mobile) .workspace-leaf-content[data-type="bookmarks"] .view-content.node-insert-event > div .tree-item:nth-child(11n+4),
+body:not(.is-mobile) .workspace-leaf-content[data-type="recent-files"] .nav-folder.mod-root > .nav-folder-children > .tree-item:nth-child(11n+3) {
+    --rainbow-folder-color: var(--custom-color-peach);
+}
+
+body:not(.is-mobile) .workspace-leaf-content[data-type="file-explorer"] .nav-files-container.node-insert-event.show-unsupported > div .tree-item:nth-child(11n+5),
+body:not(.is-mobile) .workspace-leaf-content[data-type="bookmarks"] .view-content.node-insert-event > div .tree-item:nth-child(11n+5),
+body:not(.is-mobile) .workspace-leaf-content[data-type="recent-files"] .nav-folder.mod-root > .nav-folder-children > .tree-item:nth-child(11n+4) {
+    --rainbow-folder-color: var(--custom-color-yellow);
+}
+
+body:not(.is-mobile) .workspace-leaf-content[data-type="file-explorer"] .nav-files-container.node-insert-event.show-unsupported > div .tree-item:nth-child(11n+6),
+body:not(.is-mobile) .workspace-leaf-content[data-type="bookmarks"] .view-content.node-insert-event > div .tree-item:nth-child(11n+6),
+body:not(.is-mobile) .workspace-leaf-content[data-type="recent-files"] .nav-folder.mod-root > .nav-folder-children > .tree-item:nth-child(11n+5) {
+    --rainbow-folder-color: var(--custom-color-green);
+}
+
+body:not(.is-mobile) .workspace-leaf-content[data-type="file-explorer"] .nav-files-container.node-insert-event.show-unsupported > div .tree-item:nth-child(11n+7),
+body:not(.is-mobile) .workspace-leaf-content[data-type="bookmarks"] .view-content.node-insert-event > div .tree-item:nth-child(11n+7),
+body:not(.is-mobile) .workspace-leaf-content[data-type="recent-files"] .nav-folder.mod-root > .nav-folder-children > .tree-item:nth-child(11n+6) {
+    --rainbow-folder-color: var(--custom-color-teal);
+}
+
+body:not(.is-mobile) .workspace-leaf-content[data-type="file-explorer"] .nav-files-container.node-insert-event.show-unsupported > div .tree-item:nth-child(11n+8),
+body:not(.is-mobile) .workspace-leaf-content[data-type="bookmarks"] .view-content.node-insert-event > div .tree-item:nth-child(11n+8),
+body:not(.is-mobile) .workspace-leaf-content[data-type="recent-files"] .nav-folder.mod-root > .nav-folder-children > .tree-item:nth-child(11n+7) {
+    --rainbow-folder-color: var(--custom-color-sky);
+}
+
+body:not(.is-mobile) .workspace-leaf-content[data-type="file-explorer"] .nav-files-container.node-insert-event.show-unsupported > div .tree-item:nth-child(11n+9),
+body:not(.is-mobile) .workspace-leaf-content[data-type="bookmarks"] .view-content.node-insert-event > div .tree-item:nth-child(11n+9),
+body:not(.is-mobile) .workspace-leaf-content[data-type="recent-files"] .nav-folder.mod-root > .nav-folder-children > .tree-item:nth-child(11n+8) {
+    --rainbow-folder-color: var(--custom-color-sapphire);
+}
+
+body:not(.is-mobile) .workspace-leaf-content[data-type="file-explorer"] .nav-files-container.node-insert-event.show-unsupported > div .tree-item:nth-child(11n+10),
+body:not(.is-mobile) .workspace-leaf-content[data-type="bookmarks"] .view-content.node-insert-event > div .tree-item:nth-child(11n+10),
+body:not(.is-mobile) .workspace-leaf-content[data-type="recent-files"] .nav-folder.mod-root > .nav-folder-children > .tree-item:nth-child(11n+9) {
+    --rainbow-folder-color: var(--custom-color-blue);
+}
+
+body:not(.is-mobile) .workspace-leaf-content[data-type="file-explorer"] .nav-files-container.node-insert-event.show-unsupported > div .tree-item:nth-child(11n+11),
+body:not(.is-mobile) .workspace-leaf-content[data-type="bookmarks"] .view-content.node-insert-event > div .tree-item:nth-child(11n+11),
+body:not(.is-mobile) .workspace-leaf-content[data-type="recent-files"] .nav-folder.mod-root > .nav-folder-children > .tree-item:nth-child(11n+10) {
+    --rainbow-folder-color: var(--custom-color-lavender);
+}
+
+body:not(.is-mobile) .workspace-leaf-content[data-type="file-explorer"] .nav-files-container.node-insert-event.show-unsupported > div .tree-item:nth-child(11n+12),
+body:not(.is-mobile) .workspace-leaf-content[data-type="bookmarks"] .view-content.node-insert-event > div .tree-item:nth-child(11n+12),
+body:not(.is-mobile) .workspace-leaf-content[data-type="recent-files"] .nav-folder.mod-root > .nav-folder-children > .tree-item:nth-child(11n+11) {
+    --rainbow-folder-color: var(--custom-color-mauve);
+}
+
+/*给文件列表和书签中的子项开启颜色继承*/
+body:not(.is-mobile).set-color-inherit .workspace-leaf-content[data-type="file-explorer"] .nav-files-container.node-insert-event.show-unsupported > div .tree-item .tree-item .tree-item-self,
+body:not(.is-mobile).set-color-inherit .workspace-leaf-content[data-type="file-explorer"] .nav-files-container.node-insert-event.show-unsupported > div .tree-item .tree-item,
+body:not(.is-mobile).set-color-inherit .workspace-leaf-content[data-type="bookmarks"] .view-content.node-insert-event > div > .tree-item .tree-item {
+    --rainbow-folder-color: inherit;
+}
+
+/*---------------------------------------------------------------
+* SIMPLE RAINBOW STYLE
+*---------------------------------------------------------------*/
+/*给默认的折叠图标加颜色*/
+body:not(.is-mobile).set-explorer-folder-rainbow .workspace-leaf-content[data-type="file-explorer"] .collapse-icon.is-collapsed svg.svg-icon,
+body:not(.is-mobile).set-explorer-folder-rainbow .workspace-leaf-content[data-type="file-explorer"] .collapse-icon svg.svg-icon,
+body:not(.is-mobile).set-bookmarks-folder-rainbow .workspace-leaf-content[data-type="bookmarks"] .collapse-icon.is-collapsed svg.svg-icon,
+body:not(.is-mobile).set-bookmarks-folder-rainbow .workspace-leaf-content[data-type="bookmarks"] .collapse-icon svg.svg-icon {
+    color: rgba(var(--rainbow-folder-color), 1);
+}
+
+/*给文件列表、书签、最近文件列表中的文字和图标设置彩虹色*/
+body:not(.is-mobile).set-explorer-folder-rainbow .workspace-leaf-content[data-type="file-explorer"] .nav-files-container.node-insert-event.show-unsupported > div .tree-item .tree-item-self.nav-folder-title,
+body:not(.is-mobile).set-explorer-file-rainbow .workspace-leaf-content[data-type="file-explorer"] .nav-files-container.node-insert-event.show-unsupported > div .tree-item .tree-item-self.nav-file-title,
+body:not(.is-mobile).set-explorer-folder-rainbow .workspace-leaf-content[data-type="file-explorer"] .nav-files-container.node-insert-event.show-unsupported > div .tree-item .tree-item-icon,
+body:not(.is-mobile).set-bookmarks-folder-rainbow .workspace-leaf-content[data-type="bookmarks"] .view-content.node-insert-event > div > .tree-item .tree-item-self.mod-collapsible,
+body:not(.is-mobile).set-bookmarks-folder-rainbow .workspace-leaf-content[data-type="bookmarks"] .view-content.node-insert-event > div > .tree-item .tree-item-self.mod-collapsible .tree-item-icon,
+body:not(.is-mobile).set-bookmarks-file-rainbow .workspace-leaf-content[data-type="bookmarks"] .view-content.node-insert-event > div .tree-item:not(:has(.mod-collapsible)) > .tree-item-self,
+body:not(.is-mobile).set-bookmarks-file-rainbow .workspace-leaf-content[data-type="bookmarks"] .view-content.node-insert-event > div .tree-item:not(:has(.mod-collapsible)) > .tree-item-self .tree-item-icon,
+body:not(.is-mobile).set-recent-file-rainbow .workspace-leaf-content[data-type="recent-files"] .nav-folder.mod-root > .nav-folder-children > .tree-item > .tree-item-self.nav-file-title {
+    color: rgba(var(--rainbow-folder-color), 1);
+}
+
+/*给折叠缩进线设置彩虹色*/
+body:not(.is-mobile).set-explorer-indent-line-rainbow .workspace-leaf-content[data-type="file-explorer"] .tree-item-children.nav-folder-children,
+body:not(.is-mobile).set-bookmarks-indent-line-rainbow .workspace-leaf-content[data-type="bookmarks"] .tree-item-children {
+    transition: color 0.4s;
+    border-color: rgba(var(--rainbow-folder-color), 0.5);
+}
+
+/*让鼠标悬浮阴影色超出缩进线范围自动隐藏*/
+body:not(.is-mobile).set-explorer-shadow-hide .workspace-leaf-content[data-type="file-explorer"] .tree-item,
+body:not(.is-mobile).set-bookmarks-shadow-hide .workspace-leaf-content[data-type="bookmarks"] .tree-item-children {
+    overflow: hidden;
+}
+
+/*---------------------------------------------------------------
+* xxx
+*---------------------------------------------------------------*/

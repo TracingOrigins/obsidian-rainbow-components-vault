@@ -1,0 +1,103 @@
+{
+  "components": [
+    {
+      "id": "877f916f-7363-40cf-ac38-fb6e7750789a",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-12T03:47:46.127Z",
+      "updateAt": "2024-07-12T03:47:46.127Z",
+      "components": [
+        {
+          "componentId": "fdbdb109-2662-41f6-8d45-4df09cc20ed4"
+        },
+        {
+          "componentId": "80fa64f1-a43a-4aa9-8e31-6b0052e4855e"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "fdbdb109-2662-41f6-8d45-4df09cc20ed4",
+      "type": "dailyCheck",
+      "titleAlign": "center",
+      "tabTitle": "打卡（多文件）",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-12T03:52:14.505Z",
+      "updateAt": "2024-07-12T03:52:14.505Z",
+      "tasks": [
+        {
+          "id": "8ca5aeaa-bb57-47ce-888c-c7d1b1f415c8",
+          "name": "阅读",
+          "options": {}
+        },
+        {
+          "id": "9fbf2114-c001-4aba-ba4a-2227719390fc",
+          "name": "学习",
+          "options": {}
+        },
+        {
+          "id": "4b816355-480e-49ac-b95a-0bf9f03b4b08",
+          "name": "喝水",
+          "options": {}
+        },
+        {
+          "id": "538bc3fd-f4f0-427e-b3da-f2e8a52ce730",
+          "name": "运动",
+          "options": {}
+        }
+      ],
+      "dataRecordType": "multiPage",
+      "folder": "Assets/community-plugins/Components/daily-check",
+      "title": "打卡（多文件）"
+    },
+    {
+      "id": "80fa64f1-a43a-4aa9-8e31-6b0052e4855e",
+      "type": "chart",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-12T03:55:13.660Z",
+      "updateAt": "2024-07-12T03:55:13.660Z",
+      "chartType": "doughnut",
+      "maxHeight": 300,
+      "labelProperty": "dailyCheckName",
+      "labelFormat": "$none",
+      "valueProperty": "$file_count",
+      "filter": {
+        "id": "05eab1b3-52b8-4ef3-9167-f93cf1c79054",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "62f013f2-2a89-4ffc-9396-13ccc0662988",
+            "type": "filter",
+            "operator": "regex_match",
+            "property": "${file.path}",
+            "value": "Assets/community-plugins/Components/daily-check/.*",
+            "conditions": []
+          },
+          {
+            "id": "b88f0341-a7b8-47bb-9802-58a13480337e",
+            "type": "filter",
+            "operator": "equals",
+            "property": "dailyCheckStatus",
+            "value": "DONE",
+            "conditions": []
+          }
+        ]
+      },
+      "chartColorSet": [],
+      "chartLabelPosition": "top",
+      "title": "打卡统计（多文件）"
+    }
+  ],
+  "rootComponentId": "877f916f-7363-40cf-ac38-fb6e7750789a"
+}

@@ -1,0 +1,6 @@
+---
+tags:
+---
+
+![[Home-multiple-components]]
+

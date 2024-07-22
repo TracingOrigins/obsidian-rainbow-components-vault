@@ -1,0 +1,186 @@
+{
+  "components": [
+    {
+      "id": "2be9fde6-fbb5-46c9-b3eb-a097d1715f8f",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-06-07T14:27:37.373Z",
+      "updateAt": "2024-06-07T14:27:37.373Z",
+      "components": [
+        {
+          "componentId": "86414766-5a71-4d07-9169-e30cce2dc8e4"
+        },
+        {
+          "componentId": "cb9b057b-7845-474b-89c3-3c9633af4df9"
+        }
+      ],
+      "layoutType": "tab"
+    },
+    {
+      "id": "cb9b057b-7845-474b-89c3-3c9633af4df9",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "最近新增",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-21T07:21:58.518Z",
+      "updateAt": "2024-07-21T07:21:58.518Z",
+      "viewType": "list",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} new",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        },
+        {
+          "id": "ae10d06f-cf01-4d40-9045-d9727f778e55",
+          "name": "tags",
+          "isShow": true,
+          "type": "multiSelect",
+          "options": {}
+        },
+        {
+          "id": "737fe95e-4f29-4cbf-87dc-c338f06616b8",
+          "name": "${file.ctime}",
+          "isShow": true,
+          "type": "datetime",
+          "options": {}
+        },
+        {
+          "id": "2622289b-c580-4504-b5c3-f7b5fbacfec4",
+          "name": "${file.mtime}",
+          "isShow": true,
+          "type": "datetime",
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab"
+      },
+      "loadLimitPerPage": 10,
+      "filter": {
+        "id": "2f9c88ef-9484-49f6-9bd3-abf3d7b2af47",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "7792de0f-ebcb-4e45-a90a-833872b19ad5",
+            "type": "filter",
+            "operator": "time_after_or_equal",
+            "property": "${file.ctime}",
+            "value": {
+              "type": "$relativeTime",
+              "unit": "day",
+              "direction": "before",
+              "value": "3"
+            },
+            "conditions": []
+          }
+        ]
+      },
+      "sort": {
+        "orders": [
+          {
+            "id": "9e3c035c-7ebc-4e41-b1c7-e1a968ee9a7a",
+            "property": "${file.ctime}",
+            "direction": "desc"
+          }
+        ]
+      }
+    },
+    {
+      "id": "86414766-5a71-4d07-9169-e30cce2dc8e4",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "最近编辑",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-21T07:21:58.518Z",
+      "updateAt": "2024-07-21T07:21:58.518Z",
+      "viewType": "list",
+      "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} new",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        },
+        {
+          "id": "ae10d06f-cf01-4d40-9045-d9727f778e55",
+          "name": "tags",
+          "isShow": true,
+          "type": "multiSelect",
+          "options": {}
+        },
+        {
+          "id": "737fe95e-4f29-4cbf-87dc-c338f06616b8",
+          "name": "${file.ctime}",
+          "isShow": true,
+          "type": "datetime",
+          "options": {}
+        },
+        {
+          "id": "2622289b-c580-4504-b5c3-f7b5fbacfec4",
+          "name": "${file.mtime}",
+          "isShow": true,
+          "type": "datetime",
+          "options": {},
+          "alias": ""
+        }
+      ],
+      "templates": [],
+      "groups": [],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab"
+      },
+      "loadLimitPerPage": 10,
+      "filter": {
+        "id": "2f9c88ef-9484-49f6-9bd3-abf3d7b2af47",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "4bb3ebdb-79e1-441c-8112-9b9020819187",
+            "type": "filter",
+            "operator": "time_after_or_equal",
+            "property": "${file.mtime}",
+            "value": {
+              "type": "$relativeTime",
+              "unit": "day",
+              "direction": "before",
+              "value": "3"
+            },
+            "conditions": []
+          }
+        ]
+      },
+      "sort": {
+        "orders": [
+          {
+            "id": "a3be64ce-06a8-47d9-b367-4e6271db30a7",
+            "property": "${file.mtime}",
+            "direction": "desc"
+          }
+        ]
+      }
+    }
+  ],
+  "rootComponentId": "2be9fde6-fbb5-46c9-b3eb-a097d1715f8f"
+}

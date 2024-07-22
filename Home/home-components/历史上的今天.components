@@ -1,0 +1,38 @@
+{
+  "components": [
+    {
+      "id": "3cd57cfa-4ddb-45c9-ae0d-832a5471ca37",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-24T23:33:31.248Z",
+      "updateAt": "2024-05-24T23:33:31.248Z",
+      "components": [
+        {
+          "componentId": "d55f02e2-d773-46b3-9d35-e861ea219c70"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "d55f02e2-d773-46b3-9d35-e861ea219c70",
+      "type": "dataview",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-24T23:33:41.561Z",
+      "updateAt": "2024-05-24T23:33:41.561Z",
+      "query": "let month = moment().format('MM')\nlet date = moment().format('MMDD')\nlet url = `https://baike.baidu.com/cms/home/eventsOnHistory/${month}.json`\nlet res = await request({url: url,method: \"GET\"});\nlet data = JSON.parse(res)\nconsole.log(data[month][date])\ndv.table(\n\t['年份','事件','详细内容'],\n\tdata[month][date].map(p=>[p.year,p.title,`[详情](${p.link})`])\n\t)",
+      "queryType": "dataviewjs",
+      "maxHeight": 591,
+      "dynamicParamComponents": [],
+      "title": "历史上的今天"
+    }
+  ],
+  "rootComponentId": "3cd57cfa-4ddb-45c9-ae0d-832a5471ca37"
+}

@@ -1,0 +1,37 @@
+{
+  "components": [
+    {
+      "id": "2482890f-33e2-4d27-b471-d8355dee3e9d",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-29T12:47:45.332Z",
+      "updateAt": "2024-05-29T12:47:45.333Z",
+      "components": [
+        {
+          "componentId": "6202593b-0142-491f-96d3-87834d6930de"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "6202593b-0142-491f-96d3-87834d6930de",
+      "type": "markdown",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-29T18:06:51.002Z",
+      "updateAt": "2024-05-29T18:06:51.002Z",
+      "maxHeight": 300,
+      "contentAlign": "left",
+      "markdownsSource": "content",
+      "markdownValue": "```dataviewjs\nlet ignoreFolder = '!\"assets\"';\nlet total = moment().diff(\"2024-01-01\",\"days\");\nlet allFiles = dv.pages(ignoreFolder).file;\ndv.paragraph(`<center><span style=\"color: var(--text-accent); font-size: 24px;\">K</span>evin，你已使用Obsidian<b>${total}</b>天，创建了<b>${allFiles.length}</b>篇文档、<b>${allFiles.etags.distinct().length}</b>个标签、<b>${allFiles.tasks.length}</b>个待办<center>`);\n```"
+    }
+  ],
+  "rootComponentId": "2482890f-33e2-4d27-b471-d8355dee3e9d"
+}

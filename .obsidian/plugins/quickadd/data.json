@@ -1,0 +1,490 @@
+{
+  "choices": [
+    {
+      "id": "9f6a6dee-eca4-404c-92b0-6eaccbd75201",
+      "name": "灵光一闪",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Home/sidebar-components/灵光一闪.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "{{time}} {{value}}"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "#### {{date}}",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "5bd677ce-368b-47f5-9a00-c4ae75b576bd",
+      "name": "重新加载当前页",
+      "type": "Macro",
+      "command": true,
+      "macroId": "4d50f638-3c56-4907-8a69-67241f123e1b"
+    },
+    {
+      "id": "7e8fde71-29dc-41d7-a48e-f1eecd06b8f9",
+      "name": "重载主页",
+      "type": "Macro",
+      "command": true,
+      "macroId": "8d5042ac-efb8-4534-9cf7-9a8d7ba51099"
+    },
+    {
+      "id": "d9f06850-661b-417d-81f1-92ef40e44748",
+      "name": "切换深色、浅色模式",
+      "type": "Macro",
+      "command": true,
+      "macroId": "a2508eb9-9c91-4f8c-a7e6-7865304c27af"
+    },
+    {
+      "id": "f428c36b-e168-4f50-863a-40c893942700",
+      "name": "切换阅读、预览、源码模式",
+      "type": "Macro",
+      "command": true,
+      "macroId": "974ec3cb-08a7-4108-b086-3f7a60be4ed8"
+    },
+    {
+      "id": "95b037a8-2e1d-42eb-a27e-4fe5c93a23e1",
+      "name": "查看日记",
+      "type": "Macro",
+      "command": true,
+      "macroId": "522f5a6b-149d-41ca-8011-6044b1a49654"
+    },
+    {
+      "id": "0af137da-d351-495a-9ecb-11c37f575602",
+      "name": "编辑日记",
+      "type": "Macro",
+      "command": true,
+      "macroId": "b9ea36e5-7d94-454a-834f-c11dabd5638d"
+    },
+    {
+      "id": "987db991-4dbf-4fe9-a381-f0ef7cba7e73",
+      "name": "待办事项",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Home/sidebar-components/待办事项.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "{{value}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "e0d15064-483b-40a6-b177-1458c1ca738a",
+      "name": "会议纪要",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Assets/community-plugins/Templater/templates/tp-会议模板.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{date}} 会议纪要"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Inbox/works"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "source",
+      "fileExistsMode": "Nothing",
+      "setFileExistsBehavior": true
+    },
+    {
+      "id": "7892aa6d-af6c-40a6-9f16-f93b108af301",
+      "name": "创建日报",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Assets/community-plugins/Templater/templates/tp-日报模板.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{date}} 日报"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Inbox/works"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "source",
+      "fileExistsMode": "Nothing",
+      "setFileExistsBehavior": true
+    },
+    {
+      "id": "cb18f736-0e98-4c48-b7c7-12ddaee0f9aa",
+      "name": "创建周报",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Assets/community-plugins/Templater/templates/tp-周报模板.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{date:yyyy}}-W{{date:W}} 周报"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Inbox/works"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "source",
+      "fileExistsMode": "Nothing",
+      "setFileExistsBehavior": true
+    },
+    {
+      "id": "e0ab6c0b-6d07-41b7-b5d1-aca5d207cd42",
+      "name": "创建年报",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Assets/community-plugins/Templater/templates/tp-年报模板.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{date:yyyy}} 年报"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Inbox/works"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "source",
+      "fileExistsMode": "Nothing",
+      "setFileExistsBehavior": true
+    }
+  ],
+  "macros": [
+    {
+      "name": "重新加载当前页",
+      "id": "4d50f638-3c56-4907-8a69-67241f123e1b",
+      "commands": [
+        {
+          "name": "关闭当前标签页",
+          "type": "Obsidian",
+          "id": "b72f5943-ee80-43e2-bbec-dcfb4f8e25c6",
+          "commandId": "workspace:close"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "e39edbb6-c734-48c8-8960-0a8148ee4395",
+          "time": 500
+        },
+        {
+          "name": "重新打开标签页",
+          "type": "Obsidian",
+          "id": "bf5f4b09-e5c4-43a5-9eed-d0c01b498096",
+          "commandId": "workspace:undo-close-pane"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "刷新主页",
+      "id": "957da700-10d3-4bc0-9154-dbb5f95e4106",
+      "commands": [
+        {
+          "name": "fetch-today-stats",
+          "type": "UserScript",
+          "id": "7b9a2968-2c81-4441-abd3-2edbb30ef467",
+          "path": "Assets/community-plugins/QuickAdd/scripts/fetch-today-stats.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": true
+    },
+    {
+      "name": "重载主页",
+      "id": "8d5042ac-efb8-4534-9cf7-9a8d7ba51099",
+      "commands": [
+        {
+          "name": "remove-today-stats",
+          "type": "UserScript",
+          "id": "1c2436c3-d45d-48e8-b106-0dfa025bea7c",
+          "path": "Assets/community-plugins/QuickAdd/scripts/remove-today-stats.js",
+          "settings": {}
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "200a2f0d-7318-43fa-b47b-c6b1959f4cf4",
+          "time": 500
+        },
+        {
+          "name": "fetch-today-stats",
+          "type": "UserScript",
+          "id": "49516143-87db-4d4d-9a09-501cd7d6139e",
+          "path": "Assets/community-plugins/QuickAdd/scripts/fetch-today-stats.js",
+          "settings": {}
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "80337567-661b-4d61-8b33-7c4c85dc312e",
+          "time": 500
+        },
+        {
+          "name": "Hotkeys for specific files: Open Home/Home in new tab",
+          "type": "Obsidian",
+          "id": "65a8326f-b556-4e94-9029-e4c419882bcc",
+          "commandId": "obsidian-hotkeys-for-specific-files:Home/Home.md-new-tab"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "切换深色、浅色模式",
+      "id": "a2508eb9-9c91-4f8c-a7e6-7865304c27af",
+      "commands": [
+        {
+          "name": "switch-light-dark",
+          "type": "UserScript",
+          "id": "1a5a6395-45e9-4f29-8bae-ac69f39841ab",
+          "path": "Assets/community-plugins/QuickAdd/scripts/switch-light-dark.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "切换阅读、预览、源码模式",
+      "id": "974ec3cb-08a7-4108-b086-3f7a60be4ed8",
+      "commands": [
+        {
+          "name": "switch-view-mode",
+          "type": "UserScript",
+          "id": "162c6df1-c917-47ff-8d7a-f05a9ab131ae",
+          "path": "Assets/community-plugins/QuickAdd/scripts/switch-view-mode.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "查看日记",
+      "id": "522f5a6b-149d-41ca-8011-6044b1a49654",
+      "commands": [
+        {
+          "name": "新标签页",
+          "type": "Obsidian",
+          "id": "810a4547-42d6-464b-87b7-7db0f362387f",
+          "commandId": "workspace:new-tab"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "aee6e663-02f5-4b13-8a29-09f0587b016c",
+          "time": 200
+        },
+        {
+          "name": "日记: 打开/创建今天的日记",
+          "type": "Obsidian",
+          "id": "16ca2fac-4c0e-41c8-afe9-84376118863e",
+          "commandId": "daily-notes"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "c37636b2-f60f-4316-8042-ef555dfeb87a",
+          "time": 200
+        },
+        {
+          "name": "QuickAdd: 切换阅读、预览、源码模式",
+          "type": "Obsidian",
+          "id": "4a9390db-1bbe-4c58-821a-0462fea5f1ef",
+          "commandId": "quickadd:choice:f428c36b-e168-4f50-863a-40c893942700"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "f7cd5204-a438-4d8e-bc93-f290b15c9673",
+          "time": 200
+        },
+        {
+          "name": "QuickAdd: 切换阅读、预览、源码模式",
+          "type": "Obsidian",
+          "id": "3a884597-74c0-4936-91d6-5a32ec364fde",
+          "commandId": "quickadd:choice:f428c36b-e168-4f50-863a-40c893942700"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "af03d335-8b9d-4def-a7f1-c18c33845856",
+          "time": 200
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "编辑日记",
+      "id": "b9ea36e5-7d94-454a-834f-c11dabd5638d",
+      "commands": [
+        {
+          "name": "新标签页",
+          "type": "Obsidian",
+          "id": "bb424ca3-1a74-4577-97e1-c89e4e9b7408",
+          "commandId": "workspace:new-tab"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "57bcd537-2c1a-474a-b877-b3260f261e2b",
+          "time": 100
+        },
+        {
+          "name": "日记: 打开/创建今天的日记",
+          "type": "Obsidian",
+          "id": "66dc0c06-41d2-4237-aaf4-c8c327725a91",
+          "commandId": "daily-notes"
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "",
+  "announceUpdates": true,
+  "version": "1.10.0",
+  "disableOnlineFeatures": true,
+  "enableRibbonIcon": false,
+  "ai": {
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true,
+    "providers": [
+      {
+        "name": "OpenAI",
+        "endpoint": "https://api.openai.com/v1",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "text-davinci-003",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo-16k",
+            "maxTokens": 16384
+          },
+          {
+            "name": "gpt-3.5-turbo-1106",
+            "maxTokens": 16385
+          },
+          {
+            "name": "gpt-4",
+            "maxTokens": 8192
+          },
+          {
+            "name": "gpt-4-32k",
+            "maxTokens": 32768
+          },
+          {
+            "name": "gpt-4-1106-preview",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4-turbo",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4o",
+            "maxTokens": 128000
+          }
+        ]
+      }
+    ]
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true,
+    "addDefaultAIProviders": true
+  }
+}

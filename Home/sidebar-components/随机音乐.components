@@ -1,0 +1,107 @@
+{
+  "components": [
+    {
+      "id": "5478213b-6b93-4dcf-8f95-e3d104863c97",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-06-09T20:46:35.041Z",
+      "updateAt": "2024-06-09T20:46:35.041Z",
+      "components": [
+        {
+          "componentId": "d33a3d39-68be-4ea1-aac2-95ee12342b5c"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "d33a3d39-68be-4ea1-aac2-95ee12342b5c",
+      "type": "markdown",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-06-09T20:46:44.817Z",
+      "updateAt": "2024-06-09T20:46:44.817Z",
+      "maxHeight": 300,
+      "contentAlign": "left",
+      "markdownsSource": "content",
+      "markdownValue": "<div style=\" width: 100%; height:200px; overflow: hidden; \"><iframe src=\"https://widget.pkmer.cn/free/RandomMusic?user=d6d9cc54-9049-4377-8a78-7814aa5e36b9&theme-color=%23888888FF&layout-style=Vertical\" allow=\"fullscreen\" style=\" height: 100%; width: 100%;\"></iframe></div>"
+    },
+    {
+      "id": "da59816b-945f-40ca-8284-4c90d29e1d2c",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-14T04:00:04.094Z",
+      "updateAt": "2024-07-14T04:00:04.094Z",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "precision": 0,
+      "query": {
+        "valueType": "totalRecords",
+        "value": 100,
+        "filter": {
+          "id": "01fe0941-9c69-465e-9a41-6c68fa248a97",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "32ef48cd-a3b7-4313-8075-c0ee1053a6b4",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      }
+    },
+    {
+      "id": "b7e9dc40-98e5-4659-b789-dac93a58a035",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-14T04:00:04.094Z",
+      "updateAt": "2024-07-14T04:00:04.094Z",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "precision": 0,
+      "query": {
+        "valueType": "totalRecords",
+        "value": 100,
+        "filter": {
+          "id": "01fe0941-9c69-465e-9a41-6c68fa248a97",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "32ef48cd-a3b7-4313-8075-c0ee1053a6b4",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      }
+    }
+  ],
+  "rootComponentId": "5478213b-6b93-4dcf-8f95-e3d104863c97"
+}

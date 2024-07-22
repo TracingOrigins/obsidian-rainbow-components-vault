@@ -1,0 +1,78 @@
+/*标题级别动态*/
+
+:is(.markdown-preview-view, .markdown-rendered) :is(h1, h2, h3, h4, h5, h6) {
+  position: relative;
+  --radius-xs: 3px;
+}
+
+:is(.markdown-preview-view, .markdown-rendered) h1:hover::before {
+  content: "H1";
+  position: absolute;
+  font-size: 0.7rem;
+  width: auto;
+  margin-left: -24px;
+  border: 2px solid;
+  padding: 0 2px;
+  border-radius: var(--radius-xs);
+  top: 25px;
+}
+
+:is(.markdown-preview-view, .markdown-rendered) h2:hover::before {
+  content: "H2";
+  position: absolute;
+  font-size: 0.7rem;
+  width: auto;
+  margin-left: -25px;
+  border: 2px solid;
+  padding: 0 2px;
+  border-radius: var(--radius-xs);
+  top: 23px;
+}
+
+:is(.markdown-preview-view, .markdown-rendered) h3:hover::before {
+  content: "H3";
+  position: absolute;
+  font-size: 0.65rem;
+  width: auto;
+  margin-left: -25px;
+  border: 2px solid;
+  padding: 0 2px;
+  border-radius: var(--radius-xs);
+  top: 22px;
+}
+
+:is(.markdown-preview-view, .markdown-rendered) h4:hover::before {
+  content: "H4";
+  position: absolute;
+  font-size: 0.6rem;
+  width: auto;
+  margin-left: -25px;
+  border: 2px solid;
+  padding: 0 2px;
+  border-radius: var(--radius-xs);
+  top: 22px;
+}
+
+:is(.markdown-preview-view, .markdown-rendered) h5:hover::before {
+  content: "H5";
+  position: absolute;
+  font-size: 0.6rem;
+  width: auto;
+  margin-left: -25px;
+  border: 2px solid;
+  padding: 0 2px;
+  border-radius: var(--radius-xs);
+  top: 22px;
+}
+
+:is(.markdown-preview-view, .markdown-rendered) h6:hover::before {
+  content: "H6";
+  position: absolute;
+  font-size: 0.6rem;
+  width: auto;
+  margin-left: -25px;
+  border: 2px solid;
+  padding: 0 2px;
+  border-radius: var(--radius-xs);
+  top: 22px;
+}

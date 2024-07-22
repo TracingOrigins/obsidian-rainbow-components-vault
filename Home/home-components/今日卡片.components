@@ -1,0 +1,343 @@
+{
+  "components": [
+    {
+      "id": "70b6e825-8848-4824-97a7-af5866aa3125",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-30T17:43:21.550Z",
+      "updateAt": "2024-05-30T17:43:21.550Z",
+      "components": [
+        {
+          "componentId": "b93f2619-6412-4c57-b485-ae32955b5444"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "b93f2619-6412-4c57-b485-ae32955b5444",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-30T17:43:36.732Z",
+      "updateAt": "2024-05-30T17:43:36.732Z",
+      "title": "",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "top",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "c4ad7d98-910c-45cf-9c44-e09a969fcc78",
+        "options": {}
+      },
+      "cover": "Assets/attachments/pictures/travels/mountains-g8e2992e4d_1920.jpg"
+    },
+    {
+      "id": "e83be3de-c05a-4f09-bddf-278a092d70f6",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-06-01T10:16:46.369Z",
+      "updateAt": "2024-06-01T10:16:46.369Z",
+      "title": "命令5",
+      "description": "",
+      "coverFit": "contains",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "85c3c103-c8df-4167-bcde-1b4fc7d018fc",
+        "options": {}
+      }
+    },
+    {
+      "id": "8dc56b5f-5067-47de-a9ec-574ffae0afc8",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-06-01T10:16:46.369Z",
+      "updateAt": "2024-06-01T10:16:46.369Z",
+      "title": "命令5",
+      "description": "",
+      "coverFit": "contains",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "85c3c103-c8df-4167-bcde-1b4fc7d018fc",
+        "options": {}
+      }
+    },
+    {
+      "id": "935207c0-f7c0-4b6e-b3c0-5bd3e11fb868",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-06-01T10:16:46.369Z",
+      "updateAt": "2024-06-01T10:16:46.369Z",
+      "title": "命令5",
+      "description": "",
+      "coverFit": "contains",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "85c3c103-c8df-4167-bcde-1b4fc7d018fc",
+        "options": {}
+      }
+    },
+    {
+      "id": "abd83ca7-74f3-4af7-a0b8-1fbc56c489c8",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-06-01T10:15:45.679Z",
+      "updateAt": "2024-06-01T10:15:45.679Z",
+      "title": "命令1",
+      "description": "",
+      "coverFit": "contains",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "13595832-ce2a-42d1-8b64-23a0dbfffe68",
+        "options": {}
+      }
+    },
+    {
+      "id": "e5a6d5ab-9cda-4d85-a085-4d12f13b3e78",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-06-01T10:15:45.679Z",
+      "updateAt": "2024-06-01T10:15:45.679Z",
+      "title": "命令1",
+      "description": "",
+      "coverFit": "contains",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "13595832-ce2a-42d1-8b64-23a0dbfffe68",
+        "options": {}
+      }
+    },
+    {
+      "id": "4086eab0-6f2b-4b45-9a0b-b9b1202c33e8",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-06-01T10:15:45.679Z",
+      "updateAt": "2024-06-01T10:15:45.679Z",
+      "title": "命令1",
+      "description": "",
+      "coverFit": "contains",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "13595832-ce2a-42d1-8b64-23a0dbfffe68",
+        "options": {}
+      }
+    },
+    {
+      "id": "fa736059-3cab-41bb-9778-cca89fdb8e60",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-06-01T10:15:45.679Z",
+      "updateAt": "2024-06-01T10:15:45.679Z",
+      "title": "命令1",
+      "description": "",
+      "coverFit": "contains",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "13595832-ce2a-42d1-8b64-23a0dbfffe68",
+        "options": {}
+      }
+    },
+    {
+      "id": "5d891c50-973c-417f-bfd3-873e7df743a1",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-06-01T10:19:06.771Z",
+      "updateAt": "2024-06-01T10:19:06.771Z",
+      "title": "未命名",
+      "description": "",
+      "coverFit": "contains",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "OpenFile",
+        "id": "a1c08446-fcb0-40f8-859f-c91670ada495",
+        "options": {}
+      }
+    },
+    {
+      "id": "948e2cc5-0745-46ae-812f-a34db818407b",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-06-01T10:19:06.771Z",
+      "updateAt": "2024-06-01T10:19:06.771Z",
+      "title": "未命名",
+      "description": "",
+      "coverFit": "contains",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "a1c08446-fcb0-40f8-859f-c91670ada495",
+        "options": {}
+      }
+    },
+    {
+      "id": "3e0a24a8-4b25-4aed-9f14-158588210e8d",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-06-01T10:19:06.771Z",
+      "updateAt": "2024-06-01T10:19:06.771Z",
+      "title": "未命名",
+      "description": "",
+      "coverFit": "contains",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "a1c08446-fcb0-40f8-859f-c91670ada495",
+        "options": {}
+      }
+    },
+    {
+      "id": "745c4076-a3c4-441d-aedb-5f19515eb19e",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-06-01T10:19:06.771Z",
+      "updateAt": "2024-06-01T10:19:06.771Z",
+      "title": "未命名",
+      "description": "",
+      "coverFit": "contains",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "a1c08446-fcb0-40f8-859f-c91670ada495",
+        "options": {}
+      }
+    },
+    {
+      "id": "c8136b4d-9098-49cc-9018-da90bf58c877",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-06-01T10:19:06.771Z",
+      "updateAt": "2024-06-01T10:19:06.771Z",
+      "title": "未命名",
+      "description": "",
+      "coverFit": "contains",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "a1c08446-fcb0-40f8-859f-c91670ada495",
+        "options": {}
+      }
+    },
+    {
+      "id": "9beba318-32a5-4ba9-96c5-c8654a5d969a",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-06-01T10:19:06.771Z",
+      "updateAt": "2024-06-01T10:19:06.771Z",
+      "title": "未命名",
+      "description": "",
+      "coverFit": "contains",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "a1c08446-fcb0-40f8-859f-c91670ada495",
+        "options": {}
+      }
+    },
+    {
+      "id": "af2b0a48-90e5-430c-a630-50b505b2d7b1",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-06-01T10:19:06.771Z",
+      "updateAt": "2024-06-01T10:19:06.771Z",
+      "title": "未命名",
+      "description": "",
+      "coverFit": "contains",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "a1c08446-fcb0-40f8-859f-c91670ada495",
+        "options": {}
+      }
+    },
+    {
+      "id": "6fa13252-9941-41d7-9f53-1c0c670d1840",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-06-01T10:19:06.771Z",
+      "updateAt": "2024-06-01T10:19:06.771Z",
+      "title": "未命名",
+      "description": "",
+      "coverFit": "contains",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "a1c08446-fcb0-40f8-859f-c91670ada495",
+        "options": {}
+      }
+    }
+  ],
+  "rootComponentId": "70b6e825-8848-4824-97a7-af5866aa3125"
+}

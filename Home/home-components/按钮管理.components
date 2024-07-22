@@ -1,0 +1,702 @@
+{
+  "components": [
+    {
+      "id": "78ceac6b-4f7c-4e53-a907-a941547e3ffd",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-21T16:54:48.532Z",
+      "updateAt": "2024-05-21T16:54:48.532Z",
+      "components": [
+        {
+          "componentId": "aa8ef629-9033-44ae-a32a-f5b91d56fc7b"
+        },
+        {
+          "componentId": "603c498d-4aa4-4428-96f1-2dda1ef41ab5"
+        },
+        {
+          "componentId": "32893775-c11e-421b-a5e3-f7add09033c3"
+        },
+        {
+          "componentId": "5c27b6bb-82ac-477e-9d67-82eb5332eaee"
+        },
+        {
+          "componentId": "97112635-bf59-412d-9faa-22a14bc04c1b"
+        }
+      ],
+      "layoutType": "tab"
+    },
+    {
+      "id": "603c498d-4aa4-4428-96f1-2dda1ef41ab5",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "主题",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-22T09:56:08.835Z",
+      "updateAt": "2024-05-22T09:56:08.835Z",
+      "components": [
+        {
+          "componentId": "99c39ed2-4a68-444f-ab3d-580821ae80e7"
+        },
+        {
+          "componentId": "cdbf73a9-bafd-4720-8c16-fcf15bff4bc2"
+        },
+        {
+          "componentId": "a1991ee7-71f9-4736-a67d-671f23b099ae"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "aa8ef629-9033-44ae-a32a-f5b91d56fc7b",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "主页",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-22T10:06:16.509Z",
+      "updateAt": "2024-05-22T10:06:16.509Z",
+      "components": [
+        {
+          "componentId": "9ceb6724-57c7-415d-844b-8d2413693f9a"
+        },
+        {
+          "componentId": "ef09ee9e-59ae-4d8c-85d0-cf3a44f97836"
+        },
+        {
+          "componentId": "92cacd6a-31fc-46a7-9a99-bb0b72af2e4f"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "d65148c0-0a1d-456e-9d92-981bb0fce6d7",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-05-22T09:56:28.170Z",
+      "updateAt": "2024-05-22T09:56:28.170Z",
+      "text": "浅色主题",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "1f0ffad5-f588-499d-95e1-70de0b1d39db",
+          "options": {
+            "commandId": "theme:use-light",
+            "commandName": "使用浅色模式"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "a1991ee7-71f9-4736-a67d-671f23b099ae",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "深色模式",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-05-22T10:00:01.520Z",
+      "updateAt": "2024-05-22T10:00:01.520Z",
+      "text": "深色模式",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "7771dc29-5c0a-4b45-8774-1f22c7f33960",
+          "options": {
+            "commandId": "theme:use-dark",
+            "commandName": "使用深色模式"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Moon"
+    },
+    {
+      "id": "cdbf73a9-bafd-4720-8c16-fcf15bff4bc2",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "浅色模式",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-05-22T10:01:19.566Z",
+      "updateAt": "2024-05-22T10:01:19.566Z",
+      "text": "浅色模式",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "59391004-b482-42ba-bd74-1a02a82cabf5",
+          "options": {
+            "commandId": "theme:use-light",
+            "commandName": "使用浅色模式"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "SunMedium"
+    },
+    {
+      "id": "32893775-c11e-421b-a5e3-f7add09033c3",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "学习",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-22T10:03:52.167Z",
+      "updateAt": "2024-05-22T10:03:52.167Z",
+      "components": [
+        {
+          "componentId": "0c61f56d-85fc-43f2-84ef-fdee266e301c"
+        },
+        {
+          "componentId": "b47b3e66-3a57-4f1b-9e6e-f4975b0a52f4"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "0c61f56d-85fc-43f2-84ef-fdee266e301c",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-05-22T10:03:56.084Z",
+      "updateAt": "2024-05-22T10:03:56.084Z",
+      "text": "学习 Java",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenFile",
+          "id": "f0de5259-d092-41e3-9cff-4b25a0d0c57a",
+          "options": {
+            "commandId": "workspaces-plus:学习 Java",
+            "commandName": "Workspaces Plus: Load: 学习 Java",
+            "filePath": "Sublibrary/java-tutorials/index/index.md",
+            "fileName": "index.md"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "AlarmClockCheck"
+    },
+    {
+      "id": "b47b3e66-3a57-4f1b-9e6e-f4975b0a52f4",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-05-22T10:04:11.078Z",
+      "updateAt": "2024-05-22T10:04:11.078Z",
+      "text": "学习 Python",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenFile",
+          "id": "f97e92c5-a812-4f80-8ee7-0a7435685e71",
+          "options": {
+            "commandId": "workspaces-plus:学习 Python",
+            "commandName": "Workspaces Plus: Load: 学习 Python",
+            "filePath": "Sublibrary/python-tutorials/index/index.md",
+            "fileName": "index.md"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "AlarmClockCheck"
+    },
+    {
+      "id": "9ceb6724-57c7-415d-844b-8d2413693f9a",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "PC 主页",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-05-22T10:06:23.217Z",
+      "updateAt": "2024-05-22T10:06:23.217Z",
+      "text": "PC 主页",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenFile",
+          "id": "8e723f08-22fa-4aea-ba83-1f0c076c533a",
+          "options": {
+            "commandId": "workspaces-plus:主页 1",
+            "commandName": "Workspaces Plus: Load: 主页 1",
+            "filePath": "Home/HomePC.md",
+            "fileName": "HomePC.md",
+            "openPageIn": "tab"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Home"
+    },
+    {
+      "id": "ef09ee9e-59ae-4d8c-85d0-cf3a44f97836",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "Mobile 主页",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-05-22T10:06:48.001Z",
+      "updateAt": "2024-05-22T10:06:48.002Z",
+      "text": "Mobile 主页",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenFile",
+          "id": "a1603dfc-37f6-4ef2-8a2a-0c1e304544b6",
+          "options": {
+            "commandId": "workspaces-plus:主页 2",
+            "commandName": "Workspaces Plus: Load: 主页 2",
+            "filePath": "Home/HomeMobile.md",
+            "fileName": "HomeMobile.md",
+            "openPageIn": "tab"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Home"
+    },
+    {
+      "id": "5c27b6bb-82ac-477e-9d67-82eb5332eaee",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "文档",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-30T18:13:17.213Z",
+      "updateAt": "2024-05-30T18:13:17.213Z",
+      "components": [
+        {
+          "componentId": "cfac62ef-9f81-45b7-884b-7abe982a938f"
+        },
+        {
+          "componentId": "007552c7-dd8c-4eb5-99a3-5a2d49569ada"
+        },
+        {
+          "componentId": "a00830eb-d02c-4308-b15d-ed9d7358cd3f"
+        },
+        {
+          "componentId": "07ce0261-2bad-4e81-b625-9259b4780bf5"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "cfac62ef-9f81-45b7-884b-7abe982a938f",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-05-30T18:14:50.940Z",
+      "updateAt": "2024-05-30T18:14:50.940Z",
+      "text": "组件入门",
+      "description": "",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenFile",
+          "id": "023a65b3-8733-4600-977a-713914347140",
+          "options": {
+            "filePath": "Homepage/组件入门.md",
+            "fileName": "组件入门.md",
+            "openPageIn": "tab"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "StickyNote"
+    },
+    {
+      "id": "007552c7-dd8c-4eb5-99a3-5a2d49569ada",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-05-30T18:15:19.867Z",
+      "updateAt": "2024-05-30T18:15:19.867Z",
+      "text": "组件收藏",
+      "description": "",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenFile",
+          "id": "758424ff-87a2-4e66-b14e-42e023f67c47",
+          "options": {
+            "filePath": "Homepage/组件收藏.md",
+            "fileName": "组件收藏.md",
+            "openPageIn": "tab"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "StickyNote"
+    },
+    {
+      "id": "a00830eb-d02c-4308-b15d-ed9d7358cd3f",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-05-30T18:16:25.007Z",
+      "updateAt": "2024-05-30T18:16:25.007Z",
+      "text": "插件管理",
+      "description": "",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenFile",
+          "id": "f62ac71f-3743-4b0a-be11-463ab6fe66ee",
+          "options": {
+            "filePath": "statistics/插件管理1.md",
+            "fileName": "插件管理1.md",
+            "openPageIn": "tab"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "StickyNote"
+    },
+    {
+      "id": "07ce0261-2bad-4e81-b625-9259b4780bf5",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-05-30T18:44:12.714Z",
+      "updateAt": "2024-05-30T18:44:12.714Z",
+      "text": "文件检索",
+      "description": "",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenFile",
+          "id": "d83f0407-a8a2-4bb1-bc1f-24fb6d11ca9f",
+          "options": {
+            "filePath": "Assets/community-plugins/Components/文件检索器.components",
+            "fileName": "文件检索器.components",
+            "openPageIn": "tab"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "StickyNote"
+    },
+    {
+      "id": "070882af-c4b2-4472-97b1-8ed57a3ac4b3",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-06-04T11:01:15.174Z",
+      "updateAt": "2024-06-04T11:01:15.174Z",
+      "components": [
+        {
+          "componentId": "ccea1b12-5b5c-4f31-b17b-1be970ff92a7"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "ccea1b12-5b5c-4f31-b17b-1be970ff92a7",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-06-04T11:01:19.540Z",
+      "updateAt": "2024-06-04T11:01:19.540Z",
+      "text": "主页 1",
+      "description": "",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "95aef8d7-2cd4-45b9-bbad-605defe0be1e",
+          "options": {}
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "99c39ed2-4a68-444f-ab3d-580821ae80e7",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "切换主题",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-06-09T02:05:06.264Z",
+      "updateAt": "2024-06-09T02:05:06.264Z",
+      "text": "切换主题",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "5a2d68bd-b076-4d86-bdfa-90dbd6c790fb",
+          "options": {
+            "commandId": "theme:switch",
+            "commandName": "更换主题"
+          }
+        },
+        {
+          "type": "OpenUrl",
+          "id": "2c347614-a3f7-4d0b-a6ad-21d5d474c123",
+          "options": {}
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Aperture"
+    },
+    {
+      "id": "92cacd6a-31fc-46a7-9a99-bb0b72af2e4f",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "Tablet 主页",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-05-22T10:06:48.001Z",
+      "updateAt": "2024-05-22T10:06:48.002Z",
+      "text": "Tablet 主页",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenFile",
+          "id": "a1603dfc-37f6-4ef2-8a2a-0c1e304544b6",
+          "options": {
+            "commandId": "workspaces-plus:主页 2",
+            "commandName": "Workspaces Plus: Load: 主页 2",
+            "filePath": "Home/HomePC.md",
+            "fileName": "HomePC.md",
+            "openPageIn": "tab"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Home"
+    },
+    {
+      "id": "97112635-bf59-412d-9faa-22a14bc04c1b",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "模板",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-09T12:11:13.978Z",
+      "updateAt": "2024-07-09T12:11:13.978Z",
+      "components": [
+        {
+          "componentId": "f1f9ccf7-da59-49f5-a6da-64f452b2c8ed"
+        },
+        {
+          "componentId": "cfedb7a5-7c76-482f-91f4-023809ace3b8"
+        },
+        {
+          "componentId": "e38494a6-b063-457f-a00b-a9013cf22d00"
+        },
+        {
+          "componentId": "2530dde9-73a1-445f-a661-f2c209d78cd2"
+        },
+        {
+          "componentId": "37ce05a2-b6b3-4db1-b518-7719d6cc0ba8"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "f1f9ccf7-da59-49f5-a6da-64f452b2c8ed",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-09T12:11:26.487Z",
+      "updateAt": "2024-07-09T12:11:26.487Z",
+      "text": "文字卡片",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallTemplater",
+          "id": "71477cde-4658-4a87-84c8-088f9a392258",
+          "options": {
+            "filePath": "Assets/community-plugins/Templater/templates/tp-文字卡片模板.md",
+            "fileName": "tp-文字卡片模板.md"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "cfedb7a5-7c76-482f-91f4-023809ace3b8",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-09T12:13:32.711Z",
+      "updateAt": "2024-07-09T12:13:32.711Z",
+      "text": "随机头图",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallTemplater",
+          "id": "4b1fe0f6-c8ef-441a-ab4f-2618b46ef8c6",
+          "options": {
+            "filePath": "Assets/community-plugins/Templater/templates/tp-随机头图模板.md",
+            "fileName": "tp-随机头图模板.md"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "e38494a6-b063-457f-a00b-a9013cf22d00",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-09T12:15:05.650Z",
+      "updateAt": "2024-07-09T12:15:05.650Z",
+      "text": "插件列表",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallTemplater",
+          "id": "94d02f7c-4a84-44e9-a770-2867e0976a7f",
+          "options": {
+            "filePath": "Assets/community-plugins/Templater/templates/tp-插件列表.md",
+            "fileName": "tp-插件列表.md"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "2530dde9-73a1-445f-a661-f2c209d78cd2",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-09T12:16:51.661Z",
+      "updateAt": "2024-07-09T12:16:51.661Z",
+      "text": "收集箱",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallTemplater",
+          "id": "483ea491-2833-4d1e-9c16-43dcddf6ca49",
+          "options": {
+            "filePath": "Assets/community-plugins/Templater/templates/tp-笔记收集箱.md",
+            "fileName": "tp-笔记收集箱.md"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "37ce05a2-b6b3-4db1-b518-7719d6cc0ba8",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-09T12:18:47.777Z",
+      "updateAt": "2024-07-09T12:18:47.777Z",
+      "text": "添加物品",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallTemplater",
+          "id": "df3b66ed-368a-45ac-85fb-4acb6a91be6c",
+          "options": {
+            "filePath": "Assets/community-plugins/Templater/templates/tp-日历模板.md",
+            "fileName": "tp-日历模板.md"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    }
+  ],
+  "rootComponentId": "78ceac6b-4f7c-4e53-a907-a941547e3ffd"
+}

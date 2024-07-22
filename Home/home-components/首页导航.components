@@ -1,0 +1,37 @@
+{
+  "components": [
+    {
+      "id": "6cf44100-cff0-45b5-8432-4cf249a8106b",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-06-03T21:13:57.865Z",
+      "updateAt": "2024-06-03T21:13:57.865Z",
+      "components": [
+        {
+          "componentId": "4983bf9f-b872-4735-b68d-2b13c1bc49b6"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "4983bf9f-b872-4735-b68d-2b13c1bc49b6",
+      "type": "markdown",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-06-03T21:14:28.452Z",
+      "updateAt": "2024-06-03T21:14:28.452Z",
+      "maxHeight": 300,
+      "contentAlign": "left",
+      "markdownsSource": "content",
+      "markdownValue": "- **工作**\n\t- [会议纪要](obsidian://advanced-uri?vault=Rainbow-Components&commandid=quickadd%253Achoice%253Ae0d15064-483b-40a6-b177-1458c1ca738a)\n\t- [创建日报](obsidian://advanced-uri?vault=Rainbow-Components&commandid=quickadd%253Achoice%253A7892aa6d-af6c-40a6-9f16-f93b108af301)\n\t- [创建周报](obsidian://advanced-uri?vault=Rainbow-Components&commandid=quickadd%253Achoice%253Acb18f736-0e98-4c48-b7c7-12ddaee0f9aa)\n- **学习**\n\t- [Java](https://www.w3cschool.cn/group/javaer.html)\n\t- [Python](https://www.w3cschool.cn/group/pythoner.html)\n\t- [w3cschool](https://www.w3cschool.cn/)\n- **生活**\n\t- [豆瓣读书](https://book.douban.com/)\n\t- [豆瓣电影](https://movie.douban.com/)\n\t- [修行日记](obsidian://advanced-uri?vault=Rainbow-Components&commandid=daily-notes)\n- **随想**\n\t- [[待办事项]]\n\t- [[灵光一闪]]\n\t- [文字卡片](obsidian://advanced-uri?vault=Rainbow-Components&commandid=templater-obsidian%253AAssets%252Fcommunity-plugins%252FTemplater%252Ftemplates%252Ftp-%25E6%2596%2587%25E5%25AD%2597%25E5%258D%25A1%25E7%2589%2587%25E6%25A8%25A1%25E6%259D%25BF.md)"
+    }
+  ],
+  "rootComponentId": "6cf44100-cff0-45b5-8432-4cf249a8106b"
+}

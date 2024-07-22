@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "id": "8f55c25a-2925-4e3c-ba76-827c9c4edb6d",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-04T01:29:15.282Z",
+      "updateAt": "2024-05-04T01:29:15.284Z",
+      "widgets": [],
+      "components": [
+        {
+          "componentId": "43d6848b-f32c-45a8-a07e-32f3acd4349b",
+          "widthRatio": 64.84899328859063
+        },
+        {
+          "componentId": "2de053b9-2aec-4419-b1ee-d8d1a10f409f",
+          "widthRatio": 35.151006711409366
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "43d6848b-f32c-45a8-a07e-32f3acd4349b",
+      "type": "dailyCheck",
+      "titleAlign": "center",
+      "tabTitle": "打卡",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-04T01:29:25.267Z",
+      "updateAt": "2024-05-04T01:29:25.267Z",
+      "tasks": [
+        {
+          "id": "59ea92d4-3a02-4363-805f-6d5a0a98857a",
+          "name": "阅读",
+          "options": {}
+        },
+        {
+          "id": "80089294-01a6-4dd2-8dfa-9c44506f8724",
+          "name": "运动",
+          "options": {}
+        },
+        {
+          "id": "c1098aaf-4523-4d61-8ed8-07491852a269",
+          "name": "喝水",
+          "options": {}
+        },
+        {
+          "id": "bc51d9a2-9a39-4423-a25c-a95e52f18bfe",
+          "name": "学习",
+          "options": {}
+        }
+      ],
+      "folder": "Assets/community-plugins/Components/daily-check",
+      "title": "每日打卡",
+      "dataRecordType": "multiPage"
+    },
+    {
+      "id": "2de053b9-2aec-4419-b1ee-d8d1a10f409f",
+      "type": "chart",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-24T13:23:01.071Z",
+      "updateAt": "2024-05-24T13:23:01.071Z",
+      "chartType": "doughnut",
+      "maxHeight": 291,
+      "labelProperty": "dailyCheckName",
+      "labelFormat": "$none",
+      "valueProperty": "$file_count",
+      "filter": {
+        "id": "f457419f-22a3-4716-9b31-2d7d14dcd6f6",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "97704a61-d8a9-41e0-82f8-2349bd54ef54",
+            "type": "filter",
+            "operator": "regex_match",
+            "property": "${file.path}",
+            "value": "Assets/community-plugins/Components/daily-check/.*",
+            "conditions": []
+          },
+          {
+            "id": "f0c47754-b4a3-4fcb-abe3-b83d56973c77",
+            "type": "filter",
+            "operator": "equals",
+            "property": "dailyCheckStatus",
+            "value": "DONE",
+            "conditions": []
+          }
+        ]
+      },
+      "chartColorSet": [],
+      "chartLabelPosition": "top",
+      "title": "打卡统计"
+    }
+  ],
+  "rootComponentId": "8f55c25a-2925-4e3c-ba76-827c9c4edb6d"
+}

@@ -1,0 +1,3211 @@
+{
+  "components": [
+    {
+      "id": "62696112-257a-45a6-8c44-7b4ae556191b",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-13T00:27:33.196Z",
+      "updateAt": "2024-07-13T00:27:33.197Z",
+      "components": [
+        {
+          "componentId": "70b3de36-3a65-4186-a4e4-0d23264ff603"
+        },
+        {
+          "componentId": "8c42bd5b-f5ef-4289-89b6-cf4697d0a1cb"
+        },
+        {
+          "componentId": "5d778096-1730-46f2-9ded-dd1869e6f113"
+        },
+        {
+          "componentId": "37c0561b-6582-4cb8-b47d-06bec57f0fd0"
+        }
+      ],
+      "layoutType": "tab"
+    },
+    {
+      "id": "70b3de36-3a65-4186-a4e4-0d23264ff603",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "速览",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-13T00:35:47.032Z",
+      "updateAt": "2024-07-13T00:35:47.032Z",
+      "components": [
+        {
+          "componentId": "654f53c7-cb7c-46be-acee-dba069809e7a"
+        },
+        {
+          "componentId": "7585257e-89fa-4c8c-85af-48940fd05fbb"
+        }
+      ],
+      "layoutType": "list"
+    },
+    {
+      "id": "5d778096-1730-46f2-9ded-dd1869e6f113",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "操作",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-13T00:37:30.933Z",
+      "updateAt": "2024-07-13T00:37:30.934Z",
+      "components": [
+        {
+          "componentId": "5eabae75-e0b9-42f7-9897-fc543984ae83"
+        },
+        {
+          "componentId": "c5c7b99f-8729-487d-a455-651628a01344"
+        },
+        {
+          "componentId": "4cb18071-6b61-4503-a274-72e13e94c878"
+        }
+      ],
+      "layoutType": "list"
+    },
+    {
+      "id": "75e10941-7975-406d-9585-45fe87e3c509",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T00:38:18.955Z",
+      "updateAt": "2024-07-13T00:38:18.955Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "b59f0449-7507-456e-b16c-04d896f06c2c",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T00:38:18.955Z",
+      "updateAt": "2024-07-13T00:38:18.955Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "9cf0b740-7421-4793-941f-b847a1af099b",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T00:38:18.955Z",
+      "updateAt": "2024-07-13T00:38:18.955Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "49e0ec2c-7387-47e7-9849-85536d72a2fa",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T00:38:18.955Z",
+      "updateAt": "2024-07-13T00:38:18.955Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "5562670d-381d-46c9-90d5-79522d977efa",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T00:38:18.955Z",
+      "updateAt": "2024-07-13T00:38:18.955Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "ea2547a7-0437-4bd8-be3e-b8485c4ddb67",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:02:47.525Z",
+      "updateAt": "2024-07-13T01:02:47.525Z",
+      "components": [
+        {
+          "componentId": "0e0f60d1-035f-472f-9086-2c9604346217"
+        },
+        {
+          "componentId": "dd7c0d47-ffed-4d8b-bceb-1f619f9a6836"
+        },
+        {
+          "componentId": "0520ded5-5a0d-45b6-bccc-1dd8724e98cd"
+        },
+        {
+          "componentId": "22f77760-2205-49e4-bebe-3054d14b03f8"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "8c42bd5b-f5ef-4289-89b6-cf4697d0a1cb",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "速记",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:03:34.241Z",
+      "updateAt": "2024-07-13T01:03:34.241Z",
+      "components": [
+        {
+          "componentId": "72a18866-abe5-4f62-a5c1-ddd789c9c071"
+        },
+        {
+          "componentId": "5498fe75-6ec3-420d-a1a8-8d991611257c"
+        },
+        {
+          "componentId": "c27116ce-5c27-4ed9-8bbd-813128901a09"
+        }
+      ],
+      "layoutType": "list"
+    },
+    {
+      "id": "37c0561b-6582-4cb8-b47d-06bec57f0fd0",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "网站",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:03:34.241Z",
+      "updateAt": "2024-07-13T01:03:34.241Z",
+      "components": [
+        {
+          "componentId": "c504cd5e-8cdf-4fc8-875f-354c251c53fb"
+        },
+        {
+          "componentId": "fc3183d6-bbb0-46d2-9ebd-ccacd77e2928"
+        },
+        {
+          "componentId": "31826492-c7ec-4577-ba85-8422358bafbc"
+        },
+        {
+          "componentId": "82746871-4f7a-4e88-a033-c88fa8799534"
+        }
+      ],
+      "layoutType": "list"
+    },
+    {
+      "id": "03df4fc9-f41d-4f9b-9608-17a884cf0d6d",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:04:17.884Z",
+      "updateAt": "2024-07-13T01:04:17.884Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "AArrowDown"
+    },
+    {
+      "id": "900b3e8c-5e03-435a-a4b5-e516c6dea4f8",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:04:17.884Z",
+      "updateAt": "2024-07-13T01:04:17.884Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Airplay"
+    },
+    {
+      "id": "e71ae0ef-dd74-4981-acd5-691ca1d0f191",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:04:17.884Z",
+      "updateAt": "2024-07-13T01:04:17.884Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "AlignEndVertical"
+    },
+    {
+      "id": "654f53c7-cb7c-46be-acee-dba069809e7a",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:13:13.644Z",
+      "updateAt": "2024-07-13T01:13:13.644Z",
+      "components": [
+        {
+          "componentId": "1bfb08a7-0d68-45f4-b0f8-d1e9dd60b287"
+        },
+        {
+          "componentId": "0e6ea8cd-ed50-4107-a840-40501ecb0966"
+        },
+        {
+          "componentId": "dd103f5d-f0bf-424d-bbaa-a579347bfc5f"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "429ed607-17a9-45b4-8373-4dc92eb05cd2",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "日记",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:13:29.793Z",
+      "updateAt": "2024-07-13T01:13:29.793Z",
+      "text": "日记",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "ab5c9e89-88b7-4267-a4aa-8d425360cd24",
+          "options": {
+            "commandId": "quickadd:choice:95b037a8-2e1d-42eb-a27e-4fe5c93a23e1",
+            "commandName": "QuickAdd: 查看日记"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "FileText"
+    },
+    {
+      "id": "1bfb08a7-0d68-45f4-b0f8-d1e9dd60b287",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "主页",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:15:12.833Z",
+      "updateAt": "2024-07-13T01:15:12.833Z",
+      "text": "主页",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenFile",
+          "id": "d384b398-46d9-4a6d-81cc-27f214819d84",
+          "options": {
+            "filePath": "Home/Home.md",
+            "fileName": "Home.md",
+            "openPageIn": "tab"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Home"
+    },
+    {
+      "id": "0e6ea8cd-ed50-4107-a840-40501ecb0966",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "待办",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:15:12.833Z",
+      "updateAt": "2024-07-13T01:15:12.833Z",
+      "text": "待办",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenFile",
+          "id": "c3c28696-b5b2-4811-8d4c-3013a9eb9a63",
+          "options": {
+            "filePath": "Home/sidebar-components/待办事项.md",
+            "fileName": "待办事项.md",
+            "openPageIn": "tab"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "SquareCheckBig"
+    },
+    {
+      "id": "dd103f5d-f0bf-424d-bbaa-a579347bfc5f",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "灵感",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:15:12.833Z",
+      "updateAt": "2024-07-13T01:15:12.833Z",
+      "text": "灵感",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenFile",
+          "id": "5717a740-21c7-417a-9df4-83c021394fdb",
+          "options": {
+            "filePath": "Home/sidebar-components/灵光一闪.md",
+            "fileName": "灵光一闪.md",
+            "openPageIn": "tab"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Lightbulb"
+    },
+    {
+      "id": "4880fd82-10ee-424a-83f6-32784f2348dc",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:15:41.385Z",
+      "updateAt": "2024-07-13T01:15:41.385Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "44dcb705-ea83-4b19-85cd-81c788b1b608",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:15:41.385Z",
+      "updateAt": "2024-07-13T01:15:41.385Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "ee4b3b8c-14b7-4a79-b01c-c2cbd11165b1",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:15:41.385Z",
+      "updateAt": "2024-07-13T01:15:41.385Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "963d1f95-d0eb-4e5f-8df8-de559738c976",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:15:41.385Z",
+      "updateAt": "2024-07-13T01:15:41.385Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "8c30cae9-f330-480d-a959-82d2fbde577d",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "文件检索",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:15:57.705Z",
+      "updateAt": "2024-07-13T01:15:57.705Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "47a69dba-da4c-417e-ab3e-7e70e65f5edf",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "插件管理",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:15:57.705Z",
+      "updateAt": "2024-07-13T01:15:57.705Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "13fac814-a6a5-4f06-937d-e444c5ddbe23",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "日记汇总",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:15:57.705Z",
+      "updateAt": "2024-07-13T01:15:57.705Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "558d5092-9bf3-43f1-879d-26498da986b2",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "最近文件",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:15:57.705Z",
+      "updateAt": "2024-07-13T01:15:57.705Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "3294d2c4-1ca1-4103-bff9-c7c664c84b09",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:16:27.283Z",
+      "updateAt": "2024-07-13T01:16:27.283Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "7d114df3-17f1-48aa-a050-a0d02c1912b0",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:16:30.716Z",
+      "updateAt": "2024-07-13T01:16:30.716Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "d043252c-89a3-4f1b-8d83-10176f1dbf53",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:16:34.348Z",
+      "updateAt": "2024-07-13T01:16:34.348Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "7f2bbe3e-2f5c-4210-9537-da7843bd1dc0",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:16:37.481Z",
+      "updateAt": "2024-07-13T01:16:37.481Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "88fdb56a-8c52-4e7b-83f7-e44af9e8245a",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:17:19.337Z",
+      "updateAt": "2024-07-13T01:17:19.337Z",
+      "components": [
+        {
+          "componentId": "bfa52c04-4439-4b24-9309-d7471c8af6bf"
+        },
+        {
+          "componentId": "19aa330f-cc21-4af1-9ae0-52c2272860f7"
+        },
+        {
+          "componentId": "56a4c195-6efc-4a3d-a73a-4992aab75259"
+        },
+        {
+          "componentId": "5cbe9762-be52-415d-bae8-6179ba6188c4"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "491f9789-fef1-4f48-b0b5-879ff2c9c63a",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:17:19.337Z",
+      "updateAt": "2024-07-13T01:17:19.337Z",
+      "components": [
+        {
+          "componentId": "de6db14d-deb4-4b29-8c25-2dacccd3be00"
+        },
+        {
+          "componentId": "c1e04fec-9c66-4079-af8d-360c8a320b6d"
+        },
+        {
+          "componentId": "29cbbf5a-5fec-41e6-b602-ec548c56d283"
+        },
+        {
+          "componentId": "95514616-b965-4368-b8a2-f80795941f63"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "2bb95eb6-ac99-460a-8dab-41358a8111ef",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:17:19.337Z",
+      "updateAt": "2024-07-13T01:17:19.337Z",
+      "components": [
+        {
+          "componentId": "552059ba-b690-447c-8aad-7de68d45559d"
+        },
+        {
+          "componentId": "6ab4cc2d-c1b7-473d-9b16-afa599d1a767"
+        },
+        {
+          "componentId": "168be3f9-8080-4b3a-b057-ac80f67e6227"
+        },
+        {
+          "componentId": "2d19395a-3320-4c69-9436-56e03c78fa2d"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "632b6da7-036f-447d-b0b9-9788e2850ad7",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:17:19.337Z",
+      "updateAt": "2024-07-13T01:17:19.337Z",
+      "components": [
+        {
+          "componentId": "57000e56-e637-4e72-a9ac-ec068e1d81d1"
+        },
+        {
+          "componentId": "7f1c7459-d696-4338-856d-bd7d32d2d7cb"
+        },
+        {
+          "componentId": "a0fc83c2-3801-46e9-9c5b-e256276d8538"
+        },
+        {
+          "componentId": "fb9ebc2a-212f-4dea-9c13-4e6f1ed23c2f"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "0e0f60d1-035f-472f-9086-2c9604346217",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:17:33.425Z",
+      "updateAt": "2024-07-13T01:17:33.425Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "dd7c0d47-ffed-4d8b-bceb-1f619f9a6836",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:17:33.425Z",
+      "updateAt": "2024-07-13T01:17:33.425Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "0520ded5-5a0d-45b6-bccc-1dd8724e98cd",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:17:33.425Z",
+      "updateAt": "2024-07-13T01:17:33.425Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "22f77760-2205-49e4-bebe-3054d14b03f8",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:17:33.425Z",
+      "updateAt": "2024-07-13T01:17:33.425Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "bfa52c04-4439-4b24-9309-d7471c8af6bf",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:18:01.835Z",
+      "updateAt": "2024-07-13T01:18:01.835Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "19aa330f-cc21-4af1-9ae0-52c2272860f7",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:18:05.361Z",
+      "updateAt": "2024-07-13T01:18:05.361Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "56a4c195-6efc-4a3d-a73a-4992aab75259",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:18:08.126Z",
+      "updateAt": "2024-07-13T01:18:08.126Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "5cbe9762-be52-415d-bae8-6179ba6188c4",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:18:08.126Z",
+      "updateAt": "2024-07-13T01:18:08.126Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "de6db14d-deb4-4b29-8c25-2dacccd3be00",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:18:39.617Z",
+      "updateAt": "2024-07-13T01:18:39.617Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "c1e04fec-9c66-4079-af8d-360c8a320b6d",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:18:39.617Z",
+      "updateAt": "2024-07-13T01:18:39.617Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "29cbbf5a-5fec-41e6-b602-ec548c56d283",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:18:39.617Z",
+      "updateAt": "2024-07-13T01:18:39.617Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "95514616-b965-4368-b8a2-f80795941f63",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:18:39.617Z",
+      "updateAt": "2024-07-13T01:18:39.617Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "57000e56-e637-4e72-a9ac-ec068e1d81d1",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:18:50.525Z",
+      "updateAt": "2024-07-13T01:18:50.525Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "7f1c7459-d696-4338-856d-bd7d32d2d7cb",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:18:50.525Z",
+      "updateAt": "2024-07-13T01:18:50.525Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "a0fc83c2-3801-46e9-9c5b-e256276d8538",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:18:50.525Z",
+      "updateAt": "2024-07-13T01:18:50.525Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "fb9ebc2a-212f-4dea-9c13-4e6f1ed23c2f",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:18:50.525Z",
+      "updateAt": "2024-07-13T01:18:50.525Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "552059ba-b690-447c-8aad-7de68d45559d",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:19:03.039Z",
+      "updateAt": "2024-07-13T01:19:03.039Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "6ab4cc2d-c1b7-473d-9b16-afa599d1a767",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:19:03.039Z",
+      "updateAt": "2024-07-13T01:19:03.039Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "168be3f9-8080-4b3a-b057-ac80f67e6227",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:19:03.039Z",
+      "updateAt": "2024-07-13T01:19:03.039Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "2d19395a-3320-4c69-9436-56e03c78fa2d",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:19:03.039Z",
+      "updateAt": "2024-07-13T01:19:03.039Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "5eabae75-e0b9-42f7-9897-fc543984ae83",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:19:46.979Z",
+      "updateAt": "2024-07-13T01:19:46.979Z",
+      "components": [
+        {
+          "componentId": "4ceb302e-9d94-466e-b9e1-013a65525c2f"
+        },
+        {
+          "componentId": "dab305c2-c9b6-400b-a794-563990a91355"
+        },
+        {
+          "componentId": "7ea8d0cf-adac-412d-a5b9-ad235c545534"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "c5c7b99f-8729-487d-a455-651628a01344",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:19:46.979Z",
+      "updateAt": "2024-07-13T01:19:46.979Z",
+      "components": [
+        {
+          "componentId": "ec771f52-5d53-4d48-8e2c-a457487361ed"
+        },
+        {
+          "componentId": "76e6c452-1c6c-4a75-b6ac-f1b58ba8679d"
+        },
+        {
+          "componentId": "ab632fc2-653a-4ecf-9acc-8d2745d69552"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "4cb18071-6b61-4503-a274-72e13e94c878",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:19:46.979Z",
+      "updateAt": "2024-07-13T01:19:46.979Z",
+      "components": [
+        {
+          "componentId": "77e5292f-0f8e-466a-9f39-c8ebd693ca31"
+        },
+        {
+          "componentId": "b330bd74-66b6-4218-bd99-469053a720e6"
+        },
+        {
+          "componentId": "b1a3b596-12e3-445c-b1e8-9a7bf93e7a22"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "4ceb302e-9d94-466e-b9e1-013a65525c2f",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "系统设置",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:20:17.880Z",
+      "updateAt": "2024-07-13T01:20:17.880Z",
+      "text": "系统设置",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "75687f63-c9c4-425b-8bc4-ab2329a1ff97",
+          "options": {
+            "commandId": "app:open-settings",
+            "commandName": "打开设置"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Settings"
+    },
+    {
+      "id": "dab305c2-c9b6-400b-a794-563990a91355",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "主题设置",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:20:17.880Z",
+      "updateAt": "2024-07-13T01:20:17.880Z",
+      "text": "主题设置",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "b0b89e25-73f1-4244-b606-5d2f5a8ec90c",
+          "options": {
+            "commandId": "theme:switch",
+            "commandName": "更换主题"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Aperture"
+    },
+    {
+      "id": "7ea8d0cf-adac-412d-a5b9-ad235c545534",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "文件恢复",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:20:17.880Z",
+      "updateAt": "2024-07-13T01:20:17.880Z",
+      "text": "文件恢复",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "b76f89fd-36e1-473d-b6a3-cd490c82f3a6",
+          "options": {
+            "commandId": "file-recovery:open",
+            "commandName": "文件恢复: 打开快照列表"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "RefreshCcwDot"
+    },
+    {
+      "id": "ec771f52-5d53-4d48-8e2c-a457487361ed",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "切换仓库",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:20:29.854Z",
+      "updateAt": "2024-07-13T01:20:29.854Z",
+      "text": "切换仓库",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "637f8389-278f-4730-960b-9983f156427d",
+          "options": {
+            "commandId": "app:open-vault",
+            "commandName": "打开其他仓库"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Vault"
+    },
+    {
+      "id": "76e6c452-1c6c-4a75-b6ac-f1b58ba8679d",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "插件市场",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:20:29.854Z",
+      "updateAt": "2024-07-13T01:20:29.854Z",
+      "text": "插件市场",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenUrl",
+          "id": "6fb22204-b038-4309-8d35-12c507d81547",
+          "options": {
+            "url": "obsidian://show-plugin?id=%20"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Boxes"
+    },
+    {
+      "id": "ab632fc2-653a-4ecf-9acc-8d2745d69552",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "切换明暗",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:20:29.854Z",
+      "updateAt": "2024-07-13T01:20:29.854Z",
+      "text": "切换明暗",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "c6d7974c-d851-4b70-aa1e-78c6e53d1031",
+          "options": {
+            "commandId": "quickadd:choice:d9f06850-661b-417d-81f1-92ef40e44748",
+            "commandName": "QuickAdd: 切换深色、浅色模式"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "SunMoon"
+    },
+    {
+      "id": "2fb2b38b-6fae-4e22-b7aa-2902ae631880",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:20:39.931Z",
+      "updateAt": "2024-07-13T01:20:39.931Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "a84e84df-364f-48c4-9428-e9b256311a89",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:20:39.931Z",
+      "updateAt": "2024-07-13T01:20:39.931Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "a5667f4c-af5f-4219-b90c-3e7241b8096e",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:20:39.931Z",
+      "updateAt": "2024-07-13T01:20:39.931Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "77e5292f-0f8e-466a-9f39-c8ebd693ca31",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "重新加载",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:20:50.743Z",
+      "updateAt": "2024-07-13T01:20:50.743Z",
+      "text": "重新加载",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "18528fc3-0fa1-462b-931c-6234dd2d6e96",
+          "options": {
+            "commandId": "app:reload",
+            "commandName": "重新加载 Obsidian（不保存当前编辑内容）"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "LoaderPinwheel"
+    },
+    {
+      "id": "b330bd74-66b6-4218-bd99-469053a720e6",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "重载主页",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:20:50.743Z",
+      "updateAt": "2024-07-13T01:20:50.743Z",
+      "text": "重载主页",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "6576c1e2-90d1-4bcb-ba63-26a16295bcf1",
+          "options": {
+            "commandId": "quickadd:choice:7e8fde71-29dc-41d7-a48e-f1eecd06b8f9",
+            "commandName": "QuickAdd: 重载主页"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Home"
+    },
+    {
+      "id": "b1a3b596-12e3-445c-b1e8-9a7bf93e7a22",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "文件检索",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:20:50.743Z",
+      "updateAt": "2024-07-13T01:20:50.743Z",
+      "text": "文件检索",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenFile",
+          "id": "6a19f03b-2645-4d69-a7fe-cb22aa82d5b2",
+          "options": {
+            "filePath": "Home/home-components/文件检索.components",
+            "fileName": "文件检索.components",
+            "openPageIn": "tab"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Boxes"
+    },
+    {
+      "id": "edb2d903-994b-4a73-801b-24387ad2dee6",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:21:00.299Z",
+      "updateAt": "2024-07-13T01:21:00.299Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "9eb83d2b-502f-472c-886c-3a7cd02ac113",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:21:00.299Z",
+      "updateAt": "2024-07-13T01:21:00.299Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "04510025-2319-4370-ad67-9c73a44dd32b",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:21:00.299Z",
+      "updateAt": "2024-07-13T01:21:00.299Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "3be851d7-c6b1-4826-a1d9-abe5a94da379",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:21:00.299Z",
+      "updateAt": "2024-07-13T01:21:00.299Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "72a18866-abe5-4f62-a5c1-ddd789c9c071",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:21:22.641Z",
+      "updateAt": "2024-07-13T01:21:22.641Z",
+      "components": [
+        {
+          "componentId": "75048e94-81ab-4f46-b3c9-11e8feafa08d"
+        },
+        {
+          "componentId": "8d325028-1647-4561-912e-9335220b086b"
+        },
+        {
+          "componentId": "5cdbd22d-3c10-4ba2-ba40-de5012173da9"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "5cdbd22d-3c10-4ba2-ba40-de5012173da9",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "日记",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:21:36.944Z",
+      "updateAt": "2024-07-13T01:21:36.944Z",
+      "text": "日记",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "d2ca2c4e-c207-4d9a-88c5-1db76bf49f6e",
+          "options": {
+            "commandId": "quickadd:choice:0af137da-d351-495a-9ecb-11c37f575602",
+            "commandName": "QuickAdd: 写日记"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "FilePenLine"
+    },
+    {
+      "id": "75048e94-81ab-4f46-b3c9-11e8feafa08d",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "灵感",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:21:36.944Z",
+      "updateAt": "2024-07-13T01:21:36.944Z",
+      "text": "灵感",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "5a22b2e0-386f-472b-9625-47f8a744715c",
+          "options": {
+            "commandId": "quickadd:choice:9f6a6dee-eca4-404c-92b0-6eaccbd75201",
+            "commandName": "QuickAdd: 灵光一闪"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Lightbulb"
+    },
+    {
+      "id": "8d325028-1647-4561-912e-9335220b086b",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "待办",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:21:36.944Z",
+      "updateAt": "2024-07-13T01:21:36.944Z",
+      "text": "待办",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "c3d9dd80-7217-4f7d-95e8-aeb4ff84febf",
+          "options": {
+            "commandId": "quickadd:choice:987db991-4dbf-4fe9-a381-f0ef7cba7e73",
+            "commandName": "QuickAdd: 待办事项"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "SquareCheckBig"
+    },
+    {
+      "id": "9ad400ff-7e4b-4b0f-8a2f-020875c770df",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:21:46.014Z",
+      "updateAt": "2024-07-13T01:21:46.014Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "e9fe84cc-34a0-40b0-b154-263a1b882297",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:21:46.014Z",
+      "updateAt": "2024-07-13T01:21:46.014Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "f607492c-08f7-4c5f-a179-8252ac33691d",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:21:46.014Z",
+      "updateAt": "2024-07-13T01:21:46.014Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "11090d56-1019-4563-8ef0-d6b01c2feb8a",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:21:46.014Z",
+      "updateAt": "2024-07-13T01:21:46.014Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "068f8fe6-504d-4c8e-bf73-8d4345044b71",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:22:03.938Z",
+      "updateAt": "2024-07-13T01:22:03.938Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "7ad14efb-5d2f-474c-838c-2736978810cc",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:22:03.938Z",
+      "updateAt": "2024-07-13T01:22:03.938Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "1733b053-0727-40a5-be7d-836a9fd7ea5a",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:22:03.938Z",
+      "updateAt": "2024-07-13T01:22:03.938Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "1db0cf71-5c9b-49cc-9919-d5db7f2694aa",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:22:03.938Z",
+      "updateAt": "2024-07-13T01:22:03.938Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "5ab9a186-c772-42ff-8551-5610d25fcf1c",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:22:26.280Z",
+      "updateAt": "2024-07-13T01:22:26.280Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "4d0bd3c7-e418-40fa-99f7-3b2ef5f49138",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:22:26.280Z",
+      "updateAt": "2024-07-13T01:22:26.280Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "7c04f7de-9647-461b-9b2d-6c13862863bd",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:22:26.280Z",
+      "updateAt": "2024-07-13T01:22:26.280Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "155070df-e63f-4771-b670-910c21c40853",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:22:26.280Z",
+      "updateAt": "2024-07-13T01:22:26.280Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "af5b13fd-c56a-4b5a-bf2a-41d90573333b",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:22:37.050Z",
+      "updateAt": "2024-07-13T01:22:37.050Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "be3237e6-3838-40ef-a839-287da22ed293",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:22:37.050Z",
+      "updateAt": "2024-07-13T01:22:37.050Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "2618b692-5a1a-4783-8125-cbeeeb7e14c7",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:22:37.050Z",
+      "updateAt": "2024-07-13T01:22:37.050Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "ed51d502-bc65-4d07-9146-b31dfa676f61",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:22:37.050Z",
+      "updateAt": "2024-07-13T01:22:37.050Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "c504cd5e-8cdf-4fc8-875f-354c251c53fb",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:22:51.457Z",
+      "updateAt": "2024-07-13T01:22:51.457Z",
+      "components": [
+        {
+          "componentId": "7521f380-710e-4656-aa3c-f6518c0675c1"
+        },
+        {
+          "componentId": "d8bf298b-a4a8-4995-8f84-91262bfc87b4"
+        },
+        {
+          "componentId": "c38464bf-3a76-487b-8887-1bc6dfd1af9d"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "fc3183d6-bbb0-46d2-9ebd-ccacd77e2928",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:22:51.457Z",
+      "updateAt": "2024-07-13T01:22:51.457Z",
+      "components": [
+        {
+          "componentId": "a3aba3a5-1f57-475e-8283-b514aae38122"
+        },
+        {
+          "componentId": "f829c190-b9ae-4d7a-8fc5-9bbb40ff36be"
+        },
+        {
+          "componentId": "7bfcd054-2495-4dd7-9894-cc24ec48c385"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "31826492-c7ec-4577-ba85-8422358bafbc",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:22:51.457Z",
+      "updateAt": "2024-07-13T01:22:51.457Z",
+      "components": [
+        {
+          "componentId": "aa10d9be-e4bf-4bad-b0bd-33ebf4db4dc3"
+        },
+        {
+          "componentId": "9ee8c6fe-e3a5-4a90-9910-b676a4089a28"
+        },
+        {
+          "componentId": "22f73f7d-0e8e-43cd-9b7e-5288a064ac01"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "82746871-4f7a-4e88-a033-c88fa8799534",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:22:51.457Z",
+      "updateAt": "2024-07-13T01:22:51.457Z",
+      "components": [
+        {
+          "componentId": "3abb58cf-8f5f-463e-a065-3532773db448"
+        },
+        {
+          "componentId": "5e1a8662-cd82-4d6c-ba6f-f87d03768cab"
+        },
+        {
+          "componentId": "875e7217-b310-4150-8c95-a6c77aae1b24"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "7521f380-710e-4656-aa3c-f6518c0675c1",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "代码分享",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:23:13.327Z",
+      "updateAt": "2024-07-13T01:23:13.327Z",
+      "text": "代码分享",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenUrl",
+          "id": "476e53d5-34e1-452d-afda-fc0fc6838b40",
+          "options": {
+            "url": "https://carbon.now.sh/"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "CodeXml"
+    },
+    {
+      "id": "d8bf298b-a4a8-4995-8f84-91262bfc87b4",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "表情大全",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:23:13.327Z",
+      "updateAt": "2024-07-13T01:23:13.327Z",
+      "text": "表情大全",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenUrl",
+          "id": "6bfaa5fc-4bc9-4629-9482-f9a83fdf7da5",
+          "options": {
+            "url": "https://www.emojiall.com/zh-hans"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Laugh"
+    },
+    {
+      "id": "c38464bf-3a76-487b-8887-1bc6dfd1af9d",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "文本处理",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:23:13.327Z",
+      "updateAt": "2024-07-13T01:23:13.327Z",
+      "text": "文本处理",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenUrl",
+          "id": "f46c1a09-1eae-408d-bef5-2ced828659cf",
+          "options": {
+            "url": "https://mytexttools.com/"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Type"
+    },
+    {
+      "id": "a3aba3a5-1f57-475e-8283-b514aae38122",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "表格转换",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:23:28.563Z",
+      "updateAt": "2024-07-13T01:23:28.563Z",
+      "text": "表格转换",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenUrl",
+          "id": "6fdf4636-fbd0-4a78-bddd-b08ccb5504be",
+          "options": {
+            "url": "https://tableconvert.com/"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Table"
+    },
+    {
+      "id": "f829c190-b9ae-4d7a-8fc5-9bbb40ff36be",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "信息收集",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:23:28.563Z",
+      "updateAt": "2024-07-13T01:23:28.563Z",
+      "text": "信息收集",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenUrl",
+          "id": "5b1058c2-c1a9-4f6a-a0e1-f696dee9b903",
+          "options": {
+            "url": "https://cubox.pro/"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Info"
+    },
+    {
+      "id": "7bfcd054-2495-4dd7-9894-cc24ec48c385",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "豆瓣官网",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:23:28.563Z",
+      "updateAt": "2024-07-13T01:23:28.563Z",
+      "text": "豆瓣官网",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenUrl",
+          "id": "ae64631e-32f2-409a-8d20-7a64c397f4f0",
+          "options": {
+            "url": "https://www.douban.com/"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Bean"
+    },
+    {
+      "id": "aa10d9be-e4bf-4bad-b0bd-33ebf4db4dc3",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "多维表格",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:23:40.655Z",
+      "updateAt": "2024-07-13T01:23:40.655Z",
+      "text": "多维表格",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Tablets"
+    },
+    {
+      "id": "9ee8c6fe-e3a5-4a90-9910-b676a4089a28",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "Vran插件",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:23:40.655Z",
+      "updateAt": "2024-07-13T01:23:40.655Z",
+      "text": "Vran插件",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenUrl",
+          "id": "da194998-08c3-46ca-b1b5-04571c033432",
+          "options": {
+            "url": "https://wxycbt0cjk.feishu.cn/wiki/GczJwNXb1iNbookQkbscMXOhnO4"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Gem"
+    },
+    {
+      "id": "22f73f7d-0e8e-43cd-9b7e-5288a064ac01",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "插件汇总",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:23:40.655Z",
+      "updateAt": "2024-07-13T01:23:40.655Z",
+      "text": "插件汇总",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenUrl",
+          "id": "c603d491-a667-4185-a9f3-6f879aae078e",
+          "options": {
+            "url": "https://ob.pory.app/"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Boxes"
+    },
+    {
+      "id": "ca6c2a0f-1da1-4f19-92c7-4764e6d7abec",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:23:50.346Z",
+      "updateAt": "2024-07-13T01:23:50.346Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "67c70e0a-0e0f-4714-baf3-2384d082f29e",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:23:50.346Z",
+      "updateAt": "2024-07-13T01:23:50.346Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "1b90f320-87db-4f75-834d-299c62ab44cd",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:23:50.346Z",
+      "updateAt": "2024-07-13T01:23:50.346Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "6754857e-3cff-4b1b-9d2e-380151bf7ae1",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:23:50.346Z",
+      "updateAt": "2024-07-13T01:23:50.346Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "3abb58cf-8f5f-463e-a065-3532773db448",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "哔哩哔哩",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:24:08.156Z",
+      "updateAt": "2024-07-13T01:24:08.156Z",
+      "text": "哔哩哔哩",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenUrl",
+          "id": "9d57add9-d5b0-4d8c-98ff-ba86620463a1",
+          "options": {
+            "url": "https://t.bilibili.com/"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Tv"
+    },
+    {
+      "id": "5e1a8662-cd82-4d6c-ba6f-f87d03768cab",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "GitHub",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:24:08.156Z",
+      "updateAt": "2024-07-13T01:24:08.156Z",
+      "text": "GitHub",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenUrl",
+          "id": "998e8701-b3cd-48fc-8b65-1bfe192f2b9a",
+          "options": {
+            "url": "https://github.com/"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Github"
+    },
+    {
+      "id": "875e7217-b310-4150-8c95-a6c77aae1b24",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "GitLab",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T01:24:08.156Z",
+      "updateAt": "2024-07-13T01:24:08.156Z",
+      "text": "GitLab",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenUrl",
+          "id": "f8e27665-1ae6-4745-a060-91327e82f091",
+          "options": {
+            "url": "https://gitlab.cn/"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Gitlab"
+    },
+    {
+      "id": "d7c9dd9f-a336-442c-89e9-ade479e45f61",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-13T06:59:27.671Z",
+      "updateAt": "2024-07-13T06:59:27.671Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "282a294d-aeb6-4bc1-ae19-82f4e4189256",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-13T07:02:10.922Z",
+      "updateAt": "2024-07-13T07:02:10.922Z",
+      "components": [
+        {
+          "componentId": "89f8c3e4-d3c5-4c80-9dff-a135388ba3a4"
+        },
+        {
+          "componentId": "e91ab7b7-5379-4814-bedc-1672700dd43f"
+        },
+        {
+          "componentId": "c024d5ad-c048-40c8-8717-76b69cd56c82"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "89f8c3e4-d3c5-4c80-9dff-a135388ba3a4",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-13T07:02:13.406Z",
+      "updateAt": "2024-07-13T07:02:13.406Z",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "precision": 0,
+      "query": {
+        "valueType": "totalRecords",
+        "value": 100,
+        "filter": {
+          "id": "feaaf05f-137b-4e92-bef5-771215962590",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "ca9a29cc-aa4f-40b0-80e6-7113866dc9e7",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      },
+      "title": "测试"
+    },
+    {
+      "id": "e91ab7b7-5379-4814-bedc-1672700dd43f",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-13T07:02:13.406Z",
+      "updateAt": "2024-07-13T07:02:13.406Z",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "precision": 0,
+      "query": {
+        "valueType": "totalRecords",
+        "value": 100,
+        "filter": {
+          "id": "feaaf05f-137b-4e92-bef5-771215962590",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "ca9a29cc-aa4f-40b0-80e6-7113866dc9e7",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      },
+      "title": "测试"
+    },
+    {
+      "id": "c024d5ad-c048-40c8-8717-76b69cd56c82",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-13T07:02:13.406Z",
+      "updateAt": "2024-07-13T07:02:13.406Z",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "precision": 0,
+      "query": {
+        "valueType": "totalRecords",
+        "value": 100,
+        "filter": {
+          "id": "feaaf05f-137b-4e92-bef5-771215962590",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "ca9a29cc-aa4f-40b0-80e6-7113866dc9e7",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      },
+      "title": "测试"
+    },
+    {
+      "id": "28525a91-d51f-4853-8745-8db66e0f79a8",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-14T17:15:23.163Z",
+      "updateAt": "2024-07-14T17:15:23.163Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "bac52168-1ff4-4457-a3d0-105bf8f934d4",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-14T17:15:23.163Z",
+      "updateAt": "2024-07-14T17:15:23.163Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "ac4466f2-3505-4965-9046-7c3a909e7393",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-14T17:15:23.163Z",
+      "updateAt": "2024-07-14T17:15:23.163Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "e0f30a3a-748b-43ae-b709-1562814c3d06",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-14T17:15:23.163Z",
+      "updateAt": "2024-07-14T17:15:23.163Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "878b7717-c0b5-47b6-8cee-6f49cc4a85e8",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-14T19:47:05.820Z",
+      "updateAt": "2024-07-14T19:47:05.820Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "95fc9971-1723-4964-9ef4-3a5239dbaffc",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-14T19:47:05.820Z",
+      "updateAt": "2024-07-14T19:47:05.820Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "5d0a9186-9eaf-4d54-bcd7-30ce95c84854",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-14T19:47:05.820Z",
+      "updateAt": "2024-07-14T19:47:05.820Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "f01bbd93-1a19-4957-8d5b-52b21607c8f3",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-14T19:47:05.820Z",
+      "updateAt": "2024-07-14T19:47:05.820Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "5d11dff4-e5ef-4bd0-b3dd-717cd79e29a4",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-14T19:47:31.414Z",
+      "updateAt": "2024-07-14T19:47:31.414Z",
+      "text": "未命名是",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "AlarmClockMinus"
+    },
+    {
+      "id": "1e2afe67-dbec-4e22-9085-c886939fefed",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-14T19:47:31.414Z",
+      "updateAt": "2024-07-14T19:47:31.414Z",
+      "text": "未命名是",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "AlarmClockMinus"
+    },
+    {
+      "id": "795fb28a-7962-435f-ab8e-d5ea091605ea",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-14T19:47:31.414Z",
+      "updateAt": "2024-07-14T19:47:31.414Z",
+      "text": "未命名是",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "AlarmClockMinus"
+    },
+    {
+      "id": "4630eea9-6bf1-4106-bf51-580f65a63308",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-14T20:34:27.798Z",
+      "updateAt": "2024-07-14T20:34:27.798Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "60c037f3-0813-4c60-8b1f-2d37728ed8d3",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-15T05:02:52.016Z",
+      "updateAt": "2024-07-15T05:02:52.016Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "ab562b5e-0844-4112-aad0-aa8de5cb7bed",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-15T12:58:01.701Z",
+      "updateAt": "2024-07-15T12:58:01.701Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "2eb96714-d286-4e2c-a984-793325912a9b",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-15T12:58:01.701Z",
+      "updateAt": "2024-07-15T12:58:01.701Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "66e46549-831f-473f-bfa9-a16fc9f7ffa2",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-15T12:58:01.701Z",
+      "updateAt": "2024-07-15T12:58:01.701Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "14ce59f5-37cf-4e49-bbe6-b408aea8e8ba",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-15T13:18:55.510Z",
+      "updateAt": "2024-07-15T13:18:55.510Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "ff418026-cb4d-4aec-9a42-8a9d9470cc7c",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-15T13:18:55.510Z",
+      "updateAt": "2024-07-15T13:18:55.510Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "f37458fa-bbe1-42ff-908a-7da388c04925",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-15T13:18:55.510Z",
+      "updateAt": "2024-07-15T13:18:55.510Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "ab2f3a5d-a124-457d-8d06-dd75203dcb9b",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-15T13:19:15.395Z",
+      "updateAt": "2024-07-15T13:19:15.395Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "8f94a1c8-01e7-41b6-8888-3a491d6b166b",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-15T13:19:15.395Z",
+      "updateAt": "2024-07-15T13:19:15.395Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "5d76da88-c619-4d67-b1da-abe858464779",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-15T13:19:15.395Z",
+      "updateAt": "2024-07-15T13:19:15.395Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "267b1107-cde2-47df-98fb-445124d5fe12",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-15T13:21:46.870Z",
+      "updateAt": "2024-07-15T13:21:46.870Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "a02133c7-2fef-4544-bd92-ee2f106a4782",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-15T13:21:46.870Z",
+      "updateAt": "2024-07-15T13:21:46.870Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "b3603d2d-3fa0-4fba-9372-9a3e9be3ad94",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-15T13:21:46.870Z",
+      "updateAt": "2024-07-15T13:21:46.870Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "00b8ef55-5c8a-4b31-ab9d-0e1f0e7508f4",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-15T13:22:00.880Z",
+      "updateAt": "2024-07-15T13:22:00.880Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "1f548b82-eacb-444a-be9d-0d5c8ce3c782",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-15T13:22:00.880Z",
+      "updateAt": "2024-07-15T13:22:00.880Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "f4350f93-763b-45e0-b3a9-d8e9051753a1",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-15T13:22:00.880Z",
+      "updateAt": "2024-07-15T13:22:00.880Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "74a23d76-2f08-49f0-b0ec-1758a9362bef",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-15T13:22:10.510Z",
+      "updateAt": "2024-07-15T13:22:10.510Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "4142c4fd-da99-4ac8-8c74-2eb3e84676ce",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-15T13:22:10.510Z",
+      "updateAt": "2024-07-15T13:22:10.510Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "9b5f774c-ea31-4ee4-9e6b-a76041cd8f80",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-15T13:22:10.510Z",
+      "updateAt": "2024-07-15T13:22:10.510Z",
+      "text": "未命名",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "7585257e-89fa-4c8c-85af-48940fd05fbb",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-15T14:47:49.241Z",
+      "updateAt": "2024-07-15T14:47:49.241Z",
+      "components": [
+        {
+          "componentId": "963d4fce-b344-4dfe-b360-87538ecf7efb"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "963d4fce-b344-4dfe-b360-87538ecf7efb",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "日记",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-15T14:47:54.712Z",
+      "updateAt": "2024-07-15T14:47:54.712Z",
+      "text": "日记",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "0c38b95a-f407-44f9-8f6e-5446deebba82",
+          "options": {
+            "commandId": "quickadd:choice:95b037a8-2e1d-42eb-a27e-4fe5c93a23e1",
+            "commandName": "QuickAdd: 查看日记"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "FilePenLine"
+    },
+    {
+      "id": "5498fe75-6ec3-420d-a1a8-8d991611257c",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-15T17:31:06.933Z",
+      "updateAt": "2024-07-15T17:31:06.933Z",
+      "components": [
+        {
+          "componentId": "a2e970cf-41bd-435d-a71b-087371f55f77"
+        },
+        {
+          "componentId": "57e1376f-34bc-43f0-a51a-24d5dfcd5630"
+        },
+        {
+          "componentId": "31c02eaa-e914-4fcc-81bf-7fd6a1dc5109"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "a2e970cf-41bd-435d-a71b-087371f55f77",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "会议",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-15T17:31:10.821Z",
+      "updateAt": "2024-07-15T17:31:10.821Z",
+      "text": "会议",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "001391d4-c447-410a-a9a4-f2ba28e8d99a",
+          "options": {
+            "commandId": "quickadd:choice:e0d15064-483b-40a6-b177-1458c1ca738a",
+            "commandName": "QuickAdd: 会议纪要"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Speech"
+    },
+    {
+      "id": "57e1376f-34bc-43f0-a51a-24d5dfcd5630",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "日报",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-15T17:31:10.821Z",
+      "updateAt": "2024-07-15T17:31:10.821Z",
+      "text": "日报",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "001391d4-c447-410a-a9a4-f2ba28e8d99a",
+          "options": {
+            "commandId": "quickadd:choice:7892aa6d-af6c-40a6-9f16-f93b108af301",
+            "commandName": "QuickAdd: 创建日报"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "FileText"
+    },
+    {
+      "id": "31c02eaa-e914-4fcc-81bf-7fd6a1dc5109",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "周报",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-15T17:31:10.821Z",
+      "updateAt": "2024-07-15T17:31:10.821Z",
+      "text": "周报",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "001391d4-c447-410a-a9a4-f2ba28e8d99a",
+          "options": {
+            "commandId": "quickadd:choice:cb18f736-0e98-4c48-b7c7-12ddaee0f9aa",
+            "commandName": "QuickAdd: 创建周报"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "FileText"
+    },
+    {
+      "id": "c27116ce-5c27-4ed9-8bbd-813128901a09",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-16T08:48:36.966Z",
+      "updateAt": "2024-07-16T08:48:36.966Z",
+      "components": [
+        {
+          "componentId": "b972e797-18ab-4199-93ac-e0cbf48a9683"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "b972e797-18ab-4199-93ac-e0cbf48a9683",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "年报",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-16T08:48:40.104Z",
+      "updateAt": "2024-07-16T08:48:40.104Z",
+      "text": "年报",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "005c8a2a-1e6f-4f73-b543-93137cb313b6",
+          "options": {
+            "commandId": "quickadd:choice:e0ab6c0b-6d07-41b7-b5d1-aca5d207cd42",
+            "commandName": "QuickAdd: 创建年报"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "FileText"
+    }
+  ],
+  "rootComponentId": "62696112-257a-45a6-8c44-7b4ae556191b"
+}

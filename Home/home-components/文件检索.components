@@ -1,0 +1,196 @@
+{
+  "components": [
+    {
+      "id": "01021208-f957-437e-9297-96d06b07a050",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-04-25T11:52:16.059Z",
+      "updateAt": "2024-04-25T11:52:16.059Z",
+      "backgroundStyle": "none",
+      "widgets": [],
+      "components": [
+        {
+          "componentId": "c09c055b-2132-4393-a0e4-9ccca8ce6dd2"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "c09c055b-2132-4393-a0e4-9ccca8ce6dd2",
+      "type": "dataview",
+      "titleAlign": "center",
+      "query": "let keyword1 = '{{keyword1}}';\nlet keyword2 = '{{keyword2}}';\nlet tag1 = '{{tag1}}';\nlet tag2 = '{{tag2}}';\nlet pageSize = '{{pageSize}}';\nlet pages = dv.pages('!\"assets\"');\nlet logi = '{{logi}}';\n\n//定义排序字段\nlet sort1 = '{{sort1}}'\nlet sort2 = '{{sort2}}'\n\n// 定义两种筛选函数\nconst filterByIntersection = p => {\n    return (!keyword1 || p.file.name.toLowerCase().includes(keyword1.toLowerCase())) &&\n        (!keyword2 || p.file.name.toLowerCase().includes(keyword2.toLowerCase())) &&\n        (!tag1 || p.file.tags.includes(tag1)) &&\n        (!tag2 || p.file.tags.includes(tag2));\n};\n\nconst filterByUnion = p => {\n    return (keyword1 && p.file.name.toLowerCase().includes(keyword1.toLowerCase())) ||\n        (keyword2 && p.file.name.toLowerCase().includes(keyword2.toLowerCase())) ||\n        (tag1 && p.file.tags.includes(tag1)) ||\n        (tag2 && p.file.tags.includes(tag2));\n};\n\n// 使用三元操作符选择筛选函数\npages = pages.filter(logi === 'and' ? filterByIntersection : filterByUnion);\n\n// 排序：这里默认使用的是按照创建日期降序排列，如想要更多的排序，可以使用sortable插件，启用该插件后，每个表头字段都可以通过单击来切换升序、降序排列。发现问题：该插件在markdown中引用的组件中无效，因为components组件禁用了一些点击事件。\nif (sort1 === 'name') {\n    pages = pages.sort(p => p.file.name, sort2)\n} else if (sort1 === 'tags') {\n    pages = pages.sort(p => p.file.tags, sort2)\n} else if (sort1 === 'inlinks') {\n    pages = pages.sort(p => p.file.inlinks, sort2)\n} else if (sort1 === 'cday') {\n    pages = pages.sort(p => p.file.cday, sort2)\n} else if (sort1 === 'mday') {\n    pages = pages.sort(p => p.file.mday, sort2)\n}\n\n// 表格生成\ndv.table([\"文件\", \"所有标签\", \"入链\", \"创建日期\", \"修改日期\"],\n    pages\n        // 所有标签\n        .map(p => [p.file.link, p.file.tags.join(', '), p.file.inlinks.join(', '), p.file.cday, p.file.mday])\n        // 仅一级标签\n        // .map(p => [p.file.link, p.file.tags.filter(item => item.indexOf('/') === -1).join(', '), p.file.inlinks.join(', '), p.file.cday, p.file.mday])\n        // 仅二级标签\n        // .map(p => [p.file.link, p.file.tags.filter(item => item.indexOf('/') > -1 && item.split('/').length <= 2).join(', '), p.file.cday, p.file.mday])\n        // 二级及以上标签\n        // .map(p => [p.file.link, p.file.tags.filter(item => item.includes('/')).join(', '), p.file.inlinks.join(', '), p.file.cday, p.file.mday])\n        .slice(0, pageSize)\n)",
+      "queryType": "dataviewjs",
+      "backgroundStyle": "card",
+      "maxHeight": -1,
+      "contentAlign": "left",
+      "dynamicParamComponents": [
+        {
+          "id": "16a84f92-0257-4742-8ec6-c7f92a7834aq",
+          "type": "text",
+          "label": "关键词1",
+          "placeholder": "关键词1",
+          "name": "keyword1",
+          "defaultValue": ""
+        },
+        {
+          "id": "542cb368-3cea-4163-acc7-fc9364fc9cd0",
+          "type": "text",
+          "name": "keyword2",
+          "defaultValue": "",
+          "placeholder": "关键词2",
+          "fromProperty": "",
+          "label": "关键词2"
+        },
+        {
+          "id": "7e393306-ab6f-4018-b999-cc8d5b72df62",
+          "type": "text",
+          "name": "keyword3",
+          "defaultValue": "",
+          "placeholder": "关键词3",
+          "fromProperty": "",
+          "label": "关键词3"
+        },
+        {
+          "id": "28380bc6-d841-42a8-bf30-cdde271ad2f5",
+          "type": "tagSuggestions",
+          "name": "tag1",
+          "defaultValue": "",
+          "placeholder": "",
+          "label": "标签1"
+        },
+        {
+          "id": "50c3b845-56c5-434f-94c2-c3aac55dd55a",
+          "type": "tagSuggestions",
+          "name": "tag2",
+          "defaultValue": "",
+          "placeholder": "标签2",
+          "fromProperty": "",
+          "label": "标签2"
+        },
+        {
+          "id": "85e25b39-9f7d-4d2e-9528-c8ec5bb776b4",
+          "type": "tagSuggestions",
+          "name": "tag3",
+          "defaultValue": "",
+          "placeholder": "",
+          "fromProperty": "",
+          "label": "标签3"
+        },
+        {
+          "id": "b8d17bfe-b3c8-4daa-9757-ad2653434944",
+          "type": "number",
+          "name": "pageSize",
+          "defaultValue": "10",
+          "placeholder": "数量",
+          "fromProperty": "",
+          "label": "数量"
+        },
+        {
+          "id": "f7dd71bc-ffb0-40cd-a84d-6c3570e1c069",
+          "type": "select",
+          "name": "logi",
+          "defaultValue": "and",
+          "placeholder": "",
+          "fromProperty": "",
+          "label": "逻辑关系",
+          "options": [
+            {
+              "id": "4364e66c-889e-4074-b4e2-6c8b21b920e0",
+              "label": "交集",
+              "value": "and"
+            },
+            {
+              "id": "2b72cf09-deeb-44e8-bad3-4901f217bfc4",
+              "label": "并集",
+              "value": "or"
+            }
+          ]
+        },
+        {
+          "id": "62c78d75-6b6d-43be-803a-6cefba604357",
+          "type": "select",
+          "name": "sort1",
+          "defaultValue": "cday",
+          "placeholder": "",
+          "fromProperty": "${file.basename}",
+          "label": "排序规则",
+          "options": [
+            {
+              "id": "3147a867-ba75-4ced-bc3f-66c6f838b50a",
+              "label": "文件名",
+              "value": "name"
+            },
+            {
+              "id": "c98aa942-a323-4683-a89d-0817828ec3f3",
+              "label": "标签",
+              "value": "tags"
+            },
+            {
+              "id": "7fcb54f4-6cab-46d7-9cdf-f57f88eafadf",
+              "label": "入链",
+              "value": "inlinks"
+            },
+            {
+              "id": "f7a083bc-b6c2-4252-a2bf-c313f3d868a6",
+              "label": "创建日期",
+              "value": "cday"
+            },
+            {
+              "id": "08bd7c7a-eac3-452b-a6a7-d5410c67ee2f",
+              "label": "修改日期",
+              "value": "mday"
+            }
+          ]
+        },
+        {
+          "id": "6a101eca-c155-49f0-9011-d306327509fe",
+          "type": "select",
+          "name": "sort2",
+          "defaultValue": "desc",
+          "placeholder": "",
+          "fromProperty": "",
+          "label": "",
+          "options": [
+            {
+              "id": "57e6bac9-8ba1-41f3-80fd-625be2ea6485",
+              "label": "升序",
+              "value": "asc"
+            },
+            {
+              "id": "6ac7cc4f-808d-437d-b248-5919838c65ea",
+              "label": "降序",
+              "value": "desc"
+            }
+          ]
+        }
+      ],
+      "title": "🔍文件检索",
+      "maxWidthRatio": -1,
+      "updateAt": "2024-04-08T07:14:36.472Z",
+      "showBorder": true,
+      "showShadow": false
+    },
+    {
+      "id": "22831ed2-c336-4cfd-884c-30a411efdd55",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "backgroundStyle": "none",
+      "widgets": [],
+      "layoutType": "column",
+      "updateAt": "2024-04-01T08:33:41.476Z",
+      "createAt": "2024-02-18T07:16:37.859Z",
+      "remark": "DVJS-当年贡献热力图",
+      "components": [
+        {
+          "componentId": "8deada17-a6ee-456e-97a0-4ae961b0550b"
+        }
+      ]
+    }
+  ],
+  "rootComponentId": "01021208-f957-437e-9297-96d06b07a050"
+}

@@ -1,0 +1,63 @@
+/* @settings
+name: 设置主页
+id: home
+settings:
+- id: header-hide
+  title: 设置主页标题
+  description: 隐藏主页的页内标题和文档属性
+  type: heading
+  level: 1
+  collapsed: true
+- id: set-header-hide
+  title: 隐藏主页的页内标题和文档属性
+  description:
+  type: class-toggle
+  default: false
+
+- id: seamless-embed
+  title: 设置主页内容
+  description: 无缝嵌入，让主页嵌入内容自然显示
+  type: heading
+  level: 1
+  collapsed: true
+- id: set-seamless-embed
+  title: 主页嵌入内容自然显示
+  description:
+  type: class-toggle
+  default: false
+*/
+
+/*---------------------------------------------------------------
+* 隐藏页内标题和文档属性
+*---------------------------------------------------------------*/
+body.set-header-hide .workspace-tabs .workspace-tab-header-container:has(.workspace-tab-header[aria-label="Home"]) + div.workspace-tab-container .view-content .markdown-reading-view .mod-header {
+    display: none !important;
+}
+
+/*---------------------------------------------------------------
+* 无缝嵌入，嵌入内容自然显示
+*---------------------------------------------------------------*/
+body.set-seamless-embed .workspace-tabs .workspace-tab-header-container:has(.workspace-tab-header[aria-label="Home"]) + div.workspace-tab-container .view-content .markdown-reading-view .markdown-embed {
+    border-left: unset;
+    padding: unset;
+}
+
+body.set-seamless-embed .workspace-tabs .workspace-tab-header-container:has(.workspace-tab-header[aria-label="Home"]) + div.workspace-tab-container .view-content .markdown-reading-view .embed-title {
+    display: none;
+}
+
+body.set-seamless-embed .workspace-tabs .workspace-tab-header-container:has(.workspace-tab-header[aria-label="Home"]) + div.workspace-tab-container .view-content .markdown-reading-view .markdown-embed-link {
+    display: none;
+}
+
+body.set-seamless-embed .workspace-tabs .workspace-tab-header-container:has(.workspace-tab-header[aria-label="Home"]) + div.workspace-tab-container .view-content .markdown-reading-view .markdown-embed .markdown-preview-view {
+    overflow-y: unset;
+}
+
+body.set-seamless-embed .workspace-tabs .workspace-tab-header-container:has(.workspace-tab-header[aria-label="Home"]) + div.workspace-tab-container .view-content .markdown-reading-view .inline-embed .markdown-embed-content {
+    overflow: unset;
+}
+
+/*---------------------------------------------------------------
+* xxx
+*---------------------------------------------------------------*/

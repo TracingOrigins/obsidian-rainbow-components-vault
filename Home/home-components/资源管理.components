@@ -1,0 +1,303 @@
+{
+  "components": [
+    {
+      "id": "cfea3ab9-de49-42e9-a62c-18962a697b54",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-04T11:36:42.257Z",
+      "updateAt": "2024-05-04T11:36:42.257Z",
+      "widgets": [],
+      "components": [
+        {
+          "componentId": "8095bd36-b496-4215-a643-80e35a1a9cdb"
+        },
+        {
+          "componentId": "1facf3ac-a2de-4d34-a953-7ae8720e8f32"
+        },
+        {
+          "componentId": "799c02df-a900-4af2-84be-66be0ecc1b5c"
+        },
+        {
+          "componentId": "6d81c343-dfd4-4a33-8026-21fb9186705d"
+        }
+      ],
+      "layoutType": "tab"
+    },
+    {
+      "id": "1facf3ac-a2de-4d34-a953-7ae8720e8f32",
+      "type": "dataview",
+      "titleAlign": "center",
+      "tabTitle": "PDF",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-04T11:36:45.917Z",
+      "updateAt": "2024-05-04T11:36:45.917Z",
+      "query": "const app = this.app;\nconst files= app.vault.getAllLoadedFiles()\n.filter(file => file.extension)\n.filter(file => file.path.endsWith('pdf'))\n.filter(file => file.path.startsWith(\"{{path}}\"))\n.filter(file => file.name.contains(\"{{nameLike}}\"))\n.slice(0, {{size}})\n\nconst data = files.map(f => {\n\treturn [f.name, dv.fileLink(f.path)]\n})\ndv.table(['file', 'path'], data)",
+      "queryType": "dataviewjs",
+      "maxHeight": 1000,
+      "dynamicParamComponents": [
+        {
+          "id": "b4407753-ea19-486a-bf75-3b3cb7ae17c0",
+          "type": "text",
+          "name": "nameLike",
+          "defaultValue": "",
+          "placeholder": "",
+          "fromProperty": "",
+          "label": "名称"
+        },
+        {
+          "id": "eeb04dfd-a3ca-4ac0-b832-83f8927acda9",
+          "type": "text",
+          "name": "path",
+          "defaultValue": "",
+          "placeholder": "",
+          "fromProperty": "",
+          "label": "目录"
+        },
+        {
+          "id": "d939930e-6eb1-47da-a915-36634ec0ae08",
+          "type": "number",
+          "name": "size",
+          "defaultValue": "50",
+          "placeholder": "",
+          "fromProperty": "",
+          "label": "数量"
+        }
+      ],
+      "title": ""
+    },
+    {
+      "id": "8095bd36-b496-4215-a643-80e35a1a9cdb",
+      "type": "dataview",
+      "titleAlign": "center",
+      "tabTitle": "Component",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-04T11:36:45.917Z",
+      "updateAt": "2024-05-04T11:36:45.917Z",
+      "query": "const app = this.app;\nconst files= app.vault.getAllLoadedFiles()\n.filter(file=> file.extension)\n.filter(file => file.path.endsWith('components'))\n.filter(file => file.path.startsWith(\"{{path}}\"))\n.filter(file => file.path.contains(\"{{nameLike}}\"))\n.slice(0, {{size}})\n\nconst data = files.map(f => {\n\treturn [f.name,dv.fileLink(f.path)]\n})\ndv.table(['file', 'path'], data)",
+      "queryType": "dataviewjs",
+      "maxHeight": -1,
+      "dynamicParamComponents": [
+        {
+          "id": "b4407753-ea19-486a-bf75-3b3cb7ae17c0",
+          "type": "text",
+          "name": "nameLike",
+          "defaultValue": "",
+          "placeholder": "",
+          "fromProperty": "",
+          "label": "名称"
+        },
+        {
+          "id": "eeb04dfd-a3ca-4ac0-b832-83f8927acda9",
+          "type": "text",
+          "name": "path",
+          "defaultValue": "",
+          "placeholder": "",
+          "fromProperty": "",
+          "label": "目录"
+        },
+        {
+          "id": "d939930e-6eb1-47da-a915-36634ec0ae08",
+          "type": "number",
+          "name": "size",
+          "defaultValue": "10",
+          "placeholder": "",
+          "fromProperty": "",
+          "label": "数量"
+        }
+      ],
+      "title": ""
+    },
+    {
+      "id": "6d81c343-dfd4-4a33-8026-21fb9186705d",
+      "type": "dataview",
+      "titleAlign": "center",
+      "tabTitle": "Markdown",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-06-02T07:59:33.622Z",
+      "updateAt": "2024-06-02T07:59:33.622Z",
+      "query": "let keyword1 = '{{keyword1}}';\nlet keyword2 = '{{keyword2}}';\nlet tag1 = '{{tag1}}';\nlet tag2 = '{{tag2}}';\nlet pageSize = '{{pageSize}}';\nlet pages = dv.pages('!\"assets\"');\nlet logi = '{{logi}}';\n\n//定义排序字段\nlet sort1 = '{{sort1}}'\nlet sort2 = '{{sort2}}'\n\n// 定义两种筛选函数\nconst filterByIntersection = p => {\n    return (!keyword1 || p.file.name.toLowerCase().includes(keyword1.toLowerCase())) &&\n        (!keyword2 || p.file.name.toLowerCase().includes(keyword2.toLowerCase())) &&\n        (!tag1 || p.file.tags.includes(tag1)) &&\n        (!tag2 || p.file.tags.includes(tag2));\n};\n\nconst filterByUnion = p => {\n    return (keyword1 && p.file.name.toLowerCase().includes(keyword1.toLowerCase())) ||\n        (keyword2 && p.file.name.toLowerCase().includes(keyword2.toLowerCase())) ||\n        (tag1 && p.file.tags.includes(tag1)) ||\n        (tag2 && p.file.tags.includes(tag2));\n};\n\n// 使用三元操作符选择筛选函数\npages = pages.filter(logi === 'and' ? filterByIntersection : filterByUnion);\n\n// 排序\nif (sort1 === 'name') {\n    pages = pages.sort(p => p.file.name, sort2)\n} else if (sort1 === 'tags') {\n    pages = pages.sort(p => p.file.tags, sort2)\n} else if (sort1 === 'inlinks') {\n    pages = pages.sort(p => p.file.inlinks, sort2)\n} else if (sort1 === 'cday') {\n    pages = pages.sort(p => p.file.cday, sort2)\n} else if (sort1 === 'mday') {\n    pages = pages.sort(p => p.file.mday, sort2)\n}\n\n// 表格生成\ndv.table([\"文件\", \"标签\", \"入链\", \"创建日期\", \"修改日期\"],\n    pages\n        // 关于排序：这里默认使用的是按照创建日期降序排列，如想要更多的排序，可以使用sortable插件，启用该插件后，每个表头字段都可以通过单击来切换升序、降序排列。发现问题：该插件在markdown中引用的组件中无效，因为components组件禁用了一些点击事件。\n        .map(p => [p.file.link, p.file.tags.join(', '), p.file.inlinks.join(', '), p.file.cday, p.file.mday])\n        .slice(0, pageSize)\n)",
+      "queryType": "dataviewjs",
+      "maxHeight": 370,
+      "dynamicParamComponents": [
+        {
+          "id": "c3d045de-4252-4f24-ac6a-7c30a6ccf626",
+          "type": "text",
+          "name": "keyword1",
+          "defaultValue": "",
+          "placeholder": "关键词1",
+          "fromProperty": "",
+          "label": "关键词1"
+        },
+        {
+          "id": "21b2536c-8c4f-464a-b30b-6c89087f982f",
+          "type": "text",
+          "name": "keyword2",
+          "defaultValue": "",
+          "placeholder": "关键词2",
+          "fromProperty": "",
+          "label": "关键词2"
+        },
+        {
+          "id": "917946a2-0165-4833-aa66-e6ac2679272f",
+          "type": "tagSuggestions",
+          "name": "tag1",
+          "defaultValue": "",
+          "placeholder": "",
+          "fromProperty": "",
+          "label": "标签1"
+        },
+        {
+          "id": "d6cf4478-8dba-445b-b524-636bfc177eff",
+          "type": "tagSuggestions",
+          "name": "tag2",
+          "defaultValue": "",
+          "placeholder": "",
+          "fromProperty": "",
+          "label": "标签2"
+        },
+        {
+          "id": "ce1040d0-afcc-4543-a0df-e6765a3036ba",
+          "type": "number",
+          "name": "pageSize",
+          "defaultValue": "10",
+          "placeholder": "数量",
+          "fromProperty": "",
+          "label": "数量"
+        },
+        {
+          "id": "3b2cb570-28de-4317-af89-3a98bdf5cee7",
+          "type": "select",
+          "name": "logi",
+          "defaultValue": "and",
+          "placeholder": "",
+          "fromProperty": "",
+          "label": "逻辑关系",
+          "options": [
+            {
+              "id": "ba400ac6-df8f-4a04-bef0-9e52d3075238",
+              "label": "交集",
+              "value": "and"
+            },
+            {
+              "id": "cf872baa-3403-48bc-b41e-badbdfabaddb",
+              "label": "并集",
+              "value": "or"
+            }
+          ]
+        },
+        {
+          "id": "1777b3cb-3985-4641-b1c6-225ae27185ae",
+          "type": "select",
+          "name": "sort1",
+          "defaultValue": "cday",
+          "placeholder": "",
+          "fromProperty": "",
+          "label": "排序规则",
+          "options": [
+            {
+              "id": "8d66fb7f-4238-4016-aa7d-071362c29a82",
+              "label": "文件名",
+              "value": "name"
+            },
+            {
+              "id": "3457f564-6f6d-4fda-8053-ed407f8fcfd3",
+              "label": "标签",
+              "value": "tags"
+            },
+            {
+              "id": "0e1e0b2b-9e5d-4be5-8fb9-38d6563b54ee",
+              "label": "入链",
+              "value": "inlinks"
+            },
+            {
+              "id": "d113693f-7289-4a8c-93d7-bc36bebb5e3d",
+              "label": "创建日期",
+              "value": "cday"
+            },
+            {
+              "id": "e01669be-5bea-413d-9c96-ce26ea64fe98",
+              "label": "修改日期",
+              "value": "mday"
+            }
+          ]
+        },
+        {
+          "id": "f8957afa-24b4-4f97-acf8-00f9a5dce7d7",
+          "type": "select",
+          "name": "sort2",
+          "defaultValue": "desc",
+          "placeholder": "",
+          "fromProperty": "",
+          "options": [
+            {
+              "id": "631395a4-0c55-404c-9f73-577c0f8ea58e",
+              "label": "正序",
+              "value": "asc"
+            },
+            {
+              "id": "cb495a65-e2db-4bba-8e37-49078e61ae31",
+              "label": "倒序",
+              "value": "desc"
+            }
+          ]
+        }
+      ],
+      "title": ""
+    },
+    {
+      "id": "799c02df-a900-4af2-84be-66be0ecc1b5c",
+      "type": "dataview",
+      "titleAlign": "center",
+      "tabTitle": "Excel",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-04T11:36:45.917Z",
+      "updateAt": "2024-05-04T11:36:45.917Z",
+      "query": "const app = this.app;\nconst files= app.vault.getAllLoadedFiles()\n.filter(file => file.extension)\n.filter(file => file.path.endsWith('xlsx') | file.path.endsWith('xls'))\n.filter(file => file.path.startsWith(\"{{path}}\"))\n.filter(file => file.name.contains(\"{{nameLike}}\"))\n.slice(0, {{size}})\n\nconst data = files.map(f => {\n\treturn [f.name, dv.fileLink(f.path)]\n})\ndv.table(['file', 'path'], data)",
+      "queryType": "dataviewjs",
+      "maxHeight": 1000,
+      "dynamicParamComponents": [
+        {
+          "id": "b4407753-ea19-486a-bf75-3b3cb7ae17c0",
+          "type": "text",
+          "name": "nameLike",
+          "defaultValue": "",
+          "placeholder": "",
+          "fromProperty": "",
+          "label": "名称"
+        },
+        {
+          "id": "eeb04dfd-a3ca-4ac0-b832-83f8927acda9",
+          "type": "text",
+          "name": "path",
+          "defaultValue": "",
+          "placeholder": "",
+          "fromProperty": "",
+          "label": "目录"
+        },
+        {
+          "id": "d939930e-6eb1-47da-a915-36634ec0ae08",
+          "type": "number",
+          "name": "size",
+          "defaultValue": "50",
+          "placeholder": "",
+          "fromProperty": "",
+          "label": "数量"
+        }
+      ],
+      "title": ""
+    }
+  ],
+  "rootComponentId": "cfea3ab9-de49-42e9-a62c-18962a697b54"
+}

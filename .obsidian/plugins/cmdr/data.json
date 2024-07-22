@@ -1,0 +1,115 @@
+{
+  "confirmDeletion": false,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [],
+  "leftRibbon": [],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [
+    {
+      "id": "quickadd:choice:d9f06850-661b-417d-81f1-92ef40e44748",
+      "icon": "sun",
+      "name": "QuickAdd: 切换深色、浅色模式",
+      "mode": "any"
+    },
+    {
+      "id": "theme:switch",
+      "icon": "aperture",
+      "name": "更换主题",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-style-settings:show-style-settings-leaf",
+      "icon": "settings-2",
+      "name": "Style Settings: Show style settings view",
+      "mode": "any"
+    },
+    {
+      "id": "app:open-settings",
+      "icon": "lucide-settings",
+      "name": "打开设置",
+      "mode": "any"
+    }
+  ],
+  "pageHeader": [
+    {
+      "id": "file-explorer:reveal-active-file",
+      "icon": "lucide-navigation",
+      "name": "文件列表: 在文件列表中显示当前文件",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:5bd677ce-368b-47f5-9a00-c4ae75b576bd",
+      "icon": "refresh-cw",
+      "name": "QuickAdd: 重新加载当前页",
+      "mode": "any"
+    },
+    {
+      "id": "open-with-default-app:show",
+      "icon": "airplay",
+      "name": "在系统资源管理器中显示",
+      "mode": "any"
+    },
+    {
+      "id": "open-with-default-app:open",
+      "icon": "lucide-arrow-up-right",
+      "name": "使用默认应用打开",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:7e8fde71-29dc-41d7-a48e-f1eecd06b8f9",
+      "icon": "home",
+      "name": "QuickAdd: 重载主页",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:f428c36b-e168-4f50-863a-40c893942700",
+      "icon": "rocket",
+      "name": "QuickAdd: 切换阅读、预览、源码模式",
+      "mode": "any"
+    },
+    {
+      "id": "neighbouring-files:prev",
+      "icon": "chevron-left",
+      "name": "Neighbouring Files: Navigate to previous file",
+      "mode": "any"
+    },
+    {
+      "id": "neighbouring-files:next",
+      "icon": "chevron-right",
+      "name": "Neighbouring Files: Navigate to next file",
+      "mode": "any"
+    },
+    {
+      "id": "workspace:toggle-pin",
+      "icon": "lucide-pin",
+      "name": "解锁/锁定",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-export-image:export-image",
+      "icon": "image",
+      "name": "Export Image plugin: Export as an image（导出为图片）",
+      "mode": "any"
+    }
+  ],
+  "macros": [],
+  "explorer": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": []
+  },
+  "spacing": "8",
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

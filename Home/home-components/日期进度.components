@@ -1,0 +1,119 @@
+{
+  "components": [
+    {
+      "id": "01ac536f-fa12-4e99-bc8a-5c4b58f82d2c",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-21T16:54:43.918Z",
+      "updateAt": "2024-05-21T16:54:43.918Z",
+      "components": [
+        {
+          "componentId": "f05d371f-8153-4a38-a0f3-79e9d8d296fd"
+        },
+        {
+          "componentId": "19778f42-66ea-41df-befa-4981ed8f85d2"
+        },
+        {
+          "componentId": "bf71f9c3-100f-49ac-a4a2-73cf8e8d864f"
+        },
+        {
+          "componentId": "6291603b-cbe6-4773-90aa-cc380d8361c9"
+        },
+        {
+          "componentId": "38943f4b-307a-4645-b64a-2461a0abbab8"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "f05d371f-8153-4a38-a0f3-79e9d8d296fd",
+      "type": "dateProgress",
+      "titleAlign": "center",
+      "tabTitle": "今年进度",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-21T17:05:13.100Z",
+      "updateAt": "2024-05-21T17:05:13.100Z",
+      "showDateIndicator": true,
+      "showProgressIndicator": true,
+      "startDateTimeType": "$startOfYear",
+      "endDateTimeType": "$endOfYear",
+      "uiType": "ring",
+      "title": "今年进度"
+    },
+    {
+      "id": "38943f4b-307a-4645-b64a-2461a0abbab8",
+      "type": "dateProgress",
+      "titleAlign": "center",
+      "tabTitle": "今日进度",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-21T17:06:22.097Z",
+      "updateAt": "2024-05-21T17:06:22.097Z",
+      "showDateIndicator": true,
+      "showProgressIndicator": true,
+      "startDateTimeType": "$startOfToday",
+      "endDateTimeType": "$endOfToday",
+      "uiType": "ring",
+      "title": "今日进度"
+    },
+    {
+      "id": "bf71f9c3-100f-49ac-a4a2-73cf8e8d864f",
+      "type": "dateProgress",
+      "titleAlign": "center",
+      "tabTitle": "本月进度",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-21T18:40:27.616Z",
+      "updateAt": "2024-05-21T18:40:27.616Z",
+      "showDateIndicator": true,
+      "showProgressIndicator": true,
+      "startDateTimeType": "$startOfMonth",
+      "endDateTimeType": "$endOfMonth",
+      "uiType": "ring",
+      "title": "本月进度"
+    },
+    {
+      "id": "6291603b-cbe6-4773-90aa-cc380d8361c9",
+      "type": "dateProgress",
+      "titleAlign": "center",
+      "tabTitle": "本周进度",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-21T18:42:06.130Z",
+      "updateAt": "2024-05-21T18:42:06.130Z",
+      "showDateIndicator": true,
+      "showProgressIndicator": true,
+      "startDateTimeType": "$startOfWeek",
+      "endDateTimeType": "$endOfWeek",
+      "uiType": "ring",
+      "title": "本周进度"
+    },
+    {
+      "id": "19778f42-66ea-41df-befa-4981ed8f85d2",
+      "type": "dateProgress",
+      "titleAlign": "center",
+      "tabTitle": "本季进度",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-21T18:42:38.539Z",
+      "updateAt": "2024-05-21T18:42:38.539Z",
+      "showDateIndicator": true,
+      "showProgressIndicator": true,
+      "startDateTimeType": "$startOfQuarter",
+      "endDateTimeType": "$endOfQuarter",
+      "uiType": "ring",
+      "title": "本季进度"
+    }
+  ],
+  "rootComponentId": "01ac536f-fa12-4e99-bc8a-5c4b58f82d2c"
+}

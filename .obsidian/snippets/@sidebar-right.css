@@ -1,0 +1,254 @@
+/*
+功能描述：给侧边栏中的components组件添加彩虹配色
+注意事项：个别组件的样式是使用data-component-id定位之后调整的，这里记录一下用到的的组件和它的data-component-id
+- 随缘歌单："8e7fb9d5-73bc-460b-924e-8702b485cafd"
+- 随机音乐："d33a3d39-68be-4ea1-aac2-95ee12342b5c"
+- 常用工具："62696112-257a-45a6-8c44-7b4ae556191b"
+- 常用统计："a660580b-217c-4b84-9cbe-7adf28ac0446"
+- 常用统计1："a660580b-217c-4b84-9cbe-7adf28ac0447"
+*/
+
+/*---------------------------------------------------------------
+* 定义颜色变量
+*---------------------------------------------------------------*/
+.theme-light {
+    --custom-color-red: 180, 99, 122;
+    --custom-color-maroon: 180, 99, 122;
+    --custom-color-peach: 214, 129, 125;
+    --custom-color-yellow: 234, 157, 52;
+    --custom-color-green: 86, 148, 159;
+    --custom-color-teal: 86, 148, 159;
+    --custom-color-sky: 40, 105, 131;
+    --custom-color-sapphire: 40, 105, 131;
+    --custom-color-blue: 40, 105, 131;
+    --custom-color-lavender: 144, 122, 169;
+    --custom-color-text: 87, 82, 121;
+    --custom-color-mauve: 144, 122, 169;
+}
+
+.theme-dark {
+    --custom-color-red: 231, 130, 132;
+    --custom-color-maroon: 234, 153, 156;
+    --custom-color-peach: 239, 159, 118;
+    --custom-color-yellow: 229, 200, 144;
+    --custom-color-green: 166, 209, 137;
+    --custom-color-teal: 129, 200, 190;
+    --custom-color-sky: 153, 209, 219;
+    --custom-color-sapphire: 133, 193, 220;
+    --custom-color-blue: 140, 170, 238;
+    --custom-color-lavender: 186, 187, 241;
+    --custom-color-text: 198, 206, 239;
+    --custom-color-mauve: 202, 158, 230;
+}
+
+/*---------------------------------------------------------------
+* 定义彩虹色变量
+*---------------------------------------------------------------*/
+.mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--Component .components--Component:nth-child(3n+1) .components--Component:nth-child(1),
+.mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0447"] .components--Component:nth-child(2n+1) .components--Component:nth-child(1),
+.mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0446"] .components--Component:nth-child(5n+1) .components--Component:nth-child(1),
+.mod-sidedock div.workspace-tabs:nth-child(11n+1) {
+    --rainbow-color: var(--custom-color-red);
+}
+
+.mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--Component .components--Component:nth-child(3n+1) .components--Component:nth-child(2),
+.mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0446"] .components--Component:nth-child(5n+1) .components--Component:nth-child(2),
+.mod-sidedock div.workspace-tabs:nth-child(11n+2) {
+    --rainbow-color: var(--custom-color-maroon);
+}
+
+
+.mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--Component .components--Component:nth-child(3n+1) .components--Component:nth-child(3),
+.mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0447"] .components--Component:nth-child(2n+1) .components--Component:nth-child(2),
+.mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0446"] .components--Component:nth-child(5n+2) .components--Component:nth-child(1),
+.mod-sidedock div.workspace-tabs:nth-child(11n+3) {
+    --rainbow-color: var(--custom-color-peach);
+}
+
+.mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"],
+.mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--Component .components--Component:nth-child(3n+2) .components--Component:nth-child(1),
+.mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0447"] .components--Component:nth-child(2n+1) .components--Component:nth-child(3),
+.mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0446"] .components--Component:nth-child(5n+2) .components--Component:nth-child(2),
+.mod-sidedock div.workspace-tabs:nth-child(11n+4) {
+    --rainbow-color: var(--custom-color-yellow);
+}
+
+
+.mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--Component .components--Component:nth-child(3n+2) .components--Component:nth-child(2),
+.mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0447"] .components--Component:nth-child(2n+1) .components--Component:nth-child(4),
+.mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0446"] .components--Component:nth-child(5n+3) .components--Component:nth-child(1),
+.mod-sidedock div.workspace-tabs:nth-child(11n+5) {
+    --rainbow-color: var(--custom-color-green);
+}
+
+.mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--Component .components--Component:nth-child(3n+2) .components--Component:nth-child(3),
+.mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0447"] .components--Component:nth-child(2n+2) .components--Component:nth-child(1),
+.mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0446"] .components--Component:nth-child(5n+3) .components--Component:nth-child(2),
+.mod-sidedock div.workspace-tabs:nth-child(11n+6) {
+    --rainbow-color: var(--custom-color-teal);
+}
+
+
+.mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--Component .components--Component:nth-child(3n+3) .components--Component:nth-child(1),
+.mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0447"] .components--Component:nth-child(2n+2) .components--Component:nth-child(2),
+.mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0446"] .components--Component:nth-child(5n+4) .components--Component:nth-child(1),
+.mod-sidedock div.workspace-tabs:nth-child(11n+7) {
+    --rainbow-color: var(--custom-color-sky);
+}
+
+.mod-sidedock div.workspace-tabs:nth-child(11n+8) {
+    --rainbow-color: var(--custom-color-sapphire);
+}
+
+.mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--Component .components--Component:nth-child(3n+3) .components--Component:nth-child(2),
+.mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0447"] .components--Component:nth-child(2n+2) .components--Component:nth-child(3),
+.mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0446"] .components--Component:nth-child(5n+4) .components--Component:nth-child(2),
+.mod-sidedock div.workspace-tabs:nth-child(11n+9) {
+    --rainbow-color: var(--custom-color-blue);
+}
+
+
+.mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0446"] .components--Component:nth-child(5n+5) .components--Component:nth-child(1),
+.mod-sidedock div.workspace-tabs:nth-child(11n+10) {
+    --rainbow-color: var(--custom-color-lavender);
+}
+
+.mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--Component .components--Component:nth-child(3n+3) .components--Component:nth-child(3),
+.mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0447"] .components--Component:nth-child(2n+2) .components--Component:nth-child(4),
+.mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0446"] .components--Component:nth-child(5n+5) .components--Component:nth-child(2),
+.mod-sidedock div.workspace-tabs:nth-child(11n+11) {
+    --rainbow-color: var(--custom-color-mauve);
+}
+
+/*---------------------------------------------------------------
+* 给组件添加彩虹边框
+*---------------------------------------------------------------*/
+.mod-sidedock .components--Component .components--component-card,
+.mod-sidedock .components--Component .components--component-markdown,
+.mod-sidedock .components--Component .components--component-dataview,
+.mod-sidedock .components--Component .components--component-dateProgress,
+.mod-sidedock .components--Component .components--component-countdown,
+.mod-sidedock .components--Component .components--component-count,
+.mod-sidedock .components--Component .components--component-dailyCheck,
+.mod-sidedock .components--Component .components--component-chart,
+.mod-sidedock .components--Component .common-button,
+.mod-sidedock .components--Component .components--TabGroup {
+    color: rgba(var(--rainbow-color), 1);
+    border: 1px solid rgba(var(--rainbow-color), 0.7);
+    border-radius: 16px;
+}
+
+.mod-sidedock .components--Component .components--component-card:hover,
+.mod-sidedock .components--Component .components--component-markdown:hover,
+.mod-sidedock .components--Component .components--component-dataview:hover,
+.mod-sidedock .components--Component .components--component-dateProgress:hover,
+.mod-sidedock .components--Component .components--component-countdown:hover,
+.mod-sidedock .components--Component .components--component-count:hover,
+.mod-sidedock .components--Component .components--component-dailyCheck:hover,
+.mod-sidedock .components--Component .components--component-chart:hover,
+.mod-sidedock .components--Component .components--TabGroup:hover {
+    border: 1px solid rgba(var(--rainbow-color), 1);
+}
+
+/*---------------------------------------------------------------
+* 侧边栏，常用工具组件，样式调整
+*---------------------------------------------------------------*/
+/*自定义标题*/
+.mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--TabGroup::before {
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding: 8px 0 16px 0;
+    content: "常用工具";
+    font-weight: bolder;
+}
+
+/*标签栏居中*/
+.mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--TabList {
+    justify-content: center;
+}
+
+.mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--component-multi .components--TabPanel {
+    padding: 0;
+}
+
+/*按钮居中*/
+.mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--component-button .components--ComponentContentEl.components--flex-row {
+    /*justify-content: center;*/
+}
+
+.mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--ColumnLayoutComponents,
+.mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--component-multi .components--ListLayoutComponents,
+.mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--component-button .components--ComponentContentEl.components--flex-row {
+    opacity: unset;
+    padding: 0;
+    gap: 0;
+}
+
+.mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .common-button {
+    color: rgba(var(--rainbow-color), 1);
+    background-color: unset;
+    margin: 8px 8px 8px 8px;
+    justify-content: center;
+    width: 100px;
+}
+
+.theme-light .mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .common-button:hover {
+    background-color: var(--background-primary);
+    font-weight: bolder;
+    font-size: 14px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.theme-dark .mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .common-button:hover {
+    background-color: var(--background-primary);
+    font-weight: bolder;
+    font-size: 14px;
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.3);
+}
+
+.mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--TabGroup .components--TabPanels {
+    /*min-height: 200px;*/
+}
+
+/*---------------------------------------------------------------
+* 侧边栏，常用统计组件，样式调整
+*---------------------------------------------------------------*/
+.mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0446"] .components--component-count:hover {
+    opacity: unset;
+    /*background-color: var(--background-primary);*/
+}
+
+/*---------------------------------------------------------------
+* 侧边栏，常用统计1组件，样式调整
+*---------------------------------------------------------------*/
+.mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0447"] .components--component-count .components--ComponentContentEl {
+    gap: 2px;
+    padding: unset;
+    margin: unset;
+}
+
+.mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0447"] .components--component-count {
+    opacity: unset;
+}
+
+.theme-light .mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0447"] .components--component-count:hover {
+    background-color: var(--background-primary);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.theme-dark .mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0447"] .components--component-count:hover {
+    background-color: var(--background-primary);
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.3);
+}
+
+.mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0447"] .components--component-count .components--CountComponentValue {
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: unset;
+}
+
+/*---------------------------------------------------------------
+* xxx
+*---------------------------------------------------------------*/

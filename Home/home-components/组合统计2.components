@@ -1,0 +1,254 @@
+{
+  "components": [
+    {
+      "id": "36f16e59-1fc8-4394-a7e2-1cd26de67a65",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-13T07:04:49.956Z",
+      "updateAt": "2024-05-13T07:04:49.958Z",
+      "components": [
+        {
+          "componentId": "b386718f-bca8-4338-b626-d364fa470d84"
+        },
+        {
+          "componentId": "36133e16-7dbb-4159-a546-3e275f0280c4"
+        },
+        {
+          "componentId": "a55c4ac4-c704-48ed-af19-3922f6536182"
+        },
+        {
+          "componentId": "5193971d-1b85-4fe8-8d84-8f4868b40dbc"
+        },
+        {
+          "componentId": "914d8193-d92d-4716-89fc-fd84e1c3c9a6"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "b386718f-bca8-4338-b626-d364fa470d84",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "书籍",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-13T07:05:06.405Z",
+      "updateAt": "2024-05-13T07:05:06.405Z",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "query": {
+        "valueType": "query",
+        "value": 100,
+        "filter": {
+          "id": "31feadb5-42e6-46c0-a58e-6362527cff4f",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "8473800e-b976-4b86-9c7e-286639d7449c",
+              "type": "filter",
+              "operator": "contains",
+              "property": "tags",
+              "value": "book",
+              "conditions": []
+            }
+          ]
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "7d5f15af-6159-4a7d-92de-cef84b97c27a",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      },
+      "title": "书籍"
+    },
+    {
+      "id": "36133e16-7dbb-4159-a546-3e275f0280c4",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "电影",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-13T07:05:06.405Z",
+      "updateAt": "2024-05-13T07:05:06.405Z",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "query": {
+        "valueType": "query",
+        "value": 100,
+        "filter": {
+          "id": "31feadb5-42e6-46c0-a58e-6362527cff4f",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "8473800e-b976-4b86-9c7e-286639d7449c",
+              "type": "filter",
+              "operator": "contains",
+              "property": "tags",
+              "value": "movie",
+              "conditions": []
+            }
+          ]
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "7d5f15af-6159-4a7d-92de-cef84b97c27a",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      },
+      "title": "电影"
+    },
+    {
+      "id": "a55c4ac4-c704-48ed-af19-3922f6536182",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "人物",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-13T07:05:06.405Z",
+      "updateAt": "2024-05-13T07:05:06.405Z",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "query": {
+        "valueType": "query",
+        "value": 100,
+        "filter": {
+          "id": "31feadb5-42e6-46c0-a58e-6362527cff4f",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "8473800e-b976-4b86-9c7e-286639d7449c",
+              "type": "filter",
+              "operator": "contains",
+              "property": "tags",
+              "value": "people",
+              "conditions": []
+            }
+          ]
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "7d5f15af-6159-4a7d-92de-cef84b97c27a",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      },
+      "title": "人物"
+    },
+    {
+      "id": "5193971d-1b85-4fe8-8d84-8f4868b40dbc",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "物品",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-13T07:05:06.405Z",
+      "updateAt": "2024-05-13T07:05:06.405Z",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "query": {
+        "valueType": "query",
+        "value": 100,
+        "filter": {
+          "id": "31feadb5-42e6-46c0-a58e-6362527cff4f",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "8473800e-b976-4b86-9c7e-286639d7449c",
+              "type": "filter",
+              "operator": "contains",
+              "property": "tags",
+              "value": "thing",
+              "conditions": []
+            }
+          ]
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "7d5f15af-6159-4a7d-92de-cef84b97c27a",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      },
+      "title": "物品"
+    },
+    {
+      "id": "914d8193-d92d-4716-89fc-fd84e1c3c9a6",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "软件",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-13T07:05:06.405Z",
+      "updateAt": "2024-05-13T07:05:06.405Z",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "query": {
+        "valueType": "query",
+        "value": 100,
+        "filter": {
+          "id": "31feadb5-42e6-46c0-a58e-6362527cff4f",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "8473800e-b976-4b86-9c7e-286639d7449c",
+              "type": "filter",
+              "operator": "contains",
+              "property": "tags",
+              "value": "software",
+              "conditions": []
+            }
+          ]
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "7d5f15af-6159-4a7d-92de-cef84b97c27a",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      },
+      "title": "软件"
+    }
+  ],
+  "rootComponentId": "36f16e59-1fc8-4394-a7e2-1cd26de67a65"
+}

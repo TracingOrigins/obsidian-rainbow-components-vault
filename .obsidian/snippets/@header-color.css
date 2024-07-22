@@ -1,0 +1,70 @@
+/*标题颜色样式*/
+
+.theme-dark {
+  --accent-1-rgb: 245, 112, 76;
+  --accent-2-rgb: 245, 161, 76;
+  --accent-3-rgb: 222, 207, 97;
+  --accent-4-rgb: 170, 222, 98;
+  --accent-5-rgb: 98, 222, 172;
+  --accent-6-rgb: 98, 183, 222;
+  --accent-1: rgb(var(--accent-1-rgb));
+  --accent-2: rgb(var(--accent-2-rgb));
+  --accent-3: rgb(var(--accent-3-rgb));
+  --accent-4: rgb(var(--accent-4-rgb));
+  --accent-5: rgb(var(--accent-5-rgb));
+  --accent-6: rgb(var(--accent-6-rgb));
+}
+
+.theme-light {
+  --accent-1-rgb: 204, 36, 29;
+  --accent-2-rgb: 214, 93, 14;
+  --accent-3-rgb: 69, 133, 136;
+  --accent-4-rgb: 177, 98, 134;
+  --accent-5-rgb: 104, 157, 106;
+  --accent-6-rgb: 152, 151, 26;
+  --accent-1: rgb(var(--accent-1-rgb));
+  --accent-2: rgb(var(--accent-2-rgb));
+  --accent-3: rgb(var(--accent-3-rgb));
+  --accent-4: rgb(var(--accent-4-rgb));
+  --accent-5: rgb(var(--accent-5-rgb));
+  --accent-6: rgb(var(--accent-6-rgb));
+}
+
+.cm-header-1,
+.markdown-preview-view h1 {
+  color: var(--accent-1);
+  /*font-family: "Source Han Sans CN";*/
+  /* border-bottom: 1px dotted; */
+  border-bottom: 1px dashed;
+  padding-bottom: 3px;
+}
+
+.cm-header-2,
+.markdown-preview-view h2 {
+  color: var(--accent-2);
+  /*font-family: "Source Han Sans CN";*/
+}
+
+.cm-header-3,
+.markdown-preview-view h3 {
+  color: var(--accent-3);
+  /*font-family: "Source Han Sans CN";*/
+}
+
+.cm-header-4,
+.markdown-preview-view h4 {
+  color: var(--accent-4);
+  /*font-family: "Source Han Sans CN";*/
+}
+
+.cm-header-5,
+.markdown-preview-view h5 {
+  color: var(--accent-5);
+  /*font-family: "Source Han Sans CN";*/
+}
+
+.cm-header-6,
+.markdown-preview-view h6 {
+  color: var(--accent-6);
+  /*font-family: "Source Han Sans CN";*/
+}
