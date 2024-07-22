@@ -1,4 +1,6 @@
 ---
+tags:
+  - homepage
 cssclasses:
   - home-multiple-components
 ---
@@ -45,14 +47,9 @@ cssclasses:
 
 ![[最近文件.components]]
 
-![[最近文件1.components]]
-
-
 ## 11 文件检索
 
 ![[文件检索.components]]
-
-![[文件检索1.components]]
 
 ## 12 资源管理
 

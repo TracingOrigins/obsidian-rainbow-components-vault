@@ -105,15 +105,15 @@
       "components": [
         {
           "componentId": "5088a76f-a9ac-488d-833f-f95826b1cdc5",
-          "widthRatio": 14.723467862481321
+          "widthRatio": 12.235067437379573
         },
         {
           "componentId": "4585b9cc-59c7-47b2-9149-1b5166e4b6ef",
-          "widthRatio": 64.55433439608767
+          "widthRatio": 66.859344894027
         },
         {
           "componentId": "3634a3b6-a9a4-43d9-9afa-3dd01d22d735",
-          "widthRatio": 20.722197741431025
+          "widthRatio": 20.905587668593455
         }
       ],
       "layoutType": "column"
@@ -176,7 +176,7 @@
       "maxHeight": -1,
       "contentAlign": "left",
       "markdownsSource": "content",
-      "markdownValue": "```dataviewjs\nlet ignoreFolder = '!\"assets\"';\nlet total = moment().diff(\"2023-05-28\",\"days\");\nlet allFiles = dv.pages(ignoreFolder).file;\ndv.paragraph(`<center><span style=\"color: var(--text-accent); font-size: 24px;\">K</span>evin，你已使用Obsidian<b>${total}</b>天，创建了<b>${allFiles.length}</b>篇文档、<b>${allFiles.etags.distinct().length}</b>个标签、<b>${allFiles.tasks.length}</b>个待办<center>`);\n```"
+      "markdownValue": "```dataviewjs\nlet ignoreFolder = '!\"assets\"';\nlet total = moment().diff(\"2024-01-01\",\"days\");\nlet allFiles = dv.pages(ignoreFolder).file;\ndv.paragraph(`<center><span style=\"color: var(--text-accent); font-size: 24px;\">K</span>evin，你已使用Obsidian<b>${total}</b>天，创建了<b>${allFiles.length}</b>篇文档、<b>${allFiles.etags.distinct().length}</b>个标签、<b>${allFiles.tasks.length}</b>个待办<center>`);\n```"
     },
     {
       "id": "555c80d8-075f-4ac6-9d2b-549b3607b46e",
@@ -191,7 +191,7 @@
       "maxHeight": -1,
       "contentAlign": "left",
       "markdownsSource": "content",
-      "markdownValue": "- **工作**\n\t- [会议纪要](obsidian://advanced-uri?vault=Rainbow-Components&commandid=quickadd%253Achoice%253Ae0d15064-483b-40a6-b177-1458c1ca738a)\n\t- [创建日报](obsidian://advanced-uri?vault=Rainbow-Components&commandid=quickadd%253Achoice%253A7892aa6d-af6c-40a6-9f16-f93b108af301)\n\t- [创建周报](obsidian://advanced-uri?vault=Rainbow-Components&commandid=quickadd%253Achoice%253Acb18f736-0e98-4c48-b7c7-12ddaee0f9aa)\n- **学习**\n\t- [Java](https://www.w3cschool.cn/group/javaer.html)\n\t- [Python](https://www.w3cschool.cn/group/pythoner.html)\n\t- [w3cschool](https://www.w3cschool.cn/)\n- **生活**\n\t- [豆瓣读书](https://book.douban.com/)\n\t- [豆瓣电影](https://movie.douban.com/)\n\t- [修行日记](obsidian://advanced-uri?vault=Rainbow-Components&commandid=daily-notes)\n- **随想**\n\t- [[待办事项]]\n\t- [[灵光一闪]]\n\t- [文字卡片](obsidian://advanced-uri?vault=Rainbow-Components&commandid=templater-obsidian%253AAssets%252Fcommunity-plugins%252FTemplater%252Ftemplates%252Ftp-%25E6%2596%2587%25E5%25AD%2597%25E5%258D%25A1%25E7%2589%2587%25E6%25A8%25A1%25E6%259D%25BF.md)"
+      "markdownValue": "- **工作**\n\t- [会议纪要](obsidian://advanced-uri?vault=obsidian-rainbow-components-vault&commandid=quickadd%253Achoice%253Ae0d15064-483b-40a6-b177-1458c1ca738a)\n\t- [创建日报](obsidian://advanced-uri?vault=obsidian-rainbow-components-vault&commandid=quickadd%253Achoice%253A7892aa6d-af6c-40a6-9f16-f93b108af301)\n\t- [创建周报](obsidian://advanced-uri?vault=obsidian-rainbow-components-vault&commandid=quickadd%253Achoice%253Acb18f736-0e98-4c48-b7c7-12ddaee0f9aa)\n- **学习**\n\t- [Java](https://www.w3cschool.cn/group/javaer.html)\n\t- [Python](https://www.w3cschool.cn/group/pythoner.html)\n\t- [w3cschool](https://www.w3cschool.cn/)\n- **生活**\n\t- [豆瓣读书](https://book.douban.com/)\n\t- [豆瓣电影](https://movie.douban.com/)\n\t- [修行日记](obsidian://advanced-uri?vault=obsidian-rainbow-components-vault&commandid=daily-notes)\n- **随想**\n\t- [[待办事项]]\n\t- [[灵光一闪]]\n\t- [文字卡片](obsidian://advanced-uri?vault=obsidian-rainbow-components-vault&commandid=templater-obsidian%253AAssets%252Fcommunity-plugins%252FTemplater%252Ftemplates%252Ftp-%25E6%2596%2587%25E5%25AD%2597%25E5%258D%25A1%25E7%2589%2587%25E6%25A8%25A1%25E6%259D%25BF.md)"
     },
     {
       "id": "4afbfb0c-3ef9-4ad1-9410-217c34bbb751",
@@ -1637,12 +1637,6 @@
         },
         {
           "componentId": "79e7ee09-40dd-4412-87a1-28ba2a6ac186"
-        },
-        {
-          "componentId": "e23008be-ad45-4b1e-95a8-1c0f49ef1143"
-        },
-        {
-          "componentId": "86891af0-f7e8-4d9a-b7cd-e11928bb7bd9"
         }
       ],
       "layoutType": "tab"
@@ -1680,9 +1674,18 @@
       "showShadow": false,
       "createAt": "2024-07-14T18:48:05.259Z",
       "updateAt": "2024-07-14T18:48:05.259Z",
-      "text": "PC 主页",
+      "text": "Home",
       "buttonType": "common",
-      "clickActions": [],
+      "clickActions": [
+        {
+          "type": "OpenFile",
+          "id": "a1aa380f-d08a-4f40-854b-2df2ec6d4db3",
+          "options": {
+            "filePath": "Home/Home.md",
+            "fileName": "Home.md"
+          }
+        }
+      ],
       "checkActions": [],
       "uncheckActions": [],
       "isChecked": false,
@@ -1707,9 +1710,6 @@
         },
         {
           "componentId": "9699a68e-711a-4d00-b6e4-b712d3165fe2"
-        },
-        {
-          "componentId": "7759bc44-51cb-4bc4-9c05-0f821b5cd46c"
         }
       ],
       "layoutType": "column"
@@ -1724,12 +1724,22 @@
       "showShadow": false,
       "createAt": "2024-07-14T18:48:18.928Z",
       "updateAt": "2024-07-14T18:48:18.928Z",
-      "text": "未命名",
+      "text": "切换主题",
       "buttonType": "common",
-      "clickActions": [],
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "de319f20-4306-4961-ba59-9f593d8483e3",
+          "options": {
+            "commandId": "theme:switch",
+            "commandName": "更换主题"
+          }
+        }
+      ],
       "checkActions": [],
       "uncheckActions": [],
-      "isChecked": false
+      "isChecked": false,
+      "icon": "Aperture"
     },
     {
       "id": "67405c6e-c19e-4c63-a4a0-057595e7e184",
@@ -1741,12 +1751,22 @@
       "showShadow": false,
       "createAt": "2024-07-14T18:48:18.928Z",
       "updateAt": "2024-07-14T18:48:18.928Z",
-      "text": "未命名",
+      "text": "浅色模式",
       "buttonType": "common",
-      "clickActions": [],
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "2bac1011-3bdd-4c77-80b8-86b138d4cc1f",
+          "options": {
+            "commandId": "theme:use-light",
+            "commandName": "使用浅色模式"
+          }
+        }
+      ],
       "checkActions": [],
       "uncheckActions": [],
-      "isChecked": false
+      "isChecked": false,
+      "icon": "Sun"
     },
     {
       "id": "9699a68e-711a-4d00-b6e4-b712d3165fe2",
@@ -1758,29 +1778,22 @@
       "showShadow": false,
       "createAt": "2024-07-14T18:48:18.928Z",
       "updateAt": "2024-07-14T18:48:18.928Z",
-      "text": "未命名",
+      "text": "深色模式",
       "buttonType": "common",
-      "clickActions": [],
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "2a4f17a4-e51f-41df-b292-6b990a30ecb8",
+          "options": {
+            "commandId": "theme:use-dark",
+            "commandName": "使用深色模式"
+          }
+        }
+      ],
       "checkActions": [],
       "uncheckActions": [],
-      "isChecked": false
-    },
-    {
-      "id": "7759bc44-51cb-4bc4-9c05-0f821b5cd46c",
-      "type": "button",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": -1,
-      "showBorder": false,
-      "showShadow": false,
-      "createAt": "2024-07-14T18:48:18.928Z",
-      "updateAt": "2024-07-14T18:48:18.928Z",
-      "text": "未命名",
-      "buttonType": "common",
-      "clickActions": [],
-      "checkActions": [],
-      "uncheckActions": [],
-      "isChecked": false
+      "isChecked": false,
+      "icon": "Moon"
     },
     {
       "id": "fa9fe895-89dd-448e-9665-e4a6b5f1de6c",
@@ -2143,33 +2156,17 @@
       "showShadow": false,
       "createAt": "2024-07-19T08:51:09.614Z",
       "updateAt": "2024-07-19T08:51:09.614Z",
-      "components": [],
-      "layoutType": "column"
-    },
-    {
-      "id": "e23008be-ad45-4b1e-95a8-1c0f49ef1143",
-      "type": "multi",
-      "titleAlign": "center",
-      "tabTitle": "文档",
-      "maxWidthRatio": -1,
-      "showBorder": true,
-      "showShadow": false,
-      "createAt": "2024-07-19T08:51:13.064Z",
-      "updateAt": "2024-07-19T08:51:13.064Z",
-      "components": [],
-      "layoutType": "column"
-    },
-    {
-      "id": "86891af0-f7e8-4d9a-b7cd-e11928bb7bd9",
-      "type": "multi",
-      "titleAlign": "center",
-      "tabTitle": "模板",
-      "maxWidthRatio": -1,
-      "showBorder": true,
-      "showShadow": false,
-      "createAt": "2024-07-19T08:51:20.029Z",
-      "updateAt": "2024-07-19T08:51:20.029Z",
-      "components": [],
+      "components": [
+        {
+          "componentId": "77eef68c-0b6b-44c8-b1f3-34b7d37b9fe3"
+        },
+        {
+          "componentId": "a4166839-e8a3-4af2-b6ad-dfeb6a96d235"
+        },
+        {
+          "componentId": "1cb3796e-82d1-4761-bca6-cc135f34ddac"
+        }
+      ],
       "layoutType": "column"
     },
     {
@@ -2182,9 +2179,18 @@
       "showShadow": false,
       "createAt": "2024-07-14T18:48:05.259Z",
       "updateAt": "2024-07-14T18:48:05.259Z",
-      "text": "Mobile 主页",
+      "text": "Home-multiple-components",
       "buttonType": "common",
-      "clickActions": [],
+      "clickActions": [
+        {
+          "type": "OpenFile",
+          "id": "433033f4-f0c6-48f8-acee-225cf2edeff5",
+          "options": {
+            "filePath": "Home/Home-multiple-components.md",
+            "fileName": "Home-multiple-components.md"
+          }
+        }
+      ],
       "checkActions": [],
       "uncheckActions": [],
       "isChecked": false,
@@ -2200,13 +2206,100 @@
       "showShadow": false,
       "createAt": "2024-07-14T18:48:05.259Z",
       "updateAt": "2024-07-14T18:48:05.259Z",
-      "text": "Tablet 主页",
+      "text": "Home-single-component",
       "buttonType": "common",
-      "clickActions": [],
+      "clickActions": [
+        {
+          "type": "OpenFile",
+          "id": "ed1f9e80-4b34-437c-a377-ec4550d3b89c",
+          "options": {
+            "filePath": "Home/Home-single-component.md",
+            "fileName": "Home-single-component.md"
+          }
+        }
+      ],
       "checkActions": [],
       "uncheckActions": [],
       "isChecked": false,
       "icon": "Home"
+    },
+    {
+      "id": "77eef68c-0b6b-44c8-b1f3-34b7d37b9fe3",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-22T18:01:26.783Z",
+      "updateAt": "2024-07-22T18:01:26.783Z",
+      "text": "学习 Java",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenUrl",
+          "id": "5dcb634a-299e-4841-966d-401c47781c75",
+          "options": {
+            "url": "https://www.w3cschool.cn/group/javaer.html"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "AlarmClockCheck"
+    },
+    {
+      "id": "a4166839-e8a3-4af2-b6ad-dfeb6a96d235",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-22T18:01:26.783Z",
+      "updateAt": "2024-07-22T18:01:26.783Z",
+      "text": "学习 Python",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenUrl",
+          "id": "5dcb634a-299e-4841-966d-401c47781c75",
+          "options": {
+            "url": "https://www.w3cschool.cn/group/pythoner.html"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "AlarmClockCheck"
+    },
+    {
+      "id": "1cb3796e-82d1-4761-bca6-cc135f34ddac",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-22T18:01:26.783Z",
+      "updateAt": "2024-07-22T18:01:26.783Z",
+      "text": "w3cschool",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenUrl",
+          "id": "5dcb634a-299e-4841-966d-401c47781c75",
+          "options": {
+            "url": "https://www.w3cschool.cn/"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "AlarmClockCheck"
     }
   ],
   "rootComponentId": "c01901fa-6300-4094-931e-26e078494a02"

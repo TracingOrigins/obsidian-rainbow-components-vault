@@ -46,23 +46,18 @@
             },
             {
               "id": "1964bdc2-293c-4c5b-a589-7f8d841df80f",
-              "label": "常熟",
-              "value": "常熟"
+              "label": "上海",
+              "value": "上海"
             },
             {
               "id": "4e1e8435-470b-4555-9baf-a9cee14bf977",
-              "label": "张家港",
-              "value": "张家港"
+              "label": "广州",
+              "value": "广州"
             },
             {
               "id": "78f3dd62-78df-4ae2-a737-4009da34e88e",
-              "label": "无锡",
-              "value": "无锡"
-            },
-            {
-              "id": "338ba17d-c0c6-4e13-ba03-4d5d5c72f3fe",
-              "label": "商丘",
-              "value": "商丘"
+              "label": "深圳",
+              "value": "深圳"
             }
           ]
         },
@@ -100,19 +95,29 @@
           "id": "7e050b55-4a5e-4323-859f-43944b814895",
           "type": "select",
           "name": "anotherCity",
-          "defaultValue": "张家港",
+          "defaultValue": "上海",
           "placeholder": "",
           "fromProperty": "",
           "options": [
             {
               "id": "cfe6c236-1d61-4464-af9d-aa0e130896fa",
-              "label": "张家港",
-              "value": "张家港"
+              "label": "北京",
+              "value": "北京"
             },
             {
-              "id": "96179388-305e-4a65-a929-04f1e326fad8",
-              "label": "商丘",
-              "value": "商丘"
+              "id": "24606376-5e7c-4bf3-ae7f-e65f4f489d03",
+              "label": "上海",
+              "value": "上海"
+            },
+            {
+              "id": "1f7283a6-9ed3-4ac6-882d-d55279c4bb6c",
+              "label": "广州",
+              "value": "广州"
+            },
+            {
+              "id": "4023ff23-d1fb-4319-a7bd-1e18aaa987bb",
+              "label": "深圳",
+              "value": "深圳"
             }
           ]
         }

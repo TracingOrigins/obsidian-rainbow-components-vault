@@ -75,7 +75,7 @@
   "home@@set-seamless-embed": true,
   "homepage@@set-header-hide": true,
   "homepage@@set-seamless-embed": true,
-  "workspace@@set-style-settings": false,
+  "workspace@@set-style-settings": true,
   "sidebar-right@@set-active-icons-highlight": false,
   "sidebar-right@@set-sidebar-icons": false,
   "sidebar-left@@set-explorer-file-rainbow": true,

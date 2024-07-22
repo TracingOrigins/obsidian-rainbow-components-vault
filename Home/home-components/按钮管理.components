@@ -19,12 +19,6 @@
         },
         {
           "componentId": "32893775-c11e-421b-a5e3-f7add09033c3"
-        },
-        {
-          "componentId": "5c27b6bb-82ac-477e-9d67-82eb5332eaee"
-        },
-        {
-          "componentId": "97112635-bf59-412d-9faa-22a14bc04c1b"
         }
       ],
       "layoutType": "tab"
@@ -171,6 +165,9 @@
         },
         {
           "componentId": "b47b3e66-3a57-4f1b-9e6e-f4975b0a52f4"
+        },
+        {
+          "componentId": "40687090-7a12-4b6a-aced-b9ae977831a2"
         }
       ],
       "layoutType": "column"
@@ -189,13 +186,14 @@
       "buttonType": "common",
       "clickActions": [
         {
-          "type": "OpenFile",
+          "type": "OpenUrl",
           "id": "f0de5259-d092-41e3-9cff-4b25a0d0c57a",
           "options": {
             "commandId": "workspaces-plus:学习 Java",
             "commandName": "Workspaces Plus: Load: 学习 Java",
             "filePath": "Sublibrary/java-tutorials/index/index.md",
-            "fileName": "index.md"
+            "fileName": "index.md",
+            "url": "https://www.w3cschool.cn/group/javaer.html"
           }
         }
       ],
@@ -218,13 +216,14 @@
       "buttonType": "common",
       "clickActions": [
         {
-          "type": "OpenFile",
+          "type": "OpenUrl",
           "id": "f97e92c5-a812-4f80-8ee7-0a7435685e71",
           "options": {
             "commandId": "workspaces-plus:学习 Python",
             "commandName": "Workspaces Plus: Load: 学习 Python",
             "filePath": "Sublibrary/python-tutorials/index/index.md",
-            "fileName": "index.md"
+            "fileName": "index.md",
+            "url": "https://www.w3cschool.cn/group/pythoner.html"
           }
         }
       ],
@@ -237,7 +236,7 @@
       "id": "9ceb6724-57c7-415d-844b-8d2413693f9a",
       "type": "button",
       "titleAlign": "center",
-      "tabTitle": "PC 主页",
+      "tabTitle": "Home",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showShadow": false,
@@ -292,32 +291,6 @@
       "uncheckActions": [],
       "isChecked": false,
       "icon": "Home"
-    },
-    {
-      "id": "5c27b6bb-82ac-477e-9d67-82eb5332eaee",
-      "type": "multi",
-      "titleAlign": "center",
-      "tabTitle": "文档",
-      "maxWidthRatio": -1,
-      "showBorder": true,
-      "showShadow": false,
-      "createAt": "2024-05-30T18:13:17.213Z",
-      "updateAt": "2024-05-30T18:13:17.213Z",
-      "components": [
-        {
-          "componentId": "cfac62ef-9f81-45b7-884b-7abe982a938f"
-        },
-        {
-          "componentId": "007552c7-dd8c-4eb5-99a3-5a2d49569ada"
-        },
-        {
-          "componentId": "a00830eb-d02c-4308-b15d-ed9d7358cd3f"
-        },
-        {
-          "componentId": "07ce0261-2bad-4e81-b625-9259b4780bf5"
-        }
-      ],
-      "layoutType": "column"
     },
     {
       "id": "cfac62ef-9f81-45b7-884b-7abe982a938f",
@@ -539,35 +512,6 @@
       "icon": "Home"
     },
     {
-      "id": "97112635-bf59-412d-9faa-22a14bc04c1b",
-      "type": "multi",
-      "titleAlign": "center",
-      "tabTitle": "模板",
-      "maxWidthRatio": -1,
-      "showBorder": true,
-      "showShadow": false,
-      "createAt": "2024-07-09T12:11:13.978Z",
-      "updateAt": "2024-07-09T12:11:13.978Z",
-      "components": [
-        {
-          "componentId": "f1f9ccf7-da59-49f5-a6da-64f452b2c8ed"
-        },
-        {
-          "componentId": "cfedb7a5-7c76-482f-91f4-023809ace3b8"
-        },
-        {
-          "componentId": "e38494a6-b063-457f-a00b-a9013cf22d00"
-        },
-        {
-          "componentId": "2530dde9-73a1-445f-a661-f2c209d78cd2"
-        },
-        {
-          "componentId": "37ce05a2-b6b3-4db1-b518-7719d6cc0ba8"
-        }
-      ],
-      "layoutType": "column"
-    },
-    {
       "id": "f1f9ccf7-da59-49f5-a6da-64f452b2c8ed",
       "type": "button",
       "titleAlign": "center",
@@ -696,6 +640,32 @@
       "checkActions": [],
       "uncheckActions": [],
       "isChecked": false
+    },
+    {
+      "id": "40687090-7a12-4b6a-aced-b9ae977831a2",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-22T17:46:49.145Z",
+      "updateAt": "2024-07-22T17:46:49.145Z",
+      "text": "w3cschool",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenUrl",
+          "id": "4c65ad0e-0e68-445d-a00a-1ece85afd737",
+          "options": {
+            "url": "https://www.w3cschool.cn/"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "AlarmClockCheck"
     }
   ],
   "rootComponentId": "78ceac6b-4f7c-4e53-a907-a941547e3ffd"

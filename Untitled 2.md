@@ -1,0 +1,16 @@
+cmdr
+components
+dataview
+dust-calendar
+editor-width-slider
+mysnippets-plugin
+neighbouring-files
+obsidian-advanced-uri
+obsidian-export-image
+obsidian-hotkeys-for-specific-files
+obsidian-react-components
+obsidian-style-settings
+quickadd
+recent-files-obsidian
+templater-obsidian
+workspaces-plus

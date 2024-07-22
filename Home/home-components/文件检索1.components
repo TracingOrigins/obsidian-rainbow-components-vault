@@ -45,7 +45,7 @@
       "showShadow": false,
       "createAt": "2024-07-21T07:18:01.845Z",
       "updateAt": "2024-07-21T07:18:01.845Z",
-      "viewType": "table",
+      "viewType": "list",
       "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} new",
       "properties": [
         {
@@ -88,14 +88,13 @@
           "alias": ""
         },
         {
-          "id": "f29e66c2-950c-468f-9cba-97ed38be4fe0",
+          "id": "5e48d9f7-2901-49a9-8a1e-af52f62ed655",
           "name": "${file.path}",
           "isShow": true,
           "type": "text",
           "options": {
-            "width": "241"
-          },
-          "alias": ""
+            "width": "600"
+          }
         },
         {
           "id": "bfeaf951-dcc8-4c3d-a2a5-22272f59ec8c",
@@ -136,7 +135,7 @@
           }
         ]
       },
-      "loadLimitPerPage": 10
+      "loadLimitPerPage": 25
     }
   ],
   "rootComponentId": "01021208-f957-437e-9297-96d06b07a050"

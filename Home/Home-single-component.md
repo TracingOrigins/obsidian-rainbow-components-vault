@@ -1,4 +1,6 @@
 ---
+tags:
+  - homepage
 cssclasses:
   - home-single-component
 ---

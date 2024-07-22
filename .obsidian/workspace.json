@@ -20,8 +20,45 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "842569d20dadaf1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home/Home.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "258e95259d6ac021",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home/Home.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "02ecdd4ef916ac7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home/Home.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -153,8 +190,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "84a6051bbf517a35",
@@ -254,7 +290,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       },
       {
         "id": "4bddfa68d81cb9e4",
@@ -299,43 +335,45 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "436af7c13f1f3afa",
+  "active": "258e95259d6ac021",
   "lastOpenFiles": [
-    "Home/sidebar-components/随机音乐.components",
-    "Home/sidebar-components/随缘歌单.components",
-    "Home/Home.md",
-    "Home/sidebar-components/常用统计1.components",
-    "Home/sidebar-components/常用统计.components",
-    "Home/sidebar-components/常用工具.components",
     "Home/Home-multiple-components.md",
-    "Home/sidebar-components/彩色时钟.md",
+    "Home/Home-single-component.md",
+    "Home/Home.md",
+    "Untitled 3.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "Home/home-components/最近天气.components",
     "Home/home-components/最近文件1.components",
+    "Home/sidebar-components/常用工具.components",
     "Home/home-components/最近文件.components",
+    "Home/sidebar-components/彩色时钟.md",
+    "Home/home-components/数据视图.components",
     "Home/home-components/文件检索1.components",
-    "Home/home-components/最近文件2.components",
-    "Home/home-components/每日打卡.components",
+    "Home/home-components/资源管理.components",
+    "Home/home-components/组合统计1.components",
+    "Home/sidebar-components/待办事项.md",
+    "Home/sidebar-components/灵光一闪.md",
+    "Home/home-components/组合统计2.components",
+    "Home/home-components/文件检索.components",
+    "Inbox/works/2024 年报.md",
+    "Inbox/works/2024-W30 周报.md",
+    "Inbox/works/2024-07-23 日报.md",
+    "Inbox/works/2024-07-23 会议纪要.md",
+    "Inbox/diaries/2024-07-23.md",
+    "从这里开始.md",
+    "README.md",
+    "20240723010905 new.md",
+    "未命名.md",
+    "Assets/attachments/tmp/Pasted image 20240723010438.png",
+    "Inbox/resources/未命名 1.md",
+    "Assets/community-plugins/Templater/templates/tp-插件列表.md",
+    "Test/未命名.md",
+    "Inbox/things/未命名 1.md",
     "20240721144057 new.md",
     "20240721143330 new.md",
-    "Test/未命名.md",
-    "Home/sidebar-components/灵光一闪.md",
-    "Home/sidebar-components/待办事项.md",
-    "Home/Home-single-component.md",
     "Inbox/works/2024-W29 周报.md",
-    "Inbox/works/2024 年报.md",
-    "Inbox/works/2024-07-15 会议纪要.md",
-    "Inbox/works/2024-07-16 会议纪要.md",
-    "Inbox/works/2024-07-16 日报.md",
-    "Inbox/works/2024-07-18 日报.md",
-    "Inbox/works/2024-07-18 会议纪要.md",
-    "Inbox/works/2024-07-17 日报.md",
-    "Inbox/works/2024-07-17 会议纪要.md",
-    "Assets/community-plugins/Components/daily-check/2024-07-19_16-54-24_814.md",
-    "Assets/community-plugins/Components/daily-check/2024-07-19_16-54-23_796.md",
-    "Assets/community-plugins/Components/daily-check/2024-07-19_16-54-23_213.md",
-    "Assets/community-plugins/Components/daily-check/2024-07-19_16-54-22_045.md",
-    "Assets/community-plugins/Components/daily-check/2024-07-19_16-54-21_233.md",
-    "Assets/community-plugins/Components/daily-check/2024-07-19_16-54-20_694.md",
-    "Assets/community-plugins/Components/daily-check/2024-07-19_16-54-19_908.md",
     "Assets/attachments/pictures/cat/cat.gif",
     "Assets/attachments/pictures/travels/mountains-g610ac2764_1280.jpg",
     "Assets/attachments/pictures/travels/panorama-gdd28ee541_1920.jpg",
@@ -344,7 +382,6 @@
     "Assets/attachments/pictures/travels/field-g2adb79480_1920.jpg",
     "Assets/attachments/pictures/travels/mountains-g8e2992e4d_1920.jpg",
     "Assets/attachments/pictures/travels/road-g946886d61_1920.jpg",
-    "Assets/attachments/pictures/travels/mount-fuji-g707b221b0_1920.jpg",
-    "Assets/attachments/pictures/travels/tunisia-g92f2bf537_1920.jpg"
+    "Assets/attachments/pictures/travels/mount-fuji-g707b221b0_1920.jpg"
   ]
 }

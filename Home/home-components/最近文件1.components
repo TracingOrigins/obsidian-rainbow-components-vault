@@ -30,7 +30,7 @@
       "showShadow": false,
       "createAt": "2024-07-21T07:21:58.518Z",
       "updateAt": "2024-07-21T07:21:58.518Z",
-      "viewType": "list",
+      "viewType": "table",
       "newPageNameFormat": "{{date:YYYYMMDDHHmmss}} new",
       "properties": [
         {
