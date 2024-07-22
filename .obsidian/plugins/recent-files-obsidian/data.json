@@ -1,20 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Home-multiple-components",
-      "path": "Home/Home-multiple-components.md"
+      "basename": "Home",
+      "path": "Home/Home.md"
+    },
+    {
+      "basename": "随机音乐",
+      "path": "Home/sidebar-components/随机音乐.components"
+    },
+    {
+      "basename": "随缘歌单",
+      "path": "Home/sidebar-components/随缘歌单.components"
+    },
+    {
+      "basename": "常用统计1",
+      "path": "Home/sidebar-components/常用统计1.components"
+    },
+    {
+      "basename": "常用统计",
+      "path": "Home/sidebar-components/常用统计.components"
     },
     {
       "basename": "常用工具",
       "path": "Home/sidebar-components/常用工具.components"
     },
     {
-      "basename": "彩色时钟",
-      "path": "Home/sidebar-components/彩色时钟.md"
+      "basename": "Home-multiple-components",
+      "path": "Home/Home-multiple-components.md"
     },
     {
-      "basename": "Home",
-      "path": "Home/Home.md"
+      "basename": "彩色时钟",
+      "path": "Home/sidebar-components/彩色时钟.md"
     },
     {
       "basename": "最近文件1",
@@ -31,22 +47,6 @@
     {
       "basename": "每日打卡",
       "path": "Home/home-components/每日打卡.components"
-    },
-    {
-      "basename": "常用统计",
-      "path": "Home/sidebar-components/常用统计.components"
-    },
-    {
-      "basename": "常用统计1",
-      "path": "Home/sidebar-components/常用统计1.components"
-    },
-    {
-      "basename": "随机音乐",
-      "path": "Home/sidebar-components/随机音乐.components"
-    },
-    {
-      "basename": "随缘歌单",
-      "path": "Home/sidebar-components/随缘歌单.components"
     },
     {
       "basename": "文件检索",

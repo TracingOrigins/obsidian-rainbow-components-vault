@@ -15,26 +15,13 @@
               "type": "markdown",
               "state": {
                 "file": "Home/Home.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "pinned": true
             }
-          },
-          {
-            "id": "9eaea119723cc94d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home/Home-multiple-components.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5,
-    "collapsed": true
+    "width": 343.5
   },
   "right": {
     "id": "bd2d8c96641742a7",
@@ -181,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home/Home-multiple-components.md"
+                "file": "Home/Home.md"
               }
             }
           },
@@ -191,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home/Home-multiple-components.md",
+                "file": "Home/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home/Home-multiple-components.md",
+                "file": "Home/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +206,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Home/Home-multiple-components.md"
+                "file": "Home/Home.md"
               }
             }
           },
@@ -267,7 +253,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 7
       },
       {
         "id": "4bddfa68d81cb9e4",
@@ -312,20 +299,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9eaea119723cc94d",
+  "active": "436af7c13f1f3afa",
   "lastOpenFiles": [
-    "Home/sidebar-components/常用工具.components",
-    "Home/sidebar-components/彩色时钟.md",
-    "Home/Home-multiple-components.md",
+    "Home/sidebar-components/随机音乐.components",
+    "Home/sidebar-components/随缘歌单.components",
     "Home/Home.md",
+    "Home/sidebar-components/常用统计1.components",
+    "Home/sidebar-components/常用统计.components",
+    "Home/sidebar-components/常用工具.components",
+    "Home/Home-multiple-components.md",
+    "Home/sidebar-components/彩色时钟.md",
     "Home/home-components/最近文件1.components",
     "Home/home-components/最近文件.components",
     "Home/home-components/文件检索1.components",
     "Home/home-components/最近文件2.components",
     "Home/home-components/每日打卡.components",
-    "Home/sidebar-components/常用统计.components",
-    "Home/sidebar-components/常用统计1.components",
-    "Home/sidebar-components/随机音乐.components",
     "20240721144057 new.md",
     "20240721143330 new.md",
     "Test/未命名.md",
