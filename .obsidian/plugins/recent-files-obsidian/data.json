@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "打卡（多文件）",
-      "path": "Assets/community-plugins/Components/basic/打卡（多文件）.components"
+      "basename": "README",
+      "path": "README.md"
     },
     {
-      "basename": "打卡（日记属性）",
-      "path": "Assets/community-plugins/Components/basic/打卡（日记属性）.components"
+      "basename": "Pasted image 20240723021056",
+      "path": "Assets/attachments/tmp/Pasted image 20240723021056.png"
+    },
+    {
+      "basename": "从这里开始",
+      "path": "从这里开始.md"
     },
     {
       "basename": "最近文件1",
@@ -21,16 +25,20 @@
       "path": "Inbox/statistics/数据视图.components"
     },
     {
-      "basename": "组合统计1",
-      "path": "Home/home-components/组合统计1.components"
-    },
-    {
-      "basename": "从这里开始",
-      "path": "从这里开始.md"
-    },
-    {
       "basename": "Home-multiple-components",
       "path": "Home/Home-multiple-components.md"
+    },
+    {
+      "basename": "打卡（多文件）",
+      "path": "Assets/community-plugins/Components/basic/打卡（多文件）.components"
+    },
+    {
+      "basename": "打卡（日记属性）",
+      "path": "Assets/community-plugins/Components/basic/打卡（日记属性）.components"
+    },
+    {
+      "basename": "组合统计1",
+      "path": "Home/home-components/组合统计1.components"
     },
     {
       "basename": "首页导航",
@@ -49,16 +57,8 @@
       "path": "Home/home-components/单体主页.components"
     },
     {
-      "basename": "Pasted image 20240723021056",
-      "path": "Assets/attachments/tmp/Pasted image 20240723021056.png"
-    },
-    {
       "basename": "Pasted image 20240723021138",
       "path": "Assets/attachments/tmp/Pasted image 20240723021138.png"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "字体说明",

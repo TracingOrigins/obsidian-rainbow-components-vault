@@ -18,7 +18,7 @@
           "componentId": "cb9b057b-7845-474b-89c3-3c9633af4df9"
         }
       ],
-      "layoutType": "tab"
+      "layoutType": "verticalTab"
     },
     {
       "id": "cb9b057b-7845-474b-89c3-3c9633af4df9",
@@ -69,7 +69,7 @@
       "viewOptions": {
         "openPageIn": "tab"
       },
-      "loadLimitPerPage": 10,
+      "loadLimitPerPage": 25,
       "filter": {
         "id": "2f9c88ef-9484-49f6-9bd3-abf3d7b2af47",
         "type": "group",
@@ -150,7 +150,7 @@
       "viewOptions": {
         "openPageIn": "tab"
       },
-      "loadLimitPerPage": 10,
+      "loadLimitPerPage": 25,
       "filter": {
         "id": "2f9c88ef-9484-49f6-9bd3-abf3d7b2af47",
         "type": "group",

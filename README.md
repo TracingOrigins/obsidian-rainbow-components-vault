@@ -5,7 +5,9 @@
 
 **首页效果**
 - 深色模式
-  ![[Pasted image 20240723021056.png]]
+  %% ![[Pasted image 20240723021056.png]] %%
+  ![深色模式截图](./Assets/attachments/tmp/Pasted%20image%2020240723021056.png)
 - 浅色模式
-  ![[Pasted image 20240723021138.png]]
+  %% ![[Pasted image 20240723021138.png]] %%
+![浅色模式截图](./Assets/attachments/tmp/Pasted%20image%2020240723021138.png)
 

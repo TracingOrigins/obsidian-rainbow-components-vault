@@ -8,5 +8,7 @@
   "readableLineLength": true,
   "attachmentFolderPath": "Assets/attachments/tmp",
   "showInlineTitle": true,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true
 }

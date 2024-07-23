@@ -4,32 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "b85a64be8fa7aa01",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "20e9156e3ed0ac0d",
-            "type": "leaf",
-            "state": {
-              "type": "components-file-view",
-              "state": {
-                "file": "Assets/community-plugins/Components/basic/打卡（多文件）.components"
-              }
-            }
-          },
-          {
-            "id": "d29fee2d7d603b79",
-            "type": "leaf",
-            "state": {
-              "type": "components-file-view",
-              "state": {
-                "file": "Home/home-components/简单统计.components"
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "c2f9459a03b3ee36",
         "type": "tabs",
         "children": [
@@ -39,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home/Home-multiple-components.md",
+                "file": "README.md",
                 "mode": "preview",
                 "source": true
               }
@@ -190,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Assets/community-plugins/Components/basic/打卡（多文件）.components"
+                "file": "README.md"
               }
             }
           },
@@ -200,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Assets/community-plugins/Components/basic/打卡（多文件）.components",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Assets/community-plugins/Components/basic/打卡（多文件）.components",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -229,7 +203,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Assets/community-plugins/Components/basic/打卡（多文件）.components"
+                "file": "README.md"
               }
             }
           },
@@ -321,26 +295,25 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0d00d9b96a7da2a7",
+  "active": "bf77d06732eedb26",
   "lastOpenFiles": [
-    "Assets/community-plugins/Components/basic/打卡（日记属性）.components",
-    "Assets/community-plugins/Components/basic/components-20240723010605.components",
-    "Assets/community-plugins/Components/basic/打卡（多文件）.components",
+    "Assets/attachments/tmp/Pasted image 20240723021056.png",
+    "README.md",
+    "从这里开始.md",
     "Inbox/statistics/最近文件1.components",
     "Inbox/statistics/文件检索1.components",
     "Inbox/statistics/数据视图.components",
-    "Home/home-components/组合统计1.components",
-    "从这里开始.md",
     "Home/Home-multiple-components.md",
+    "Assets/community-plugins/Components/basic/打卡（多文件）.components",
+    "Assets/community-plugins/Components/basic/打卡（日记属性）.components",
+    "Assets/community-plugins/Components/basic/components-20240723010605.components",
+    "Home/home-components/组合统计1.components",
     "Home/home-components/首页导航.components",
     "Home/home-components/最近天气.components",
     "Home/home-components/简单统计.components",
-    "Home/home-components/单体主页.components",
-    "Assets/attachments/tmp/Pasted image 20240723021056.png",
     "Assets/attachments/tmp/Pasted image 20240723021006.png",
     "Assets/attachments/tmp/Pasted image 20240723010438.png",
     "Assets/attachments/tmp/Pasted image 20240723021138.png",
-    "README.md",
     "Assets/attachments/fonts/字体说明.md",
     "Home/Home-single-component.md",
     "Home/Home.md",
