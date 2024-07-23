@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home/Home.md"
+    },
+    {
       "basename": "Home-single-component",
       "path": "Home/Home-single-component.md"
     },
     {
       "basename": "Home-multiple-components",
       "path": "Home/Home-multiple-components.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home/Home.md"
     },
     {
       "basename": "灵光一闪",
@@ -71,10 +75,6 @@
     {
       "basename": "彩色时钟",
       "path": "Home/sidebar-components/彩色时钟.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "Pasted image 20240723151546",
