@@ -4,22 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "c2f9459a03b3ee36",
+        "id": "1cf8f7d36a70a180",
         "type": "tabs",
         "children": [
           {
-            "id": "bf77d06732eedb26",
+            "id": "436af7c13f1f3afa",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home/Home.md",
+                "mode": "preview",
+                "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "f424e36a1aa0a9f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -250,7 +265,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 6
       },
       {
         "id": "4bddfa68d81cb9e4",
@@ -295,35 +311,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bf77d06732eedb26",
+  "active": "f424e36a1aa0a9f5",
   "lastOpenFiles": [
-    "Assets/attachments/tmp/Pasted image 20240723021056.png",
+    "Assets/attachments/tmp/Pasted image 20240723151559.png",
+    "Assets/attachments/tmp/Pasted image 20240723151546.png",
+    "Home/sidebar-components/随机音乐.components",
+    "Home/sidebar-components/常用工具.components",
+    "Home/sidebar-components/彩色时钟.md",
+    "Home/sidebar-components/随缘歌单.components",
+    "Home/Home.md",
     "README.md",
+    "Assets/attachments/tmp/Pasted image 20240723151459.png",
     "从这里开始.md",
+    "Assets/attachments/tmp/Pasted image 20240723151142.png",
+    "Home/sidebar-components/常用统计.components",
+    "Home/sidebar-components/灵光一闪.md",
+    "Home/home-components/文件检索.components",
+    "Assets/attachments/tmp/Pasted image 20240723145936.png",
+    "Assets/attachments/tmp/Pasted image 20240723145510.png",
+    "Assets/attachments/tmp/Pasted image 20240723145414.png",
+    "Assets/attachments/tmp/Pasted image 20240723021138.png",
+    "Assets/attachments/tmp/Pasted image 20240723021056.png",
+    "Home/sidebar-components/待办事项.md",
+    "Home/Home-multiple-components.md",
+    "Home/Home-single-component.md",
+    "Assets/community-plugins/Templater/templates/tp-插件列表.md",
+    "Assets/community-plugins/Templater/templates/tp-插件列表 - 副本.md",
     "Inbox/statistics/最近文件1.components",
     "Inbox/statistics/文件检索1.components",
     "Inbox/statistics/数据视图.components",
-    "Home/Home-multiple-components.md",
     "Assets/community-plugins/Components/basic/打卡（多文件）.components",
     "Assets/community-plugins/Components/basic/打卡（日记属性）.components",
-    "Assets/community-plugins/Components/basic/components-20240723010605.components",
-    "Home/home-components/组合统计1.components",
-    "Home/home-components/首页导航.components",
-    "Home/home-components/最近天气.components",
-    "Home/home-components/简单统计.components",
     "Assets/attachments/tmp/Pasted image 20240723021006.png",
     "Assets/attachments/tmp/Pasted image 20240723010438.png",
-    "Assets/attachments/tmp/Pasted image 20240723021138.png",
     "Assets/attachments/fonts/字体说明.md",
-    "Home/Home-single-component.md",
-    "Home/Home.md",
     "Untitled 2.md",
     "Untitled 1.md",
     "Untitled.md",
     "Untitled 3.md",
-    "Home/sidebar-components/彩色时钟.md",
-    "Home/sidebar-components/待办事项.md",
-    "Home/sidebar-components/灵光一闪.md",
     "Inbox/works/2024 年报.md",
     "Inbox/works/2024-W30 周报.md",
     "Inbox/works/2024-07-23 日报.md",
@@ -332,15 +357,7 @@
     "20240723010905 new.md",
     "未命名.md",
     "Inbox/resources/未命名 1.md",
-    "Assets/community-plugins/Templater/templates/tp-插件列表.md",
     "Test/未命名.md",
-    "Inbox/things/未命名 1.md",
-    "20240721144057 new.md",
-    "Assets/attachments/pictures/cat/cat.gif",
-    "Assets/attachments/pictures/travels/mountains-g610ac2764_1280.jpg",
-    "Assets/attachments/pictures/travels/panorama-gdd28ee541_1920.jpg",
-    "Assets/attachments/pictures/travels/snowdrift-gecf51e07f_1920.jpg",
-    "Assets/attachments/pictures/travels/pyramids-g2b942ed19_1920.jpg",
-    "Assets/attachments/pictures/travels/field-g2adb79480_1920.jpg"
+    "Inbox/things/未命名 1.md"
   ]
 }

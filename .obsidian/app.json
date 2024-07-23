@@ -9,6 +9,6 @@
   "attachmentFolderPath": "Assets/attachments/tmp",
   "showInlineTitle": true,
   "showLineNumber": true,
-  "newLinkFormat": "relative",
-  "useMarkdownLinks": true
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false
 }
