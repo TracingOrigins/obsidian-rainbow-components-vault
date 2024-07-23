@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1cf8f7d36a70a180",
+        "id": "d8d88f799abd32c0",
         "type": "tabs",
         "children": [
           {
-            "id": "436af7c13f1f3afa",
+            "id": "42e58b3ec455d7f2",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -22,12 +22,14 @@
             }
           },
           {
-            "id": "f424e36a1aa0a9f5",
+            "id": "4641e326be88ad6d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Assets/attachments/tmp/Pasted image 20240723151459.png"
+                "file": "Home/Home-single-component.md",
+                "mode": "preview",
+                "source": true
               }
             }
           }
@@ -94,8 +96,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -164,7 +165,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "84a6051bbf517a35",
@@ -177,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Assets/attachments/tmp/Pasted image 20240723151459.png"
+                "file": "Home/Home-single-component.md"
               }
             }
           },
@@ -187,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Assets/attachments/tmp/Pasted image 20240723151459.png",
+                "file": "Home/Home-single-component.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Assets/attachments/tmp/Pasted image 20240723151459.png",
+                "file": "Home/Home-single-component.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,7 +218,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Assets/attachments/tmp/Pasted image 20240723151459.png"
+                "file": "Home/Home-single-component.md"
               }
             }
           },
@@ -309,37 +311,42 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f424e36a1aa0a9f5",
+  "active": "4641e326be88ad6d",
   "lastOpenFiles": [
-    "Assets/attachments/tmp/Pasted image 20240723151142.png",
+    "Home/Home-multiple-components.md",
+    "Home/Home-single-component.md",
+    "Home/Home.md",
+    "Home/sidebar-components/灵光一闪.md",
+    "Home/sidebar-components/待办事项.md",
+    "Inbox/diaries/2024-07-23.md",
+    "Inbox/works/2024-W30 周报.md",
+    "Inbox/works/2024-07-23 日报.md",
+    "Inbox/works/2024-07-23 会议纪要.md",
+    "Home/home-components/首页导航.components",
+    "从这里开始.md",
+    "Home/home-components/文件检索.components",
+    "Home/home-components/组合统计2.components",
+    "Home/home-components/最近天气.components",
+    "Home/home-components/未命名.md",
+    "Home/home-components/components-20240723152514.components",
+    "Home/sidebar-components/常用工具.components",
+    "Home/sidebar-components/常用统计.components",
     "Assets/attachments/tmp/Pasted image 20240723151459.png",
+    "Home/sidebar-components/彩色时钟.md",
+    "README.md",
+    "Assets/attachments/tmp/Pasted image 20240723151142.png",
     "Assets/attachments/tmp/Pasted image 20240723151546.png",
     "Assets/attachments/tmp/Pasted image 20240723151559.png",
     "Assets/attachments/tmp/Pasted image 20240723145510.png",
     "Assets/attachments/tmp/Pasted image 20240723145936.png",
     "Assets/attachments/tmp/Pasted image 20240723145414.png",
-    "README.md",
     "Home/sidebar-components/随机音乐.components",
-    "Home/sidebar-components/常用工具.components",
-    "Home/sidebar-components/彩色时钟.md",
     "Home/sidebar-components/随缘歌单.components",
-    "Home/Home.md",
-    "从这里开始.md",
-    "Home/sidebar-components/常用统计.components",
-    "Home/sidebar-components/灵光一闪.md",
-    "Home/home-components/文件检索.components",
     "Assets/attachments/tmp/Pasted image 20240723021138.png",
     "Assets/attachments/tmp/Pasted image 20240723021056.png",
-    "Home/sidebar-components/待办事项.md",
-    "Home/Home-multiple-components.md",
-    "Home/Home-single-component.md",
     "Assets/community-plugins/Templater/templates/tp-插件列表.md",
     "Assets/community-plugins/Templater/templates/tp-插件列表 - 副本.md",
     "Inbox/statistics/最近文件1.components",
-    "Inbox/statistics/文件检索1.components",
-    "Inbox/statistics/数据视图.components",
-    "Assets/community-plugins/Components/basic/打卡（多文件）.components",
-    "Assets/community-plugins/Components/basic/打卡（日记属性）.components",
     "Assets/attachments/tmp/Pasted image 20240723021006.png",
     "Assets/attachments/fonts/字体说明.md",
     "Untitled 2.md",
@@ -347,14 +354,9 @@
     "Untitled.md",
     "Untitled 3.md",
     "Inbox/works/2024 年报.md",
-    "Inbox/works/2024-W30 周报.md",
-    "Inbox/works/2024-07-23 日报.md",
-    "Inbox/works/2024-07-23 会议纪要.md",
-    "Inbox/diaries/2024-07-23.md",
     "20240723010905 new.md",
     "未命名.md",
     "Inbox/resources/未命名 1.md",
-    "Test/未命名.md",
-    "Inbox/things/未命名 1.md"
+    "Test/未命名.md"
   ]
 }

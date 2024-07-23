@@ -176,7 +176,7 @@
       "id": "0c61f56d-85fc-43f2-84ef-fdee266e301c",
       "type": "button",
       "titleAlign": "center",
-      "tabTitle": "",
+      "tabTitle": "Java",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showShadow": false,
@@ -206,7 +206,7 @@
       "id": "b47b3e66-3a57-4f1b-9e6e-f4975b0a52f4",
       "type": "button",
       "titleAlign": "center",
-      "tabTitle": "",
+      "tabTitle": "Python",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showShadow": false,
@@ -236,7 +236,7 @@
       "id": "9ceb6724-57c7-415d-844b-8d2413693f9a",
       "type": "button",
       "titleAlign": "center",
-      "tabTitle": "Home",
+      "tabTitle": "PC 主页",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showShadow": false,
@@ -251,8 +251,8 @@
           "options": {
             "commandId": "workspaces-plus:主页 1",
             "commandName": "Workspaces Plus: Load: 主页 1",
-            "filePath": "Home/HomePC.md",
-            "fileName": "HomePC.md",
+            "filePath": "Home/Home.md",
+            "fileName": "Home.md",
             "openPageIn": "tab"
           }
         }
@@ -645,7 +645,7 @@
       "id": "40687090-7a12-4b6a-aced-b9ae977831a2",
       "type": "button",
       "titleAlign": "center",
-      "tabTitle": "",
+      "tabTitle": "w3cschool",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showShadow": false,

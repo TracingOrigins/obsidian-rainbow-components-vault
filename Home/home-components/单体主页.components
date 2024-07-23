@@ -105,15 +105,15 @@
       "components": [
         {
           "componentId": "5088a76f-a9ac-488d-833f-f95826b1cdc5",
-          "widthRatio": 12.235067437379573
+          "widthRatio": 11.946050096339116
         },
         {
           "componentId": "4585b9cc-59c7-47b2-9149-1b5166e4b6ef",
-          "widthRatio": 66.859344894027
+          "widthRatio": 66.57032755298648
         },
         {
           "componentId": "3634a3b6-a9a4-43d9-9afa-3dd01d22d735",
-          "widthRatio": 20.905587668593455
+          "widthRatio": 21.483622350674395
         }
       ],
       "layoutType": "column"
@@ -1630,10 +1630,10 @@
       "updateAt": "2024-07-14T18:47:52.107Z",
       "components": [
         {
-          "componentId": "90695ce3-f1f7-4df1-a0b9-a0a8073a5ad1"
+          "componentId": "3155d7b1-b4aa-44cd-af52-214079f69658"
         },
         {
-          "componentId": "3155d7b1-b4aa-44cd-af52-214079f69658"
+          "componentId": "90695ce3-f1f7-4df1-a0b9-a0a8073a5ad1"
         },
         {
           "componentId": "79e7ee09-40dd-4412-87a1-28ba2a6ac186"
@@ -1656,10 +1656,10 @@
           "componentId": "87f825bd-90f0-42a6-8bac-b00dc8094b87"
         },
         {
-          "componentId": "dc480afb-bfd7-4f67-bc41-eca3df721882"
+          "componentId": "63e80b7b-5ebc-40a6-a614-30d448d52703"
         },
         {
-          "componentId": "5a1e6025-e35b-430f-965c-eabad89f2c4f"
+          "componentId": "6f0f4639-1b98-4fb6-80f6-1586b3d6cd9b"
         }
       ],
       "layoutType": "column"
@@ -1668,13 +1668,13 @@
       "id": "87f825bd-90f0-42a6-8bac-b00dc8094b87",
       "type": "button",
       "titleAlign": "center",
-      "tabTitle": "",
+      "tabTitle": "PC 主页",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showShadow": false,
       "createAt": "2024-07-14T18:48:05.259Z",
       "updateAt": "2024-07-14T18:48:05.259Z",
-      "text": "Home",
+      "text": "PC 主页",
       "buttonType": "common",
       "clickActions": [
         {
@@ -1718,7 +1718,7 @@
       "id": "2bf90fed-45dc-4613-9dfe-1933efc50ac7",
       "type": "button",
       "titleAlign": "center",
-      "tabTitle": "",
+      "tabTitle": "切换主题",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showShadow": false,
@@ -1745,7 +1745,7 @@
       "id": "67405c6e-c19e-4c63-a4a0-057595e7e184",
       "type": "button",
       "titleAlign": "center",
-      "tabTitle": "",
+      "tabTitle": "深色模式",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showShadow": false,
@@ -1772,7 +1772,7 @@
       "id": "9699a68e-711a-4d00-b6e4-b712d3165fe2",
       "type": "button",
       "titleAlign": "center",
-      "tabTitle": "",
+      "tabTitle": "浅色模式",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showShadow": false,
@@ -2170,64 +2170,10 @@
       "layoutType": "column"
     },
     {
-      "id": "dc480afb-bfd7-4f67-bc41-eca3df721882",
-      "type": "button",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": -1,
-      "showBorder": false,
-      "showShadow": false,
-      "createAt": "2024-07-14T18:48:05.259Z",
-      "updateAt": "2024-07-14T18:48:05.259Z",
-      "text": "Home-multiple-components",
-      "buttonType": "common",
-      "clickActions": [
-        {
-          "type": "OpenFile",
-          "id": "433033f4-f0c6-48f8-acee-225cf2edeff5",
-          "options": {
-            "filePath": "Home/Home-multiple-components.md",
-            "fileName": "Home-multiple-components.md"
-          }
-        }
-      ],
-      "checkActions": [],
-      "uncheckActions": [],
-      "isChecked": false,
-      "icon": "Home"
-    },
-    {
-      "id": "5a1e6025-e35b-430f-965c-eabad89f2c4f",
-      "type": "button",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": -1,
-      "showBorder": false,
-      "showShadow": false,
-      "createAt": "2024-07-14T18:48:05.259Z",
-      "updateAt": "2024-07-14T18:48:05.259Z",
-      "text": "Home-single-component",
-      "buttonType": "common",
-      "clickActions": [
-        {
-          "type": "OpenFile",
-          "id": "ed1f9e80-4b34-437c-a377-ec4550d3b89c",
-          "options": {
-            "filePath": "Home/Home-single-component.md",
-            "fileName": "Home-single-component.md"
-          }
-        }
-      ],
-      "checkActions": [],
-      "uncheckActions": [],
-      "isChecked": false,
-      "icon": "Home"
-    },
-    {
       "id": "77eef68c-0b6b-44c8-b1f3-34b7d37b9fe3",
       "type": "button",
       "titleAlign": "center",
-      "tabTitle": "",
+      "tabTitle": "Java",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showShadow": false,
@@ -2253,7 +2199,7 @@
       "id": "a4166839-e8a3-4af2-b6ad-dfeb6a96d235",
       "type": "button",
       "titleAlign": "center",
-      "tabTitle": "",
+      "tabTitle": "Python",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showShadow": false,
@@ -2279,7 +2225,7 @@
       "id": "1cb3796e-82d1-4761-bca6-cc135f34ddac",
       "type": "button",
       "titleAlign": "center",
-      "tabTitle": "",
+      "tabTitle": "w3cschool",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showShadow": false,
@@ -2300,6 +2246,42 @@
       "uncheckActions": [],
       "isChecked": false,
       "icon": "AlarmClockCheck"
+    },
+    {
+      "id": "63e80b7b-5ebc-40a6-a614-30d448d52703",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "Mobile 主页",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-23T07:38:33.385Z",
+      "updateAt": "2024-07-23T07:38:33.385Z",
+      "text": "Mobile 主页",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Home"
+    },
+    {
+      "id": "6f0f4639-1b98-4fb6-80f6-1586b3d6cd9b",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "Tablet 主页",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-23T07:39:11.573Z",
+      "updateAt": "2024-07-23T07:39:11.573Z",
+      "text": "Tablet 主页",
+      "buttonType": "common",
+      "clickActions": [],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Home"
     }
   ],
   "rootComponentId": "c01901fa-6300-4094-931e-26e078494a02"
