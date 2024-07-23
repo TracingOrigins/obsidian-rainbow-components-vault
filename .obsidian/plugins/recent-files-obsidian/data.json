@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Pasted image 20240723151459",
+      "path": "Assets/attachments/tmp/Pasted image 20240723151459.png"
+    },
+    {
+      "basename": "Pasted image 20240723151546",
+      "path": "Assets/attachments/tmp/Pasted image 20240723151546.png"
+    },
+    {
+      "basename": "Pasted image 20240723145510",
+      "path": "Assets/attachments/tmp/Pasted image 20240723145510.png"
+    },
+    {
+      "basename": "Pasted image 20240723145414",
+      "path": "Assets/attachments/tmp/Pasted image 20240723145414.png"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
@@ -39,18 +55,6 @@
     {
       "basename": "文件检索",
       "path": "Home/home-components/文件检索.components"
-    },
-    {
-      "basename": "Pasted image 20240723145936",
-      "path": "Assets/attachments/tmp/Pasted image 20240723145936.png"
-    },
-    {
-      "basename": "Pasted image 20240723145510",
-      "path": "Assets/attachments/tmp/Pasted image 20240723145510.png"
-    },
-    {
-      "basename": "Pasted image 20240723145414",
-      "path": "Assets/attachments/tmp/Pasted image 20240723145414.png"
     },
     {
       "basename": "待办事项",
@@ -187,10 +191,6 @@
     {
       "basename": "2024-W29 周报",
       "path": "Inbox/works/2024-W29 周报.md"
-    },
-    {
-      "basename": "2024-07-15 会议纪要",
-      "path": "Inbox/works/2024-07-15 会议纪要.md"
     }
   ],
   "omittedPaths": []
