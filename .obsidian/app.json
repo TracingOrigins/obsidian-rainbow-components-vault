@@ -7,5 +7,6 @@
   "promptDelete": false,
   "readableLineLength": true,
   "attachmentFolderPath": "Assets/attachments/tmp",
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "showLineNumber": true
 }

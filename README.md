@@ -1,21 +1,11 @@
 # obsidian-rainbow-components-vault
-使用components插件，爆改你的obsidian仓库
 
-插件列表：
-- cmdr
-- components
-- dataview
-- dust-calendar
-- editor-width-slider
-- mysnippets-plugin
-- neighbouring-files
-- obsidian-advanced-uri
-- obsidian-export-image
-- obsidian-hotkeys-for-specific-files
-- obsidian-react-components
-- obsidian-style-settings
-- quickadd
-- recent-files-obsidian
-- templater-obsidian
-- workspaces-plus
+**简介**
+- 使用components插件，爆改你的obsidian仓库
+
+**首页效果**
+- 深色模式
+  ![[Pasted image 20240723021056.png]]
+- 浅色模式
+  ![[Pasted image 20240723021138.png]]
 

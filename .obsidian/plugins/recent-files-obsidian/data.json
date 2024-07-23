@@ -1,24 +1,80 @@
 {
   "recentFiles": [
     {
-      "basename": "Home",
-      "path": "Home/Home.md"
+      "basename": "打卡（多文件）",
+      "path": "Assets/community-plugins/Components/basic/打卡（多文件）.components"
+    },
+    {
+      "basename": "打卡（日记属性）",
+      "path": "Assets/community-plugins/Components/basic/打卡（日记属性）.components"
+    },
+    {
+      "basename": "最近文件1",
+      "path": "Inbox/statistics/最近文件1.components"
+    },
+    {
+      "basename": "文件检索1",
+      "path": "Inbox/statistics/文件检索1.components"
+    },
+    {
+      "basename": "数据视图",
+      "path": "Inbox/statistics/数据视图.components"
+    },
+    {
+      "basename": "组合统计1",
+      "path": "Home/home-components/组合统计1.components"
+    },
+    {
+      "basename": "从这里开始",
+      "path": "从这里开始.md"
     },
     {
       "basename": "Home-multiple-components",
       "path": "Home/Home-multiple-components.md"
     },
     {
-      "basename": "Home-single-component",
-      "path": "Home/Home-single-component.md"
+      "basename": "首页导航",
+      "path": "Home/home-components/首页导航.components"
     },
     {
       "basename": "最近天气",
       "path": "Home/home-components/最近天气.components"
     },
     {
-      "basename": "最近文件1",
-      "path": "Home/home-components/最近文件1.components"
+      "basename": "简单统计",
+      "path": "Home/home-components/简单统计.components"
+    },
+    {
+      "basename": "单体主页",
+      "path": "Home/home-components/单体主页.components"
+    },
+    {
+      "basename": "Pasted image 20240723021056",
+      "path": "Assets/attachments/tmp/Pasted image 20240723021056.png"
+    },
+    {
+      "basename": "Pasted image 20240723021138",
+      "path": "Assets/attachments/tmp/Pasted image 20240723021138.png"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "字体说明",
+      "path": "Assets/attachments/fonts/字体说明.md"
+    },
+    {
+      "basename": "Home-single-component",
+      "path": "Home/Home-single-component.md"
+    },
+    {
+      "basename": "今日天气",
+      "path": "Home/home-components/今日天气.components"
+    },
+    {
+      "basename": "Home",
+      "path": "Home/Home.md"
     },
     {
       "basename": "常用工具",
@@ -33,20 +89,8 @@
       "path": "Home/sidebar-components/彩色时钟.md"
     },
     {
-      "basename": "数据视图",
-      "path": "Home/home-components/数据视图.components"
-    },
-    {
-      "basename": "文件检索1",
-      "path": "Home/home-components/文件检索1.components"
-    },
-    {
       "basename": "资源管理",
       "path": "Home/home-components/资源管理.components"
-    },
-    {
-      "basename": "组合统计1",
-      "path": "Home/home-components/组合统计1.components"
     },
     {
       "basename": "待办事项",
@@ -65,10 +109,6 @@
       "path": "Home/home-components/文件检索.components"
     },
     {
-      "basename": "首页导航",
-      "path": "Home/home-components/首页导航.components"
-    },
-    {
       "basename": "日期进度",
       "path": "Home/home-components/日期进度.components"
     },
@@ -81,24 +121,12 @@
       "path": "Home/home-components/历史上的今天.components"
     },
     {
-      "basename": "今日天气",
-      "path": "Home/home-components/今日天气.components"
-    },
-    {
       "basename": "今日日历",
       "path": "Home/home-components/今日日历.components"
     },
     {
       "basename": "今日卡片",
       "path": "Home/home-components/今日卡片.components"
-    },
-    {
-      "basename": "简单统计",
-      "path": "Home/home-components/简单统计.components"
-    },
-    {
-      "basename": "单体主页",
-      "path": "Home/home-components/单体主页.components"
     },
     {
       "basename": "按钮管理",
@@ -137,26 +165,6 @@
       "path": "Inbox/diaries/2024-07-23.md"
     },
     {
-      "basename": "从这里开始",
-      "path": "从这里开始.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "打卡（日记属性）",
-      "path": "Assets/community-plugins/Components/basic/打卡（日记属性）.components"
-    },
-    {
-      "basename": "components-20240723010605",
-      "path": "Assets/community-plugins/Components/basic/components-20240723010605.components"
-    },
-    {
-      "basename": "打卡（多文件）",
-      "path": "Assets/community-plugins/Components/basic/打卡（多文件）.components"
-    },
-    {
       "basename": "常用统计",
       "path": "Home/sidebar-components/常用统计.components"
     },
@@ -179,26 +187,6 @@
     {
       "basename": "2024-07-15 会议纪要",
       "path": "Inbox/works/2024-07-15 会议纪要.md"
-    },
-    {
-      "basename": "2024-07-16 会议纪要",
-      "path": "Inbox/works/2024-07-16 会议纪要.md"
-    },
-    {
-      "basename": "2024-07-16 日报",
-      "path": "Inbox/works/2024-07-16 日报.md"
-    },
-    {
-      "basename": "2024-07-18 日报",
-      "path": "Inbox/works/2024-07-18 日报.md"
-    },
-    {
-      "basename": "2024-07-18 会议纪要",
-      "path": "Inbox/works/2024-07-18 会议纪要.md"
-    },
-    {
-      "basename": "2024-07-17 日报",
-      "path": "Inbox/works/2024-07-17 日报.md"
     }
   ],
   "omittedPaths": []
