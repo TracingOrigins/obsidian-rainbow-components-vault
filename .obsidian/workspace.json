@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d8d88f799abd32c0",
+        "id": "1cf8f7d36a70a180",
         "type": "tabs",
         "children": [
           {
-            "id": "42e58b3ec455d7f2",
+            "id": "436af7c13f1f3afa",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "4641e326be88ad6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +83,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -165,8 +153,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "84a6051bbf517a35",
@@ -179,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Home/Home.md"
               }
             }
           },
@@ -189,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Home/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Home/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +205,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
+                "file": "Home/Home.md"
               }
             }
           },
@@ -311,9 +298,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4641e326be88ad6d",
+  "active": "436af7c13f1f3afa",
   "lastOpenFiles": [
+    "Assets/attachments/fonts/字体说明.md",
     "Home/Home.md",
+    "README.md",
     "Home/Home-single-component.md",
     "Home/Home-multiple-components.md",
     "Home/sidebar-components/灵光一闪.md",
@@ -333,7 +322,6 @@
     "Home/sidebar-components/常用统计.components",
     "Assets/attachments/tmp/Pasted image 20240723151459.png",
     "Home/sidebar-components/彩色时钟.md",
-    "README.md",
     "Assets/attachments/tmp/Pasted image 20240723151142.png",
     "Assets/attachments/tmp/Pasted image 20240723151546.png",
     "Assets/attachments/tmp/Pasted image 20240723151559.png",
@@ -348,7 +336,6 @@
     "Assets/community-plugins/Templater/templates/tp-插件列表 - 副本.md",
     "Inbox/statistics/最近文件1.components",
     "Assets/attachments/tmp/Pasted image 20240723021006.png",
-    "Assets/attachments/fonts/字体说明.md",
     "Untitled 2.md",
     "Untitled 1.md",
     "Untitled.md",

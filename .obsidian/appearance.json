@@ -19,8 +19,8 @@
     "@header-color"
   ],
   "theme": "obsidian",
-  "textFontFamily": "霞鹜文楷 Regular,霞鹜文楷 Light",
-  "interfaceFontFamily": "LXGW WenKai Screen R",
+  "textFontFamily": "霞鹜文楷",
+  "interfaceFontFamily": "霞鹜文楷 屏幕阅读版 R",
   "cssTheme": "",
   "accentColor": "#4b83d2",
   "baseFontSizeAction": false,

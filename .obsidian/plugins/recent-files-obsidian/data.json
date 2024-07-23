@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
       "basename": "Home",
       "path": "Home/Home.md"
+    },
+    {
+      "basename": "字体说明",
+      "path": "Assets/attachments/fonts/字体说明.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "Home-single-component",
@@ -127,10 +131,6 @@
     {
       "basename": "单体主页",
       "path": "Home/home-components/单体主页.components"
-    },
-    {
-      "basename": "字体说明",
-      "path": "Assets/attachments/fonts/字体说明.md"
     },
     {
       "basename": "今日天气",
