@@ -1,0 +1,483 @@
+{
+  "components": [
+    {
+      "id": "78ceac6b-4f7c-4e53-a907-a941547e3ffd",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-05-21T16:54:48.532Z",
+      "updateAt": "2024-05-21T16:54:48.532Z",
+      "components": [
+        {
+          "componentId": "91cad18c-4630-477c-97ed-414c8d2784aa"
+        },
+        {
+          "componentId": "581337eb-5a8f-4b79-80a3-8dff50861c9f"
+        },
+        {
+          "componentId": "75983a52-4175-44e6-ac0d-afbce9b0c498"
+        },
+        {
+          "componentId": "390d2e08-6520-489e-9053-69c5872c6ec8"
+        },
+        {
+          "componentId": "48cba963-0db5-4326-b961-046746b5fd11"
+        }
+      ],
+      "layoutType": "verticalTab"
+    },
+    {
+      "id": "d65148c0-0a1d-456e-9d92-981bb0fce6d7",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-05-22T09:56:28.170Z",
+      "updateAt": "2024-05-22T09:56:28.170Z",
+      "text": "浅色主题",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "1f0ffad5-f588-499d-95e1-70de0b1d39db",
+          "options": {
+            "commandId": "theme:use-light",
+            "commandName": "使用浅色模式"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "a1991ee7-71f9-4736-a67d-671f23b099ae",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "深色模式",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-05-22T10:00:01.520Z",
+      "updateAt": "2024-05-22T10:00:01.520Z",
+      "text": "深色模式",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "7771dc29-5c0a-4b45-8774-1f22c7f33960",
+          "options": {
+            "commandId": "theme:use-dark",
+            "commandName": "使用深色模式"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "cdbf73a9-bafd-4720-8c16-fcf15bff4bc2",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "浅色模式",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-05-22T10:01:19.566Z",
+      "updateAt": "2024-05-22T10:01:19.566Z",
+      "text": "浅色模式",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "59391004-b482-42ba-bd74-1a02a82cabf5",
+          "options": {
+            "commandId": "theme:use-light",
+            "commandName": "使用浅色模式"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "0c61f56d-85fc-43f2-84ef-fdee266e301c",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-05-22T10:03:56.084Z",
+      "updateAt": "2024-05-22T10:03:56.084Z",
+      "text": "学习 Java",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "f0de5259-d092-41e3-9cff-4b25a0d0c57a",
+          "options": {
+            "commandId": "workspaces-plus:学习 Java",
+            "commandName": "Workspaces Plus: Load: 学习 Java"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "b47b3e66-3a57-4f1b-9e6e-f4975b0a52f4",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-05-22T10:04:11.078Z",
+      "updateAt": "2024-05-22T10:04:11.078Z",
+      "text": "学习 Python",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "f97e92c5-a812-4f80-8ee7-0a7435685e71",
+          "options": {
+            "commandId": "workspaces-plus:学习 Python",
+            "commandName": "Workspaces Plus: Load: 学习 Python"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "9ceb6724-57c7-415d-844b-8d2413693f9a",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "主页",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-05-22T10:06:23.217Z",
+      "updateAt": "2024-05-22T10:06:23.217Z",
+      "text": "主页",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenFile",
+          "id": "8e723f08-22fa-4aea-ba83-1f0c076c533a",
+          "options": {
+            "commandId": "workspaces-plus:主页 1",
+            "commandName": "Workspaces Plus: Load: 主页 1",
+            "filePath": "Home/HomePC.md",
+            "fileName": "HomePC.md",
+            "openPageIn": "tab"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "cfac62ef-9f81-45b7-884b-7abe982a938f",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-05-30T18:14:50.940Z",
+      "updateAt": "2024-05-30T18:14:50.940Z",
+      "text": "组件入门",
+      "description": "",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenFile",
+          "id": "023a65b3-8733-4600-977a-713914347140",
+          "options": {
+            "filePath": "Home/组件入门.md",
+            "fileName": "组件入门.md",
+            "openPageIn": "tab"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "007552c7-dd8c-4eb5-99a3-5a2d49569ada",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-05-30T18:15:19.867Z",
+      "updateAt": "2024-05-30T18:15:19.867Z",
+      "text": "组件收藏",
+      "description": "",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenFile",
+          "id": "758424ff-87a2-4e66-b14e-42e023f67c47",
+          "options": {
+            "filePath": "Home/组件收藏.md",
+            "fileName": "组件收藏.md",
+            "openPageIn": "tab"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "a00830eb-d02c-4308-b15d-ed9d7358cd3f",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-05-30T18:16:25.007Z",
+      "updateAt": "2024-05-30T18:16:25.007Z",
+      "text": "插件管理",
+      "description": "",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenFile",
+          "id": "f62ac71f-3743-4b0a-be11-463ab6fe66ee",
+          "options": {
+            "filePath": "Statistics/插件管理1.md",
+            "fileName": "插件管理1.md",
+            "openPageIn": "tab"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "07ce0261-2bad-4e81-b625-9259b4780bf5",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-05-30T18:44:12.714Z",
+      "updateAt": "2024-05-30T18:44:12.714Z",
+      "text": "文件检索",
+      "description": "",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenFile",
+          "id": "d83f0407-a8a2-4bb1-bc1f-24fb6d11ca9f",
+          "options": {
+            "filePath": "Home/home-component/文件检索.components",
+            "fileName": "文件检索.components",
+            "openPageIn": "tab"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "070882af-c4b2-4472-97b1-8ed57a3ac4b3",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-06-04T11:01:15.174Z",
+      "updateAt": "2024-06-04T11:01:15.174Z",
+      "components": [
+        {
+          "componentId": "ccea1b12-5b5c-4f31-b17b-1be970ff92a7"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "ccea1b12-5b5c-4f31-b17b-1be970ff92a7",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-06-04T11:01:19.540Z",
+      "updateAt": "2024-06-04T11:01:19.540Z",
+      "text": "主页 1",
+      "description": "",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "95aef8d7-2cd4-45b9-bbad-605defe0be1e",
+          "options": {}
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false
+    },
+    {
+      "id": "75983a52-4175-44e6-ac0d-afbce9b0c498",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "打开文件",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-09-02T06:41:51.230Z",
+      "updateAt": "2024-09-02T06:41:51.230Z",
+      "text": "主页",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenFile",
+          "id": "b2f98987-f30f-4ccb-bc4d-4939f2b89741",
+          "options": {
+            "filePath": "Home/Home.md",
+            "fileName": "Home.md",
+            "openPageIn": "tab"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "House"
+    },
+    {
+      "id": "91cad18c-4630-477c-97ed-414c8d2784aa",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "执行命令",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-09-02T06:47:05.920Z",
+      "updateAt": "2024-09-02T06:47:05.920Z",
+      "text": "明暗切换",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "172a1bcd-fa99-43cf-a8a9-ec61d21cac27",
+          "options": {
+            "commandId": "quickadd:choice:d9f06850-661b-417d-81f1-92ef40e44748",
+            "commandName": "QuickAdd: 切换深色、浅色模式"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "SunMoon"
+    },
+    {
+      "id": "581337eb-5a8f-4b79-80a3-8dff50861c9f",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "打开链接",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-09-02T06:49:03.887Z",
+      "updateAt": "2024-09-02T06:49:03.887Z",
+      "text": "GitHub",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenUrl",
+          "id": "b803f114-e752-4671-948d-5821b7f4863e",
+          "options": {
+            "url": "https://github.com/"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Github"
+    },
+    {
+      "id": "390d2e08-6520-489e-9053-69c5872c6ec8",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "创建文件",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-09-02T06:53:45.374Z",
+      "updateAt": "2024-09-02T06:53:45.374Z",
+      "text": "临时笔记",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CreateFile",
+          "id": "2da409d8-58d6-4d26-ba33-12510540b72f",
+          "options": {
+            "targetFolder": "Tmp",
+            "openPageIn": "tab",
+            "fileName": "{{date: YYYYMMDDHHmmss}}",
+            "templateFilePath": "assets/core-plugins/模板/临时笔记模板.md"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "File"
+    },
+    {
+      "id": "48cba963-0db5-4326-b961-046746b5fd11",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "调用 Templater",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-09-02T06:55:09.791Z",
+      "updateAt": "2024-09-02T06:55:09.791Z",
+      "text": "文字卡片",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallTemplater",
+          "id": "c6ea2edf-41f0-4b4f-8de1-8e689a96060c",
+          "options": {
+            "filePath": "assets/community-plugins/Templater/templates/tp-文字卡片模板.md",
+            "fileName": "tp-文字卡片模板.md"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "Images"
+    }
+  ],
+  "rootComponentId": "78ceac6b-4f7c-4e53-a907-a941547e3ffd"
+}

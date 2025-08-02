@@ -1,0 +1,345 @@
+{
+  "media-extended:open-media-link": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "V"
+    }
+  ],
+  "media-extended:get-timestamp": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
+  "quickadd:choice:427f78c9-e2b5-4d42-b2c7-3878d01fd4d9": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Q"
+    }
+  ],
+  "file-explorer:move-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "M"
+    }
+  ],
+  "file-explorer:reveal-active-file": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ],
+  "app:go-back": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "file-explorer:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "app:open-settings": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": ","
+    }
+  ],
+  "workspace:edit-file-title": [
+    {
+      "modifiers": [],
+      "key": "F2"
+    }
+  ],
+  "app:go-forward": [
+    {
+      "modifiers": [
+        "Mod",
+        "Alt"
+      ],
+      "key": "ArrowRight"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "editor:insert-embed": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "Insert"
+    }
+  ],
+  "recent-files-obsidian:recent-files-open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
+    }
+  ],
+  "bookmarks:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
+    },
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ],
+  "cmdr:macro-0": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "X"
+    }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Q"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "W"
+    }
+  ],
+  "editor:set-heading-1": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "1"
+    }
+  ],
+  "editor:set-heading-2": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "2"
+    }
+  ],
+  "editor:set-heading-3": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "3"
+    }
+  ],
+  "editor:set-heading-4": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "4"
+    }
+  ],
+  "editor:set-heading-5": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "5"
+    }
+  ],
+  "editor:set-heading-6": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "6"
+    }
+  ],
+  "editor:insert-wikilink": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "K"
+    }
+  ],
+  "app:delete-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Delete"
+    }
+  ],
+  "quick-explorer:go-next": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad6"
+    }
+  ],
+  "quick-explorer:go-prev": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad4"
+    }
+  ],
+  "templater-obsidian:assets/community-plugins/Templater/templates/tp-status-To Do.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad1"
+    }
+  ],
+  "templater-obsidian:assets/community-plugins/Templater/templates/tp-status-Doing.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad2"
+    }
+  ],
+  "templater-obsidian:assets/community-plugins/Templater/templates/tp-status-Done.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad3"
+    }
+  ],
+  "quickadd:choice:a4050303-4f72-4401-9b65-49b7be3e7379": [
+    {
+      "modifiers": [],
+      "key": "F5"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:Home/home.md-new-tab": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Home"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:Home/Home.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Home"
+    }
+  ],
+  "bookmarks:bookmark-current-view": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
+  ],
+  "editor:insert-codeblock": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "8"
+    }
+  ],
+  "editor:toggle-code": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "7"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:0. 主页（Home）/Home.components-new-tab": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Home"
+    }
+  ],
+  "templater-obsidian:assets/community-plugins/Templater/templates/tp-status-To Do.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad1"
+    }
+  ],
+  "templater-obsidian:assets/community-plugins/Templater/templates/tp-status-Done.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad3"
+    }
+  ],
+  "templater-obsidian:assets/community-plugins/Templater/templates/tp-status-Doing.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad2"
+    }
+  ],
+  "templater-obsidian:assets/community-plugins/Templater/templates/tp-status-Canceled.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad0"
+    }
+  ]
+}

@@ -15,12 +15,12 @@ settings:
   type: heading
   level: 1
   collapsed: true
-- id: custom-vault-name2
+- id: custom-vault-name
   title: 自定义库名称
   description: 注意：库名称两侧要用英文单引号或双引号包裹
   type: variable-text
-  default: '"Hello World"'
-- id: set-vault-name2
+  default: '"Hell1o World"'
+- id: set-vault-name
   title: 显示库名称
   description:
   type: class-toggle
@@ -42,7 +42,6 @@ settings:
   description:
   type: class-toggle
   default: false
-- id: file-rainbow
 - id: set-bookmarks-folder-rainbow
   title: 书签
   description:
@@ -69,7 +68,7 @@ settings:
   description:
   type: class-toggle
   default: false
-- id: suojinxian-rainbow
+- id: indent-line-rainbow
   title: 彩虹缩进线
   description: 给文件列表和书签中的缩进线添加彩虹色
   type: heading
@@ -80,13 +79,11 @@ settings:
   description:
   type: class-toggle
   default: false
-- id: custom-icon
 - id: set-bookmarks-indent-line-rainbow
   title: 书签
   description:
   type: class-toggle
   default: false
-- id: custom-icon
 - id: file-rainbow
   title: 颜色继承
   description: 给文件列表和书签中的所有子项开启颜色继承
@@ -191,44 +188,27 @@ settings:
 * 文件列表添加库名并高亮显示
 *---------------------------------------------------------------*/
 body {
-    --custom-vault-name2: "Hello World";
+    --custom-vault-name: "Hello World";
 }
 
-body:not(.is-mobile).set-vault-name2 .nav-files-container.node-insert-event.show-unsupported > div > div:first-child {
-    position: relative;
-    height: 40px !important;
+body:not(.is-mobile).set-vault-name .workspace-leaf-content[data-type="file-explorer"] .nav-header::after {
+    content: var(--custom-vault-name);
+    font-size: 16px;
+    font-family: "Lucida Handwriting", "Segoe UI Emoji", serif;
+    font-weight: bolder;
+    text-shadow: 1px 1px 6px hsla(var(--color-accent) 0.4);
+    margin-left: 4px;
+    line-height: 40px;
+    color: var(--color-accent);
 }
 
-body:not(.is-mobile).set-vault-name2 .nav-files-container.node-insert-event.show-unsupported > div > div:first-child:before,
-body:not(.is-mobile).set-vault-name2 .nav-files-container.node-insert-event.show-unsupported > div > div:first-child:after {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-body:not(.is-mobile).set-vault-name2 .nav-files-container.node-insert-event.show-unsupported > div > div:first-child:before {
-    content: "";
-    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' data-darkreader-inline-stroke='' style='--darkreader-inline-stroke:currentColor;'%3E%3Cpath d='m6 14 1.45-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.55 6a2 2 0 0 1-1.94 1.5H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H18a2 2 0 0 1 2 2v2'%3E%3C/path%3E%3C/svg%3E");
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    mask-size: contain;
-    background-size: contain;
-    width: 26px;
-    height: 26px;
-    color: rgb(var(--custom-color-yellow));
-    background-color: rgb(var(--custom-color-yellow));
-}
-
-body:not(.is-mobile).set-vault-name2 .nav-files-container.node-insert-event.show-unsupported > div > div:first-child:after {
-    content: var(--custom-vault-name2);
-    font-size: 130%;
-    font-weight: bold;
-    margin-left: 40px;
-}
-
-/*细节优化*/
-body:not(.is-mobile).set-vault-name2 .workspace-leaf-content[data-type="file-explorer"] .nav-header {
+body:not(.is-mobile).set-vault-name .workspace-leaf-content[data-type="file-explorer"] .nav-header {
     padding-bottom: 0;
+}
+
+body:not(.is-mobile).set-vault-name .workspace-leaf-content[data-type="file-explorer"] .nav-files-container,
+body:not(.is-mobile).set-vault-name .workspace-leaf-content[data-type="file-explorer"] .nav-files-container > div > div:nth-child(2) > .nav-folder-title {
+    padding-top: 0;
 }
 
 /*---------------------------------------------------------------
@@ -241,7 +221,7 @@ body:not(.is-mobile).set-bookmarks-folder-icon .workspace-leaf-content[data-type
 }
 
 /*替换文件夹图标*/
-body:not(.is-mobile).set-explorer-folder-icon .workspace-leaf-content[data-type="file-explorer"] .tree-item-icon.collapse-icon.nav-folder-collapse-indicator,
+body:not(.is-mobile).set-explorer-folder-icon .workspace-leaf-content[data-type="file-explorer"] .tree-item-icon.collapse-icon,
 body:not(.is-mobile).set-bookmarks-folder-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item-self:has(svg.svg-icon.right-triangle) .tree-item-icon::before {
     -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 27 24' fill='none' stroke='currentColor' stroke-linejoin='round' stroke-linecap='round' stroke-width='2'%3E%3Cpath d='M6 14l1.45-2.9A2 2 0 0 1 9.24 10H22a2 2 0 0 1 1.94 2.5l-1.55 6a2 2 0 0 1-1.94 1.5H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H20a2 2 0 0 1 2 2v2'/%3E%3C/svg%3E%0A");
     -webkit-mask-repeat: no-repeat;
@@ -252,7 +232,7 @@ body:not(.is-mobile).set-bookmarks-folder-icon .workspace-leaf-content[data-type
     width: 17px;
 }
 
-body:not(.is-mobile).set-explorer-folder-icon .workspace-leaf-content[data-type="file-explorer"] .tree-item-icon.collapse-icon.nav-folder-collapse-indicator.is-collapsed,
+body:not(.is-mobile).set-explorer-folder-icon .workspace-leaf-content[data-type="file-explorer"] .tree-item-icon.collapse-icon.is-collapsed,
 body:not(.is-mobile).set-bookmarks-folder-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item-self:has(svg.svg-icon.right-triangle) .tree-item-icon.is-collapsed::before {
     -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 27 24' fill='none' stroke='currentColor' stroke-linejoin='round' stroke-linecap='round' stroke-width='2'%3E%3Cpath d='M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2z'/%3E%3Cpath d='M2 10h20' /%3E%3C/svg%3E%0A");
 }
@@ -375,7 +355,6 @@ body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="f
 body:not(.is-mobile).set-bookmarks-file-icon .workspace-leaf-content[data-type="bookmarks"] .tree-item:not(:has(.mod-collapsible))[data-path$=".components"] .tree-item-icon::before,
 body:not(.is-mobile).set-explorer-file-icon .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".components"]::before {
     -webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiBjbGFzcz0iYmkgYmktZ3JpZCIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMSAyLjVBMS41IDEuNSAwIDAgMSAyLjUgMWgzQTEuNSAxLjUgMCAwIDEgNyAyLjV2M0ExLjUgMS41IDAgMCAxIDUuNSA3aC0zQTEuNSAxLjUgMCAwIDEgMSA1LjV6TTIuNSAyYS41LjUgMCAwIDAtLjUuNXYzYS41LjUgMCAwIDAgLjUuNWgzYS41LjUgMCAwIDAgLjUtLjV2LTNhLjUuNSAwIDAgMC0uNS0uNXptNi41LjVBMS41IDEuNSAwIDAgMSAxMC41IDFoM0ExLjUgMS41IDAgMCAxIDE1IDIuNXYzQTEuNSAxLjUgMCAwIDEgMTMuNSA3aC0zQTEuNSAxLjUgMCAwIDEgOSA1LjV6bTEuNS0uNWEuNS41IDAgMCAwLS41LjV2M2EuNS41IDAgMCAwIC41LjVoM2EuNS41IDAgMCAwIC41LS41di0zYS41LjUgMCAwIDAtLjUtLjV6TTEgMTAuNUExLjUgMS41IDAgMCAxIDIuNSA5aDNBMS41IDEuNSAwIDAgMSA3IDEwLjV2M0ExLjUgMS41IDAgMCAxIDUuNSAxNWgtM0ExLjUgMS41IDAgMCAxIDEgMTMuNXptMS41LS41YS41LjUgMCAwIDAtLjUuNXYzYS41LjUgMCAwIDAgLjUuNWgzYS41LjUgMCAwIDAgLjUtLjV2LTNhLjUuNSAwIDAgMC0uNS0uNXptNi41LjVBMS41IDEuNSAwIDAgMSAxMC41IDloM2ExLjUgMS41IDAgMCAxIDEuNSAxLjV2M2ExLjUgMS41IDAgMCAxLTEuNSAxLjVoLTNBMS41IDEuNSAwIDAgMSA5IDEzLjV6bTEuNS0uNWEuNS41IDAgMCAwLS41LjV2M2EuNS41IDAgMCAwIC41LjVoM2EuNS41IDAgMCAwIC41LS41di0zYS41LjUgMCAwIDAtLjUtLjV6Ii8+Cjwvc3ZnPg==");
-    -webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNvbXBvbmVudCI+PHBhdGggZD0iTTUuNSA4LjUgOSAxMmwtMy41IDMuNUwyIDEybDMuNS0zLjVaIi8+PHBhdGggZD0ibTEyIDIgMy41IDMuNUwxMiA5IDguNSA1LjUgMTIgMloiLz48cGF0aCBkPSJNMTguNSA4LjUgMjIgMTJsLTMuNSAzLjVMMTUgMTJsMy41LTMuNVoiLz48cGF0aCBkPSJtMTIgMTUgMy41IDMuNUwxMiAyMmwtMy41LTMuNUwxMiAxNVoiLz48L3N2Zz4=");
     -webkit-mask-repeat: no-repeat;
 }
 
@@ -519,7 +498,7 @@ body:not(.is-mobile).set-recent-file-rainbow .workspace-leaf-content[data-type="
     color: rgba(var(--rainbow-folder-color), 1);
 }
 
-/*给折叠缩进线设置彩虹色*/
+/*给缩进线设置彩虹色*/
 body:not(.is-mobile).set-explorer-indent-line-rainbow .workspace-leaf-content[data-type="file-explorer"] .tree-item-children.nav-folder-children,
 body:not(.is-mobile).set-bookmarks-indent-line-rainbow .workspace-leaf-content[data-type="bookmarks"] .tree-item-children {
     transition: color 0.4s;

@@ -1,24 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "Home-multiple-components",
+      "path": "Home/Home-multiple-components.md"
+    },
+    {
       "basename": "Home",
       "path": "Home/Home.md"
     },
     {
-      "basename": "字体说明",
-      "path": "Assets/attachments/fonts/字体说明.md"
+      "basename": "常用工具",
+      "path": "Home/sidebar-components/常用工具.components"
+    },
+    {
+      "basename": "未命名",
+      "path": "Test/未命名.md"
     },
     {
       "basename": "README",
       "path": "README.md"
     },
     {
+      "basename": "start-here",
+      "path": "start-here.md"
+    },
+    {
+      "basename": "彩色时钟",
+      "path": "Home/sidebar-components/彩色时钟.md"
+    },
+    {
+      "basename": "随缘歌单",
+      "path": "Home/sidebar-components/随缘歌单.components"
+    },
+    {
+      "basename": "随机音乐",
+      "path": "Home/sidebar-components/随机音乐.components"
+    },
+    {
       "basename": "Home-single-component",
       "path": "Home/Home-single-component.md"
     },
     {
-      "basename": "Home-multiple-components",
-      "path": "Home/Home-multiple-components.md"
+      "basename": "常用统计",
+      "path": "Home/sidebar-components/常用统计.components"
+    },
+    {
+      "basename": "常用统计1",
+      "path": "Home/sidebar-components/常用统计1.components"
     },
     {
       "basename": "灵光一闪",
@@ -29,120 +57,56 @@
       "path": "Home/sidebar-components/待办事项.md"
     },
     {
-      "basename": "2024-07-23",
-      "path": "Inbox/diaries/2024-07-23.md"
-    },
-    {
-      "basename": "2024-W30 周报",
-      "path": "Inbox/works/2024-W30 周报.md"
-    },
-    {
-      "basename": "2024-07-23 日报",
-      "path": "Inbox/works/2024-07-23 日报.md"
-    },
-    {
-      "basename": "2024-07-23 会议纪要",
-      "path": "Inbox/works/2024-07-23 会议纪要.md"
-    },
-    {
-      "basename": "首页导航",
-      "path": "Home/home-components/首页导航.components"
-    },
-    {
-      "basename": "从这里开始",
-      "path": "从这里开始.md"
-    },
-    {
       "basename": "文件检索",
       "path": "Home/home-components/文件检索.components"
     },
     {
-      "basename": "组合统计2",
-      "path": "Home/home-components/组合统计2.components"
+      "basename": "2025-08-02 会议纪要",
+      "path": "Inbox/works/2025-08-02 会议纪要.md"
     },
     {
-      "basename": "最近天气",
-      "path": "Home/home-components/最近天气.components"
+      "basename": "2025-08-02 日报",
+      "path": "Inbox/works/2025-08-02 日报.md"
     },
     {
-      "basename": "常用工具",
-      "path": "Home/sidebar-components/常用工具.components"
+      "basename": "2025-W31 周报",
+      "path": "Inbox/works/2025-W31 周报.md"
     },
     {
-      "basename": "常用统计",
-      "path": "Home/sidebar-components/常用统计.components"
+      "basename": "2025 年报",
+      "path": "Inbox/works/2025 年报.md"
     },
     {
-      "basename": "Pasted image 20240723151459",
-      "path": "Assets/attachments/tmp/Pasted image 20240723151459.png"
+      "basename": "2025-08-02",
+      "path": "Inbox/diaries/2025-08-02.md"
     },
     {
-      "basename": "彩色时钟",
-      "path": "Home/sidebar-components/彩色时钟.md"
+      "basename": "基础-附件库",
+      "path": "assets/community-plugins/Components/basic/基础-附件库.components"
     },
     {
-      "basename": "Pasted image 20240723151546",
-      "path": "Assets/attachments/tmp/Pasted image 20240723151546.png"
-    },
-    {
-      "basename": "Pasted image 20240723145510",
-      "path": "Assets/attachments/tmp/Pasted image 20240723145510.png"
-    },
-    {
-      "basename": "Pasted image 20240723145414",
-      "path": "Assets/attachments/tmp/Pasted image 20240723145414.png"
-    },
-    {
-      "basename": "随机音乐",
-      "path": "Home/sidebar-components/随机音乐.components"
-    },
-    {
-      "basename": "随缘歌单",
-      "path": "Home/sidebar-components/随缘歌单.components"
-    },
-    {
-      "basename": "最近文件1",
-      "path": "Inbox/statistics/最近文件1.components"
-    },
-    {
-      "basename": "文件检索1",
-      "path": "Inbox/statistics/文件检索1.components"
-    },
-    {
-      "basename": "数据视图",
-      "path": "Inbox/statistics/数据视图.components"
-    },
-    {
-      "basename": "打卡（多文件）",
-      "path": "Assets/community-plugins/Components/basic/打卡（多文件）.components"
-    },
-    {
-      "basename": "打卡（日记属性）",
-      "path": "Assets/community-plugins/Components/basic/打卡（日记属性）.components"
-    },
-    {
-      "basename": "组合统计1",
-      "path": "Home/home-components/组合统计1.components"
-    },
-    {
-      "basename": "简单统计",
-      "path": "Home/home-components/简单统计.components"
-    },
-    {
-      "basename": "单体主页",
-      "path": "Home/home-components/单体主页.components"
-    },
-    {
-      "basename": "今日天气",
-      "path": "Home/home-components/今日天气.components"
+      "basename": "基础-时间轴",
+      "path": "assets/community-plugins/Components/basic/基础-时间轴.components"
     },
     {
       "basename": "最近文件",
       "path": "Home/home-components/最近文件.components"
     },
     {
+      "basename": "组合统计2",
+      "path": "Home/home-components/组合统计2.components"
+    },
+    {
+      "basename": "组合统计1",
+      "path": "Home/home-components/组合统计1.components"
+    },
+    {
       "basename": "资源管理",
       "path": "Home/home-components/资源管理.components"
+    },
+    {
+      "basename": "首页导航",
+      "path": "Home/home-components/首页导航.components"
     },
     {
       "basename": "日期进度",
@@ -157,41 +121,88 @@
       "path": "Home/home-components/历史上的今天.components"
     },
     {
-      "basename": "今日日历",
-      "path": "Home/home-components/今日日历.components"
+      "basename": "今日天气",
+      "path": "Home/home-components/今日天气.components"
     },
     {
       "basename": "今日卡片",
       "path": "Home/home-components/今日卡片.components"
     },
     {
+      "basename": "简单统计",
+      "path": "Home/home-components/简单统计.components"
+    },
+    {
+      "basename": "单体主页",
+      "path": "Home/home-components/单体主页.components"
+    },
+    {
       "basename": "按钮管理",
       "path": "Home/home-components/按钮管理.components"
     },
     {
-      "basename": "常用统计1",
-      "path": "Home/sidebar-components/常用统计1.components"
+      "basename": "蜀道难",
+      "path": "assets/attachments/documents/蜀道难.pdf"
     },
     {
-      "basename": "2024 年报",
-      "path": "Inbox/works/2024 年报.md"
+      "basename": "附件管理",
+      "path": "assets/community-plugins/Components/附件管理.components"
     },
     {
-      "basename": "未命名 1",
-      "path": "Inbox/resources/未命名 1.md"
+      "basename": "2024-07-18 日报",
+      "path": "Inbox/works/2024-07-18 日报.md"
     },
     {
-      "basename": "未命名",
-      "path": "Test/未命名.md"
+      "basename": "road-g946886d61_1920",
+      "path": "assets/attachments/pictures/travels/road-g946886d61_1920.jpg"
     },
     {
-      "basename": "未命名 1",
-      "path": "Inbox/things/未命名 1.md"
+      "basename": "snowdrift-gecf51e07f_1920",
+      "path": "assets/attachments/pictures/travels/snowdrift-gecf51e07f_1920.jpg"
     },
     {
-      "basename": "2024-W29 周报",
-      "path": "Inbox/works/2024-W29 周报.md"
+      "basename": "sunset-ge28cf669b_1920",
+      "path": "assets/attachments/pictures/travels/sunset-ge28cf669b_1920.jpg"
+    },
+    {
+      "basename": "sunset-gf5a677a8a_1920",
+      "path": "assets/attachments/pictures/travels/sunset-gf5a677a8a_1920.jpg"
+    },
+    {
+      "basename": "tunisia-g92f2bf537_1920",
+      "path": "assets/attachments/pictures/travels/tunisia-g92f2bf537_1920.jpg"
+    },
+    {
+      "basename": "mountains-g8e2992e4d_1920",
+      "path": "assets/attachments/pictures/travels/mountains-g8e2992e4d_1920.jpg"
+    },
+    {
+      "basename": "mount-fuji-g707b221b0_1920",
+      "path": "assets/attachments/pictures/travels/mount-fuji-g707b221b0_1920.jpg"
+    },
+    {
+      "basename": "field-g2adb79480_1920",
+      "path": "assets/attachments/pictures/travels/field-g2adb79480_1920.jpg"
+    },
+    {
+      "basename": "alpine-gbdddb9210_1920",
+      "path": "assets/attachments/pictures/travels/alpine-gbdddb9210_1920.jpg"
+    },
+    {
+      "basename": "africa-gecdb6d7cd_1920",
+      "path": "assets/attachments/pictures/travels/africa-gecdb6d7cd_1920.jpg"
+    },
+    {
+      "basename": "Pasted image 20240723151546",
+      "path": "assets/attachments/pictures/readme/Pasted image 20240723151546.png"
+    },
+    {
+      "basename": "Pasted image 20240723151459",
+      "path": "assets/attachments/pictures/readme/Pasted image 20240723151459.png"
     }
   ],
-  "omittedPaths": []
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
 }

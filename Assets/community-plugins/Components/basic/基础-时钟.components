@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "id": "cb361211-c113-464b-970e-f75f1d3d5162",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T09:56:11.034Z",
+      "updateAt": "2024-07-24T09:56:11.034Z",
+      "components": [
+        {
+          "componentId": "1140c026-8dc4-4d05-9c25-9277f8780c9f"
+        },
+        {
+          "componentId": "5cc0f663-f5d4-4783-b44b-bb0b19599df7"
+        },
+        {
+          "componentId": "d6a03be9-0f6e-4eec-b6c2-2cf236b552f7"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "1140c026-8dc4-4d05-9c25-9277f8780c9f",
+      "type": "clock",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T09:56:17.416Z",
+      "updateAt": "2024-07-24T09:56:17.417Z",
+      "maxHeight": 200,
+      "clockOptions": {
+        "showTimeLabel": true,
+        "dialType": "none",
+        "showDateLabel": true
+      }
+    },
+    {
+      "id": "5cc0f663-f5d4-4783-b44b-bb0b19599df7",
+      "type": "clock",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T09:56:36.130Z",
+      "updateAt": "2024-07-24T09:56:36.130Z",
+      "maxHeight": 200,
+      "clockOptions": {
+        "showTimeLabel": true,
+        "dialType": "circle",
+        "showDateLabel": true
+      }
+    },
+    {
+      "id": "d6a03be9-0f6e-4eec-b6c2-2cf236b552f7",
+      "type": "clock",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T09:56:44.283Z",
+      "updateAt": "2024-07-24T09:56:44.283Z",
+      "maxHeight": 200,
+      "clockOptions": {
+        "showTimeLabel": true,
+        "dialType": "square",
+        "showDateLabel": true
+      }
+    }
+  ],
+  "rootComponentId": "cb361211-c113-464b-970e-f75f1d3d5162"
+}

@@ -6,21 +6,21 @@
         "type": "split",
         "children": [
           {
-            "id": "1cf8f7d36a70a180",
+            "id": "11cc00872ee9c672",
             "type": "tabs",
             "children": [
               {
-                "id": "436af7c13f1f3afa",
+                "id": "5ad0b06bb1e6e863",
                 "type": "leaf",
-                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Home/Home.md",
+                    "file": "Home/Home-multiple-components.md",
                     "mode": "preview",
                     "source": true
                   },
-                  "pinned": true
+                  "icon": "lucide-file",
+                  "title": "Home-multiple-components"
                 }
               }
             ]
@@ -35,7 +35,6 @@
           {
             "id": "708ad167e8a94856",
             "type": "tabs",
-            "dimension": 69.4683908045977,
             "children": [
               {
                 "id": "0d00d9b96a7da2a7",
@@ -43,8 +42,11 @@
                 "state": {
                   "type": "file-explorer",
                   "state": {
-                    "sortOrder": "alphabetical"
-                  }
+                    "sortOrder": "alphabetical",
+                    "autoReveal": true
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "文件列表"
                 }
               },
               {
@@ -59,22 +61,19 @@
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical"
-                  }
+                  },
+                  "icon": "lucide-search",
+                  "title": "搜索"
                 }
-              }
-            ]
-          },
-          {
-            "id": "d855a5ac4cc6e788",
-            "type": "tabs",
-            "dimension": 30.531609195402297,
-            "children": [
+              },
               {
                 "id": "7292df8535ee67e2",
                 "type": "leaf",
                 "state": {
                   "type": "bookmarks",
-                  "state": {}
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "书签"
                 }
               },
               {
@@ -82,35 +81,38 @@
                 "type": "leaf",
                 "state": {
                   "type": "recent-files",
-                  "state": {}
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal",
-        "width": 343.5
+        "width": 345.5
       },
       "right": {
         "id": "bd2d8c96641742a7",
         "type": "split",
         "children": [
           {
-            "id": "e3c990bc07958cd3",
+            "id": "70e37bbf20e3afcf",
             "type": "tabs",
-            "dimension": 25.79022988505747,
+            "dimension": 36.337209302325576,
             "children": [
               {
-                "id": "c7f0545f516dc19b",
+                "id": "76f30b32e77726f8",
                 "type": "leaf",
                 "state": {
-                  "type": "calendar-view",
-                  "state": {}
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
                 }
               },
               {
-                "id": "39e77e95b520e394",
+                "id": "395e9a9b1f8fbeac",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -118,70 +120,45 @@
                     "file": "Home/sidebar-components/彩色时钟.md",
                     "mode": "preview",
                     "source": true
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "彩色时钟"
                 }
               },
               {
-                "id": "e4b0ae721ef0c905",
+                "id": "151dd9d7542cbc37",
                 "type": "leaf",
                 "state": {
                   "type": "components-file-view",
                   "state": {
                     "file": "Home/sidebar-components/常用工具.components"
-                  }
+                  },
+                  "icon": "gantt-chart",
+                  "title": "常用工具"
                 }
               },
               {
-                "id": "0db2f381ae29da65",
+                "id": "cdb8573d70685614",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "components-file-view",
                   "state": {
-                    "file": "Home/sidebar-components/待办事项.md",
-                    "mode": "preview",
-                    "source": true
-                  }
+                    "file": "Home/sidebar-components/随缘歌单.components"
+                  },
+                  "icon": "gantt-chart",
+                  "title": "随缘歌单"
                 }
               },
               {
-                "id": "e6d7871b4a0b002a",
+                "id": "d28807f641a6aabd",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "components-file-view",
                   "state": {
-                    "file": "Home/sidebar-components/灵光一闪.md",
-                    "mode": "preview",
-                    "source": true
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "id": "84a6051bbf517a35",
-            "type": "tabs",
-            "dimension": 50.86206896551724,
-            "children": [
-              {
-                "id": "b5b6d57ba82cc387",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "Home/Home.md"
-                  }
-                }
-              },
-              {
-                "id": "58854291c6b6fb50",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "Home/Home.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
+                    "file": "Home/sidebar-components/随机音乐.components"
+                  },
+                  "icon": "gantt-chart",
+                  "title": "随机音乐"
                 }
               },
               {
@@ -190,7 +167,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Home/Home.md",
+                    "file": "Home/sidebar-components/常用工具.components",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -198,7 +175,45 @@
                     "searchQuery": "",
                     "backlinkCollapsed": false,
                     "unlinkedCollapsed": true
-                  }
+                  },
+                  "icon": "links-coming-in",
+                  "title": "常用工具 的反向链接列表"
+                }
+              },
+              {
+                "id": "58854291c6b6fb50",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Home/sidebar-components/常用工具.components",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "常用工具 的出链列表"
+                }
+              }
+            ]
+          },
+          {
+            "id": "4d6321a708e37151",
+            "type": "tabs",
+            "dimension": 63.662790697674424,
+            "children": [
+              {
+                "id": "b5b6d57ba82cc387",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Home/Home-multiple-components.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Home-multiple-components 的大纲"
                 }
               },
               {
@@ -207,8 +222,10 @@
                 "state": {
                   "type": "file-properties",
                   "state": {
-                    "file": "Home/Home.md"
-                  }
+                    "file": "Home/Home-multiple-components.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "Home-multiple-components的笔记属性"
                 }
               },
               {
@@ -220,7 +237,9 @@
                     "sortOrder": "frequency",
                     "showSearch": false,
                     "searchQuery": ""
-                  }
+                  },
+                  "icon": "lucide-archive",
+                  "title": "添加笔记属性"
                 }
               },
               {
@@ -230,63 +249,71 @@
                   "type": "tag",
                   "state": {
                     "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "标签"
                 }
               },
               {
-                "id": "f2aa3b259f816f56",
+                "id": "63b6e4842b0924ce",
                 "type": "leaf",
                 "state": {
                   "type": "components-file-view",
                   "state": {
                     "file": "Home/sidebar-components/常用统计.components"
-                  }
+                  },
+                  "icon": "gantt-chart",
+                  "title": "常用统计"
                 }
               },
               {
-                "id": "06a0f9173da3255b",
+                "id": "1db79a0328645531",
                 "type": "leaf",
                 "state": {
                   "type": "components-file-view",
                   "state": {
                     "file": "Home/sidebar-components/常用统计1.components"
-                  }
-                }
-              }
-            ],
-            "currentTab": 6
-          },
-          {
-            "id": "4bddfa68d81cb9e4",
-            "type": "tabs",
-            "dimension": 23.347701149425287,
-            "children": [
-              {
-                "id": "fde016476b695efe",
-                "type": "leaf",
-                "state": {
-                  "type": "components-file-view",
-                  "state": {
-                    "file": "Home/sidebar-components/随机音乐.components"
-                  }
+                  },
+                  "icon": "gantt-chart",
+                  "title": "常用统计1"
                 }
               },
               {
-                "id": "cdb8573d70685614",
+                "id": "8de6eaeb9b8813b7",
                 "type": "leaf",
                 "state": {
-                  "type": "components-file-view",
+                  "type": "markdown",
                   "state": {
-                    "file": "Home/sidebar-components/随缘歌单.components"
-                  }
+                    "file": "Home/sidebar-components/灵光一闪.md",
+                    "mode": "preview",
+                    "source": true
+                  },
+                  "icon": "lucide-file",
+                  "title": "灵光一闪"
+                }
+              },
+              {
+                "id": "0d7d0d60e6b4a7e1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Home/sidebar-components/待办事项.md",
+                    "mode": "preview",
+                    "source": true
+                  },
+                  "icon": "lucide-file",
+                  "title": "待办事项"
                 }
               }
             ]
           }
         ],
         "direction": "horizontal",
-        "width": 392.5
+        "width": 413.5
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -300,15 +327,8 @@
           "templater-obsidian:Templater": false
         }
       },
-      "active": "436af7c13f1f3afa",
-      "mtime": "2024-07-18T20:00:00+08:00",
-      "workspaces-plus:settings-v1": {
-        "explorerFoldState": [
-          "Home",
-          "Home/home-components",
-          "Home/sidebar-components"
-        ]
-      }
+      "active": "0d00d9b96a7da2a7",
+      "mtime": "2025-08-02T17:18:47+08:00"
     }
   },
   "active": "Home"

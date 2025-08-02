@@ -1,0 +1,104 @@
+{
+  "components": [
+    {
+      "id": "01021208-f957-437e-9297-96d06b07a050",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "createAt": "2024-04-25T11:52:16.059Z",
+      "updateAt": "2024-04-25T11:52:16.059Z",
+      "backgroundStyle": "none",
+      "widgets": [],
+      "components": [
+        {
+          "componentId": "f1d0a7ee-1a0d-402b-9054-4687e38cbe71"
+        },
+        {
+          "componentId": "9153558a-ed77-400a-81ea-8868502c79b5"
+        },
+        {
+          "componentId": "fd8db8ac-1c17-4a64-97a3-6c9cbe26c156"
+        }
+      ],
+      "layoutType": "tab"
+    },
+    {
+      "id": "22831ed2-c336-4cfd-884c-30a411efdd55",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "backgroundStyle": "none",
+      "widgets": [],
+      "layoutType": "column",
+      "updateAt": "2024-04-01T08:33:41.476Z",
+      "createAt": "2024-02-18T07:16:37.859Z",
+      "remark": "DVJS-当年贡献热力图",
+      "components": [
+        {
+          "componentId": "8deada17-a6ee-456e-97a0-4ae961b0550b"
+        }
+      ]
+    },
+    {
+      "id": "f1d0a7ee-1a0d-402b-9054-4687e38cbe71",
+      "type": "attachments",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-08-01T09:06:56.315Z",
+      "updateAt": "2025-08-01T09:06:56.315Z",
+      "attachmentSource": "All",
+      "attachmentType": "Image",
+      "fileExensions": [],
+      "specifiedFilePath": "",
+      "sortField": "default",
+      "sortDirection": "asc",
+      "title": "图片库"
+    },
+    {
+      "id": "fd8db8ac-1c17-4a64-97a3-6c9cbe26c156",
+      "type": "attachments",
+      "titleAlign": "center",
+      "tabTitle": "脚本库",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-08-01T09:07:39.761Z",
+      "updateAt": "2025-08-01T09:07:39.761Z",
+      "attachmentSource": "All",
+      "attachmentType": "Customize",
+      "fileExensions": [
+        "js"
+      ],
+      "specifiedFilePath": "",
+      "sortField": "default",
+      "sortDirection": "asc",
+      "title": "脚本库"
+    },
+    {
+      "id": "9153558a-ed77-400a-81ea-8868502c79b5",
+      "type": "attachments",
+      "titleAlign": "center",
+      "tabTitle": "组件库",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-08-01T09:07:39.761Z",
+      "updateAt": "2025-08-01T09:07:39.761Z",
+      "attachmentSource": "All",
+      "attachmentType": "Customize",
+      "fileExensions": [
+        "components"
+      ],
+      "specifiedFilePath": "",
+      "sortField": "default",
+      "sortDirection": "asc",
+      "title": "组件库"
+    }
+  ],
+  "rootComponentId": "01021208-f957-437e-9297-96d06b07a050"
+}

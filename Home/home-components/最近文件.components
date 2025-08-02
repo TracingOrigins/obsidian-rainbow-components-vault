@@ -12,10 +12,38 @@
       "updateAt": "2024-06-07T14:27:37.373Z",
       "components": [
         {
-          "componentId": "8c342462-c833-45a0-aca1-5039084a4bfa"
+          "componentId": "8c342462-c833-45a0-aca1-5039084a4bfa",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 4
+            },
+            "laptop": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 4
+            }
+          }
         },
         {
-          "componentId": "f7c2049d-7827-4bcb-8fa8-a60d6a4b867f"
+          "componentId": "f7c2049d-7827-4bcb-8fa8-a60d6a4b867f",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 4
+            },
+            "laptop": {
+              "x": 0,
+              "y": 4,
+              "w": 4,
+              "h": 4
+            }
+          }
         }
       ],
       "layoutType": "tab"
@@ -30,7 +58,7 @@
       "showShadow": false,
       "createAt": "2024-06-07T14:28:06.298Z",
       "updateAt": "2024-06-07T14:28:06.298Z",
-      "maxHeight": 400,
+      "maxHeight": -1,
       "contentAlign": "left",
       "markdownsSource": "content",
       "markdownValue": "```dataview\ntable WITHOUT ID file.link AS \"标题\", file.mtime as \"修改时间\"\nfrom \"\"\nsort file.mtime desc\nlimit 10\n```"
@@ -45,7 +73,7 @@
       "showShadow": false,
       "createAt": "2024-06-07T14:28:06.298Z",
       "updateAt": "2024-06-07T14:28:06.298Z",
-      "maxHeight": 400,
+      "maxHeight": -1,
       "contentAlign": "left",
       "markdownsSource": "content",
       "markdownValue": "```dataview\ntable WITHOUT ID file.link AS \"标题\", file.ctime as \"创建时间\"\nfrom \"\"\nwhere date(today) - file.ctime <=dur(7 days)\nsort file.ctime desc\nlimit 10\n```"

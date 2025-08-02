@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "id": "6f042479-832d-4799-a9cf-b159de05ba88",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T10:05:17.324Z",
+      "updateAt": "2024-07-24T10:05:17.324Z",
+      "components": [
+        {
+          "componentId": "ca04e3ef-5b43-4acb-a52d-6956da4be282"
+        },
+        {
+          "componentId": "99d1c062-684e-4336-983e-f6aaf4d9f26b"
+        },
+        {
+          "componentId": "969e9c9f-4767-496d-b266-e8a97b64c3c9"
+        }
+      ],
+      "layoutType": "verticalTab"
+    },
+    {
+      "id": "ca04e3ef-5b43-4acb-a52d-6956da4be282",
+      "type": "chart",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T10:05:25.344Z",
+      "updateAt": "2024-07-24T10:05:25.344Z",
+      "chartType": "bar",
+      "maxHeight": 300,
+      "labelProperty": "${file.ctime}",
+      "labelFormat": "$toDate",
+      "valueProperty": "$file_count",
+      "filter": {
+        "id": "ef0a9a69-04d9-43e4-a3d6-99978ccff6c9",
+        "type": "group",
+        "operator": "and",
+        "conditions": []
+      },
+      "chartColorSet": [],
+      "chartLabelPosition": "top",
+      "sortField": "xAxisValue",
+      "sortOrder": "asc",
+      "title": "文件数量"
+    },
+    {
+      "id": "99d1c062-684e-4336-983e-f6aaf4d9f26b",
+      "type": "chart",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T10:05:25.344Z",
+      "updateAt": "2024-07-24T10:05:25.344Z",
+      "chartType": "line",
+      "maxHeight": 300,
+      "labelProperty": "${file.ctime}",
+      "labelFormat": "$toDate",
+      "valueProperty": "$file_count",
+      "filter": {
+        "id": "ef0a9a69-04d9-43e4-a3d6-99978ccff6c9",
+        "type": "group",
+        "operator": "and",
+        "conditions": []
+      },
+      "chartColorSet": [],
+      "chartLabelPosition": "top",
+      "title": "文件数量"
+    },
+    {
+      "id": "969e9c9f-4767-496d-b266-e8a97b64c3c9",
+      "type": "chart",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-09-06T14:19:17.479Z",
+      "updateAt": "2024-09-06T14:19:17.479Z",
+      "chartType": "doughnut",
+      "filter": {
+        "id": "8828c5ae-7c20-409e-a244-5189b99b73b3",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "5ab8ea58-6fca-4292-a6dc-2e531fe13cce",
+            "type": "filter",
+            "operator": "equals",
+            "property": "${file.parent}",
+            "value": "assets/community-plugins/Components/daily-check",
+            "conditions": []
+          },
+          {
+            "id": "f4071d48-8569-4c3e-bccf-791e3f21250c",
+            "type": "filter",
+            "operator": "equals",
+            "property": "dailyCheckStatus",
+            "value": "DONE",
+            "conditions": []
+          }
+        ]
+      },
+      "labelProperty": "dailyCheckName",
+      "labelFormat": "$none",
+      "valueProperty": "$file_count",
+      "valuePrecision": 0,
+      "sortField": "xAxisValue",
+      "sortOrder": "asc",
+      "maxHeight": 300,
+      "chartColorSet": "default",
+      "chartLabelPosition": "top",
+      "showDataValue": false,
+      "valueScaleStartFromZero": true,
+      "title": "多文件打卡统计"
+    }
+  ],
+  "rootComponentId": "6f042479-832d-4799-a9cf-b159de05ba88"
+}

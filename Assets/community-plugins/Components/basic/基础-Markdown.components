@@ -1,0 +1,55 @@
+{
+  "components": [
+    {
+      "id": "f9c438b0-6386-4a59-9439-ec921b679964",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T10:14:03.329Z",
+      "updateAt": "2024-07-24T10:14:03.329Z",
+      "components": [
+        {
+          "componentId": "a8b26b9e-e279-4beb-a8d4-f64e8b1d3826"
+        },
+        {
+          "componentId": "b6fa1618-fa5b-4633-895c-c15e9936177e"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "a8b26b9e-e279-4beb-a8d4-f64e8b1d3826",
+      "type": "markdown",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T10:14:07.192Z",
+      "updateAt": "2024-07-24T10:14:07.192Z",
+      "maxHeight": 300,
+      "contentAlign": "left",
+      "markdownsSource": "file",
+      "markdownValue": "assets/attachments/fonts/字体说明.md"
+    },
+    {
+      "id": "b6fa1618-fa5b-4633-895c-c15e9936177e",
+      "type": "markdown",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T10:14:34.822Z",
+      "updateAt": "2024-07-24T10:14:34.822Z",
+      "maxHeight": 300,
+      "contentAlign": "left",
+      "markdownsSource": "content",
+      "markdownValue": "Markdown组件（文本内容）"
+    }
+  ],
+  "rootComponentId": "f9c438b0-6386-4a59-9439-ec921b679964"
+}

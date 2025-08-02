@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "id": "3963df1e-669a-4a70-901f-f2f80f3acf88",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T09:50:38.718Z",
+      "updateAt": "2024-07-24T09:50:38.718Z",
+      "components": [
+        {
+          "componentId": "9cecc446-64a5-4de5-9e53-a46d0103d146"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "9cecc446-64a5-4de5-9e53-a46d0103d146",
+      "type": "countdown",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T09:50:59.241Z",
+      "updateAt": "2024-07-24T09:50:59.241Z",
+      "repeatType": "yearly",
+      "pictureFit": "cover",
+      "picturePosition": "left",
+      "showEndDateTime": false,
+      "endDayOfWeek": 0,
+      "endHour": 0,
+      "endMinute": 0,
+      "endSecond": 0,
+      "title": "距离元旦还有",
+      "timeTextPattern": "d",
+      "endMonth": 0,
+      "endDayOfMonth": 1
+    }
+  ],
+  "rootComponentId": "3963df1e-669a-4a70-901f-f2f80f3acf88"
+}

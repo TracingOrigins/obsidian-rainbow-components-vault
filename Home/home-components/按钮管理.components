@@ -12,13 +12,55 @@
       "updateAt": "2024-05-21T16:54:48.532Z",
       "components": [
         {
-          "componentId": "aa8ef629-9033-44ae-a32a-f5b91d56fc7b"
+          "componentId": "aa8ef629-9033-44ae-a32a-f5b91d56fc7b",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 4
+            },
+            "laptop": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 4
+            }
+          }
         },
         {
-          "componentId": "603c498d-4aa4-4428-96f1-2dda1ef41ab5"
+          "componentId": "603c498d-4aa4-4428-96f1-2dda1ef41ab5",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 4
+            },
+            "laptop": {
+              "x": 0,
+              "y": 4,
+              "w": 4,
+              "h": 4
+            }
+          }
         },
         {
-          "componentId": "32893775-c11e-421b-a5e3-f7add09033c3"
+          "componentId": "32893775-c11e-421b-a5e3-f7add09033c3",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 4
+            },
+            "laptop": {
+              "x": 0,
+              "y": 8,
+              "w": 4,
+              "h": 4
+            }
+          }
         }
       ],
       "layoutType": "tab"
@@ -260,7 +302,7 @@
       "checkActions": [],
       "uncheckActions": [],
       "isChecked": false,
-      "icon": "Home"
+      "icon": "House"
     },
     {
       "id": "ef09ee9e-59ae-4d8c-85d0-cf3a44f97836",
@@ -290,7 +332,7 @@
       "checkActions": [],
       "uncheckActions": [],
       "isChecked": false,
-      "icon": "Home"
+      "icon": "House"
     },
     {
       "id": "cfac62ef-9f81-45b7-884b-7abe982a938f",
@@ -397,7 +439,7 @@
           "type": "OpenFile",
           "id": "d83f0407-a8a2-4bb1-bc1f-24fb6d11ca9f",
           "options": {
-            "filePath": "Assets/community-plugins/Components/文件检索器.components",
+            "filePath": "assets/community-plugins/Components/文件检索器.components",
             "fileName": "文件检索器.components",
             "openPageIn": "tab"
           }
@@ -509,7 +551,7 @@
       "checkActions": [],
       "uncheckActions": [],
       "isChecked": false,
-      "icon": "Home"
+      "icon": "House"
     },
     {
       "id": "f1f9ccf7-da59-49f5-a6da-64f452b2c8ed",
@@ -528,7 +570,7 @@
           "type": "CallTemplater",
           "id": "71477cde-4658-4a87-84c8-088f9a392258",
           "options": {
-            "filePath": "Assets/community-plugins/Templater/templates/tp-文字卡片模板.md",
+            "filePath": "assets/community-plugins/Templater/templates/tp-文字卡片模板.md",
             "fileName": "tp-文字卡片模板.md"
           }
         }
@@ -554,7 +596,7 @@
           "type": "CallTemplater",
           "id": "4b1fe0f6-c8ef-441a-ab4f-2618b46ef8c6",
           "options": {
-            "filePath": "Assets/community-plugins/Templater/templates/tp-随机头图模板.md",
+            "filePath": "assets/community-plugins/Templater/templates/tp-随机头图模板.md",
             "fileName": "tp-随机头图模板.md"
           }
         }
@@ -580,7 +622,7 @@
           "type": "CallTemplater",
           "id": "94d02f7c-4a84-44e9-a770-2867e0976a7f",
           "options": {
-            "filePath": "Assets/community-plugins/Templater/templates/tp-插件列表.md",
+            "filePath": "assets/community-plugins/Templater/templates/tp-插件列表.md",
             "fileName": "tp-插件列表.md"
           }
         }
@@ -606,7 +648,7 @@
           "type": "CallTemplater",
           "id": "483ea491-2833-4d1e-9c16-43dcddf6ca49",
           "options": {
-            "filePath": "Assets/community-plugins/Templater/templates/tp-笔记收集箱.md",
+            "filePath": "assets/community-plugins/Templater/templates/tp-笔记收集箱.md",
             "fileName": "tp-笔记收集箱.md"
           }
         }
@@ -632,7 +674,7 @@
           "type": "CallTemplater",
           "id": "df3b66ed-368a-45ac-85fb-4acb6a91be6c",
           "options": {
-            "filePath": "Assets/community-plugins/Templater/templates/tp-日历模板.md",
+            "filePath": "assets/community-plugins/Templater/templates/tp-日历模板.md",
             "fileName": "tp-日历模板.md"
           }
         }

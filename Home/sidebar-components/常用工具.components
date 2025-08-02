@@ -22,6 +22,9 @@
         },
         {
           "componentId": "37c0561b-6582-4cb8-b47d-06bec57f0fd0"
+        },
+        {
+          "componentId": "ced3a4ea-7803-4686-9a8a-676e06bf7ef8"
         }
       ],
       "layoutType": "tab"
@@ -337,13 +340,13 @@
       "id": "1bfb08a7-0d68-45f4-b0f8-d1e9dd60b287",
       "type": "button",
       "titleAlign": "center",
-      "tabTitle": "主页",
+      "tabTitle": "打开主页",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showShadow": false,
       "createAt": "2024-07-13T01:15:12.833Z",
       "updateAt": "2024-07-13T01:15:12.833Z",
-      "text": "主页",
+      "text": "打开主页",
       "buttonType": "common",
       "clickActions": [
         {
@@ -359,19 +362,19 @@
       "checkActions": [],
       "uncheckActions": [],
       "isChecked": false,
-      "icon": "Home"
+      "icon": "House"
     },
     {
       "id": "0e6ea8cd-ed50-4107-a840-40501ecb0966",
       "type": "button",
       "titleAlign": "center",
-      "tabTitle": "待办",
+      "tabTitle": "打开待办",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showShadow": false,
       "createAt": "2024-07-13T01:15:12.833Z",
       "updateAt": "2024-07-13T01:15:12.833Z",
-      "text": "待办",
+      "text": "打开待办",
       "buttonType": "common",
       "clickActions": [
         {
@@ -393,13 +396,13 @@
       "id": "dd103f5d-f0bf-424d-bbaa-a579347bfc5f",
       "type": "button",
       "titleAlign": "center",
-      "tabTitle": "灵感",
+      "tabTitle": "打开灵感",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showShadow": false,
       "createAt": "2024-07-13T01:15:12.833Z",
       "updateAt": "2024-07-13T01:15:12.833Z",
-      "text": "灵感",
+      "text": "打开灵感",
       "buttonType": "common",
       "clickActions": [
         {
@@ -1240,7 +1243,7 @@
       "checkActions": [],
       "uncheckActions": [],
       "isChecked": false,
-      "icon": "Vault"
+      "icon": "Box"
     },
     {
       "id": "76e6c452-1c6c-4a75-b6ac-f1b58ba8679d",
@@ -1398,7 +1401,7 @@
       "checkActions": [],
       "uncheckActions": [],
       "isChecked": false,
-      "icon": "Home"
+      "icon": "House"
     },
     {
       "id": "b1a3b596-12e3-445c-b1e8-9a7bf93e7a22",
@@ -1426,7 +1429,7 @@
       "checkActions": [],
       "uncheckActions": [],
       "isChecked": false,
-      "icon": "Boxes"
+      "icon": "Search"
     },
     {
       "id": "edb2d903-994b-4a73-801b-24387ad2dee6",
@@ -1523,13 +1526,13 @@
       "id": "5cdbd22d-3c10-4ba2-ba40-de5012173da9",
       "type": "button",
       "titleAlign": "center",
-      "tabTitle": "日记",
+      "tabTitle": "创建日记",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showShadow": false,
       "createAt": "2024-07-13T01:21:36.944Z",
       "updateAt": "2024-07-13T01:21:36.944Z",
-      "text": "日记",
+      "text": "创建日记",
       "buttonType": "common",
       "clickActions": [
         {
@@ -1550,13 +1553,13 @@
       "id": "75048e94-81ab-4f46-b3c9-11e8feafa08d",
       "type": "button",
       "titleAlign": "center",
-      "tabTitle": "灵感",
+      "tabTitle": "添加灵感",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showShadow": false,
       "createAt": "2024-07-13T01:21:36.944Z",
       "updateAt": "2024-07-13T01:21:36.944Z",
-      "text": "灵感",
+      "text": "添加灵感",
       "buttonType": "common",
       "clickActions": [
         {
@@ -1577,13 +1580,13 @@
       "id": "8d325028-1647-4561-912e-9335220b086b",
       "type": "button",
       "titleAlign": "center",
-      "tabTitle": "待办",
+      "tabTitle": "添加待办",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showShadow": false,
       "createAt": "2024-07-13T01:21:36.944Z",
       "updateAt": "2024-07-13T01:21:36.944Z",
-      "text": "待办",
+      "text": "添加待办",
       "buttonType": "common",
       "clickActions": [
         {
@@ -1591,7 +1594,7 @@
           "id": "c3d9dd80-7217-4f7d-95e8-aeb4ff84febf",
           "options": {
             "commandId": "quickadd:choice:987db991-4dbf-4fe9-a381-f0ef7cba7e73",
-            "commandName": "QuickAdd: 待办事项"
+            "commandName": "QuickAdd: 新增待办"
           }
         }
       ],
@@ -3026,7 +3029,55 @@
       "updateAt": "2024-07-15T14:47:49.241Z",
       "components": [
         {
-          "componentId": "963d4fce-b344-4dfe-b360-87538ecf7efb"
+          "componentId": "963d4fce-b344-4dfe-b360-87538ecf7efb",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 4
+            },
+            "laptop": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "7065051d-20ce-4a86-af23-60ece7add723",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 4,
+              "w": 4,
+              "h": 4
+            },
+            "laptop": {
+              "x": 0,
+              "y": 4,
+              "w": 4,
+              "h": 4
+            }
+          }
+        },
+        {
+          "componentId": "ed73dd27-beba-4ced-aef6-f4181e3a6f6c",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 8,
+              "w": 4,
+              "h": 4
+            },
+            "laptop": {
+              "x": 0,
+              "y": 8,
+              "w": 4,
+              "h": 4
+            }
+          }
         }
       ],
       "layoutType": "column"
@@ -3035,13 +3086,13 @@
       "id": "963d4fce-b344-4dfe-b360-87538ecf7efb",
       "type": "button",
       "titleAlign": "center",
-      "tabTitle": "日记",
+      "tabTitle": "打开日记",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showShadow": false,
       "createAt": "2024-07-15T14:47:54.712Z",
       "updateAt": "2024-07-15T14:47:54.712Z",
-      "text": "日记",
+      "text": "打开日记",
       "buttonType": "common",
       "clickActions": [
         {
@@ -3070,13 +3121,13 @@
       "updateAt": "2024-07-15T17:31:06.933Z",
       "components": [
         {
-          "componentId": "a2e970cf-41bd-435d-a71b-087371f55f77"
-        },
-        {
           "componentId": "57e1376f-34bc-43f0-a51a-24d5dfcd5630"
         },
         {
           "componentId": "31c02eaa-e914-4fcc-81bf-7fd6a1dc5109"
+        },
+        {
+          "componentId": "b972e797-18ab-4199-93ac-e0cbf48a9683"
         }
       ],
       "layoutType": "column"
@@ -3085,13 +3136,13 @@
       "id": "a2e970cf-41bd-435d-a71b-087371f55f77",
       "type": "button",
       "titleAlign": "center",
-      "tabTitle": "会议",
+      "tabTitle": "会议纪要",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showShadow": false,
       "createAt": "2024-07-15T17:31:10.821Z",
       "updateAt": "2024-07-15T17:31:10.821Z",
-      "text": "会议",
+      "text": "会议纪要",
       "buttonType": "common",
       "clickActions": [
         {
@@ -3112,13 +3163,13 @@
       "id": "57e1376f-34bc-43f0-a51a-24d5dfcd5630",
       "type": "button",
       "titleAlign": "center",
-      "tabTitle": "日报",
+      "tabTitle": "创建日报",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showShadow": false,
       "createAt": "2024-07-15T17:31:10.821Z",
       "updateAt": "2024-07-15T17:31:10.821Z",
-      "text": "日报",
+      "text": "创建日报",
       "buttonType": "common",
       "clickActions": [
         {
@@ -3139,13 +3190,13 @@
       "id": "31c02eaa-e914-4fcc-81bf-7fd6a1dc5109",
       "type": "button",
       "titleAlign": "center",
-      "tabTitle": "周报",
+      "tabTitle": "创建周报",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showShadow": false,
       "createAt": "2024-07-15T17:31:10.821Z",
       "updateAt": "2024-07-15T17:31:10.821Z",
-      "text": "周报",
+      "text": "创建周报",
       "buttonType": "common",
       "clickActions": [
         {
@@ -3174,7 +3225,7 @@
       "updateAt": "2024-07-16T08:48:36.966Z",
       "components": [
         {
-          "componentId": "b972e797-18ab-4199-93ac-e0cbf48a9683"
+          "componentId": "a2e970cf-41bd-435d-a71b-087371f55f77"
         }
       ],
       "layoutType": "column"
@@ -3183,13 +3234,13 @@
       "id": "b972e797-18ab-4199-93ac-e0cbf48a9683",
       "type": "button",
       "titleAlign": "center",
-      "tabTitle": "年报",
+      "tabTitle": "创建年报",
       "maxWidthRatio": -1,
       "showBorder": false,
       "showShadow": false,
       "createAt": "2024-07-16T08:48:40.104Z",
       "updateAt": "2024-07-16T08:48:40.104Z",
-      "text": "年报",
+      "text": "创建年报",
       "buttonType": "common",
       "clickActions": [
         {
@@ -3205,6 +3256,245 @@
       "uncheckActions": [],
       "isChecked": false,
       "icon": "FileText"
+    },
+    {
+      "id": "7065051d-20ce-4a86-af23-60ece7add723",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "附件库",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-15T14:47:54.712Z",
+      "updateAt": "2024-07-15T14:47:54.712Z",
+      "text": "附件库",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenFile",
+          "id": "0c38b95a-f407-44f9-8f6e-5446deebba82",
+          "options": {
+            "commandId": "quickadd:choice:95b037a8-2e1d-42eb-a27e-4fe5c93a23e1",
+            "commandName": "QuickAdd: 查看日记",
+            "filePath": "assets/community-plugins/Components/basic/基础-附件库.components",
+            "fileName": "基础-附件库.components",
+            "openPageIn": "tab"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "FilePenLine"
+    },
+    {
+      "id": "ed73dd27-beba-4ced-aef6-f4181e3a6f6c",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "时间轴",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-15T14:47:54.712Z",
+      "updateAt": "2024-07-15T14:47:54.712Z",
+      "text": "时间轴",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "OpenFile",
+          "id": "0c38b95a-f407-44f9-8f6e-5446deebba82",
+          "options": {
+            "commandId": "quickadd:choice:95b037a8-2e1d-42eb-a27e-4fe5c93a23e1",
+            "commandName": "QuickAdd: 查看日记",
+            "filePath": "assets/community-plugins/Components/basic/基础-时间轴.components",
+            "fileName": "基础-时间轴.components",
+            "openPageIn": "tab"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "icon": "FilePenLine"
+    },
+    {
+      "id": "ced3a4ea-7803-4686-9a8a-676e06bf7ef8",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "工作区",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-08-02T08:04:08.912Z",
+      "updateAt": "2025-08-02T08:04:08.912Z",
+      "components": [
+        {
+          "componentId": "146f99d7-138d-4af6-9906-59122e7ab67f"
+        },
+        {
+          "componentId": "cd9cffc6-ca9c-4dab-9b2d-2e4f88d86454"
+        }
+      ],
+      "layoutType": "list",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "b8cc3673-32a9-4981-ba22-b956da25f7f6",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "保存布局",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": true,
+      "createAt": "2025-08-02T08:04:22.887Z",
+      "updateAt": "2025-08-02T08:04:22.887Z",
+      "text": "保存布局",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "7044d987-9dec-48a9-9a8e-90588d4e89c6",
+          "options": {
+            "commandId": "workspaces:save",
+            "commandName": "工作区: 保存布局"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "fullWidth": true,
+      "icon": "PanelsTopLeft"
+    },
+    {
+      "id": "cff1613b-f6a1-4adb-ae7f-340d791a407c",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "更新布局",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": true,
+      "createAt": "2025-08-02T08:04:22.887Z",
+      "updateAt": "2025-08-02T08:04:22.887Z",
+      "text": "更新布局",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "7044d987-9dec-48a9-9a8e-90588d4e89c6",
+          "options": {
+            "commandId": "workspaces:save-and-load",
+            "commandName": "工作区: 更新工作区布局"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "fullWidth": true,
+      "icon": "PanelsTopLeft"
+    },
+    {
+      "id": "f95835bd-4222-4ac5-b7e5-439102c3d7ee",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "加载布局",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": true,
+      "createAt": "2025-08-02T08:04:22.887Z",
+      "updateAt": "2025-08-02T08:04:22.887Z",
+      "text": "加载布局",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "7044d987-9dec-48a9-9a8e-90588d4e89c6",
+          "options": {
+            "commandId": "workspaces:load",
+            "commandName": "工作区: 加载工作区布局"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "fullWidth": true,
+      "icon": "PanelsTopLeft"
+    },
+    {
+      "id": "146f99d7-138d-4af6-9906-59122e7ab67f",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-08-02T08:06:53.238Z",
+      "updateAt": "2025-08-02T08:06:53.238Z",
+      "components": [
+        {
+          "componentId": "b8cc3673-32a9-4981-ba22-b956da25f7f6"
+        },
+        {
+          "componentId": "cff1613b-f6a1-4adb-ae7f-340d791a407c"
+        },
+        {
+          "componentId": "f95835bd-4222-4ac5-b7e5-439102c3d7ee"
+        }
+      ],
+      "layoutType": "column",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "5836f309-8e68-4a8a-b79b-e90a573391a7",
+      "type": "button",
+      "titleAlign": "center",
+      "tabTitle": "管理布局",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": true,
+      "createAt": "2025-08-02T08:04:22.887Z",
+      "updateAt": "2025-08-02T08:04:22.887Z",
+      "text": "管理布局",
+      "buttonType": "common",
+      "clickActions": [
+        {
+          "type": "CallCommand",
+          "id": "7044d987-9dec-48a9-9a8e-90588d4e89c6",
+          "options": {
+            "commandId": "workspaces:open-modal",
+            "commandName": "工作区: 管理工作区布局"
+          }
+        }
+      ],
+      "checkActions": [],
+      "uncheckActions": [],
+      "isChecked": false,
+      "fullWidth": true,
+      "icon": "PanelsTopLeft",
+      "components": []
+    },
+    {
+      "id": "cd9cffc6-ca9c-4dab-9b2d-2e4f88d86454",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-08-02T08:06:53.238Z",
+      "updateAt": "2025-08-02T08:06:53.238Z",
+      "components": [
+        {
+          "componentId": "5836f309-8e68-4a8a-b79b-e90a573391a7"
+        }
+      ],
+      "layoutType": "column",
+      "locked": false,
+      "layoutOptions": {}
     }
   ],
   "rootComponentId": "62696112-257a-45a6-8c44-7b4ae556191b"

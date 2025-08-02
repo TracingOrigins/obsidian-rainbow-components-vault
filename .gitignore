@@ -1,5 +1,7 @@
+# 忽略任意层级目录下名为 .idea 的目录
 **/.idea
 
+# 忽略任意层级目录下名为 .vscode 的目录
 **/.vscode
 
 **/plugins/components/data.json

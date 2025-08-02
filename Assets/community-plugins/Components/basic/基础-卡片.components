@@ -1,0 +1,43 @@
+{
+  "components": [
+    {
+      "id": "39ea0e1e-6bd4-4a99-98b7-f7af6aa82671",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T10:01:41.006Z",
+      "updateAt": "2024-07-24T10:01:41.006Z",
+      "components": [
+        {
+          "componentId": "b3aef72d-1b18-4cd7-9319-1e62c1f4f177"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "b3aef72d-1b18-4cd7-9319-1e62c1f4f177",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T10:01:53.520Z",
+      "updateAt": "2024-07-24T10:01:53.520Z",
+      "title": "",
+      "description": "",
+      "coverFit": "contains",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "77cbb899-d8e5-41c9-a380-9f49a33cca0e",
+        "options": {}
+      },
+      "cover": "assets/attachments/pictures/travels/tunisia-g92f2bf537_1920.jpg"
+    }
+  ],
+  "rootComponentId": "39ea0e1e-6bd4-4a99-98b7-f7af6aa82671"
+}

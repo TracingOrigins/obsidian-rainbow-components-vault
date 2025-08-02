@@ -1,0 +1,158 @@
+{
+  "components": [
+    {
+      "id": "e8068931-a9c7-4ff2-88a3-faecd76e77a7",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-08-01T10:29:01.680Z",
+      "updateAt": "2025-08-01T10:29:01.680Z",
+      "components": [
+        {
+          "componentId": "d77a60db-1ffc-4b13-9d9e-6e437d05328a"
+        },
+        {
+          "componentId": "c4da6fa5-abf3-4f85-81c2-14b1a5cad4fa"
+        },
+        {
+          "componentId": "4eb25e91-30d1-4e29-a73a-c353c8df4478"
+        },
+        {
+          "componentId": "64eded36-0b81-4a2b-a0f0-477c0e39cb53"
+        },
+        {
+          "componentId": "daafe191-3321-4029-aa79-bd5d14165a38"
+        },
+        {
+          "componentId": "99005579-5f80-4483-991e-191180af7e24"
+        }
+      ],
+      "layoutType": "tab",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "d77a60db-1ffc-4b13-9d9e-6e437d05328a",
+      "type": "attachments",
+      "titleAlign": "center",
+      "tabTitle": "Components",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-08-01T10:29:08.082Z",
+      "updateAt": "2025-08-01T10:29:08.082Z",
+      "attachmentSource": "All",
+      "attachmentType": "Customize",
+      "fileExensions": [
+        "components"
+      ],
+      "specifiedFilePath": "",
+      "sortField": "default",
+      "sortDirection": "asc",
+      "title": ""
+    },
+    {
+      "id": "c4da6fa5-abf3-4f85-81c2-14b1a5cad4fa",
+      "type": "attachments",
+      "titleAlign": "center",
+      "tabTitle": "PDF",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-08-01T10:29:08.082Z",
+      "updateAt": "2025-08-01T10:29:08.082Z",
+      "attachmentSource": "All",
+      "attachmentType": "Customize",
+      "fileExensions": [
+        "pdf"
+      ],
+      "specifiedFilePath": "",
+      "sortField": "default",
+      "sortDirection": "asc",
+      "title": ""
+    },
+    {
+      "id": "4eb25e91-30d1-4e29-a73a-c353c8df4478",
+      "type": "attachments",
+      "titleAlign": "center",
+      "tabTitle": "Excel",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-08-01T10:29:08.082Z",
+      "updateAt": "2025-08-01T10:29:08.082Z",
+      "attachmentSource": "All",
+      "attachmentType": "Customize",
+      "fileExensions": [
+        "xls",
+        "xlsx"
+      ],
+      "specifiedFilePath": "",
+      "sortField": "default",
+      "sortDirection": "asc"
+    },
+    {
+      "id": "64eded36-0b81-4a2b-a0f0-477c0e39cb53",
+      "type": "attachments",
+      "titleAlign": "center",
+      "tabTitle": "Word",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-08-01T10:29:08.082Z",
+      "updateAt": "2025-08-01T10:29:08.082Z",
+      "attachmentSource": "All",
+      "attachmentType": "Customize",
+      "fileExensions": [
+        "doc",
+        "docx"
+      ],
+      "specifiedFilePath": "",
+      "sortField": "default",
+      "sortDirection": "asc"
+    },
+    {
+      "id": "daafe191-3321-4029-aa79-bd5d14165a38",
+      "type": "attachments",
+      "titleAlign": "center",
+      "tabTitle": "PPT",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-08-01T10:29:08.082Z",
+      "updateAt": "2025-08-01T10:29:08.082Z",
+      "attachmentSource": "All",
+      "attachmentType": "Customize",
+      "fileExensions": [
+        "pptx"
+      ],
+      "specifiedFilePath": "",
+      "sortField": "default",
+      "sortDirection": "asc"
+    },
+    {
+      "id": "99005579-5f80-4483-991e-191180af7e24",
+      "type": "attachments",
+      "titleAlign": "center",
+      "tabTitle": "Pictures",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-08-01T10:29:08.082Z",
+      "updateAt": "2025-08-01T10:29:08.082Z",
+      "attachmentSource": "All",
+      "attachmentType": "Image",
+      "fileExensions": [
+        "pptx"
+      ],
+      "specifiedFilePath": "",
+      "sortField": "default",
+      "sortDirection": "asc",
+      "title": ""
+    }
+  ],
+  "rootComponentId": "e8068931-a9c7-4ff2-88a3-faecd76e77a7"
+}

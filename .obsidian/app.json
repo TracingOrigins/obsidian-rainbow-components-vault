@@ -6,7 +6,7 @@
   "useTab": false,
   "promptDelete": false,
   "readableLineLength": true,
-  "attachmentFolderPath": "Assets/attachments/tmp",
+  "attachmentFolderPath": "assets/attachments/tmp",
   "showInlineTitle": true,
   "showLineNumber": true,
   "newLinkFormat": "shortest",

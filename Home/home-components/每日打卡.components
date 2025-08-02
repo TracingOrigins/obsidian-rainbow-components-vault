@@ -55,7 +55,7 @@
           "options": {}
         }
       ],
-      "folder": "Assets/community-plugins/Components/daily-check",
+      "folder": "assets/community-plugins/Components/daily-check",
       "title": "每日打卡",
       "dataRecordType": "multiPage"
     },
@@ -84,7 +84,7 @@
             "type": "filter",
             "operator": "regex_match",
             "property": "${file.path}",
-            "value": "Assets/community-plugins/Components/daily-check/.*",
+            "value": "assets/community-plugins/Components/daily-check/.*",
             "conditions": []
           },
           {

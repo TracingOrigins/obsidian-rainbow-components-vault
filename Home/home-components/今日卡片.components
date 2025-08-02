@@ -13,9 +13,12 @@
       "components": [
         {
           "componentId": "b93f2619-6412-4c57-b485-ae32955b5444"
+        },
+        {
+          "componentId": "788eb0a2-adc6-4eff-99e7-60548f302844"
         }
       ],
-      "layoutType": "column"
+      "layoutType": "list"
     },
     {
       "id": "b93f2619-6412-4c57-b485-ae32955b5444",
@@ -36,7 +39,7 @@
         "id": "c4ad7d98-910c-45cf-9c44-e09a969fcc78",
         "options": {}
       },
-      "cover": "Assets/attachments/pictures/travels/mountains-g8e2992e4d_1920.jpg"
+      "cover": "assets/attachments/pictures/travels/mountains-g8e2992e4d_1920.jpg"
     },
     {
       "id": "e83be3de-c05a-4f09-bddf-278a092d70f6",
@@ -337,6 +340,21 @@
         "id": "a1c08446-fcb0-40f8-859f-c91670ada495",
         "options": {}
       }
+    },
+    {
+      "id": "788eb0a2-adc6-4eff-99e7-60548f302844",
+      "type": "markdown",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-11-21T17:31:58.195Z",
+      "updateAt": "2024-11-21T17:31:58.196Z",
+      "maxHeight": 300,
+      "contentAlign": "left",
+      "markdownsSource": "content",
+      "markdownValue": "```dataviewjs\nconst now = new Date();  \nconst months = [\"一月\", \"二月\", \"三月\", \"四月\", \"五月\", \"六月\", \"七月\", \"八月\", \"九月\", \"十月\", \"十一月\", \"十二月\"]  \nconst month = months[now.getMonth()];  // 月份是从0开始的  \nconst day = now.getDate();  \nconst week = \"星期\" + \"日一二三四五六\".charAt(now.getDay());  // 获取当前星期几(0 ~ 6，0代表星期天)  \n  \nlet result = `<svg class=\"calendar\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-label=\"Calendar\" role=\"img\" viewBox=\"0 0 512 512\" width=\"100%\" height=\"100%\" style=\"cursor: default;height:64px; width:64px; margin: -48px 0 0 40px;position:absolute;z-index:99999\">\n   <path d=\"m512,455c0,32 -25,57 -57,57l-398,0c-32,0 -57,-25 -57,-57l0,-327c0,-31 25,-57 57,-57l398,0c32,0 57,26 57,57l0,327z\" fill=\"#efefef\"/>    <path d=\"m484,0l-47,0l-409,0c-15,0 -28,13 -28,28l0,157l512,0l0,-157c0,-15 -13,-28 -28,-28z\" fill=\"#5aa9e6\"/>    <g fill=\"#3a79b6\">    <circle cx=\"462\" cy=\"136\" r=\"14\"/>    <circle cx=\"462\" cy=\"94\" r=\"14\"/>    <circle cx=\"419\" cy=\"136\" r=\"14\"/>    <circle cx=\"419\" cy=\"94\" r=\"14\"/>    <circle cx=\"376\" cy=\"136\" r=\"14\"/>    <circle cx=\"376\" cy=\"94\" r=\"14\"/>    </g><text id=\"month\" x=\"32\" y=\"142\" fill=\"#fff\" font-family=\"-apple-system, BlinkMacSystemFont, 'Noto Sans', 'Noto Sans CJK SC', 'Microsoft YaHei', 微软雅黑, sans-serif, 'Segoe UI', Roboto, 'Helvetica Neue', Arial\" font-size=\"100px\" style=\"text-anchor: left\">${month}  </text>  \n<text id=\"day\" x=\"256\" y=\"400\" fill=\"#66757f\" font-family=\"-apple-system, BlinkMacSystemFont, 'Noto Sans', 'Noto Sans CJK SC', 'Microsoft YaHei', 微软雅黑, sans-serif, 'Segoe UI', Roboto, 'Helvetica Neue', Arial\" font-size=\"256px\" style=\"text-anchor: middle\">${day}  \n</text>  \n<text id=\"weekday\" x=\"256\" y=\"480\" fill=\"#66757f\" font-family=\"-apple-system, BlinkMacSystemFont, 'Noto Sans', 'Noto Sans CJK SC', 'Microsoft YaHei', 微软雅黑, sans-serif, 'Segoe UI', Roboto, 'Helvetica Neue', Arial\" font-size=\"64px\" style=\"text-anchor: middle\">${week}  \n</text>\n</svg>`\n  \ndv.paragraph(result);\n```"
     }
   ],
   "rootComponentId": "70b6e825-8848-4824-97a7-af5866aa3125"

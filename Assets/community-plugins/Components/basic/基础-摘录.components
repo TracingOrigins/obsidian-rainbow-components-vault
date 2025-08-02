@@ -1,0 +1,172 @@
+{
+  "components": [
+    {
+      "id": "6faf4e60-89ea-4f39-a88f-2fa7219e101a",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T09:58:48.335Z",
+      "updateAt": "2024-07-24T09:58:48.335Z",
+      "components": [
+        {
+          "componentId": "d8c5f828-ab0f-40e3-9e6c-ac485348e1e0"
+        },
+        {
+          "componentId": "1b5df2f3-ee4e-4c09-888c-abbdfb7412e1"
+        },
+        {
+          "componentId": "f0c3a359-a587-4d60-87d2-7fa7ab2eba79"
+        },
+        {
+          "componentId": "4a88ff0c-bde5-41d7-8cdb-e9379a2cc82f"
+        }
+      ],
+      "layoutType": "verticalTab"
+    },
+    {
+      "id": "d8c5f828-ab0f-40e3-9e6c-ac485348e1e0",
+      "type": "quote",
+      "titleAlign": "center",
+      "tabTitle": "无封面",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T09:58:59.611Z",
+      "updateAt": "2024-07-24T09:58:59.611Z",
+      "contentType": "page",
+      "coverType": "none",
+      "filter": {
+        "id": "02736c83-7bef-4bf3-9a0c-d3f7543b69fb",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "1f4c5462-f6ec-47f0-9f9f-18eacd700ff1",
+            "type": "filter",
+            "operator": "not_contains",
+            "property": "${file.path}",
+            "value": "assets/",
+            "conditions": []
+          }
+        ]
+      },
+      "maxHeight": 300
+    },
+    {
+      "id": "1b5df2f3-ee4e-4c09-888c-abbdfb7412e1",
+      "type": "quote",
+      "titleAlign": "center",
+      "tabTitle": "链接作封面",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T09:58:59.611Z",
+      "updateAt": "2024-07-24T09:58:59.611Z",
+      "contentType": "page",
+      "coverType": "url",
+      "filter": {
+        "id": "02736c83-7bef-4bf3-9a0c-d3f7543b69fb",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "1f4c5462-f6ec-47f0-9f9f-18eacd700ff1",
+            "type": "filter",
+            "operator": "not_contains",
+            "property": "${file.path}",
+            "value": "assets/",
+            "conditions": []
+          }
+        ]
+      },
+      "maxHeight": 300,
+      "coverValue": "https://obsidian.md/images/2023-06-logo.png"
+    },
+    {
+      "id": "f0c3a359-a587-4d60-87d2-7fa7ab2eba79",
+      "type": "quote",
+      "titleAlign": "center",
+      "tabTitle": "文档属性做封面",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T09:58:59.611Z",
+      "updateAt": "2024-07-24T09:58:59.611Z",
+      "contentType": "page",
+      "coverType": "pageProperty",
+      "filter": {
+        "id": "02736c83-7bef-4bf3-9a0c-d3f7543b69fb",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "1f4c5462-f6ec-47f0-9f9f-18eacd700ff1",
+            "type": "filter",
+            "operator": "equals",
+            "property": "${file.basename}",
+            "value": "2024-09-06",
+            "conditions": []
+          }
+        ]
+      },
+      "maxHeight": 300,
+      "coverValue": "picture"
+    },
+    {
+      "id": "4a88ff0c-bde5-41d7-8cdb-e9379a2cc82f",
+      "type": "quote",
+      "titleAlign": "center",
+      "tabTitle": "文档中的第一张图片做封面",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T09:58:59.611Z",
+      "updateAt": "2024-07-24T09:58:59.611Z",
+      "contentType": "page",
+      "coverType": "pageFirstImage",
+      "filter": {
+        "id": "02736c83-7bef-4bf3-9a0c-d3f7543b69fb",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "1f4c5462-f6ec-47f0-9f9f-18eacd700ff1",
+            "type": "filter",
+            "operator": "not_contains",
+            "property": "${file.path}",
+            "value": "assets/",
+            "conditions": []
+          },
+          {
+            "id": "8c45ca2f-b240-4ed3-aec9-1d8554f19776",
+            "type": "group",
+            "operator": "or",
+            "conditions": [
+              {
+                "id": "9d1b3f63-4440-4acc-9504-376836f9c15d",
+                "type": "filter",
+                "operator": "equals",
+                "property": "${file.basename}",
+                "value": "README",
+                "conditions": []
+              },
+              {
+                "id": "169dbbd2-f38b-4020-bb5b-e7fe3b9a148e",
+                "type": "filter",
+                "operator": "equals",
+                "property": "${file.basename}",
+                "value": "从这里开始",
+                "conditions": []
+              }
+            ]
+          }
+        ]
+      },
+      "maxHeight": 300
+    }
+  ],
+  "rootComponentId": "6faf4e60-89ea-4f39-a88f-2fa7219e101a"
+}

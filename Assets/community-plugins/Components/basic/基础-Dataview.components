@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "id": "43493947-c919-472d-b675-78db3dabe2a0",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T10:09:17.055Z",
+      "updateAt": "2024-07-24T10:09:17.055Z",
+      "components": [
+        {
+          "componentId": "40682a84-c6a0-4900-abff-badceaaeace7"
+        },
+        {
+          "componentId": "3f4d0b27-8d60-4bd9-9e05-3837c48ecad7"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "40682a84-c6a0-4900-abff-badceaaeace7",
+      "type": "dataview",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T10:09:23.581Z",
+      "updateAt": "2024-07-24T10:09:23.581Z",
+      "query": "list\nfrom \"Inbox/diaries\"",
+      "queryType": "dataview",
+      "maxHeight": 300,
+      "dynamicParamComponents": [],
+      "title": "日记列表"
+    },
+    {
+      "id": "3f4d0b27-8d60-4bd9-9e05-3837c48ecad7",
+      "type": "dataview",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T10:11:21.576Z",
+      "updateAt": "2024-07-24T10:11:21.576Z",
+      "query": "table file.tags as \"标签\", file.path as \"路径\", file.ctime as \"创建时间\"\nfrom \"Inbox/diaries\"",
+      "queryType": "dataview",
+      "maxHeight": 300,
+      "dynamicParamComponents": [],
+      "title": "日记汇总表"
+    }
+  ],
+  "rootComponentId": "43493947-c919-472d-b675-78db3dabe2a0"
+}

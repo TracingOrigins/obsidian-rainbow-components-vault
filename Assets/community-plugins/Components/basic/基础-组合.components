@@ -1,0 +1,99 @@
+{
+  "components": [
+    {
+      "id": "368814a2-2628-4959-acb4-e7ab567d021a",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T10:15:42.846Z",
+      "updateAt": "2024-07-24T10:15:42.846Z",
+      "components": [
+        {
+          "componentId": "87d42fe8-19c7-49bf-a03f-8171d684ec48"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "87d42fe8-19c7-49bf-a03f-8171d684ec48",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T10:16:25.031Z",
+      "updateAt": "2024-07-24T10:16:25.031Z",
+      "components": [
+        {
+          "componentId": "d9d56978-5a5c-4352-89cb-ef48fe02e992"
+        },
+        {
+          "componentId": "b75842b6-ff2c-4118-89a0-9497a357062d"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "d9d56978-5a5c-4352-89cb-ef48fe02e992",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T10:17:14.152Z",
+      "updateAt": "2024-07-24T10:17:14.152Z",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "precision": 0,
+      "query": {
+        "valueType": "totalRecords",
+        "value": 100,
+        "filter": {
+          "id": "42b640c5-d445-455b-bc8d-d3074916ccbe",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "77cb4549-6e5d-48ee-9a35-a17b5082388f",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      },
+      "title": "总数"
+    },
+    {
+      "id": "b75842b6-ff2c-4118-89a0-9497a357062d",
+      "type": "card",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T10:17:48.222Z",
+      "updateAt": "2024-07-24T10:17:48.222Z",
+      "title": "",
+      "description": "",
+      "coverFit": "cover",
+      "coverPosition": "left",
+      "clickAction": {
+        "type": "CallCommand",
+        "id": "3606feeb-12f7-4d16-9240-6a4fdc23e007",
+        "options": {}
+      },
+      "cover": "assets/attachments/pictures/travels/sunset-gf5a677a8a_1920.jpg"
+    }
+  ],
+  "rootComponentId": "368814a2-2628-4959-acb4-e7ab567d021a"
+}

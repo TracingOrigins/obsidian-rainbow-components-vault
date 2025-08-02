@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "id": "b9aece93-84ea-4cb2-821d-ddd9cecccc81",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T09:54:39.557Z",
+      "updateAt": "2024-07-24T09:54:39.557Z",
+      "components": [
+        {
+          "componentId": "cfcc3517-98c2-445e-8ed6-7bdffc0b1cd5"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "cfcc3517-98c2-445e-8ed6-7bdffc0b1cd5",
+      "type": "dynamicDataView",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-07-24T09:54:44.615Z",
+      "updateAt": "2024-07-24T09:54:44.615Z",
+      "viewType": "table",
+      "newPageNameFormat": "{{date: YYYYMMDDHHmmss}}",
+      "properties": [
+        {
+          "id": "__componentsTitleProperty_0x7c00",
+          "name": "文件名",
+          "type": "text",
+          "isShow": true,
+          "wrap": false,
+          "options": {}
+        },
+        {
+          "id": "fa312ee2-78a3-435f-8c8d-0be3440c2234",
+          "name": "${file.tags}",
+          "isShow": true,
+          "type": "multiSelect",
+          "options": {}
+        },
+        {
+          "id": "20f04cf2-ec75-4b0b-99d8-44a3e9d59915",
+          "name": "${file.ctime}",
+          "isShow": true,
+          "type": "datetime",
+          "options": {}
+        },
+        {
+          "id": "02a06bde-cfbe-45b1-a2b7-05a4775221e4",
+          "name": "${file.mtime}",
+          "isShow": true,
+          "type": "datetime",
+          "options": {}
+        },
+        {
+          "id": "d089dc73-fbad-464a-a019-8f7300af0634",
+          "name": "${file.path}",
+          "isShow": true,
+          "type": "text",
+          "options": {}
+        },
+        {
+          "id": "bf6368af-a7d7-49d4-ae15-e22d13e7d88a",
+          "name": "${file.size}",
+          "isShow": true,
+          "type": "number",
+          "options": {}
+        }
+      ],
+      "templates": [],
+      "groups": [
+        {
+          "id": "1c20946d-9ab1-43a5-a8d7-905932a54fa4",
+          "name": "archive",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "21d1a6df-eb89-4b9c-9223-9f8612198703",
+          "name": "area",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "431a3e03-3929-4d4e-bcf9-8bf9af86510d",
+          "name": "book",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "6c16c216-11cf-4b04-89d9-3d36dd3f01c1",
+          "name": "daily",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "681b3134-961e-4527-b592-ba42ea23dd03",
+          "name": "diary",
+          "items": [],
+          "collapsed": false
+        },
+        {
+          "id": "edb65e14-6088-4039-bd8d-a56707b79465",
+          "name": "homepage",
+          "items": [],
+          "collapsed": false
+        }
+      ],
+      "colorfulGroups": false,
+      "viewOptions": {
+        "openPageIn": "tab",
+        "openPageAfterCreate": false,
+        "itemSize": "components--page-card-medium",
+        "showPropertyName": false,
+        "hideFileName": false,
+        "wrapFileName": true,
+        "items": [],
+        "cover": {
+          "type": "pageContent",
+          "value": "",
+          "fit": "contains",
+          "layout": "components--page-card-cover-landscape",
+          "pageContentPreview": true
+        }
+      },
+      "loadLimitPerPage": 10,
+      "newPageLocation": {
+        "location": "Tmp"
+      },
+      "groupBy": "tags"
+    }
+  ],
+  "rootComponentId": "b9aece93-84ea-4cb2-821d-ddd9cecccc81"
+}

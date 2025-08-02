@@ -1,0 +1,39 @@
+{
+  "components": [
+    {
+      "id": "bf06d475-2adc-4b8f-b247-74d084293bdc",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T09:50:42.586Z",
+      "updateAt": "2024-07-24T09:50:42.586Z",
+      "components": [
+        {
+          "componentId": "d4df1625-4eeb-4634-96a2-8cf4a9dd5396"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "d4df1625-4eeb-4634-96a2-8cf4a9dd5396",
+      "type": "timing",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T09:52:29.852Z",
+      "updateAt": "2024-07-24T09:52:29.852Z",
+      "showStartDateTime": false,
+      "pictureFit": "cover",
+      "picturePosition": "left",
+      "timeTextPattern": "d",
+      "title": "2024年元旦已过",
+      "startDateTime": "2024-01-01 00:00:00"
+    }
+  ],
+  "rootComponentId": "bf06d475-2adc-4b8f-b247-74d084293bdc"
+}

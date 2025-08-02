@@ -30,47 +30,224 @@ module.exports = __toCommonJS(main_exports);
 
 // src/NeighbouringFileNavigator.ts
 var import_obsidian = require("obsidian");
-var NeighbouringFileNavigator = class {
-  static getNeighbouringFiles(file) {
-    var _a;
-    const files = (_a = file == null ? void 0 : file.parent) == null ? void 0 : _a.children;
-    const filteredFiles = files == null ? void 0 : files.filter((f) => f instanceof import_obsidian.TFile && f.extension === "md");
-    const sortedFiles = filteredFiles == null ? void 0 : filteredFiles.sort((a, b) => a.basename.localeCompare(b.basename, void 0, {
-      numeric: true,
-      sensitivity: "base"
-    }));
-    return sortedFiles;
+var _NeighbouringFileNavigator = class {
+  constructor(settings) {
+    this.settings = settings;
   }
-};
-
-// src/main.ts
-var import_obsidian2 = require("obsidian");
-var NeighbouringFileNavigatorPlugin = class extends import_obsidian2.Plugin {
-  navigateToNeighbouringFile(next) {
-    const activeFile = this.app.workspace.getActiveFile();
+  static reverse(fn) {
+    return (a, b) => -fn(a, b);
+  }
+  getFileExplorerSortOrder(workspace) {
+    var _a, _b, _c, _d, _e;
+    return (_e = (_d = (_c = (_b = (_a = workspace.getLeavesOfType("file-explorer")) == null ? void 0 : _a.first()) == null ? void 0 : _b.getViewState()) == null ? void 0 : _c.state) == null ? void 0 : _d.sortOrder) != null ? _e : this.settings.defaultSortOrder;
+  }
+  navigateToNextFile(workspace) {
+    const sortOrder = this.getFileExplorerSortOrder(workspace);
+    console.debug("navigateToNextFile with sortOrder", sortOrder);
+    const sortFn = _NeighbouringFileNavigator.sorters[sortOrder];
+    this.navigateToNeighbouringFile(workspace, sortFn);
+  }
+  navigateToPrevFile(workspace) {
+    const sortOrder = this.getFileExplorerSortOrder(workspace);
+    console.debug("navigateToPrevFile with sortOrder", sortOrder);
+    const sortFn = _NeighbouringFileNavigator.sorters[sortOrder];
+    this.navigateToNeighbouringFile(workspace, _NeighbouringFileNavigator.reverse(sortFn));
+  }
+  navigateToNextAlphabeticalFile(workspace) {
+    console.debug("navigateToNextAlphabeticalFile");
+    this.navigateToNeighbouringFile(workspace, _NeighbouringFileNavigator.sorters.alphabetical);
+  }
+  navigateToPrevAlphabeticalFile(workspace) {
+    console.debug("navigateToPrevAlphabeticalFile");
+    this.navigateToNeighbouringFile(workspace, _NeighbouringFileNavigator.sorters.alphabeticalReverse);
+  }
+  navigateToOlderCreatedFile(workspace) {
+    console.debug("navigateToOlderCreatedFile");
+    this.navigateToNeighbouringFile(workspace, _NeighbouringFileNavigator.sorters.byCreatedTime);
+  }
+  navigateToNewerCreatedFile(workspace) {
+    console.debug("navigateToNewerCreatedFile");
+    this.navigateToNeighbouringFile(workspace, _NeighbouringFileNavigator.sorters.byCreatedTimeReverse);
+  }
+  navigateToOlderModifiedFile(workspace) {
+    console.debug("navigateToOlderModifiedFile");
+    this.navigateToNeighbouringFile(workspace, _NeighbouringFileNavigator.sorters.byModifiedTime);
+  }
+  navigateToNewerModifiedFile(workspace) {
+    console.debug("navigateToNewerModifiedFile");
+    this.navigateToNeighbouringFile(workspace, _NeighbouringFileNavigator.sorters.byModifiedTimeReverse);
+  }
+  navigateToNeighbouringFile(workspace, sortFn) {
+    const activeFile = workspace.getActiveFile();
     if (!activeFile)
       return;
-    const files = NeighbouringFileNavigator.getNeighbouringFiles(activeFile);
+    const files = this.getNeighbouringFiles(activeFile, sortFn);
     if (!files)
       return;
     const currentItem = files.findIndex(
       (item) => item.name === activeFile.name
     );
-    const toFile = next ? files[(currentItem + 1) % files.length] : files[currentItem == 0 ? files.length - 1 : (currentItem - 1) % files.length];
-    this.app.workspace.getLeaf(false).openFile(toFile);
+    const nextIndex = this.settings.enableFolderLoop ? (currentItem + 1) % files.length : Math.min(currentItem + 1, files.length - 1);
+    const toFile = files[nextIndex];
+    workspace.getLeaf(false).openFile(toFile);
   }
+  filterFiletype(files) {
+    if (this.settings.includedFileTypes === "allFiles")
+      return true;
+    if (this.settings.includedFileTypes === "markdownOnly") {
+      return files.extension === "md";
+    } else if (this.settings.includedFileTypes === "additionalExtensions") {
+      return files.extension === "md" || this.settings.additionalExtensions.includes(files.extension);
+    }
+  }
+  getNeighbouringFiles(file, sortFn) {
+    var _a, _b;
+    return (_b = (_a = file.parent) == null ? void 0 : _a.children.filter((f) => f instanceof import_obsidian.TFile).filter((f) => this.filterFiletype(f)).sort(sortFn)) != null ? _b : [];
+  }
+};
+var NeighbouringFileNavigator = _NeighbouringFileNavigator;
+NeighbouringFileNavigator.localeSorter = (a, b) => a.basename.localeCompare(
+  b.basename,
+  void 0,
+  { numeric: true, sensitivity: "base" }
+);
+NeighbouringFileNavigator.mtimeSorter = (a, b) => {
+  return b.stat.mtime - a.stat.mtime;
+};
+NeighbouringFileNavigator.ctimeSorter = (a, b) => {
+  return b.stat.ctime - a.stat.ctime;
+};
+NeighbouringFileNavigator.sorters = {
+  alphabetical: _NeighbouringFileNavigator.localeSorter,
+  byCreatedTime: _NeighbouringFileNavigator.ctimeSorter,
+  byModifiedTime: _NeighbouringFileNavigator.mtimeSorter,
+  alphabeticalReverse: _NeighbouringFileNavigator.reverse(_NeighbouringFileNavigator.localeSorter),
+  byCreatedTimeReverse: _NeighbouringFileNavigator.reverse(_NeighbouringFileNavigator.ctimeSorter),
+  byModifiedTimeReverse: _NeighbouringFileNavigator.reverse(_NeighbouringFileNavigator.mtimeSorter)
+};
+
+// src/NeighbouringFileNavigatorPluginSettings.ts
+var DEFAULT_SETTINGS = {
+  // sorting
+  defaultSortOrder: "alphabetical",
+  // navigation options
+  enableFolderLoop: false,
+  // file mask
+  includedFileTypes: "markdownOnly",
+  additionalExtensions: ["canvas", "pdf"]
+};
+
+// src/NeighbouringFileNavigatorPluginSettingTab.ts
+var import_obsidian2 = require("obsidian");
+var NeighbouringFileNavigatorPluginSettingTab = class extends import_obsidian2.PluginSettingTab {
+  constructor(app, plugin) {
+    super(app, plugin);
+    this.plugin = plugin;
+  }
+  display() {
+    let { containerEl } = this;
+    containerEl.empty();
+    new import_obsidian2.Setting(containerEl).setName("Default Sort Order").setDesc("Fallback sort order used for the default command").addDropdown((dropdown) => {
+      dropdown.addOption("alphabetical", "Alphabetical");
+      dropdown.addOption("byCreatedTime", "Creation Timestamp");
+      dropdown.addOption("byModifiedTime", "Modification Timestamp");
+      dropdown.setValue(this.plugin.settings.defaultSortOrder);
+      dropdown.onChange(async (value) => {
+        this.plugin.settings.defaultSortOrder = value;
+        await this.plugin.saveSettings();
+      });
+    });
+    new import_obsidian2.Setting(containerEl).setName("Loop Notes in Folder").setDesc("Navigate to the first note when navigating past the last note in the same folder.").addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.enableFolderLoop);
+      toggle.onChange(async (value) => {
+        this.plugin.settings.enableFolderLoop = value;
+        await this.plugin.saveSettings();
+      });
+    });
+    new import_obsidian2.Setting(containerEl).setName("Included File Types").setDesc("Set which file types to include in the navigation").addDropdown((dropdown) => {
+      dropdown.addOption("markdownOnly", "Markdown only");
+      dropdown.addOption("allFiles", "All files");
+      dropdown.addOption("additionalExtensions", "Additional file extensions below");
+      dropdown.setValue(this.plugin.settings.includedFileTypes);
+      dropdown.onChange(async (value) => {
+        this.plugin.settings.includedFileTypes = value;
+        await this.plugin.saveSettings();
+        this.display();
+      });
+    });
+    if (this.plugin.settings.includedFileTypes === "additionalExtensions") {
+      new import_obsidian2.Setting(containerEl).setName("Extensions").setDesc("List of additional file extensions to include in the navigation (comma separated)").addText((text) => {
+        text.setPlaceholder("canvas, pdf");
+        text.setValue(this.plugin.settings.additionalExtensions.join(", "));
+        text.onChange(async (value) => {
+          this.plugin.settings.additionalExtensions = value.split(",").map((ext) => ext.trim());
+          await this.plugin.saveSettings();
+        });
+      });
+    }
+  }
+};
+
+// src/main.ts
+var import_obsidian3 = require("obsidian");
+var NeighbouringFileNavigatorPlugin = class extends import_obsidian3.Plugin {
   async onload() {
+    await this.loadSettings();
+    this.addSettingTab(new NeighbouringFileNavigatorPluginSettingTab(this.app, this));
+    this.navigator = new NeighbouringFileNavigator(this.settings);
     this.addCommand({
       id: "next",
       name: "Navigate to next file",
-      callback: () => this.navigateToNeighbouringFile(true)
+      callback: () => this.navigator.navigateToNextFile(this.app.workspace)
     });
     this.addCommand({
       id: "prev",
-      name: "Navigate to previous file",
-      callback: () => this.navigateToNeighbouringFile(false)
+      name: "Navigate to prev file",
+      callback: () => this.navigator.navigateToPrevFile(this.app.workspace)
     });
+    this.addCommand({
+      id: "next-alphabetical",
+      name: "Navigate to next file (alphabetical)",
+      callback: () => this.navigator.navigateToNextAlphabeticalFile(this.app.workspace)
+    });
+    this.addCommand({
+      id: "prev-alphabetical",
+      name: "Navigate to prev file (alphabetical)",
+      callback: () => this.navigator.navigateToPrevAlphabeticalFile(this.app.workspace)
+    });
+    const olderCreatedCommand = {
+      name: "Navigate to older file (creation timestamp)",
+      callback: () => this.navigator.navigateToOlderCreatedFile(this.app.workspace)
+    };
+    this.addCommand({ ...olderCreatedCommand, id: "older-created" });
+    this.addCommand({ ...olderCreatedCommand, id: "prev-created" });
+    const newerCreatedCommand = {
+      name: "Navigate to newer file (creation timestamp)",
+      callback: () => this.navigator.navigateToNewerCreatedFile(this.app.workspace)
+    };
+    this.addCommand({ ...newerCreatedCommand, id: "next-created" });
+    this.addCommand({ ...newerCreatedCommand, id: "newer-created" });
+    const olderModifiedCommand = {
+      name: "Navigate to older file (modification timestamp)",
+      callback: () => this.navigator.navigateToOlderModifiedFile(this.app.workspace)
+    };
+    this.addCommand({ ...olderModifiedCommand, id: "older-modified" });
+    this.addCommand({ ...olderModifiedCommand, id: "prev-modified" });
+    const newerModifiedCommand = {
+      name: "Navigate to newer file (modification timestamp)",
+      callback: () => this.navigator.navigateToNewerModifiedFile(this.app.workspace)
+    };
+    this.addCommand({ ...newerModifiedCommand, id: "next-modified" });
+    this.addCommand({ ...newerModifiedCommand, id: "newer-modified" });
   }
   onunload() {
   }
+  async loadSettings() {
+    this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
+  }
+  async saveSettings() {
+    await this.saveData(this.settings);
+  }
 };
+
+/* nosourcemap */

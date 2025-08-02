@@ -5,8 +5,8 @@
 
 **效果**
 - 深色模式
-    - ![](Assets/attachments/tmp/Pasted%20image%2020240723151459.png)
-    - ![](Assets/attachments/tmp/Pasted%20image%2020240723145414.png)
+    - ![](Pasted%20image%2020240723151459.png)
+    - ![](Pasted%20image%2020240723145414.png)
 - 浅色模式
-    - ![](Assets/attachments/tmp/Pasted%20image%2020240723151546.png)
-    - ![](Assets/attachments/tmp/Pasted%20image%2020240723145510.png)
+    - ![](Pasted%20image%2020240723151546.png)
+    - ![](Pasted%20image%2020240723145510.png)

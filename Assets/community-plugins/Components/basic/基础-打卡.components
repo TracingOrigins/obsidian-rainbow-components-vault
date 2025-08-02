@@ -1,0 +1,97 @@
+{
+  "components": [
+    {
+      "id": "877f916f-7363-40cf-ac38-fb6e7750789a",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-12T03:47:46.127Z",
+      "updateAt": "2024-07-12T03:47:46.127Z",
+      "components": [
+        {
+          "componentId": "fdbdb109-2662-41f6-8d45-4df09cc20ed4"
+        },
+        {
+          "componentId": "db73aeee-6b00-4133-b3d3-791f5ed8060a"
+        }
+      ],
+      "layoutType": "verticalTab"
+    },
+    {
+      "id": "fdbdb109-2662-41f6-8d45-4df09cc20ed4",
+      "type": "dailyCheck",
+      "titleAlign": "center",
+      "tabTitle": "打卡（多文件）",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-12T03:52:14.505Z",
+      "updateAt": "2024-07-12T03:52:14.505Z",
+      "tasks": [
+        {
+          "id": "8ca5aeaa-bb57-47ce-888c-c7d1b1f415c8",
+          "name": "阅读",
+          "options": {}
+        },
+        {
+          "id": "9fbf2114-c001-4aba-ba4a-2227719390fc",
+          "name": "学习",
+          "options": {}
+        },
+        {
+          "id": "4b816355-480e-49ac-b95a-0bf9f03b4b08",
+          "name": "喝水",
+          "options": {}
+        },
+        {
+          "id": "538bc3fd-f4f0-427e-b3da-f2e8a52ce730",
+          "name": "运动",
+          "options": {}
+        }
+      ],
+      "dataRecordType": "multiPage",
+      "folder": "assets/community-plugins/Components/daily-check",
+      "title": "打卡（多文件）"
+    },
+    {
+      "id": "db73aeee-6b00-4133-b3d3-791f5ed8060a",
+      "type": "dailyCheck",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-09-02T08:02:10.249Z",
+      "updateAt": "2024-09-02T08:02:10.249Z",
+      "tasks": [
+        {
+          "id": "49aae9b0-9121-4320-88e6-53d719096fef",
+          "name": "阅读",
+          "options": {}
+        },
+        {
+          "id": "665e19df-b74f-4eed-87de-47d230a7da10",
+          "name": "学习",
+          "options": {}
+        },
+        {
+          "id": "6f181dea-d259-46d0-aabc-3fc14517fe08",
+          "name": "喝水",
+          "options": {}
+        },
+        {
+          "id": "2bbe16be-43eb-4bc7-9968-0b99334fccb1",
+          "name": "运动",
+          "options": {}
+        }
+      ],
+      "dataRecordType": "journalProperty",
+      "folder": "components/daily-check",
+      "title": "打卡（日记属性）"
+    }
+  ],
+  "rootComponentId": "877f916f-7363-40cf-ac38-fb6e7750789a"
+}

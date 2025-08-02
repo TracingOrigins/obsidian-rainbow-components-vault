@@ -1,0 +1,67 @@
+{
+  "components": [
+    {
+      "id": "e79b7ea2-6ca7-44c9-9226-95fce942b6bb",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T09:53:21.175Z",
+      "updateAt": "2024-07-24T09:53:21.175Z",
+      "components": [
+        {
+          "componentId": "731de025-8470-45e8-9be2-89d77b282ec6"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "731de025-8470-45e8-9be2-89d77b282ec6",
+      "type": "count",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T09:53:33.169Z",
+      "updateAt": "2024-07-24T09:53:33.169Z",
+      "contentPrefix": "",
+      "contentSuffix": "",
+      "countType": "number",
+      "precision": 0,
+      "query": {
+        "valueType": "totalRecords",
+        "value": 100,
+        "filter": {
+          "id": "42b640c5-d445-455b-bc8d-d3074916ccbe",
+          "type": "group",
+          "operator": "and",
+          "conditions": [
+            {
+              "id": "523de8d2-d86c-4e6e-a6df-aef153666c77",
+              "type": "filter",
+              "operator": "equals",
+              "property": "${file.parent}",
+              "value": null,
+              "conditions": []
+            }
+          ]
+        }
+      },
+      "totalQuery": {
+        "valueType": "constant",
+        "value": 100,
+        "filter": {
+          "id": "77cb4549-6e5d-48ee-9a35-a17b5082388f",
+          "type": "group",
+          "operator": "and",
+          "conditions": []
+        }
+      },
+      "title": "总数"
+    }
+  ],
+  "rootComponentId": "e79b7ea2-6ca7-44c9-9226-95fce942b6bb"
+}

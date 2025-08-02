@@ -91,8 +91,8 @@
     --rainbow-color: var(--custom-color-lavender);
 }
 
-.home-multiple-components span[alt="今日卡片.components"] .components--ColumnLayoutComponents > .components--Component:nth-child(11n+1),
-.home-multiple-components span[alt="今日日历.components"] .components--ColumnLayoutComponents > .components--Component:nth-child(11n+1),
+.home-multiple-components span[alt="今日卡片.components"] div.components--ListLayoutComponents > .components--Component:nth-child(1),
+.home-multiple-components span[alt="今日卡片.components"] div.components--ListLayoutComponents > .components--Component:nth-child(2),
 .home-multiple-components span[alt="组合统计2.components"] .components--ColumnLayoutComponents > .components--Component:nth-child(11n+6),
 .home-multiple-components div.markdown-preview-sizer.markdown-preview-section > div:nth-child(11n+11) {
     --rainbow-color: var(--custom-color-mauve);
@@ -108,26 +108,16 @@
 .home-multiple-components .components--Component .components--component-countdown,
 .home-multiple-components .components--Component .components--component-count,
 .home-multiple-components .components--Component .components--component-dailyCheck,
-.home-multiple-components .components--Component .components--component-chart,
-.home-multiple-components .components--Component .components--component-dynamicDataView,
-.home-multiple-components .components--Component .components--TabGroup {
+.home-multiple-components .components--Component .components--component-chart {
     color: rgba(var(--rainbow-color), 1);
-    border: 1px solid rgba(var(--rainbow-color), 1);
+    border: 1px solid rgba(var(--rainbow-color), 1) !important;
     border-radius: 16px;
 }
 
-
 /*组合组件中的dataview和markdown边框*/
-.home-multiple-components .components--Component .components--TabGroup .components--component-markdown,
-.home-multiple-components .components--Component .components--TabGroup .components--component-dataview ,
-.home-multiple-components .components--Component .components--TabGroup .components--component-dynamicDataView {
-    border: 1px solid rgba(var(--rainbow-color), 0.35);
-}
-
-/*组合组件中数据视图组件的文字颜色*/
-.home-multiple-components .components--Component .components--ComponentEl.components--component-dynamicDataView .components--ListDynamicDataView-Item .components--DynamicDataView-PageTitle a,
-.home-multiple-components .components--Component .components--ComponentEl.components--component-dynamicDataView .components--DynamicDataView-PageProperty-Value{
-    color: rgba(var(--rainbow-color), 1);;
+.home-multiple-components .components--Component .components--TabLayout .components--component-markdown,
+.home-multiple-components .components--Component .components--TabLayout .components--component-dataview {
+    border: 1px solid rgba(var(--rainbow-color), 0.35) !important;
 }
 
 /*输入框下边框*/
@@ -135,15 +125,19 @@
     border-bottom: 1px solid rgba(var(--rainbow-color), 0.6);
 }
 
-/*输入框下边框*/
-.home-multiple-components .components--Component input.components--input:not([type="checkbox"]) {
-    border-bottom: 1px solid rgba(var(--rainbow-color), 0.6);
-}
-
-/*标签的下边框、标签栏的下边框*/
+/*标签的下边框、标签栏的下边框、标签栏中的图标和文字的颜色*/
 .home-multiple-components .components--Component .components--Tab[data-headlessui-state=selected],
-.home-multiple-components .components--Component .components--TabList {
+.home-multiple-components .components--Component .components--TabLayoutList {
     border-bottom: 1px solid rgba(var(--rainbow-color), 0.2);
+    color: rgba(var(--rainbow-color), 1);
+}
+
+.home-multiple-components .components--Component .components--TabLayout button.components--TabLayoutTrigger{
+    color: rgba(var(--rainbow-color), 1);
+}
+
+.home-multiple-components .components--Component .components--TabLayout button.components--TabLayoutTrigger[data-state=active]:after{
+    background-color: rgba(var(--rainbow-color), 1);
 }
 
 /*表头、表头的下边框*/
@@ -179,18 +173,37 @@
 /*------------------------------------------------------------*/
 /* 主页常用组件样式细节调整
 /*-------------------------------------------------------------*/
-/*今日日历，加边框*/
-.home-multiple-components svg.calendar {
+/*今日卡片，去除外边距*/
+.home-multiple-components p:has(span[alt="今日卡片.components"]) {
+    margin-top: 0;
+}
+
+/*今日卡片，给图片加内边距*/
+.home-multiple-components span[alt="今日卡片.components"] .components--Picture {
+    padding: 4px;
+}
+
+/*今日卡片，给图片加圆角*/
+.home-multiple-components span[alt="今日卡片.components"] .components--Picture img {
+    border-radius: 16px;
+}
+
+/*今日日历，给图标加边框*/
+.home-multiple-components span[alt="今日卡片.components"] .components--component-markdown svg.calendar {
     border: 1px solid rgba(var(--rainbow-color), 1);
     border-radius: 16px;
     padding: 4px;
     font-weight: bolder;
 }
 
-/*今日日历，去除边框和最小高度限制*/
-.home-multiple-components span[alt="今日日历.components"] div {
+/*今日日历，去除组件边框*/
+.home-multiple-components span[alt="今日卡片.components"] .components--component-markdown {
     border: unset !important;
-    min-height: unset;
+}
+
+/*今日日历，设置最小高度限制*/
+.home-multiple-components span[alt="今日卡片.components"] .components--component-markdown div.components--MarkdownComponentContent {
+    min-height: 16px;
 }
 
 /*今日天气，内容居中*/
@@ -217,42 +230,49 @@
 }
 
 /*组合组件自定义标题*/
-.home-multiple-components .components--Component .components--TabGroup::before {
-    text-align: center;
+.home-multiple-components span[alt="最近文件.components"],
+.home-multiple-components span[alt="资源管理.components"],
+.home-multiple-components span[alt="按钮管理.components"] {
+    border: 1px solid rgba(var(--rainbow-color), 1);
+    color: rgba(var(--rainbow-color), 1);
+    border-radius: 16px;
+}
+
+.home-multiple-components span[alt="最近文件.components"]::before,
+.home-multiple-components span[alt="资源管理.components"]::before,
+.home-multiple-components span[alt="按钮管理.components"]::before {
+    display: flex;
+    justify-content: center;
     font-size: 20px;
-    line-height: 30px;
+    font-weight: bolder;
+    line-height: 40px;
     letter-spacing: 2px;
-    padding: 8px 0 16px 0;
 }
 
-.home-multiple-components span[alt="最近文件1.components"] .components--TabGroup::before {
-    content: "最近文件1";
-}
-
-.home-multiple-components span[alt="最近文件.components"] .components--TabGroup::before {
+.home-multiple-components span[alt="最近文件.components"]::before {
     content: "最近文件";
 }
 
-.home-multiple-components span[alt="资源管理.components"] .components--TabGroup::before {
+
+.home-multiple-components span[alt="资源管理.components"]::before {
     content: "资源管理";
 }
 
-.home-multiple-components span[alt="按钮管理.components"] .components--TabGroup::before {
+.home-multiple-components span[alt="按钮管理.components"]::before {
     content: "按钮管理";
 }
 
 /*所有组件标题加粗显示（包括自定义的组合组件标题）*/
-.home-multiple-components .components--Component .components--component-title,
-.home-multiple-components .components--Component .components--TabGroup::before {
+.home-multiple-components .components--Component .components--component-title {
     font-weight: bolder;
 }
 
 /*按钮和选项，样式调整*/
 .home-multiple-components .components--Component .components--autocomplete-label,
 .home-multiple-components .components--Component .contribution-select,
-.home-multiple-components .components--Component .common-button {
+.home-multiple-components .components--Component .components--component-button button {
     line-height: unset;
-    color: var(--text-muted);
+    color: rgba(var(--rainbow-color), 0.7);
     background: var(--background-primary);
     border: 1px solid rgba(var(--rainbow-color), 0.7);
     border-radius: 10px;
@@ -260,8 +280,13 @@
 
 .home-multiple-components .components--Component .components--autocomplete-label:hover,
 .home-multiple-components .components--Component .contribution-select:hover,
-.home-multiple-components .components--Component .common-button:hover {
+.home-multiple-components .components--Component .components--component-button button:hover {
     border: 1px solid rgba(var(--rainbow-color), 1);
+    color: rgba(var(--rainbow-color), 1);
+}
+
+.home-multiple-components .components--Component .components--component-button button:hover:before{
+    background-color: transparent;
 }
 
 /*按钮居中*/
@@ -271,7 +296,7 @@
 
 /*筛选条件和标签栏居中*/
 .home-multiple-components .components--Component .components--DataviewComponentParams,
-.home-multiple-components .components--Component .components--TabList {
+.home-multiple-components .components--Component .components--TabLayoutList {
     justify-content: center;
 }
 
@@ -353,3 +378,6 @@
 * 其他
 *----------------------------------------------------------------*/
 
+body > div.app-container > div.horizontal-main-container > div > div.workspace-split.mod-vertical.mod-root > div > div.workspace-tab-container > div > div > div.view-content > div.markdown-reading-view > div > div:nth-child(2) > div:nth-child(7) > p > span > div > div > div.components--ComponentEl.components--component-multi {
+    border-color: red !important;
+}

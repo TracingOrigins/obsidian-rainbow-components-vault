@@ -1,236 +1,261 @@
 {
   "choices": [
     {
-      "id": "9f6a6dee-eca4-404c-92b0-6eaccbd75201",
-      "name": "灵光一闪",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "Home/sidebar-components/灵光一闪.md",
-      "captureToActiveFile": false,
-      "createFileIfItDoesntExist": {
-        "enabled": true,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "{{time}} {{value}}"
-      },
-      "insertAfter": {
-        "enabled": true,
-        "after": "#### {{date}}",
-        "insertAtEnd": true,
-        "considerSubsections": false,
-        "createIfNotFound": true,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": true,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
+      "id": "d9209310-14c5-408c-93b4-26f9d65bd651",
+      "name": "速览",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "95b037a8-2e1d-42eb-a27e-4fe5c93a23e1",
+          "name": "查看日记",
+          "type": "Macro",
+          "command": true,
+          "macroId": "522f5a6b-149d-41ca-8011-6044b1a49654"
+        }
+      ]
     },
     {
-      "id": "5bd677ce-368b-47f5-9a00-c4ae75b576bd",
-      "name": "重新加载当前页",
-      "type": "Macro",
-      "command": true,
-      "macroId": "4d50f638-3c56-4907-8a69-67241f123e1b"
+      "id": "443dba46-247c-4965-9c74-7c00ce75991c",
+      "name": "速记",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "0af137da-d351-495a-9ecb-11c37f575602",
+          "name": "编辑日记",
+          "type": "Macro",
+          "command": true,
+          "macroId": "b9ea36e5-7d94-454a-834f-c11dabd5638d"
+        },
+        {
+          "id": "7892aa6d-af6c-40a6-9f16-f93b108af301",
+          "name": "创建日报",
+          "type": "Template",
+          "command": true,
+          "templatePath": "assets/community-plugins/Templater/templates/tp-日报模板.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{date}} 日报"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "Inbox/works"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "source",
+          "fileExistsMode": "Nothing",
+          "setFileExistsBehavior": true
+        },
+        {
+          "id": "cb18f736-0e98-4c48-b7c7-12ddaee0f9aa",
+          "name": "创建周报",
+          "type": "Template",
+          "command": true,
+          "templatePath": "assets/community-plugins/Templater/templates/tp-周报模板.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{date:yyyy}}-W{{date:W}} 周报"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "Inbox/works"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "source",
+          "fileExistsMode": "Nothing",
+          "setFileExistsBehavior": true
+        },
+        {
+          "id": "e0ab6c0b-6d07-41b7-b5d1-aca5d207cd42",
+          "name": "创建年报",
+          "type": "Template",
+          "command": true,
+          "templatePath": "assets/community-plugins/Templater/templates/tp-年报模板.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{date:yyyy}} 年报"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "Inbox/works"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "source",
+          "fileExistsMode": "Nothing",
+          "setFileExistsBehavior": true
+        },
+        {
+          "id": "e0d15064-483b-40a6-b177-1458c1ca738a",
+          "name": "会议纪要",
+          "type": "Template",
+          "command": true,
+          "templatePath": "assets/community-plugins/Templater/templates/tp-会议模板.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{date}} 会议纪要"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "Inbox/works"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "source",
+          "fileExistsMode": "Nothing",
+          "setFileExistsBehavior": true
+        },
+        {
+          "id": "987db991-4dbf-4fe9-a381-f0ef7cba7e73",
+          "name": "新增待办",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "Home/sidebar-components/待办事项.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": true,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{value}}"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": true,
+          "task": true,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "9f6a6dee-eca4-404c-92b0-6eaccbd75201",
+          "name": "灵光一闪",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "Home/sidebar-components/灵光一闪.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": true,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "{{time}} {{value}}"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "#### {{date}}",
+            "insertAtEnd": true,
+            "considerSubsections": false,
+            "createIfNotFound": true,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": true,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        }
+      ]
     },
     {
-      "id": "7e8fde71-29dc-41d7-a48e-f1eecd06b8f9",
-      "name": "重载主页",
-      "type": "Macro",
-      "command": true,
-      "macroId": "8d5042ac-efb8-4534-9cf7-9a8d7ba51099"
-    },
-    {
-      "id": "d9f06850-661b-417d-81f1-92ef40e44748",
-      "name": "切换深色、浅色模式",
-      "type": "Macro",
-      "command": true,
-      "macroId": "a2508eb9-9c91-4f8c-a7e6-7865304c27af"
-    },
-    {
-      "id": "f428c36b-e168-4f50-863a-40c893942700",
-      "name": "切换阅读、预览、源码模式",
-      "type": "Macro",
-      "command": true,
-      "macroId": "974ec3cb-08a7-4108-b086-3f7a60be4ed8"
-    },
-    {
-      "id": "95b037a8-2e1d-42eb-a27e-4fe5c93a23e1",
-      "name": "查看日记",
-      "type": "Macro",
-      "command": true,
-      "macroId": "522f5a6b-149d-41ca-8011-6044b1a49654"
-    },
-    {
-      "id": "0af137da-d351-495a-9ecb-11c37f575602",
-      "name": "编辑日记",
-      "type": "Macro",
-      "command": true,
-      "macroId": "b9ea36e5-7d94-454a-834f-c11dabd5638d"
-    },
-    {
-      "id": "987db991-4dbf-4fe9-a381-f0ef7cba7e73",
-      "name": "待办事项",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "Home/sidebar-components/待办事项.md",
-      "captureToActiveFile": false,
-      "createFileIfItDoesntExist": {
-        "enabled": true,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "{{value}}"
-      },
-      "insertAfter": {
-        "enabled": false,
-        "after": "",
-        "insertAtEnd": false,
-        "considerSubsections": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": true,
-      "task": true,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "e0d15064-483b-40a6-b177-1458c1ca738a",
-      "name": "会议纪要",
-      "type": "Template",
-      "command": true,
-      "templatePath": "Assets/community-plugins/Templater/templates/tp-会议模板.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{date}} 会议纪要"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "Inbox/works"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "source",
-      "fileExistsMode": "Nothing",
-      "setFileExistsBehavior": true
-    },
-    {
-      "id": "7892aa6d-af6c-40a6-9f16-f93b108af301",
-      "name": "创建日报",
-      "type": "Template",
-      "command": true,
-      "templatePath": "Assets/community-plugins/Templater/templates/tp-日报模板.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{date}} 日报"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "Inbox/works"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "source",
-      "fileExistsMode": "Nothing",
-      "setFileExistsBehavior": true
-    },
-    {
-      "id": "cb18f736-0e98-4c48-b7c7-12ddaee0f9aa",
-      "name": "创建周报",
-      "type": "Template",
-      "command": true,
-      "templatePath": "Assets/community-plugins/Templater/templates/tp-周报模板.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{date:yyyy}}-W{{date:W}} 周报"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "Inbox/works"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "source",
-      "fileExistsMode": "Nothing",
-      "setFileExistsBehavior": true
-    },
-    {
-      "id": "e0ab6c0b-6d07-41b7-b5d1-aca5d207cd42",
-      "name": "创建年报",
-      "type": "Template",
-      "command": true,
-      "templatePath": "Assets/community-plugins/Templater/templates/tp-年报模板.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{date:yyyy}} 年报"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "Inbox/works"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "source",
-      "fileExistsMode": "Nothing",
-      "setFileExistsBehavior": true
+      "id": "572dc677-d231-4f9b-8597-9ac0c96bb4cc",
+      "name": "操作",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "7e8fde71-29dc-41d7-a48e-f1eecd06b8f9",
+          "name": "重载主页",
+          "type": "Macro",
+          "command": true,
+          "macroId": "8d5042ac-efb8-4534-9cf7-9a8d7ba51099"
+        },
+        {
+          "id": "5bd677ce-368b-47f5-9a00-c4ae75b576bd",
+          "name": "重新加载当前页",
+          "type": "Macro",
+          "command": true,
+          "macroId": "4d50f638-3c56-4907-8a69-67241f123e1b"
+        },
+        {
+          "id": "d9f06850-661b-417d-81f1-92ef40e44748",
+          "name": "切换深色、浅色模式",
+          "type": "Macro",
+          "command": true,
+          "macroId": "a2508eb9-9c91-4f8c-a7e6-7865304c27af"
+        },
+        {
+          "id": "f428c36b-e168-4f50-863a-40c893942700",
+          "name": "切换阅读、预览、源码模式",
+          "type": "Macro",
+          "command": true,
+          "macroId": "974ec3cb-08a7-4108-b086-3f7a60be4ed8"
+        }
+      ],
+      "collapsed": false
     }
   ],
   "macros": [
@@ -267,7 +292,7 @@
           "name": "fetch-today-stats",
           "type": "UserScript",
           "id": "7b9a2968-2c81-4441-abd3-2edbb30ef467",
-          "path": "Assets/community-plugins/QuickAdd/scripts/fetch-today-stats.js",
+          "path": "assets/community-plugins/QuickAdd/scripts/fetch-today-stats.js",
           "settings": {}
         }
       ],
@@ -281,7 +306,7 @@
           "name": "remove-today-stats",
           "type": "UserScript",
           "id": "1c2436c3-d45d-48e8-b106-0dfa025bea7c",
-          "path": "Assets/community-plugins/QuickAdd/scripts/remove-today-stats.js",
+          "path": "assets/community-plugins/QuickAdd/scripts/remove-today-stats.js",
           "settings": {}
         },
         {
@@ -294,7 +319,7 @@
           "name": "fetch-today-stats",
           "type": "UserScript",
           "id": "49516143-87db-4d4d-9a09-501cd7d6139e",
-          "path": "Assets/community-plugins/QuickAdd/scripts/fetch-today-stats.js",
+          "path": "assets/community-plugins/QuickAdd/scripts/fetch-today-stats.js",
           "settings": {}
         },
         {
@@ -320,7 +345,7 @@
           "name": "switch-light-dark",
           "type": "UserScript",
           "id": "1a5a6395-45e9-4f29-8bae-ac69f39841ab",
-          "path": "Assets/community-plugins/QuickAdd/scripts/switch-light-dark.js",
+          "path": "assets/community-plugins/QuickAdd/scripts/switch-light-dark.js",
           "settings": {}
         }
       ],
@@ -334,7 +359,7 @@
           "name": "switch-view-mode",
           "type": "UserScript",
           "id": "162c6df1-c917-47ff-8d7a-f05a9ab131ae",
-          "path": "Assets/community-plugins/QuickAdd/scripts/switch-view-mode.js",
+          "path": "assets/community-plugins/QuickAdd/scripts/switch-view-mode.js",
           "settings": {}
         }
       ],
@@ -425,7 +450,7 @@
   "devMode": false,
   "templateFolderPath": "",
   "announceUpdates": true,
-  "version": "1.10.0",
+  "version": "1.18.1",
   "disableOnlineFeatures": true,
   "enableRibbonIcon": false,
   "ai": {

@@ -1,5 +1,4 @@
 [
-  "components",
   "dataview",
   "editor-width-slider",
   "obsidian-style-settings",
@@ -9,10 +8,9 @@
   "recent-files-obsidian",
   "cmdr",
   "templater-obsidian",
-  "dust-calendar",
   "obsidian-hotkeys-for-specific-files",
-  "workspaces-plus",
   "neighbouring-files",
-  "obsidian-react-components",
-  "obsidian-export-image"
+  "obsidian-export-image",
+  "components",
+  "calendar"
 ]

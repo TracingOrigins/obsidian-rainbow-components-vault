@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "id": "88622c29-4009-4349-8f25-ee4f582dc9c7",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T09:55:22.072Z",
+      "updateAt": "2024-07-24T09:55:22.072Z",
+      "components": [
+        {
+          "componentId": "320a3dec-1303-40f8-9116-5783fbd66f8c"
+        },
+        {
+          "componentId": "8c5f04fd-4fa4-4718-8cb5-3129a9b386a1"
+        }
+      ],
+      "layoutType": "column"
+    },
+    {
+      "id": "320a3dec-1303-40f8-9116-5783fbd66f8c",
+      "type": "dateProgress",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T09:55:27.653Z",
+      "updateAt": "2024-07-24T09:55:27.653Z",
+      "showDateIndicator": true,
+      "showProgressIndicator": true,
+      "startDateTimeType": "$startOfYear",
+      "endDateTimeType": "$endOfYear",
+      "uiType": "bar",
+      "title": "今年进度"
+    },
+    {
+      "id": "8c5f04fd-4fa4-4718-8cb5-3129a9b386a1",
+      "type": "dateProgress",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-07-24T09:58:12.635Z",
+      "updateAt": "2024-07-24T09:58:12.635Z",
+      "showDateIndicator": true,
+      "showProgressIndicator": true,
+      "startDateTimeType": "$startOfYear",
+      "endDateTimeType": "$endOfYear",
+      "uiType": "ring",
+      "title": "今年进度"
+    }
+  ],
+  "rootComponentId": "88622c29-4009-4349-8f25-ee4f582dc9c7"
+}

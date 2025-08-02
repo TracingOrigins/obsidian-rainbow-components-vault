@@ -1,6 +1,6 @@
 {
   "folder": "Inbox/diaries",
   "format": "YYYY-MM-DD",
-  "template": "Assets/community-plugins/Templater/templates/tp-日记模板",
+  "template": "assets/community-plugins/Templater/templates/tp-日记模板",
   "autorun": false
 }

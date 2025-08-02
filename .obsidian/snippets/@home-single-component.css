@@ -96,7 +96,6 @@
 
 .home-single-component .components--Component[data-component-id="4afbfb0c-3ef9-4ad1-9410-217c34bbb751"] > div.components--ComponentEl.components--component-multi > div > div:nth-child(11n+5),
 .home-single-component .components--Component[data-component-id="46eb532f-49d8-4ed7-8382-8464684b0c59"] > div.components--ComponentEl.components--component-multi > div > div:nth-child(11n+5),
-
 .home-single-component span.internal-embed.components--embed-view.is-loaded > div > div > div.components--ComponentEl.components--component-multi > div > div:nth-child(11n+1) {
     --rainbow-color: var(--custom-color-lavender);
 }
@@ -116,17 +115,16 @@
 .home-single-component .components--Component .components--component-countdown,
 .home-single-component .components--Component .components--component-count,
 .home-single-component .components--Component .components--component-dailyCheck,
-.home-single-component .components--Component .components--component-chart,
-.home-single-component .components--Component .components--TabGroup {
+.home-single-component .components--Component .components--component-chart {
     color: rgba(var(--rainbow-color), 1);
-    border: 1px solid rgba(var(--rainbow-color), 1);
+    border: 1px solid rgba(var(--rainbow-color), 1) !important;
     border-radius: 16px;
 }
 
 /*内嵌的dataview和markdown边框*/
-.home-single-component .components--Component .components--TabGroup .components--component-markdown,
-.home-single-component .components--Component .components--TabGroup .components--component-dataview {
-    border: 1px solid rgba(var(--rainbow-color), 0.35);
+.home-single-component .components--Component .components--TabLayout .components--component-markdown,
+.home-single-component .components--Component .components--TabLayout .components--component-dataview {
+    border: 1px solid rgba(var(--rainbow-color), 0.35) !important;
 }
 
 /*输入框下边框*/
@@ -134,20 +132,19 @@
     border-bottom: 1px solid rgba(var(--rainbow-color), 0.6);
 }
 
-/*去除markdown组件中的外边距*/
-.home-single-component .components--Component .components--component-markdown p {
-    margin: unset;
-}
-
-/*输入框下边框*/
-.home-single-component .components--Component input.components--input:not([type="checkbox"]) {
-    border-bottom: 1px solid rgba(var(--rainbow-color), 0.6);
-}
-
-/*标签的下边框、标签栏的下边框*/
+/*标签的下边框、标签栏的下边框、标签栏中的图标和文字的颜色*/
 .home-single-component .components--Component .components--Tab[data-headlessui-state=selected],
-.home-single-component .components--Component .components--TabList {
+.home-single-component .components--Component .components--TabLayoutList {
     border-bottom: 1px solid rgba(var(--rainbow-color), 0.2);
+    color: rgba(var(--rainbow-color), 1);
+}
+
+.home-single-component .components--Component .components--TabLayout button.components--TabLayoutTrigger{
+    color: rgba(var(--rainbow-color), 1);
+}
+
+.home-single-component .components--Component .components--TabLayout button.components--TabLayoutTrigger[data-state=active]:after{
+    background-color: rgba(var(--rainbow-color), 1);
 }
 
 /*表头、表头的下边框*/
@@ -175,6 +172,11 @@
     display: none;
 }
 
+/*去除markdown组件中的外边距*/
+.home-single-component .components--Component .components--component-markdown p {
+    margin: unset;
+}
+
 /*调整主页组件之间的间隔*/
 .home-single-component span.internal-embed.components--embed-view.is-loaded > div > div > div.components--ComponentEl.components--component-multi > div > div {
     margin-bottom: 16px;
@@ -183,18 +185,31 @@
 /*---------------------------------------------------------------
 * 主页常用组件样式细节调整
 *---------------------------------------------------------------*/
-/*今日日历 ，加边框*/
-.home-single-component svg.calendar {
+/*今日卡片，给图片加内边距*/
+.home-single-component .components--Component[data-component-id="17917a73-cbf2-4882-8254-be320115cc56"] .components--Picture {
+    padding: 4px;
+}
+
+/*今日卡片，给图片加圆角*/
+.home-single-component .components--Component[data-component-id="17917a73-cbf2-4882-8254-be320115cc56"] .components--Picture img {
+    border-radius: 16px;
+}
+
+/*今日日历 ，给图标加边框*/
+.home-single-component .components--Component[data-component-id="d3f481d4-8320-47ec-bd9f-ec048fb179fc"] svg.calendar {
     border: 1px solid rgba(var(--rainbow-color), 1);
     border-radius: 16px;
     padding: 4px;
     font-weight: bolder;
 }
 
-/*今日日历，去除边框和最小高度限制*/
-.home-single-component .components--Component[data-component-id="d3f481d4-8320-47ec-bd9f-ec048fb179fc"] > .components--ComponentEl.components--ComponentEl_border.components--component-markdown,
-.home-single-component .components--Component[data-component-id="d3f481d4-8320-47ec-bd9f-ec048fb179fc"] .components--ComponentEl.components--ComponentEl_border.components--component-markdown div {
-    border: unset;
+/*今日日历，去除组件边框*/
+.home-single-component .components--Component[data-component-id="d3f481d4-8320-47ec-bd9f-ec048fb179fc"] .components--component-markdown {
+    border: unset !important;
+}
+
+/*今日日历，去除最小高度限制*/
+.home-single-component .components--Component[data-component-id="d3f481d4-8320-47ec-bd9f-ec048fb179fc"] div {
     min-height: unset;
 }
 
@@ -222,38 +237,52 @@
 }
 
 /*组合组件自定义标题*/
-.home-single-component .components--Component .components--TabGroup::before {
-    text-align: center;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 2px;
-    padding: 8px 0 16px 0;
+.home-single-component .components--Component[data-component-id="b8aeea05-5144-495b-8034-1992b424b798"],
+.home-single-component .components--Component[data-component-id="b749c4bb-635e-48b3-8602-e0270a11c3a5"],
+.home-single-component .components--Component[data-component-id="70ade022-c59f-492c-918e-5e1f61bfe7cc"] {
+    border: 1px solid rgba(var(--rainbow-color), 1);
+    color: rgba(var(--rainbow-color), 1);
+    border-radius: 16px;
 }
 
-.home-single-component .components--Component[data-component-id="b8aeea05-5144-495b-8034-1992b424b798"] .components--TabGroup::before {
+.home-single-component .components--Component[data-component-id="b8aeea05-5144-495b-8034-1992b424b798"]::before,
+.home-single-component .components--Component[data-component-id="b749c4bb-635e-48b3-8602-e0270a11c3a5"]::before,
+.home-single-component .components--Component[data-component-id="70ade022-c59f-492c-918e-5e1f61bfe7cc"]::before {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.home-single-component .components--Component[data-component-id="b8aeea05-5144-495b-8034-1992b424b798"]::before {
     content: "最近文件";
 }
 
-.home-single-component .components--Component[data-component-id="b749c4bb-635e-48b3-8602-e0270a11c3a5"] .components--TabGroup::before {
+.home-single-component .components--Component[data-component-id="b749c4bb-635e-48b3-8602-e0270a11c3a5"]::before {
     content: "资源管理";
 }
 
-.home-single-component .components--Component[data-component-id="70ade022-c59f-492c-918e-5e1f61bfe7cc"] .components--TabGroup::before {
+.home-single-component .components--Component[data-component-id="70ade022-c59f-492c-918e-5e1f61bfe7cc"]::before {
     content: "按钮管理";
 }
 
+.home-single-component .components--component-multi .components--Component{
+    display: unset;
+}
+
 /*所有标题加粗显示（包括自定义的组合组件标题）*/
-.home-single-component .components--Component .components--component-title,
-.home-single-component .components--Component .components--TabGroup::before {
+.home-single-component .components--Component .components--component-title {
     font-weight: bolder;
 }
 
 /*按钮和选项，样式调整*/
 .home-single-component .components--Component .components--autocomplete-label,
 .home-single-component .components--Component .contribution-select,
-.home-single-component .components--Component .common-button {
+.home-single-component .components--Component .components--component-button button {
     line-height: unset;
-    color: var(--text-muted);
+    color: rgba(var(--rainbow-color), 0.7);
     background: var(--background-primary);
     border: 1px solid rgba(var(--rainbow-color), 0.7);
     border-radius: 10px;
@@ -261,8 +290,13 @@
 
 .home-single-component .components--Component .components--autocomplete-label:hover,
 .home-single-component .components--Component .contribution-select:hover,
-.home-single-component .components--Component .common-button:hover {
+.home-single-component .components--Component .components--component-button button:hover {
     border: 1px solid rgba(var(--rainbow-color), 1);
+    color: rgba(var(--rainbow-color), 1);
+}
+
+.home-single-component .components--Component .components--component-button button:hover:before{
+    background-color: transparent;
 }
 
 /*按钮居中*/
@@ -272,7 +306,7 @@
 
 /*筛选条件和标签栏居中*/
 .home-single-component .components--Component .components--DataviewComponentParams,
-.home-single-component .components--Component .components--TabList {
+.home-single-component .components--Component .components--TabLayoutList {
     justify-content: center;
 }
 

@@ -17,13 +17,13 @@ async function fetchTodayStats(params, settings) {
     ({quickAddApi} = params)
     Settings = settings;
 //查看文件是否存在
-    app.vault.adapter.exists("Assets/community-plugins/Dataview/data/daily-stats.json").then(async (exists) => {
+    app.vault.adapter.exists("assets/community-plugins/Dataview/data/daily-stats.json").then(async (exists) => {
         if (!exists) {
-            app.vault.adapter.write("Assets/community-plugins/Dataview/data/daily-stats.json", "{}");
+            app.vault.adapter.write("assets/community-plugins/Dataview/data/daily-stats.json", "{}");
         }
 
     });
-    history = Object.assign(JSON.parse(await app.vault.adapter.read("Assets/community-plugins/Dataview/data/daily-stats.json")));
+    history = Object.assign(JSON.parse(await app.vault.adapter.read("assets/community-plugins/Dataview/data/daily-stats.json")));
 //查看当天信息
     today = moment().format("YYYY-MM-DD");
     await updateToday();
@@ -145,7 +145,7 @@ async function updateToday() {
 }
 
 async function update() {
-    app.vault.adapter.write("Assets/community-plugins/Dataview/data/daily-stats.json", JSON.stringify(history));
+    app.vault.adapter.write("assets/community-plugins/Dataview/data/daily-stats.json", JSON.stringify(history));
 }
 
 //在Ob中获取每日词霸
@@ -176,7 +176,7 @@ async function get_ciba() {
 
 async function getWeather(city) {
     console.log("beigin fetch getWeather..." + city);
-    let key = 'dc0f31ac6f37484f88e3e7d45b84e403'; //尽量换成自己申请的key以免接口失效https://console.qweather.com
+    let key = '8c72ea310a1a4ae3b59e9f76b20c6698'; //尽量换成自己申请的key以免接口失效https://console.qweather.com
     let locationId = '';
     let windydesc = '';
     if (city) {

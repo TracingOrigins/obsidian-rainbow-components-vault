@@ -1,0 +1,123 @@
+{
+  "components": [
+    {
+      "id": "7f237d86-51f0-460e-912f-fbd640d49cd8",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-08-01T07:12:48.159Z",
+      "updateAt": "2025-08-01T07:12:48.159Z",
+      "components": [
+        {
+          "componentId": "681bc1a1-a3c4-484e-96f2-01f87a497e3e"
+        },
+        {
+          "componentId": "fc66aa95-aa02-4a93-a911-9e80744b2d39"
+        }
+      ],
+      "layoutType": "column",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "681bc1a1-a3c4-484e-96f2-01f87a497e3e",
+      "type": "timeLine",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-08-01T07:15:20.088Z",
+      "updateAt": "2025-08-01T07:15:20.088Z",
+      "filter": {
+        "id": "82d341de-7a19-46f8-9c67-dc18cdb6cf9d",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "f4086645-3066-47cd-82c7-f5ca35539a6f",
+            "type": "filter",
+            "operator": "equals",
+            "property": "${file.extension}",
+            "value": "md",
+            "conditions": []
+          }
+        ]
+      },
+      "sort": {
+        "orders": []
+      },
+      "nodeCover": {
+        "type": "textContent",
+        "coverTypeLabel": "节点封面",
+        "source": "property",
+        "sourceValue": "${file.basename}"
+      },
+      "titleElement": {
+        "properties": [
+          {
+            "id": "f6d66028-8e66-4563-8075-ae994d094223",
+            "property": "${file.ctime}"
+          }
+        ]
+      },
+      "subtitleElement": {
+        "properties": []
+      },
+      "direction": "vertical",
+      "title": "最近创建"
+    },
+    {
+      "id": "fc66aa95-aa02-4a93-a911-9e80744b2d39",
+      "type": "timeLine",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-08-01T07:15:20.088Z",
+      "updateAt": "2025-08-01T07:15:20.088Z",
+      "filter": {
+        "id": "82d341de-7a19-46f8-9c67-dc18cdb6cf9d",
+        "type": "group",
+        "operator": "and",
+        "conditions": [
+          {
+            "id": "f4086645-3066-47cd-82c7-f5ca35539a6f",
+            "type": "filter",
+            "operator": "equals",
+            "property": "${file.extension}",
+            "value": "md",
+            "conditions": []
+          }
+        ]
+      },
+      "sort": {
+        "orders": []
+      },
+      "nodeCover": {
+        "type": "textContent",
+        "coverTypeLabel": "节点封面",
+        "source": "property",
+        "sourceValue": "${file.basename}"
+      },
+      "titleElement": {
+        "properties": [
+          {
+            "id": "f6d66028-8e66-4563-8075-ae994d094223",
+            "property": "${file.mtime}"
+          }
+        ]
+      },
+      "subtitleElement": {
+        "properties": []
+      },
+      "direction": "vertical",
+      "title": "最近修改"
+    }
+  ],
+  "rootComponentId": "7f237d86-51f0-460e-912f-fbd640d49cd8"
+}
