@@ -81,14 +81,6 @@
       "path": "Inbox/diaries/2025-08-02.md"
     },
     {
-      "basename": "基础-附件库",
-      "path": "assets/community-plugins/Components/basic/基础-附件库.components"
-    },
-    {
-      "basename": "基础-时间轴",
-      "path": "assets/community-plugins/Components/basic/基础-时间轴.components"
-    },
-    {
       "basename": "最近文件",
       "path": "Home/home-components/最近文件.components"
     },
@@ -141,64 +133,8 @@
       "path": "Home/home-components/按钮管理.components"
     },
     {
-      "basename": "蜀道难",
-      "path": "assets/attachments/documents/蜀道难.pdf"
-    },
-    {
-      "basename": "附件管理",
-      "path": "assets/community-plugins/Components/附件管理.components"
-    },
-    {
       "basename": "2024-07-18 日报",
       "path": "Inbox/works/2024-07-18 日报.md"
-    },
-    {
-      "basename": "road-g946886d61_1920",
-      "path": "assets/attachments/pictures/travels/road-g946886d61_1920.jpg"
-    },
-    {
-      "basename": "snowdrift-gecf51e07f_1920",
-      "path": "assets/attachments/pictures/travels/snowdrift-gecf51e07f_1920.jpg"
-    },
-    {
-      "basename": "sunset-ge28cf669b_1920",
-      "path": "assets/attachments/pictures/travels/sunset-ge28cf669b_1920.jpg"
-    },
-    {
-      "basename": "sunset-gf5a677a8a_1920",
-      "path": "assets/attachments/pictures/travels/sunset-gf5a677a8a_1920.jpg"
-    },
-    {
-      "basename": "tunisia-g92f2bf537_1920",
-      "path": "assets/attachments/pictures/travels/tunisia-g92f2bf537_1920.jpg"
-    },
-    {
-      "basename": "mountains-g8e2992e4d_1920",
-      "path": "assets/attachments/pictures/travels/mountains-g8e2992e4d_1920.jpg"
-    },
-    {
-      "basename": "mount-fuji-g707b221b0_1920",
-      "path": "assets/attachments/pictures/travels/mount-fuji-g707b221b0_1920.jpg"
-    },
-    {
-      "basename": "field-g2adb79480_1920",
-      "path": "assets/attachments/pictures/travels/field-g2adb79480_1920.jpg"
-    },
-    {
-      "basename": "alpine-gbdddb9210_1920",
-      "path": "assets/attachments/pictures/travels/alpine-gbdddb9210_1920.jpg"
-    },
-    {
-      "basename": "africa-gecdb6d7cd_1920",
-      "path": "assets/attachments/pictures/travels/africa-gecdb6d7cd_1920.jpg"
-    },
-    {
-      "basename": "Pasted image 20240723151546",
-      "path": "assets/attachments/pictures/readme/Pasted image 20240723151546.png"
-    },
-    {
-      "basename": "Pasted image 20240723151459",
-      "path": "assets/attachments/pictures/readme/Pasted image 20240723151459.png"
     }
   ],
   "omittedPaths": [],
