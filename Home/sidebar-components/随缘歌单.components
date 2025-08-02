@@ -27,10 +27,12 @@
       "showShadow": false,
       "createAt": "2024-07-02T03:12:19.015Z",
       "updateAt": "2024-07-02T03:12:19.015Z",
-      "maxHeight": 200,
+      "maxHeight": -1,
       "contentAlign": "left",
       "markdownsSource": "content",
-      "markdownValue": "```dataviewjs\nlet arr = [6894168416, 8418150, 7354648923, 360062344, 5454637196, 2961061456];  // 歌单id数组\nlet randomIndex = Math.floor(Math.random() * arr.length);  // 生成一个随机索引\nlet randomElement = arr[randomIndex];  // 使用这个索引从数组中选择一个元素\ndv.paragraph(`<iframe title=\"iframe\" src=\"https://music.163.com/outchain/player?type=0&amp;id=${randomElement}&amp;auto=0&amp;height=240\" sandbox=\"allow-same-origin allow-scripts allow-popups allow-forms\" scrolling=\"no\" style=\"width: 100%; border: 0px; height: 240px;\" class=\"iframe\"></iframe>`)\n```"
+      "markdownValue": "```dataviewjs\nlet arr = [6894168416, 8418150, 7354648923, 360062344, 5454637196, 2961061456];  // 歌单id数组\nlet randomIndex = Math.floor(Math.random() * arr.length);  // 生成一个随机索引\nlet randomElement = arr[randomIndex];  // 使用这个索引从数组中选择一个元素\ndv.paragraph(`<iframe title=\"iframe\" src=\"https://music.163.com/outchain/player?type=0&amp;id=${randomElement}&amp;auto=0&amp;height=240\" sandbox=\"allow-same-origin allow-scripts allow-popups allow-forms\" scrolling=\"no\" style=\"width: 100%; border: 0px; height: 240px;\" class=\"iframe\"></iframe>`)\n```",
+      "borderColor": "#0693e3",
+      "darkBorderColor": "#0693e3"
     }
   ],
   "rootComponentId": "8e7fb9d5-73bc-460b-924e-8702b485cafd"

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "11cc00872ee9c672",
+        "id": "1855edccdf6f8c2e",
         "type": "tabs",
         "children": [
           {
-            "id": "5ad0b06bb1e6e863",
+            "id": "c075f4839ba55a76",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home/Home-multiple-components.md",
+                "file": "Home/Home.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Home-multiple-components"
+              "title": "Home"
             }
           }
         ]
@@ -97,7 +97,7 @@
       {
         "id": "70e37bbf20e3afcf",
         "type": "tabs",
-        "dimension": 36.337209302325576,
+        "dimension": 37.145748987854255,
         "children": [
           {
             "id": "76f30b32e77726f8",
@@ -110,17 +110,15 @@
             }
           },
           {
-            "id": "395e9a9b1f8fbeac",
+            "id": "f71c15206d766bd0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "components-file-view",
               "state": {
-                "file": "Home/sidebar-components/彩色时钟.md",
-                "mode": "preview",
-                "source": true
+                "file": "Home/sidebar-components/时间天气.components"
               },
-              "icon": "lucide-file",
-              "title": "彩色时钟"
+              "icon": "gantt-chart",
+              "title": "时间天气"
             }
           },
           {
@@ -136,18 +134,6 @@
             }
           },
           {
-            "id": "cdb8573d70685614",
-            "type": "leaf",
-            "state": {
-              "type": "components-file-view",
-              "state": {
-                "file": "Home/sidebar-components/随缘歌单.components"
-              },
-              "icon": "gantt-chart",
-              "title": "随缘歌单"
-            }
-          },
-          {
             "id": "d28807f641a6aabd",
             "type": "leaf",
             "state": {
@@ -160,12 +146,24 @@
             }
           },
           {
+            "id": "cdb8573d70685614",
+            "type": "leaf",
+            "state": {
+              "type": "components-file-view",
+              "state": {
+                "file": "Home/sidebar-components/随缘歌单.components"
+              },
+              "icon": "gantt-chart",
+              "title": "随缘歌单"
+            }
+          },
+          {
             "id": "a20d2ef4dc78b5f1",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home/sidebar-components/常用工具.components",
+                "file": "Home/Home-multiple-components.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +173,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "常用工具 的反向链接列表"
+              "title": "Home-multiple-components 的反向链接列表"
             }
           },
           {
@@ -184,20 +182,21 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home/sidebar-components/常用工具.components",
+                "file": "Home/sidebar-components/时间天气.components",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "常用工具 的出链列表"
+              "title": "时间天气 的出链列表"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "4d6321a708e37151",
         "type": "tabs",
-        "dimension": 63.662790697674424,
+        "dimension": 62.85425101214575,
         "children": [
           {
             "id": "b5b6d57ba82cc387",
@@ -205,13 +204,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home/Home-multiple-components.md",
+                "file": "Home/sidebar-components/时间天气.components",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Home-multiple-components 的大纲"
+              "title": "时间天气 的大纲"
             }
           },
           {
@@ -220,10 +219,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Home/Home-multiple-components.md"
+                "file": "Home/sidebar-components/时间天气.components"
               },
               "icon": "lucide-info",
-              "title": "Home-multiple-components的笔记属性"
+              "title": "时间天气的笔记属性"
             }
           },
           {
@@ -306,12 +305,25 @@
               "icon": "lucide-file",
               "title": "待办事项"
             }
+          },
+          {
+            "id": "12c0823e11f6f98d",
+            "type": "leaf",
+            "state": {
+              "type": "components-file-view",
+              "state": {
+                "file": "assets/community-plugins/Components/advanced/最近天气.components"
+              },
+              "icon": "gantt-chart",
+              "title": "最近天气"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 413.5
+    "width": 418.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -327,28 +339,43 @@
   },
   "active": "0d00d9b96a7da2a7",
   "lastOpenFiles": [
+    "Home/sidebar-components/常用工具.components",
+    "Inbox/works/2025 年报.md",
+    "Home/sidebar-components/常用统计1.components",
+    "assets/community-plugins/Components/basic/基础-时间轴.components",
+    "Inbox/works/2025-08-02 日报.md",
+    "Inbox/works/2025-W31 周报.md",
+    "Inbox/works/2025-08-02 会议纪要.md",
+    "Inbox/diaries/2025-08-02.md",
+    "Home/Home.md",
+    "Home/sidebar-components/时间天气.components",
+    "Home/sidebar-components/随机音乐.components",
+    "Home/sidebar-components/随缘歌单.components",
+    "README.md",
+    "Home/sidebar-components/常用统计.components",
+    "start-here.md",
+    "Test/未命名.md",
+    "assets/community-plugins/Components/help/Components插件.md",
+    "assets/community-plugins/Components/advanced/最近天气.components",
+    "Home/sidebar-components/灵光一闪.md",
+    "assets/community-plugins/Components/advanced",
+    "assets/community-plugins/Components/basic/基础-时间.components",
+    "Home/sidebar-components/待办事项.md",
+    "Home/Home-multiple-components.md",
+    "Home/Home-single-component.md",
+    "Inbox/archives/未命名.md",
+    "未命名.md",
+    "Inbox/archives/未命名 1.md",
+    "未命名 1.md",
+    "Home/sidebar-components/时间天气.md",
+    "assets/attachments/pictures/readme/Pasted image 20240723151546.png",
+    "assets/attachments/pictures/readme/Pasted image 20240723151459.png",
+    "Home/sidebar-components/时间天气 1.md",
+    "assets/community-plugins/Components/daily-check/2024-09-02_16-03-07_482.md",
+    "Inbox/diaries/2024-09-06.md",
+    "assets/community-plugins/Dataview/basic/日记统计.md",
     "assets/community-plugins/Templater/templates/tp-日报模板.md",
     "assets/community-plugins/Templater/templates/tp-日记模板.md",
-    "assets/community-plugins/Templater/templates/tp-文字卡片模板.md",
-    "assets/community-plugins/Templater/templates/tp-年报模板.md",
-    "assets/community-plugins/Templater/templates/tp-插件列表.md",
-    "assets/community-plugins/Components/basic/基础-统计数字.components",
-    "assets/community-plugins/Templater/scripts/get_tweet_card.js",
-    "assets/community-plugins/Templater/templates/tp-周报模板.md",
-    "assets/community-plugins/Templater/templates/tp-会议模板.md",
-    "assets/community-plugins/QuickAdd/scripts/switch-light-dark.js",
-    "assets/community-plugins/QuickAdd/scripts/switch-view-mode.js",
-    "assets/community-plugins/QuickAdd/scripts/remove-today-stats.js",
-    "assets/community-plugins/QuickAdd/scripts/fetch-today-stats.js",
-    "assets/community-plugins/Dataview/data/daily-stats.json",
-    "assets/community-plugins/Components/help/Components插件.md",
-    "assets/community-plugins/Components/daily-check/2024-09-02_16-03-11_182.md",
-    "assets/community-plugins/Components/daily-check/2024-09-02_16-03-10_119.md",
-    "assets/community-plugins/Components/daily-check/2024-09-02_16-03-08_627.md",
-    "assets/community-plugins/Components/daily-check/2024-09-02_16-03-07_482.md",
-    "assets/community-plugins/Components/basic/基础-按钮.components",
-    "assets/community-plugins/Components/basic/基础-附件库.components",
-    "assets/community-plugins/Components/basic/基础-时间.components",
     "assets/attachments/pictures/obsidian/Pasted image 20240906233005.png",
     "assets/attachments/pictures/obsidian/Pasted image 20240906232418.png",
     "assets/attachments/pictures/obsidian/Pasted image 20240906231932.png",
@@ -356,22 +383,6 @@
     "assets/attachments/pictures/travels/tunisia-g92f2bf537_1920.jpg",
     "assets/attachments/pictures/travels/sunset-ge28cf669b_1920.jpg",
     "assets/attachments/pictures/travels/sunset-gf5a677a8a_1920.jpg",
-    "assets/attachments/pictures/travels/snowdrift-gecf51e07f_1920.jpg",
-    "assets/attachments/pictures/travels/road-g946886d61_1920.jpg",
-    "assets/attachments/pictures/travels/pyramids-g2b942ed19_1920.jpg",
-    "assets/attachments/fonts/字体说明.md",
-    "assets1/community-plugins/Templater/templates/tp-日记模板.md",
-    "assets1/community-plugins/Templater/templates/tp-周报模板.md",
-    "assets1/community-plugins/Templater/templates/tp-日报模板.md",
-    "assets1/community-plugins/Templater/templates/tp-年报模板.md",
-    "assets1/community-plugins/Templater/templates/tp-文字卡片模板.md",
-    "assets1/community-plugins/Templater/templates/tp-插件列表.md",
-    "assets1/community-plugins/Templater/templates/tp-会议模板.md",
-    "assets1/community-plugins/Components/help/Components插件.md",
-    "assets1/community-plugins/Components/daily-check/2024-09-02_16-03-11_182.md",
-    "assets1/community-plugins/Components/daily-check/2024-09-02_16-03-10_119.md",
-    "assets1/community-plugins/Components/daily-check/2024-09-02_16-03-08_627.md",
-    "assets1/community-plugins/Components/daily-check/2024-09-02_16-03-07_482.md",
-    "assets1/attachments/fonts/字体说明.md"
+    "assets/attachments/pictures/travels/snowdrift-gecf51e07f_1920.jpg"
   ]
 }

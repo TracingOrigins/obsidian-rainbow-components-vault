@@ -243,6 +243,7 @@
     border: 1px solid rgba(var(--rainbow-color), 1);
     color: rgba(var(--rainbow-color), 1);
     border-radius: 16px;
+    display: unset;
 }
 
 .home-single-component .components--Component[data-component-id="b8aeea05-5144-495b-8034-1992b424b798"]::before,
@@ -266,10 +267,6 @@
 
 .home-single-component .components--Component[data-component-id="70ade022-c59f-492c-918e-5e1f61bfe7cc"]::before {
     content: "按钮管理";
-}
-
-.home-single-component .components--component-multi .components--Component{
-    display: unset;
 }
 
 /*所有标题加粗显示（包括自定义的组合组件标题）*/
@@ -338,6 +335,7 @@
     padding: 8px 16px;
     border: 1px solid rgba(var(--rainbow-color), 0.4);
     border-radius: 16px;
+    font-weight: bold;
 }
 
 .home-single-component .components--Component[data-component-id="555c80d8-075f-4ac6-9d2b-549b3607b46e"] .components--MarkdownComponentContent > ul ul {

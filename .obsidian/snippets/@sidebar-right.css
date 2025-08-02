@@ -44,6 +44,7 @@
 /*---------------------------------------------------------------
 * 定义彩虹色变量
 *---------------------------------------------------------------*/
+.mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"],
 .mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--Component .components--Component:nth-child(3n+1) .components--Component:nth-child(1),
 .mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0447"] .components--Component:nth-child(2n+1) .components--Component:nth-child(1),
 .mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0446"] .components--Component:nth-child(5n+1) .components--Component:nth-child(1),
@@ -57,7 +58,6 @@
     --rainbow-color: var(--custom-color-maroon);
 }
 
-
 .mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--Component .components--Component:nth-child(3n+1) .components--Component:nth-child(3),
 .mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0447"] .components--Component:nth-child(2n+1) .components--Component:nth-child(2),
 .mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0446"] .components--Component:nth-child(5n+2) .components--Component:nth-child(1),
@@ -65,7 +65,6 @@
     --rainbow-color: var(--custom-color-peach);
 }
 
-.mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"],
 .mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--Component .components--Component:nth-child(3n+2) .components--Component:nth-child(1),
 .mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0447"] .components--Component:nth-child(2n+1) .components--Component:nth-child(3),
 .mod-sidedock .components--Component[data-component-id="a660580b-217c-4b84-9cbe-7adf28ac0446"] .components--Component:nth-child(5n+2) .components--Component:nth-child(2),
@@ -131,24 +130,12 @@
 .mod-sidedock .components--Component .components--component-count,
 .mod-sidedock .components--Component .components--component-dailyCheck,
 .mod-sidedock .components--Component .components--component-chart,
+.mod-sidedock .components--Component .components--component-time,
 .mod-sidedock .components--Component .components--component-button button,
 .mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] {
-    color: rgba(var(--rainbow-color), 0.7);
-    border: 1px solid rgba(var(--rainbow-color), 0.7) !important;
-    border-radius: 16px;
-}
-
-.mod-sidedock .components--Component .components--component-card:hover,
-.mod-sidedock .components--Component .components--component-markdown:hover,
-.mod-sidedock .components--Component .components--component-dataview:hover,
-.mod-sidedock .components--Component .components--component-dateProgress:hover,
-.mod-sidedock .components--Component .components--component-countdown:hover,
-.mod-sidedock .components--Component .components--component-count:hover,
-.mod-sidedock .components--Component .components--component-dailyCheck:hover,
-.mod-sidedock .components--Component .components--component-chart:hover,
-.mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"]:hover {
-    color: rgba(var(--rainbow-color), 1);
+    color: rgba(var(--rainbow-color), 1) !important;
     border: 1px solid rgba(var(--rainbow-color), 1) !important;
+    border-radius: 16px;
 }
 
 /*---------------------------------------------------------------
@@ -173,7 +160,7 @@
 }
 
 .mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--TabLayout button.components--TabLayoutTrigger {
-    color: rgba(var(--rainbow-color), 0.7) !important;
+    color: rgba(var(--rainbow-color), 1) !important;
 }
 
 .mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--TabLayoutTrigger[data-state=active]:after {
@@ -188,7 +175,7 @@
 .mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--ColumnLayoutComponents,
 .mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--component-multi .components--ListLayoutComponents,
 .mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--component-button .components--ComponentContentEl.components--flex-row {
-    color: rgba(var(--rainbow-color), 0.7) !important;
+    color: rgba(var(--rainbow-color),1) !important;
     opacity: unset;
     padding: 0;
     gap: 0;
@@ -199,17 +186,12 @@
 }
 
 .mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--component-button button {
-    color: rgba(var(--rainbow-color), 0.7) !important;
-    border-color: rgba(var(--rainbow-color), 0.7) !important;
+    color: rgba(var(--rainbow-color), 1) !important;
+    border-color: rgba(var(--rainbow-color), 1) !important;
     background-color: unset;
     margin: 8px 8px 8px 8px;
     justify-content: center;
     width: 100px;
-}
-
-.mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--component-button button:hover {
-    color: rgba(var(--rainbow-color), 1) !important;
-    border-color: rgba(var(--rainbow-color), 1) !important;
 }
 
 .mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--component-button button:hover:before {
@@ -219,6 +201,17 @@
 .mod-sidedock .components--Component[data-component-id="62696112-257a-45a6-8c44-7b4ae556191b"] .components--TabLayout .components--TabLayoutPanels {
     min-height: 200px;
 }
+
+/*---------------------------------------------------------------
+* 侧边栏，时间天气组件，样式调整
+*---------------------------------------------------------------*/
+.mod-sidedock .components--Component[data-component-id="3f2d6a16-1ca9-44e8-9703-bed07eb9d25d"] .components--component-time {
+    height: 200px;
+}
+.mod-sidedock .components--Component[data-component-id="3f2d6a16-1ca9-44e8-9703-bed07eb9d25d"] .components--progress-ring .components--progressRingBar {
+    --progress-ring-color: rgba(var(--rainbow-color), 1) !important;
+}
+
 
 /*---------------------------------------------------------------
 * 侧边栏，常用统计组件，样式调整

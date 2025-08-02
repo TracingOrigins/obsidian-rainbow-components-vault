@@ -1,94 +1,49 @@
 {
   "components": [
     {
-      "id": "01021208-f957-437e-9297-96d06b07a050",
+      "id": "e8068931-a9c7-4ff2-88a3-faecd76e77a7",
       "type": "multi",
       "titleAlign": "center",
       "tabTitle": "",
       "maxWidthRatio": -1,
-      "createAt": "2024-04-25T11:52:16.059Z",
-      "updateAt": "2024-04-25T11:52:16.059Z",
-      "backgroundStyle": "none",
-      "widgets": [],
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-08-01T10:29:01.680Z",
+      "updateAt": "2025-08-01T10:29:01.680Z",
       "components": [
         {
-          "componentId": "f1d0a7ee-1a0d-402b-9054-4687e38cbe71"
+          "componentId": "d77a60db-1ffc-4b13-9d9e-6e437d05328a"
         },
         {
-          "componentId": "9153558a-ed77-400a-81ea-8868502c79b5"
+          "componentId": "c4da6fa5-abf3-4f85-81c2-14b1a5cad4fa"
         },
         {
-          "componentId": "fd8db8ac-1c17-4a64-97a3-6c9cbe26c156"
-        }
-      ],
-      "layoutType": "tab"
-    },
-    {
-      "id": "22831ed2-c336-4cfd-884c-30a411efdd55",
-      "type": "multi",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": -1,
-      "backgroundStyle": "none",
-      "widgets": [],
-      "layoutType": "column",
-      "updateAt": "2024-04-01T08:33:41.476Z",
-      "createAt": "2024-02-18T07:16:37.859Z",
-      "remark": "DVJS-当年贡献热力图",
-      "components": [
+          "componentId": "4eb25e91-30d1-4e29-a73a-c353c8df4478"
+        },
         {
-          "componentId": "8deada17-a6ee-456e-97a0-4ae961b0550b"
+          "componentId": "64eded36-0b81-4a2b-a0f0-477c0e39cb53"
+        },
+        {
+          "componentId": "daafe191-3321-4029-aa79-bd5d14165a38"
+        },
+        {
+          "componentId": "99005579-5f80-4483-991e-191180af7e24"
         }
-      ]
-    },
-    {
-      "id": "f1d0a7ee-1a0d-402b-9054-4687e38cbe71",
-      "type": "attachments",
-      "titleAlign": "center",
-      "tabTitle": "",
-      "maxWidthRatio": -1,
-      "showBorder": true,
-      "showShadow": false,
-      "createAt": "2025-08-01T09:06:56.315Z",
-      "updateAt": "2025-08-01T09:06:56.315Z",
-      "attachmentSource": "All",
-      "attachmentType": "Image",
-      "fileExensions": [],
-      "specifiedFilePath": "",
-      "sortField": "default",
-      "sortDirection": "asc",
-      "title": "图片库"
-    },
-    {
-      "id": "fd8db8ac-1c17-4a64-97a3-6c9cbe26c156",
-      "type": "attachments",
-      "titleAlign": "center",
-      "tabTitle": "脚本库",
-      "maxWidthRatio": -1,
-      "showBorder": true,
-      "showShadow": false,
-      "createAt": "2025-08-01T09:07:39.761Z",
-      "updateAt": "2025-08-01T09:07:39.761Z",
-      "attachmentSource": "All",
-      "attachmentType": "Customize",
-      "fileExensions": [
-        "js"
       ],
-      "specifiedFilePath": "",
-      "sortField": "default",
-      "sortDirection": "asc",
-      "title": "脚本库"
+      "layoutType": "tab",
+      "locked": false,
+      "layoutOptions": {}
     },
     {
-      "id": "9153558a-ed77-400a-81ea-8868502c79b5",
+      "id": "d77a60db-1ffc-4b13-9d9e-6e437d05328a",
       "type": "attachments",
       "titleAlign": "center",
-      "tabTitle": "组件库",
+      "tabTitle": "Components",
       "maxWidthRatio": -1,
       "showBorder": true,
       "showShadow": false,
-      "createAt": "2025-08-01T09:07:39.761Z",
-      "updateAt": "2025-08-01T09:07:39.761Z",
+      "createAt": "2025-08-01T10:29:08.082Z",
+      "updateAt": "2025-08-01T10:29:08.082Z",
       "attachmentSource": "All",
       "attachmentType": "Customize",
       "fileExensions": [
@@ -97,8 +52,107 @@
       "specifiedFilePath": "",
       "sortField": "default",
       "sortDirection": "asc",
-      "title": "组件库"
+      "title": ""
+    },
+    {
+      "id": "c4da6fa5-abf3-4f85-81c2-14b1a5cad4fa",
+      "type": "attachments",
+      "titleAlign": "center",
+      "tabTitle": "PDF",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-08-01T10:29:08.082Z",
+      "updateAt": "2025-08-01T10:29:08.082Z",
+      "attachmentSource": "All",
+      "attachmentType": "Customize",
+      "fileExensions": [
+        "pdf"
+      ],
+      "specifiedFilePath": "",
+      "sortField": "default",
+      "sortDirection": "asc",
+      "title": ""
+    },
+    {
+      "id": "4eb25e91-30d1-4e29-a73a-c353c8df4478",
+      "type": "attachments",
+      "titleAlign": "center",
+      "tabTitle": "Excel",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-08-01T10:29:08.082Z",
+      "updateAt": "2025-08-01T10:29:08.082Z",
+      "attachmentSource": "All",
+      "attachmentType": "Customize",
+      "fileExensions": [
+        "xls",
+        "xlsx"
+      ],
+      "specifiedFilePath": "",
+      "sortField": "default",
+      "sortDirection": "asc"
+    },
+    {
+      "id": "64eded36-0b81-4a2b-a0f0-477c0e39cb53",
+      "type": "attachments",
+      "titleAlign": "center",
+      "tabTitle": "Word",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-08-01T10:29:08.082Z",
+      "updateAt": "2025-08-01T10:29:08.082Z",
+      "attachmentSource": "All",
+      "attachmentType": "Customize",
+      "fileExensions": [
+        "doc",
+        "docx"
+      ],
+      "specifiedFilePath": "",
+      "sortField": "default",
+      "sortDirection": "asc"
+    },
+    {
+      "id": "daafe191-3321-4029-aa79-bd5d14165a38",
+      "type": "attachments",
+      "titleAlign": "center",
+      "tabTitle": "PPT",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-08-01T10:29:08.082Z",
+      "updateAt": "2025-08-01T10:29:08.082Z",
+      "attachmentSource": "All",
+      "attachmentType": "Customize",
+      "fileExensions": [
+        "pptx"
+      ],
+      "specifiedFilePath": "",
+      "sortField": "default",
+      "sortDirection": "asc"
+    },
+    {
+      "id": "99005579-5f80-4483-991e-191180af7e24",
+      "type": "attachments",
+      "titleAlign": "center",
+      "tabTitle": "Pictures",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2025-08-01T10:29:08.082Z",
+      "updateAt": "2025-08-01T10:29:08.082Z",
+      "attachmentSource": "All",
+      "attachmentType": "Image",
+      "fileExensions": [
+        "pptx"
+      ],
+      "specifiedFilePath": "",
+      "sortField": "default",
+      "sortDirection": "asc",
+      "title": ""
     }
   ],
-  "rootComponentId": "01021208-f957-437e-9297-96d06b07a050"
+  "rootComponentId": "e8068931-a9c7-4ff2-88a3-faecd76e77a7"
 }

@@ -4130,16 +4130,20 @@
       "updateAt": "2024-07-13T12:09:52.127Z",
       "components": [
         {
-          "componentId": "33994fe0-630a-48dc-8e30-b327a032520c"
+          "componentId": "33994fe0-630a-48dc-8e30-b327a032520c",
+          "widthRatio": 23.918918918918912
         },
         {
-          "componentId": "9d0b4028-c240-40b7-9c5a-506edeea692e"
+          "componentId": "9d0b4028-c240-40b7-9c5a-506edeea692e",
+          "widthRatio": 26.918918918918916
         },
         {
-          "componentId": "4fe1c074-1b01-4798-995a-05f326005420"
+          "componentId": "4fe1c074-1b01-4798-995a-05f326005420",
+          "widthRatio": 24.162162162162165
         },
         {
-          "componentId": "2c7d48a9-2dd9-406e-9635-8125f38a7db8"
+          "componentId": "2c7d48a9-2dd9-406e-9635-8125f38a7db8",
+          "widthRatio": 25.000000000000014
         }
       ],
       "layoutType": "column"

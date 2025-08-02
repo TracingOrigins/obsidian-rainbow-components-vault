@@ -35,7 +35,6 @@
     - quickadd
     - recent-files-obsidian
     - templater-obsidian
-    - workspaces-plus
 - 字体
     - 字体安装好之后，需要在obsidian的“设置-外观-字体”中启用，详参[[字体说明]]
 - 主页

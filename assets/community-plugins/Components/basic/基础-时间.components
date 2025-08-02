@@ -29,7 +29,7 @@
           }
         }
       ],
-      "layoutType": "column",
+      "layoutType": "list",
       "locked": false,
       "layoutOptions": {}
     },
@@ -48,7 +48,9 @@
       "hideSeconds": false,
       "hideProgress": false,
       "borderColor": "#ff6900",
-      "darkBorderColor": "#0693e3"
+      "darkBorderColor": "#0693e3",
+      "fontColor": "#ff6900",
+      "darkFontColor": "#0693e3"
     }
   ],
   "rootComponentId": "dad63b72-4886-4e17-b413-9158eb8f83ab"

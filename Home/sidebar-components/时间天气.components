@@ -1,0 +1,92 @@
+{
+  "components": [
+    {
+      "id": "dad63b72-4886-4e17-b413-9158eb8f83ab",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showShadow": false,
+      "createAt": "2024-11-21T17:34:06.936Z",
+      "updateAt": "2024-11-21T17:34:06.936Z",
+      "components": [
+        {
+          "componentId": "3f2d6a16-1ca9-44e8-9703-bed07eb9d25d",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 10
+            },
+            "laptop": {
+              "x": 0,
+              "y": 0,
+              "w": 5,
+              "h": 9
+            }
+          }
+        },
+        {
+          "componentId": "ca599068-de66-4ac9-b5dc-a3c81f6aa11e",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 10,
+              "w": 4,
+              "h": 5
+            },
+            "laptop": {
+              "x": 0,
+              "y": 9,
+              "w": 5,
+              "h": 5
+            }
+          }
+        }
+      ],
+      "layoutType": "list",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "3f2d6a16-1ca9-44e8-9703-bed07eb9d25d",
+      "type": "time",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2024-11-21T17:34:15.088Z",
+      "updateAt": "2024-11-21T17:34:15.088Z",
+      "showLunar": true,
+      "hideDateInfo": false,
+      "hideSeconds": false,
+      "hideProgress": false,
+      "borderColor": "#0693e3",
+      "darkBorderColor": "#0693e3",
+      "backgroundImage": {
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "ca599068-de66-4ac9-b5dc-a3c81f6aa11e",
+      "type": "dataview",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showShadow": false,
+      "createAt": "2025-08-02T11:26:29.956Z",
+      "updateAt": "2025-08-02T11:26:29.956Z",
+      "query": "let current = getCurrentDate();\nlet history = Object.assign(JSON.parse(await app.vault.adapter.read(\"Assets/community-plugins/Dataview/data/daily-stats.json\")));\nlet today = `${current.year}-${current.month}-${current.day}`;\n\nif (history.hasOwnProperty(today)) {\n    let weather = history[today].weather;\n    let todayWeather = weather[0];\n    todayWeather.air = todayWeather.air.split(\"==\").join(\"\");\n    dv.paragraph(`<div style=\"text-align:center; opacity: 1; margin-top: 20px\">${todayWeather.city} ${todayWeather.textDay} ${todayWeather.tempMin}~${todayWeather.tempMax}℃ <mark>${todayWeather.air}</mark></div>`);\n}\n\n// 生成日期和星期\nfunction getCurrentDate() {\n    const now = new Date();\n    const year = now.getFullYear();\n    const month = String(now.getMonth() + 1).padStart(2, \"0\"); // 月份是从0开始的\n    const day = String(now.getDate()).padStart(2, \"0\");\n    const week = '星期' + '日一二三四五六'.charAt(now.getDay()); //获取当前星期几(0 ~ 6,0代表星期天)\n    const hours = now.getHours();\n    return {year, month, day, week, hours};\n}",
+      "queryType": "dataviewjs",
+      "maxHeight": -1,
+      "dynamicParamComponents": [],
+      "borderColor": "#0693e3",
+      "darkBorderColor": "#0693e3"
+    }
+  ],
+  "rootComponentId": "dad63b72-4886-4e17-b413-9158eb8f83ab"
+}

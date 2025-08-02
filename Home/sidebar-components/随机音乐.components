@@ -27,12 +27,12 @@
       "showShadow": false,
       "createAt": "2024-06-09T20:46:44.817Z",
       "updateAt": "2024-06-09T20:46:44.817Z",
-      "maxHeight": 300,
+      "maxHeight": -1,
       "contentAlign": "left",
       "markdownsSource": "content",
       "markdownValue": "<div style=\"width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;\">\n  <iframe src=\"https://widget.pkmer.cn/free/RandomMusic?user=d6d9cc54-9049-4377-8a78-7814aa5e36b9&theme-color=%23888888FF&layout-style=Vertical\" \n          allow=\"fullscreen\" \n          style=\"height: 170px; width: 275px;\" \n          class=\"iframe\"></iframe>\n</div>",
-      "darkBorderColor": "#7bdcb5",
-      "borderColor": "#7bdcb5"
+      "darkBorderColor": "#0693e3",
+      "borderColor": "#0693e3"
     },
     {
       "id": "da59816b-945f-40ca-8284-4c90d29e1d2c",

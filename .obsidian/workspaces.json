@@ -6,21 +6,21 @@
         "type": "split",
         "children": [
           {
-            "id": "11cc00872ee9c672",
+            "id": "1855edccdf6f8c2e",
             "type": "tabs",
             "children": [
               {
-                "id": "5ad0b06bb1e6e863",
+                "id": "c075f4839ba55a76",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Home/Home-multiple-components.md",
+                    "file": "Home/Home.md",
                     "mode": "preview",
                     "source": true
                   },
                   "icon": "lucide-file",
-                  "title": "Home-multiple-components"
+                  "title": "Home"
                 }
               }
             ]
@@ -99,7 +99,7 @@
           {
             "id": "70e37bbf20e3afcf",
             "type": "tabs",
-            "dimension": 36.337209302325576,
+            "dimension": 37.14574898785425,
             "children": [
               {
                 "id": "76f30b32e77726f8",
@@ -112,17 +112,15 @@
                 }
               },
               {
-                "id": "395e9a9b1f8fbeac",
+                "id": "f71c15206d766bd0",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "components-file-view",
                   "state": {
-                    "file": "Home/sidebar-components/彩色时钟.md",
-                    "mode": "preview",
-                    "source": true
+                    "file": "Home/sidebar-components/时间天气.components"
                   },
-                  "icon": "lucide-file",
-                  "title": "彩色时钟"
+                  "icon": "gantt-chart",
+                  "title": "时间天气"
                 }
               },
               {
@@ -138,18 +136,6 @@
                 }
               },
               {
-                "id": "cdb8573d70685614",
-                "type": "leaf",
-                "state": {
-                  "type": "components-file-view",
-                  "state": {
-                    "file": "Home/sidebar-components/随缘歌单.components"
-                  },
-                  "icon": "gantt-chart",
-                  "title": "随缘歌单"
-                }
-              },
-              {
                 "id": "d28807f641a6aabd",
                 "type": "leaf",
                 "state": {
@@ -162,12 +148,24 @@
                 }
               },
               {
+                "id": "cdb8573d70685614",
+                "type": "leaf",
+                "state": {
+                  "type": "components-file-view",
+                  "state": {
+                    "file": "Home/sidebar-components/随缘歌单.components"
+                  },
+                  "icon": "gantt-chart",
+                  "title": "随缘歌单"
+                }
+              },
+              {
                 "id": "a20d2ef4dc78b5f1",
                 "type": "leaf",
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Home/sidebar-components/常用工具.components",
+                    "file": "Home/Home-multiple-components.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -177,7 +175,7 @@
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-coming-in",
-                  "title": "常用工具 的反向链接列表"
+                  "title": "Home-multiple-components 的反向链接列表"
                 }
               },
               {
@@ -186,20 +184,21 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "Home/sidebar-components/常用工具.components",
+                    "file": "Home/sidebar-components/时间天气.components",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-going-out",
-                  "title": "常用工具 的出链列表"
+                  "title": "时间天气 的出链列表"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "4d6321a708e37151",
             "type": "tabs",
-            "dimension": 63.662790697674424,
+            "dimension": 62.854251012145745,
             "children": [
               {
                 "id": "b5b6d57ba82cc387",
@@ -207,13 +206,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Home/Home-multiple-components.md",
+                    "file": "Home/sidebar-components/时间天气.components",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Home-multiple-components 的大纲"
+                  "title": "时间天气 的大纲"
                 }
               },
               {
@@ -222,10 +221,10 @@
                 "state": {
                   "type": "file-properties",
                   "state": {
-                    "file": "Home/Home-multiple-components.md"
+                    "file": "Home/sidebar-components/时间天气.components"
                   },
                   "icon": "lucide-info",
-                  "title": "Home-multiple-components的笔记属性"
+                  "title": "时间天气的笔记属性"
                 }
               },
               {
@@ -308,12 +307,25 @@
                   "icon": "lucide-file",
                   "title": "待办事项"
                 }
+              },
+              {
+                "id": "12c0823e11f6f98d",
+                "type": "leaf",
+                "state": {
+                  "type": "components-file-view",
+                  "state": {
+                    "file": "assets/community-plugins/Components/advanced/最近天气.components"
+                  },
+                  "icon": "gantt-chart",
+                  "title": "最近天气"
+                }
               }
-            ]
+            ],
+            "currentTab": 4
           }
         ],
         "direction": "horizontal",
-        "width": 413.5
+        "width": 418.5
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -328,7 +340,7 @@
         }
       },
       "active": "0d00d9b96a7da2a7",
-      "mtime": "2025-08-02T17:18:47+08:00"
+      "mtime": "2025-08-02T22:21:00+08:00"
     }
   },
   "active": "Home"

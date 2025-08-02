@@ -54,13 +54,13 @@
         "type": "textContent",
         "coverTypeLabel": "节点封面",
         "source": "property",
-        "sourceValue": "${file.basename}"
+        "sourceValue": "${file.ctime}"
       },
       "titleElement": {
         "properties": [
           {
-            "id": "f6d66028-8e66-4563-8075-ae994d094223",
-            "property": "${file.ctime}"
+            "id": "e481d278-ceab-4bc1-88a7-e64b65876676",
+            "property": "${file.basename}"
           }
         ]
       },
@@ -102,13 +102,13 @@
         "type": "textContent",
         "coverTypeLabel": "节点封面",
         "source": "property",
-        "sourceValue": "${file.basename}"
+        "sourceValue": "${file.ctime}"
       },
       "titleElement": {
         "properties": [
           {
             "id": "f6d66028-8e66-4563-8075-ae994d094223",
-            "property": "${file.mtime}"
+            "property": "${file.basename}"
           }
         ]
       },

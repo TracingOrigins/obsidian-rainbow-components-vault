@@ -11,12 +11,12 @@
     "@home-weather",
     "@home-multiple-components",
     "@home-single-component",
-    "@home",
     "@sidebar-left",
-    "@sidebar-right",
+    "@header-color",
+    "@home",
     "@workspace",
-    "@header-hover",
-    "@header-color"
+    "@sidebar-right",
+    "@header-hover"
   ],
   "theme": "obsidian",
   "textFontFamily": "霞鹜文楷",

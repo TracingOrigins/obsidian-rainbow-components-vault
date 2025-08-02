@@ -111,7 +111,7 @@ body.set-active-icons-highlight .workspace-tab-header.is-active .workspace-tab-h
     获取数据：然后选择copy data url即可
 *---------------------------------------------------------------*/
 body.set-sidebar-icons .workspace-tab-header[aria-label="常用工具"] .workspace-tab-header-inner-icon > svg,
-body.set-sidebar-icons .workspace-tab-header[aria-label="彩色时钟"] .workspace-tab-header-inner-icon > svg,
+body.set-sidebar-icons .workspace-tab-header[aria-label="时间天气"] .workspace-tab-header-inner-icon > svg,
 body.set-sidebar-icons .workspace-tab-header[aria-label="待办事项"] .workspace-tab-header-inner-icon > svg,
 body.set-sidebar-icons .workspace-tab-header[aria-label="随机音乐"] .workspace-tab-header-inner-icon > svg,
 body.set-sidebar-icons .workspace-tab-header[aria-label="随缘歌单"] .workspace-tab-header-inner-icon > svg,
@@ -122,7 +122,7 @@ body.set-sidebar-icons .workspace-tab-header[aria-label="灵光一闪"] .workspa
 }
 
 body.set-sidebar-icons .workspace-tab-header[aria-label="常用工具"] .workspace-tab-header-inner-icon:before,
-body.set-sidebar-icons .workspace-tab-header[aria-label="彩色时钟"] .workspace-tab-header-inner-icon:before,
+body.set-sidebar-icons .workspace-tab-header[aria-label="时间天气"] .workspace-tab-header-inner-icon:before,
 body.set-sidebar-icons .workspace-tab-header[aria-label="待办事项"] .workspace-tab-header-inner-icon:before,
 body.set-sidebar-icons .workspace-tab-header[aria-label="随机音乐"] .workspace-tab-header-inner-icon:before,
 body.set-sidebar-icons .workspace-tab-header[aria-label="随缘歌单"] .workspace-tab-header-inner-icon:before,
@@ -138,7 +138,7 @@ body.set-sidebar-icons .workspace-tab-header[aria-label="灵光一闪"] .workspa
 }
 
 body.set-active-icons-highlight .workspace-tab-header.is-active[aria-label="常用工具"] .workspace-tab-header-inner-icon:before,
-body.set-active-icons-highlight .workspace-tab-header.is-active[aria-label="彩色时钟"] .workspace-tab-header-inner-icon:before,
+body.set-active-icons-highlight .workspace-tab-header.is-active[aria-label="时间天气"] .workspace-tab-header-inner-icon:before,
 body.set-active-icons-highlight .workspace-tab-header.is-active[aria-label="待办事项"] .workspace-tab-header-inner-icon:before,
 body.set-active-icons-highlight .workspace-tab-header.is-active[aria-label="随机音乐"] .workspace-tab-header-inner-icon:before,
 body.set-active-icons-highlight .workspace-tab-header.is-active[aria-label="随缘歌单"] .workspace-tab-header-inner-icon:before,
@@ -152,7 +152,7 @@ body.set-sidebar-icons .workspace-tab-header[aria-label="常用工具"] .workspa
     -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyLjI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXdyZW5jaCI+PHBhdGggZD0iTTE0LjcgNi4zYTEgMSAwIDAgMCAwIDEuNGwxLjYgMS42YTEgMSAwIDAgMCAxLjQgMGwzLjc3LTMuNzdhNiA2IDAgMCAxLTcuOTQgNy45NGwtNi45MSA2LjkxYTIuMTIgMi4xMiAwIDAgMS0zLTNsNi45MS02LjkxYTYgNiAwIDAgMSA3Ljk0LTcuOTRsLTMuNzYgMy43NnoiLz48L3N2Zz4=');
 }
 
-body.set-sidebar-icons .workspace-tab-header[aria-label="彩色时钟"] .workspace-tab-header-inner-icon:before {
+body.set-sidebar-icons .workspace-tab-header[aria-label="时间天气"] .workspace-tab-header-inner-icon:before {
     -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyLjI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNsb2NrIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxwb2x5bGluZSBwb2ludHM9IjEyIDYgMTIgMTIgMTYgMTQiLz48L3N2Zz4=');
 }
 

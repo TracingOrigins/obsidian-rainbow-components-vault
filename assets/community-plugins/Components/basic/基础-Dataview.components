@@ -12,40 +12,40 @@
       "updateAt": "2024-07-24T10:09:17.055Z",
       "components": [
         {
-          "componentId": "40682a84-c6a0-4900-abff-badceaaeace7"
+          "componentId": "562cdbd2-df86-469f-b373-0738ec2b51e9"
         },
         {
-          "componentId": "3f4d0b27-8d60-4bd9-9e05-3837c48ecad7"
+          "componentId": "c4b2583f-218f-4543-b303-099ebd9bb761"
         }
       ],
       "layoutType": "column"
     },
     {
-      "id": "40682a84-c6a0-4900-abff-badceaaeace7",
+      "id": "562cdbd2-df86-469f-b373-0738ec2b51e9",
       "type": "dataview",
       "titleAlign": "center",
       "tabTitle": "",
       "maxWidthRatio": -1,
       "showBorder": true,
       "showShadow": false,
-      "createAt": "2024-07-24T10:09:23.581Z",
-      "updateAt": "2024-07-24T10:09:23.581Z",
+      "createAt": "2025-08-02T10:59:10.818Z",
+      "updateAt": "2025-08-02T10:59:10.818Z",
       "query": "list\nfrom \"Inbox/diaries\"",
       "queryType": "dataview",
       "maxHeight": 300,
       "dynamicParamComponents": [],
-      "title": "日记列表"
+      "title": "日记统计"
     },
     {
-      "id": "3f4d0b27-8d60-4bd9-9e05-3837c48ecad7",
+      "id": "c4b2583f-218f-4543-b303-099ebd9bb761",
       "type": "dataview",
       "titleAlign": "center",
       "tabTitle": "",
       "maxWidthRatio": -1,
       "showBorder": true,
       "showShadow": false,
-      "createAt": "2024-07-24T10:11:21.576Z",
-      "updateAt": "2024-07-24T10:11:21.576Z",
+      "createAt": "2025-08-02T10:59:10.818Z",
+      "updateAt": "2025-08-02T10:59:10.818Z",
       "query": "table file.tags as \"标签\", file.path as \"路径\", file.ctime as \"创建时间\"\nfrom \"Inbox/diaries\"",
       "queryType": "dataview",
       "maxHeight": 300,

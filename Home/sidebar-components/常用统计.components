@@ -4107,10 +4107,12 @@
       "updateAt": "2024-07-13T12:09:52.127Z",
       "components": [
         {
-          "componentId": "4d6c877b-6664-46ce-b940-a21f105cd2fa"
+          "componentId": "4d6c877b-6664-46ce-b940-a21f105cd2fa",
+          "widthRatio": 49.729729729729755
         },
         {
-          "componentId": "9332162d-c9b7-472b-b4ff-56f5d8528080"
+          "componentId": "9332162d-c9b7-472b-b4ff-56f5d8528080",
+          "widthRatio": 50.27027027027025
         }
       ],
       "layoutType": "column"
