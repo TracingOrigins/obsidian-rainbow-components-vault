@@ -1,7 +1,3 @@
-%% ![[Pasted image 20240906230609.png]] %%
-
-%% ![[Pasted image 20240906230713.png]] %%
-
 ![[Pasted image 20240906233005.png]]
 
 ## 关于markdown

@@ -1,80 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Home",
-      "path": "Home/Home.md"
-    },
-    {
-      "basename": "常用工具",
-      "path": "Home/sidebar-components/常用工具.components"
-    },
-    {
-      "basename": "2025 年报",
-      "path": "Inbox/works/2025 年报.md"
-    },
-    {
-      "basename": "常用统计1",
-      "path": "Home/sidebar-components/常用统计1.components"
-    },
-    {
-      "basename": "基础-时间轴",
-      "path": "assets/community-plugins/Components/basic/基础-时间轴.components"
-    },
-    {
-      "basename": "时间天气",
-      "path": "Home/sidebar-components/时间天气.components"
-    },
-    {
-      "basename": "随机音乐",
-      "path": "Home/sidebar-components/随机音乐.components"
-    },
-    {
-      "basename": "随缘歌单",
-      "path": "Home/sidebar-components/随缘歌单.components"
-    },
-    {
       "basename": "README",
       "path": "README.md"
     },
     {
-      "basename": "常用统计",
-      "path": "Home/sidebar-components/常用统计.components"
-    },
-    {
       "basename": "start-here",
       "path": "start-here.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "Test/未命名.md"
-    },
-    {
-      "basename": "Components插件",
-      "path": "assets/community-plugins/Components/help/Components插件.md"
-    },
-    {
-      "basename": "最近天气",
-      "path": "assets/community-plugins/Components/advanced/最近天气.components"
-    },
-    {
-      "basename": "灵光一闪",
-      "path": "Home/sidebar-components/灵光一闪.md"
-    },
-    {
-      "basename": "基础-时间",
-      "path": "assets/community-plugins/Components/basic/基础-时间.components"
-    },
-    {
-      "basename": "基础-时钟",
-      "path": "assets/community-plugins/Components/basic/基础-时钟.components"
-    },
-    {
-      "basename": "基础-Dataview",
-      "path": "assets/community-plugins/Components/basic/基础-Dataview.components"
-    },
-    {
-      "basename": "基础-组合",
-      "path": "assets/community-plugins/Components/basic/基础-组合.components"
     }
   ],
   "omittedPaths": [],
