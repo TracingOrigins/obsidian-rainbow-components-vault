@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "03d36df56562bd7d",
+        "id": "1855edccdf6f8c2e",
         "type": "tabs",
         "children": [
           {
-            "id": "dd0550b108dda5aa",
+            "id": "c075f4839ba55a76",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Home/Home.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Home"
             }
           }
         ]
@@ -37,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -319,8 +323,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 418.5,
-    "collapsed": true
+    "width": 418.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -334,31 +337,31 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "dd0550b108dda5aa",
+  "active": "0d00d9b96a7da2a7",
   "lastOpenFiles": [
+    "Home/sidebar-components/常用工具.components",
+    "Home/Home.md",
+    "Home/Home-single-component.md",
+    "Home/sidebar-components/常用统计1.components",
+    "Home/sidebar-components/常用统计.components",
+    "Home/sidebar-components/时间天气.components",
+    "Home/Home-multiple-components.md",
+    "Home/home-components/单体主页.components",
+    "Home/home-components/按钮管理.components",
+    "Home/home-components/今日卡片.components",
     "README.md",
     "start-here.md",
-    "Home/Home.md",
-    "Home/Home-multiple-components.md",
-    "Home/Home-single-component.md",
-    "Home/sidebar-components/常用工具.components",
     "Inbox/works/2025 年报.md",
-    "Home/sidebar-components/常用统计1.components",
     "assets/community-plugins/Components/basic/基础-时间轴.components",
     "Inbox/works/2025-08-02 日报.md",
     "Inbox/works/2025-W31 周报.md",
     "Inbox/works/2025-08-02 会议纪要.md",
     "Inbox/diaries/2025-08-02.md",
-    "Home/sidebar-components/时间天气.components",
     "Home/sidebar-components/随机音乐.components",
     "Home/sidebar-components/随缘歌单.components",
-    "Home/sidebar-components/常用统计.components",
     "Test/未命名.md",
     "assets/community-plugins/Components/help/Components插件.md",
-    "assets/community-plugins/Components/advanced/最近天气.components",
     "Home/sidebar-components/灵光一闪.md",
-    "assets/community-plugins/Components/advanced",
-    "assets/community-plugins/Components/basic/基础-时间.components",
     "Home/sidebar-components/待办事项.md",
     "Inbox/archives/未命名.md",
     "未命名.md",

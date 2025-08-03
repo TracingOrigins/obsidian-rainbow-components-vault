@@ -43,7 +43,7 @@
                   "type": "file-explorer",
                   "state": {
                     "sortOrder": "alphabetical",
-                    "autoReveal": true
+                    "autoReveal": false
                   },
                   "icon": "lucide-folder-closed",
                   "title": "文件列表"
@@ -99,7 +99,7 @@
           {
             "id": "70e37bbf20e3afcf",
             "type": "tabs",
-            "dimension": 37.14574898785425,
+            "dimension": 37.145748987854255,
             "children": [
               {
                 "id": "76f30b32e77726f8",
@@ -198,7 +198,7 @@
           {
             "id": "4d6321a708e37151",
             "type": "tabs",
-            "dimension": 62.854251012145745,
+            "dimension": 62.85425101214575,
             "children": [
               {
                 "id": "b5b6d57ba82cc387",
@@ -339,8 +339,8 @@
           "templater-obsidian:Templater": false
         }
       },
-      "active": "0d00d9b96a7da2a7",
-      "mtime": "2025-08-02T22:21:00+08:00"
+      "active": "c075f4839ba55a76",
+      "mtime": "2025-08-03T12:56:28+08:00"
     }
   },
   "active": "Home"

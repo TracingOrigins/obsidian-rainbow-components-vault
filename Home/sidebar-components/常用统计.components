@@ -4212,7 +4212,7 @@
               "type": "filter",
               "operator": "not_contains",
               "property": "${file.path}",
-              "value": "Assets/community-plugins/Templater/templates",
+              "value": "assets/community-plugins/Templater/templates",
               "conditions": []
             }
           ]
@@ -4265,7 +4265,7 @@
               "type": "filter",
               "operator": "not_contains",
               "property": "${file.path}",
-              "value": "Assets/community-plugins/Templater/templates",
+              "value": "assets/community-plugins/Templater/templates",
               "conditions": []
             }
           ]
@@ -4318,7 +4318,7 @@
               "type": "filter",
               "operator": "not_contains",
               "property": "${file.path}",
-              "value": "Assets/community-plugins/Templater/templates",
+              "value": "assets/community-plugins/Templater/templates",
               "conditions": []
             }
           ]
@@ -4371,7 +4371,7 @@
               "type": "filter",
               "operator": "not_contains",
               "property": "${file.path}",
-              "value": "Assets/community-plugins/Templater/templates",
+              "value": "assets/community-plugins/Templater/templates",
               "conditions": []
             }
           ]
@@ -4424,7 +4424,7 @@
               "type": "filter",
               "operator": "not_contains",
               "property": "${file.path}",
-              "value": "Assets/community-plugins/Templater/templates",
+              "value": "assets/community-plugins/Templater/templates",
               "conditions": []
             }
           ]
@@ -4477,7 +4477,7 @@
               "type": "filter",
               "operator": "not_contains",
               "property": "${file.path}",
-              "value": "Assets/community-plugins/Templater/templates",
+              "value": "assets/community-plugins/Templater/templates",
               "conditions": []
             }
           ]
@@ -4530,7 +4530,7 @@
               "type": "filter",
               "operator": "not_contains",
               "property": "${file.path}",
-              "value": "Assets/community-plugins/Templater/templates",
+              "value": "assets/community-plugins/Templater/templates",
               "conditions": []
             }
           ]
@@ -4583,7 +4583,7 @@
               "type": "filter",
               "operator": "not_contains",
               "property": "${file.path}",
-              "value": "Assets/community-plugins/Templater/templates",
+              "value": "assets/community-plugins/Templater/templates",
               "conditions": []
             }
           ]
@@ -4963,7 +4963,7 @@
               "type": "filter",
               "operator": "contains",
               "property": "tags",
-              "value": "thing",
+              "value": "diary",
               "conditions": []
             },
             {
@@ -4971,10 +4971,13 @@
               "type": "filter",
               "operator": "not_contains",
               "property": "${file.path}",
-              "value": "Assets/community-plugins/Templater/templates",
+              "value": "assets/community-plugins/Templater/templates",
               "conditions": []
             }
           ]
+        },
+        "sort": {
+          "orders": []
         }
       },
       "totalQuery": {
