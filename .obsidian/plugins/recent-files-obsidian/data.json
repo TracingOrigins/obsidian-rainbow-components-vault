@@ -7,46 +7,6 @@
     {
       "basename": "常用工具",
       "path": "Home/sidebar-components/常用工具.components"
-    },
-    {
-      "basename": "Home-single-component",
-      "path": "Home/Home-single-component.md"
-    },
-    {
-      "basename": "常用统计1",
-      "path": "Home/sidebar-components/常用统计1.components"
-    },
-    {
-      "basename": "常用统计",
-      "path": "Home/sidebar-components/常用统计.components"
-    },
-    {
-      "basename": "时间天气",
-      "path": "Home/sidebar-components/时间天气.components"
-    },
-    {
-      "basename": "Home-multiple-components",
-      "path": "Home/Home-multiple-components.md"
-    },
-    {
-      "basename": "单体主页",
-      "path": "Home/home-components/单体主页.components"
-    },
-    {
-      "basename": "按钮管理",
-      "path": "Home/home-components/按钮管理.components"
-    },
-    {
-      "basename": "今日卡片",
-      "path": "Home/home-components/今日卡片.components"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "start-here",
-      "path": "start-here.md"
     }
   ],
   "omittedPaths": [],
